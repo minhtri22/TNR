@@ -91,3 +91,11 @@
 - Traj seq recovery OOD: plain=0.2813333333333333, CurrAux=0.30750000000000005
 - Outcome: **FAIL**
 - Notes: Curriculum warmup 10 ep short paths; AUX_LAMBDA=0.02.
+
+## Run 20261006_164230
+- Date: 2026-10-06T16:42:32.562552
+- Experiment: Sequential + sliding KV table per node + attention styles (scaled_dot / additive / gated)
+- Results OOD MSE: HierRes=0.1764, SeqNoMem=0.1743, scaled_dot=0.1721, additive=0.1709, gated=0.1736
+- Traj recovery OOD: NoMem=0.24314285714285713, best_KV(additive)=0.31438095238095237
+- Outcome: **UNRESOLVED**
+- Notes: KV trượt = overwrite slot module được chọn bằng state mới. Controller attend KV rồi chọn module tiếp.

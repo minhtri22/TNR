@@ -1,0 +1,61 @@
+Device: cpu
+Train torch.Size([3000, 16])  OOD torch.Size([1000, 16])  Y var=1.0969
+
+=== HierResidual ===
+Params: 57460
+  [HierResidual] Ep 10/25 train=0.0955 val=0.0961
+  [HierResidual] Ep 20/25 train=0.0933 val=0.0935
+ID=0.0920 OOD=0.1764
+
+=== SeqHard NoMem (control) ===
+Params: 65104
+  [SeqNoMem] Ep 10/25 train=0.0997 val=0.0963
+  [SeqNoMem] Ep 20/25 train=0.0967 val=0.0941
+ID=0.0932 OOD=0.1743 traj=0.243
+
+=== SeqKV scaled_dot ===
+Params: 84544
+  [KV_scaled_dot] Ep 10/25 train=0.1006 val=0.0969
+  [KV_scaled_dot] Ep 20/25 train=0.0954 val=0.0960
+ID=0.0933 OOD=0.1721 traj=0.291
+
+=== SeqKV additive ===
+Params: 82243
+  [KV_additive] Ep 10/25 train=0.0988 val=0.0979
+  [KV_additive] Ep 20/25 train=0.0963 val=0.0978
+ID=0.0940 OOD=0.1709 traj=0.314
+
+=== SeqKV gated ===
+Params: 96208
+  [KV_gated] Ep 10/25 train=0.1003 val=0.0967
+  [KV_gated] Ep 20/25 train=0.0960 val=0.0969
+ID=0.0946 OOD=0.1736 traj=0.273
+
+Saved /home/workdir/artifacts/r/uns/run_20261006_164230
+{
+  "HierResidual_OOD": {
+    "mse": 0.17644202709197998,
+    "traj_seq_recovery": null
+  },
+  "SeqNoMem_OOD": {
+    "mse": 0.1742737591266632,
+    "traj_seq_recovery": 0.24314285714285713
+  },
+  "KV_scaled_dot_OOD": {
+    "mse": 0.17213380336761475,
+    "traj_seq_recovery": 0.2914285714285714
+  },
+  "KV_additive_OOD": {
+    "mse": 0.17089921236038208,
+    "traj_seq_recovery": 0.31438095238095237
+  },
+  "KV_gated_OOD": {
+    "mse": 0.1735924780368805,
+    "traj_seq_recovery": 0.27304761904761904
+  }
+}
+
+=== OUTCOME: UNRESOLVED ===
+OOD  HierRes=0.1764  NoMem=0.1743  best_KV(additive)=0.1709
+Traj OOD best_KV=0.314
+Lineage appended.

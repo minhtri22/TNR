@@ -1,0 +1,82 @@
+{
+  "run_id": "20261006_164230",
+  "experiment": "Sequential + sliding KV per node + attention styles",
+  "attn_styles": [
+    "scaled_dot",
+    "additive",
+    "gated"
+  ],
+  "preregistration": "PASS if best_KV OOD_MSE < min_base*0.95 AND traj_rec>=0.35",
+  "results": {
+    "HierResidual_ID": {
+      "mse": 0.0919995978474617,
+      "r2": 0.9106116787005802,
+      "traj_seq_recovery": null,
+      "params": 57460,
+      "split": "ID"
+    },
+    "HierResidual_OOD": {
+      "mse": 0.17644202709197998,
+      "r2": 0.8723604939095928,
+      "traj_seq_recovery": null,
+      "params": 57460,
+      "split": "OOD"
+    },
+    "SeqNoMem_ID": {
+      "mse": 0.09322793036699295,
+      "r2": 0.9094182106328598,
+      "traj_seq_recovery": 0.2945238095238095,
+      "params": 65104,
+      "split": "ID"
+    },
+    "SeqNoMem_OOD": {
+      "mse": 0.1742737591266632,
+      "r2": 0.873929039737576,
+      "traj_seq_recovery": 0.24314285714285713,
+      "params": 65104,
+      "split": "OOD"
+    },
+    "KV_scaled_dot_ID": {
+      "mse": 0.09330960363149643,
+      "r2": 0.9093388561256242,
+      "traj_seq_recovery": 0.29452380952380947,
+      "params": 84544,
+      "split": "ID"
+    },
+    "KV_scaled_dot_OOD": {
+      "mse": 0.17213380336761475,
+      "r2": 0.8754770984363773,
+      "traj_seq_recovery": 0.2914285714285714,
+      "params": 84544,
+      "split": "OOD"
+    },
+    "KV_additive_ID": {
+      "mse": 0.09398219734430313,
+      "r2": 0.9086853489640393,
+      "traj_seq_recovery": 0.2714285714285714,
+      "params": 82243,
+      "split": "ID"
+    },
+    "KV_additive_OOD": {
+      "mse": 0.17089921236038208,
+      "r2": 0.8763702092241473,
+      "traj_seq_recovery": 0.31438095238095237,
+      "params": 82243,
+      "split": "OOD"
+    },
+    "KV_gated_ID": {
+      "mse": 0.094600610435009,
+      "r2": 0.9080844915350694,
+      "traj_seq_recovery": 0.27547619047619043,
+      "params": 96208,
+      "split": "ID"
+    },
+    "KV_gated_OOD": {
+      "mse": 0.1735924780368805,
+      "r2": 0.8744218788236265,
+      "traj_seq_recovery": 0.27304761904761904,
+      "params": 96208,
+      "split": "OOD"
+    }
+  }
+}
