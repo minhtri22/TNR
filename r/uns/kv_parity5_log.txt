@@ -1,0 +1,27 @@
+Device: cpu
+Params HierRes=44230  KV=35467  ratio=0.80
+
+===== SEED 42 =====
+  HierRes OOD=0.1875  KV OOD=0.1794 traj=0.278 win=True
+
+===== SEED 7 =====
+  HierRes OOD=0.1743  KV OOD=0.1769 traj=0.305 win=False
+
+===== SEED 123 =====
+  HierRes OOD=0.1856  KV OOD=0.1826 traj=0.227 win=True
+
+===== SEED 99 =====
+  HierRes OOD=0.1878  KV OOD=0.1865 traj=0.243 win=True
+
+===== SEED 2024 =====
+  HierRes OOD=0.1866  KV OOD=0.1834 traj=0.319 win=True
+
+===== SUMMARY 5 SEEDS =====
+  Params ratio: 0.80
+  HierRes OOD: 0.1844 ± 0.0051
+  KV_causal OOD: 0.1817 ± 0.0033
+  Traj: 0.274 ± 0.035
+  Wins: 4/5
+
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261006_173757

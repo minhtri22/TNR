@@ -127,3 +127,11 @@
 - Wins: 4/4 seeds
 - Outcome: **UNRESOLVED**
 - Notes: Tín hiệu nhất quán nhưng gap và traj chưa đạt ngưỡng preregister. Seed 2024 timeout.
+
+## Run 20261006_173757
+- Date: 2026-10-06T17:37:59.638626
+- Experiment: KV_causal parity ratio~0.80 + đủ 5 seeds
+- Params: HR=44230, KV=35467
+- OOD: HierRes=0.1844±0.0051, KV=0.1817±0.0033
+- Traj: 0.274±0.035 | Wins: 4/5
+- Outcome: **UNRESOLVED**
