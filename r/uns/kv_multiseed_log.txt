@@ -1,0 +1,33 @@
+Device: cpu
+
+========== SEED 42 ==========
+  HierRes OOD=0.1854
+  KV     OOD=0.1736 traj=0.278
+  KVAux  OOD=0.1736 traj=0.278
+
+========== SEED 123 ==========
+  HierRes OOD=0.1901
+  KV     OOD=0.1867 traj=0.295
+  KVAux  OOD=0.1867 traj=0.295
+
+========== SEED 7 ==========
+  HierRes OOD=0.1843
+  KV     OOD=0.1770 traj=0.337
+  KVAux  OOD=0.1770 traj=0.337
+
+===== SUMMARY (mean ± std) =====
+  HierRes_OOD: 0.1866 ± 0.0025
+  KV_OOD: 0.1791 ± 0.0055
+  KV_traj_OOD: 0.3034 ± 0.0244
+  KVAux_OOD: 0.1791 ± 0.0055
+  KVAux_traj_OOD: 0.3034 ± 0.0244
+  HierRes_ID: 0.0899 ± 0.0011
+  KV_ID: 0.0910 ± 0.0021
+  KVAux_ID: 0.0910 ± 0.0021
+
+Params HierRes≈40204  KV≈55915
+
+=== OUTCOME: UNRESOLVED ===
+Best adaptive (KV) OOD=0.1791 vs HierRes=0.1866 | traj=0.303
+Saved /home/workdir/artifacts/r/uns/run_20261006_165236
+Lineage appended.

@@ -99,3 +99,12 @@
 - Traj recovery OOD: NoMem=0.24314285714285713, best_KV(additive)=0.31438095238095237
 - Outcome: **UNRESOLVED**
 - Notes: KV trượt = overwrite slot module được chọn bằng state mới. Controller attend KV rồi chọn module tiếp.
+
+## Run 20261006_165236
+- Date: 2026-10-06T16:52:38.280892
+- Experiment: KV_additive param-balanced + mild seq aux + multi-seed [42, 123, 7]
+- Params: HierRes≈40204, KV≈55915
+- OOD MSE mean: HierRes=0.1866±0.0025, KV=0.1791±0.0055, KVAux=0.1791±0.0055
+- Traj OOD mean: KV=0.303, KVAux=0.303
+- Outcome: **UNRESOLVED**
+- Notes: Cân bằng param (HIDDEN=40, KV_DIM=24). Aux λ=0.015 soft path consistency.
