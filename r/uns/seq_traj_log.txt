@@ -1,0 +1,49 @@
+Device: cpu
+Train torch.Size([4000, 16])  Y var=1.1761
+
+=== HierResidual ===
+Params: 40204
+  [HierResidual] Ep 10/35 train=0.1622 val=0.1630
+  [HierResidual] Ep 20/35 train=0.1573 val=0.1615
+  [HierResidual] Ep 30/35 train=0.1571 val=0.1614
+MSE=0.1580 R2=0.8581
+
+=== Sequential soft ===
+Params: 44536
+  [SeqSoft] Ep 10/35 train=0.1614 val=0.1737
+  [SeqSoft] Ep 20/35 train=0.1552 val=0.1739
+  [SeqSoft] Ep 30/35 train=0.1529 val=0.1726
+MSE=0.1628 R2=0.8537 traj=0.416
+
+=== Sequential hard (Gumbel) ===
+Params: 44536
+  [SeqHard] Ep 10/35 train=0.1645 val=0.1631
+  [SeqHard] Ep 20/35 train=0.1609 val=0.1638
+  [SeqHard] Ep 30/35 train=0.1579 val=0.1710
+MSE=0.1586 R2=0.8575 traj=0.387
+
+Saved /home/workdir/artifacts/r/uns/run_20261006_160550
+{
+  "HierResidual": {
+    "mse": 0.15795403718948364,
+    "r2": 0.8580727974138205,
+    "traj_recovery": null,
+    "params": 40204
+  },
+  "SeqSoft": {
+    "mse": 0.16278627514839172,
+    "r2": 0.8537308710373069,
+    "traj_recovery": 0.41611111111111104,
+    "params": 44536
+  },
+  "SeqHard": {
+    "mse": 0.15858107805252075,
+    "r2": 0.8575093793894908,
+    "traj_recovery": 0.3872222222222222,
+    "params": 44536
+  }
+}
+
+=== OUTCOME: UNRESOLVED ===
+Best seq (SeqHard) MSE=0.1586 vs HierRes=0.1580 | traj_rec=0.387
+Lineage appended.

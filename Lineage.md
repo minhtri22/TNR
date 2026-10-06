@@ -64,3 +64,12 @@
 - Entropy: P0=0.5439305901527405, P1=0.00567987933754921, P2=0.1736096888780594
 - Outcome: **UNRESOLVED**
 - Notes: Tăng prior có kiểm soát trên DiffTopo hierarchical. Không full teacher forcing.
+
+## Run 20261006_160550
+- Date: 2026-10-06T16:05:52.309047
+- Experiment: Explicit Sequential Trajectory (gọi module tuần tự) trên DiffTopo hierarchical
+- Variants: SeqSoft (softmax) vs SeqHard (Gumbel-softmax)
+- Results MSE: HierRes=0.1580, SeqSoft=0.1628, SeqHard=0.1586
+- Traj recovery: Soft=0.41611111111111104, Hard=0.3872222222222222
+- Outcome: **UNRESOLVED**
+- Notes: State truyền tuần tự, controller chọn module mỗi bước. Topology mask DiffTopo. Không parallel message-passing.

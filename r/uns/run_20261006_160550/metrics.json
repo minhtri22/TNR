@@ -1,0 +1,25 @@
+{
+  "run_id": "20261006_160550",
+  "experiment": "Explicit Sequential Trajectory on DiffTopo hierarchical",
+  "preregistration": "PASS if MSE_seq < min_base*0.95 AND traj_recovery>=0.30",
+  "results": {
+    "HierResidual": {
+      "mse": 0.15795403718948364,
+      "r2": 0.8580727974138205,
+      "traj_recovery": null,
+      "params": 40204
+    },
+    "SeqSoft": {
+      "mse": 0.16278627514839172,
+      "r2": 0.8537308710373069,
+      "traj_recovery": 0.41611111111111104,
+      "params": 44536
+    },
+    "SeqHard": {
+      "mse": 0.15858107805252075,
+      "r2": 0.8575093793894908,
+      "traj_recovery": 0.3872222222222222,
+      "params": 44536
+    }
+  }
+}
