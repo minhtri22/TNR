@@ -1,0 +1,88 @@
+Device: cpu
+Train: torch.Size([4000, 16])  Y std: [1.0858606100082397, 1.0186458826065063, 1.0439308881759644, 1.1775528192520142]  var=1.1761
+
+=== FlatMLP ===
+Params: 9044
+  [FlatMLP] Ep 10/35 train=0.1744 val=0.1755 rc=0.00
+  [FlatMLP] Ep 20/35 train=0.1680 val=0.1700 rc=0.00
+  [FlatMLP] Ep 30/35 train=0.1660 val=0.1677 rc=0.00
+FlatMLP MSE=0.1617 R2=0.8547 active=None ent=None
+
+=== HierResidual ===
+Params: 40204
+  [HierResidual] Ep 10/35 train=0.1626 val=0.1638 rc=0.00
+  [HierResidual] Ep 20/35 train=0.1598 val=0.1620 rc=0.00
+  [HierResidual] Ep 30/35 train=0.1579 val=0.1608 rc=0.00
+HierResidual MSE=0.1585 R2=0.8576 active=None ent=None
+
+=== SameTopo_static ===
+Params: 47972
+  [SameTopo_static] Ep 10/35 train=0.1735 val=0.1786 rc=0.00
+  [SameTopo_static] Ep 20/35 train=0.1700 val=0.1703 rc=0.00
+  [SameTopo_static] Ep 30/35 train=0.1668 val=0.1703 rc=0.00
+SameTopo_static MSE=0.1624 R2=0.8541 active=None ent=None
+
+=== SameTopo_gated ===
+Params: 57332
+  [SameTopo_gated] Ep 10/35 train=0.1711 val=0.1793 rc=0.67
+  [SameTopo_gated] Ep 20/35 train=0.1684 val=0.1751 rc=0.67
+  [SameTopo_gated] Ep 30/35 train=0.1629 val=0.1683 rc=0.67
+SameTopo_gated MSE=0.1675 R2=0.8495 active=8.0 ent=0.6662575006484985
+
+=== DiffTopo_static ===
+Params: 47972
+  [DiffTopo_static] Ep 10/35 train=0.1749 val=0.1773 rc=0.00
+  [DiffTopo_static] Ep 20/35 train=0.1672 val=0.1689 rc=0.00
+  [DiffTopo_static] Ep 30/35 train=0.1652 val=0.1715 rc=0.00
+DiffTopo_static MSE=0.1603 R2=0.8560 active=None ent=None
+
+=== DiffTopo_gated ===
+Params: 57332
+  [DiffTopo_gated] Ep 10/35 train=0.1779 val=0.1792 rc=0.67
+  [DiffTopo_gated] Ep 20/35 train=0.1689 val=0.1713 rc=0.67
+  [DiffTopo_gated] Ep 30/35 train=0.1647 val=0.1733 rc=0.67
+DiffTopo_gated MSE=0.1645 R2=0.8522 active=9.930000305175781 ent=0.9245983958244324
+
+Run saved: /home/workdir/artifacts/r/uns/run_20261006_154757
+{
+  "FlatMLP": {
+    "mse": 0.1617373526096344,
+    "r2": 0.8546733687051392,
+    "params": 9044,
+    "avg_active": null
+  },
+  "HierResidual": {
+    "mse": 0.15845835208892822,
+    "r2": 0.8576196636476372,
+    "params": 40204,
+    "avg_active": null
+  },
+  "SameTopo_static": {
+    "mse": 0.16238874197006226,
+    "r2": 0.8540880652110888,
+    "params": 47972,
+    "avg_active": null
+  },
+  "SameTopo_gated": {
+    "mse": 0.1674717366695404,
+    "r2": 0.8495208230394159,
+    "params": 57332,
+    "avg_active": 8.0
+  },
+  "DiffTopo_static": {
+    "mse": 0.16027088463306427,
+    "r2": 0.8559910385089595,
+    "params": 47972,
+    "avg_active": null
+  },
+  "DiffTopo_gated": {
+    "mse": 0.16451714932918549,
+    "r2": 0.8521756144936758,
+    "params": 57332,
+    "avg_active": 9.930000305175781
+  }
+}
+
+=== OUTCOME: UNRESOLVED ===
+Best gated (DiffTopo_gated) MSE=0.1645 vs best baseline=0.1585
+Lineage appended.

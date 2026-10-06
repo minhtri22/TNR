@@ -1,0 +1,66 @@
+{
+  "run_id": "20261006_154757",
+  "experiment": "Hierarchical Topological Stacking (Ph\u01b0\u01a1ng \u00e1n A)",
+  "variants": [
+    "SameTopo (ring l\u1eb7p)",
+    "DiffTopo (sparse\u2192ring\u2192complete)"
+  ],
+  "prior": "nh\u1eb9: temperature + soft top-K, KH\u00d4NG teacher forcing, KH\u00d4NG aux path loss",
+  "preregistration": {
+    "PASS": "MSE_gated < min_baseline*0.95 AND (edge_f1>=0.25 n\u1ebfu \u0111o \u0111\u01b0\u1ee3c)",
+    "FAIL": "MSE_gated > min_baseline*1.05",
+    "else": "UNRESOLVED"
+  },
+  "config": {
+    "N_LAYERS": 3,
+    "MODULES_PER_LAYER": 4,
+    "HIDDEN": 40,
+    "N_ITER_PER_LAYER": 2,
+    "EPOCHS": 35,
+    "TOP_K": 2
+  },
+  "results": {
+    "FlatMLP": {
+      "mse": 0.1617373526096344,
+      "r2": 0.8546733687051392,
+      "avg_active": null,
+      "gate_entropy": null,
+      "params": 9044
+    },
+    "HierResidual": {
+      "mse": 0.15845835208892822,
+      "r2": 0.8576196636476372,
+      "avg_active": null,
+      "gate_entropy": null,
+      "params": 40204
+    },
+    "SameTopo_static": {
+      "mse": 0.16238874197006226,
+      "r2": 0.8540880652110888,
+      "avg_active": null,
+      "gate_entropy": null,
+      "params": 47972
+    },
+    "SameTopo_gated": {
+      "mse": 0.1674717366695404,
+      "r2": 0.8495208230394159,
+      "avg_active": 8.0,
+      "gate_entropy": 0.6662575006484985,
+      "params": 57332
+    },
+    "DiffTopo_static": {
+      "mse": 0.16027088463306427,
+      "r2": 0.8559910385089595,
+      "avg_active": null,
+      "gate_entropy": null,
+      "params": 47972
+    },
+    "DiffTopo_gated": {
+      "mse": 0.16451714932918549,
+      "r2": 0.8521756144936758,
+      "avg_active": 9.930000305175781,
+      "gate_entropy": 0.9245983958244324,
+      "params": 57332
+    }
+  }
+}

@@ -43,3 +43,15 @@
 - Preregistered PASS: MSE_D < min_base*0.95 AND F1>=0.30
 - Outcome: **UNRESOLVED**
 - Notes: Compositional residual true transform (unique dims per module). Soft gates + temperature annealing + soft top-K. Trajectory node recall added.
+
+## Run 20261006_154757
+- Date: 2026-10-06T15:48:00.277131
+- Experiment: Phương án A – Hierarchical Topological Stacking
+- Variants: SameTopo (ring lặp lại) vs DiffTopo (sparse→ring→complete)
+- Prior: nhẹ (temperature + soft top-K), KHÔNG teacher forcing / aux path loss
+- Results MSE: {'FlatMLP': 0.1617, 'HierResidual': 0.1585, 'SameTopo_static': 0.1624, 'SameTopo_gated': 0.1675, 'DiffTopo_static': 0.1603, 'DiffTopo_gated': 0.1645}
+- R²: {'FlatMLP': 0.855, 'HierResidual': 0.858, 'SameTopo_static': 0.854, 'SameTopo_gated': 0.85, 'DiffTopo_static': 0.856, 'DiffTopo_gated': 0.852}
+- Params: {'FlatMLP': 9044, 'HierResidual': 40204, 'SameTopo_static': 47972, 'SameTopo_gated': 57332, 'DiffTopo_static': 47972, 'DiffTopo_gated': 57332}
+- Best gated: DiffTopo_gated = 0.1645 | Best baseline = 0.1585
+- Outcome: **UNRESOLVED**
+- Notes: Message-passing song song trong lớp. Inter-layer residual. So sánh SameTopo vs DiffTopo.

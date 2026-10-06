@@ -22,3 +22,10 @@ Báo cáo: reports/bao_cao_khoa_hoc_TNR_thi_nghiem_toi_thieu.md
 - Outcome: UNRESOLVED (D không tốt hơn baseline, edge F1 thấp)
 - Đã thực hiện: compositional transform, soft+temperature, traj metric, E balanced
 
+
+## Hierarchical A (20261006_154757)
+- Báo cáo: reports/bao_cao_phuong_an_A_hierarchical.md
+- SameTopo (ring lặp) vs DiffTopo (sparse→ring→complete)
+- Outcome: UNRESOLVED (gated không vượt HierResidual)
+- DiffTopo hơi tốt hơn SameTopo nhưng khoảng cách nhỏ
+
