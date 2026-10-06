@@ -1,0 +1,16 @@
+Device: cpu
+Train: torch.Size([4000, 12]), Val: torch.Size([800, 12]), Test: torch.Size([800, 12])
+Y_train std: tensor([0.5029, 0.5295, 0.4465, 0.6168]), mean var=0.2798
+
+=== A: MLP ===
+Params A: 10524
+  [A] Ep 10/50 train=0.1828 val=0.1852 rc=0.00
+  [A] Ep 20/50 train=0.1807 val=0.1833 rc=0.00
+  [A] Ep 30/50 train=0.1793 val=0.1835 rc=0.00
+  [A] Ep 40/50 train=0.1776 val=0.1835 rc=0.00
+  [A] Ep 50/50 train=0.1752 val=0.1812 rc=0.00
+A Test MSE=0.1896 R2=0.3259
+
+=== B: Residual Modular ===
+Params B: 26924
+  [B] Ep 10/50 train=0.1858 val=0.1868 rc=0.00

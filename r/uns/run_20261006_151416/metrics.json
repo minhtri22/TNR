@@ -1,0 +1,90 @@
+{
+  "run_id": "20261006_151416",
+  "seed": 42,
+  "preregistration": {
+    "PASS": "MSE_D < min_baseline*0.95 AND route_edge_f1_D >= 0.30",
+    "FAIL": "MSE_D > min_baseline*1.05",
+    "else": "UNRESOLVED"
+  },
+  "config": {
+    "HIDDEN": 48,
+    "N_ITER": 5,
+    "TOP_K": 3,
+    "EPOCHS": 30,
+    "ROUTE_COST_LAMBDA": 0.001,
+    "N_TRAIN": 5000,
+    "TEMP_START": 2.0,
+    "TEMP_END": 0.5,
+    "true_transform": "compositional residual additive unique dims"
+  },
+  "results": {
+    "A": {
+      "mse": 0.16961197555065155,
+      "r2": 0.8516499030122089,
+      "route_edge_f1": null,
+      "route_edge_precision": null,
+      "route_edge_recall": null,
+      "traj_node_recall": null,
+      "avg_active_edges_per_iter": null,
+      "params": 15124
+    },
+    "B": {
+      "mse": 0.1602839231491089,
+      "r2": 0.8598086251734843,
+      "route_edge_f1": null,
+      "route_edge_precision": null,
+      "route_edge_recall": null,
+      "traj_node_recall": null,
+      "avg_active_edges_per_iter": null,
+      "params": 38644
+    },
+    "C": {
+      "mse": 0.165267676115036,
+      "r2": 0.8554496184966458,
+      "route_edge_f1": null,
+      "route_edge_precision": null,
+      "route_edge_recall": null,
+      "traj_node_recall": null,
+      "avg_active_edges_per_iter": null,
+      "params": 41976
+    },
+    "D": {
+      "mse": 0.16791102290153503,
+      "r2": 0.8531376226554808,
+      "route_edge_f1": 0.06436531949071501,
+      "route_edge_precision": 0.0359206954733321,
+      "route_edge_recall": 0.32166666666666666,
+      "traj_node_recall": 0.4491666666666667,
+      "avg_active_edges_per_iter": 4.423519897460937,
+      "params": 48232
+    },
+    "E": {
+      "mse": 0.16135525703430176,
+      "r2": 0.8588715885469133,
+      "route_edge_f1": null,
+      "route_edge_precision": null,
+      "route_edge_recall": null,
+      "traj_node_recall": null,
+      "avg_active_edges_per_iter": null,
+      "params": 10420
+    },
+    "F": {
+      "mse": 0.1692579686641693,
+      "r2": 0.8519595304172658,
+      "route_edge_f1": 0.09463829171488221,
+      "route_edge_precision": 0.05451163413469915,
+      "route_edge_recall": 0.3816666666666667,
+      "traj_node_recall": 0.57625,
+      "avg_active_edges_per_iter": 3.6693599700927733,
+      "params": 48232
+    }
+  },
+  "best_val_losses": {
+    "A": 0.16486769914627075,
+    "B": 0.15746870636940002,
+    "C": 0.16294503211975098,
+    "D": 0.16408661007881165,
+    "E": 0.15585945546627045,
+    "F": 0.16438078880310059
+  }
+}

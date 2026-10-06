@@ -1,0 +1,107 @@
+Device: cpu
+Train: torch.Size([2000, 12]), Val: torch.Size([400, 12]), Test: torch.Size([400, 12])
+Y_train std: tensor([0.5084, 0.5313, 0.4472, 0.6199]), mean var=0.2830
+
+=== A: MLP ===
+Params A: 4012
+  [A] Ep 10/30 train=0.1858 val=0.1869 rc=0.00
+  [A] Ep 20/30 train=0.1831 val=0.1854 rc=0.00
+  [A] Ep 30/30 train=0.1799 val=0.1829 rc=0.00
+A Test MSE=0.1728 R2=0.3839
+
+=== B: Residual Modular ===
+Params B: 10012
+  [B] Ep 10/30 train=0.1870 val=0.1913 rc=0.00
+  [B] Ep 20/30 train=0.1849 val=0.1908 rc=0.00
+  [B] Ep 30/30 train=0.1821 val=0.1894 rc=0.00
+B Test MSE=0.1744 R2=0.3780
+
+=== C: Static K8 ===
+Params C: 11492
+  [C] Ep 10/30 train=0.1835 val=0.1867 rc=0.00
+  [C] Ep 20/30 train=0.1812 val=0.1871 rc=0.00
+  [C] Ep 30/30 train=0.1775 val=0.1871 rc=0.00
+C Test MSE=0.1717 R2=0.3875
+
+=== D: Gated K8 (top-K) ===
+Params D: 14788
+  [D] Ep 10/30 train=0.1826 val=0.1856 rc=8.00
+  [D] Ep 20/30 train=0.1765 val=0.1903 rc=8.00
+  [D] Ep 30/30 train=0.1707 val=0.1923 rc=8.00
+D Test MSE=0.1763 R2=0.3714 F1=0.0762513808424976
+
+=== E: Recurrent Dense ===
+Params E: 1612
+  [E] Ep 10/30 train=0.1861 val=0.1908 rc=0.00
+  [E] Ep 20/30 train=0.1855 val=0.1900 rc=0.00
+  [E] Ep 30/30 train=0.1847 val=0.1894 rc=0.00
+E Test MSE=0.1752 R2=0.3754
+
+=== F: Gated Random Graph ===
+Params F: 14788
+  [F] Ep 10/30 train=0.1884 val=0.1840 rc=8.00
+  [F] Ep 20/30 train=0.1818 val=0.1819 rc=8.00
+  [F] Ep 30/30 train=0.1785 val=0.1839 rc=8.00
+F Test MSE=0.1739 R2=0.3800 F1=0.05061965698912998
+
+Run saved to /home/workdir/artifacts/r/uns/run_20261006_150521
+{
+  "A": {
+    "mse": 0.1727505922317505,
+    "r2": 0.3839381907667361,
+    "route_edge_f1": null,
+    "route_edge_precision": null,
+    "route_edge_recall": null,
+    "avg_active_edges_per_iter": null,
+    "params": 4012
+  },
+  "B": {
+    "mse": 0.17440184950828552,
+    "r2": 0.3780494515742655,
+    "route_edge_f1": null,
+    "route_edge_precision": null,
+    "route_edge_recall": null,
+    "avg_active_edges_per_iter": null,
+    "params": 10012
+  },
+  "C": {
+    "mse": 0.17174330353736877,
+    "r2": 0.38753038017110186,
+    "route_edge_f1": null,
+    "route_edge_precision": null,
+    "route_edge_recall": null,
+    "avg_active_edges_per_iter": null,
+    "params": 11492
+  },
+  "D": {
+    "mse": 0.1762581616640091,
+    "r2": 0.37142950039760725,
+    "route_edge_f1": 0.0762513808424976,
+    "route_edge_precision": 0.041941050073115285,
+    "route_edge_recall": 0.4345833333333334,
+    "avg_active_edges_per_iter": 8.0,
+    "params": 14788
+  },
+  "E": {
+    "mse": 0.17515136301517487,
+    "r2": 0.3753765486783923,
+    "route_edge_f1": null,
+    "route_edge_precision": null,
+    "route_edge_recall": null,
+    "avg_active_edges_per_iter": null,
+    "params": 1612
+  },
+  "F": {
+    "mse": 0.17385007441043854,
+    "r2": 0.380017194038504,
+    "route_edge_f1": 0.05061965698912998,
+    "route_edge_precision": 0.027916666666666666,
+    "route_edge_recall": 0.28125,
+    "avg_active_edges_per_iter": 8.0,
+    "params": 14788
+  }
+}
+
+=== OUTCOME: UNRESOLVED ===
+D MSE=0.1763 vs best baseline=0.1717 | F1=0.076
+Lineage appended.

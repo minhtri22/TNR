@@ -1,0 +1,82 @@
+{
+  "run_id": "20261006_150521",
+  "seed": 42,
+  "preregistration": {
+    "PASS_condition": "MSE_D < min_baseline * 0.95 AND route_edge_f1_D >= 0.30",
+    "FAIL_condition": "MSE_D > min_baseline * 1.05",
+    "else": "UNRESOLVED"
+  },
+  "config": {
+    "HIDDEN": 24,
+    "N_ITER": 3,
+    "TOP_K": 3,
+    "EPOCHS": 30,
+    "ROUTE_COST_LAMBDA": 0.0005,
+    "N_TRAIN": 2000,
+    "INPUT_DIM": 12
+  },
+  "results": {
+    "A": {
+      "mse": 0.1727505922317505,
+      "r2": 0.3839381907667361,
+      "route_edge_f1": null,
+      "route_edge_precision": null,
+      "route_edge_recall": null,
+      "avg_active_edges_per_iter": null,
+      "params": 4012
+    },
+    "B": {
+      "mse": 0.17440184950828552,
+      "r2": 0.3780494515742655,
+      "route_edge_f1": null,
+      "route_edge_precision": null,
+      "route_edge_recall": null,
+      "avg_active_edges_per_iter": null,
+      "params": 10012
+    },
+    "C": {
+      "mse": 0.17174330353736877,
+      "r2": 0.38753038017110186,
+      "route_edge_f1": null,
+      "route_edge_precision": null,
+      "route_edge_recall": null,
+      "avg_active_edges_per_iter": null,
+      "params": 11492
+    },
+    "D": {
+      "mse": 0.1762581616640091,
+      "r2": 0.37142950039760725,
+      "route_edge_f1": 0.0762513808424976,
+      "route_edge_precision": 0.041941050073115285,
+      "route_edge_recall": 0.4345833333333334,
+      "avg_active_edges_per_iter": 8.0,
+      "params": 14788
+    },
+    "E": {
+      "mse": 0.17515136301517487,
+      "r2": 0.3753765486783923,
+      "route_edge_f1": null,
+      "route_edge_precision": null,
+      "route_edge_recall": null,
+      "avg_active_edges_per_iter": null,
+      "params": 1612
+    },
+    "F": {
+      "mse": 0.17385007441043854,
+      "r2": 0.380017194038504,
+      "route_edge_f1": 0.05061965698912998,
+      "route_edge_precision": 0.027916666666666666,
+      "route_edge_recall": 0.28125,
+      "avg_active_edges_per_iter": 8.0,
+      "params": 14788
+    }
+  },
+  "best_val_losses": {
+    "A": 0.1827963888645172,
+    "B": 0.18936292827129364,
+    "C": 0.1848525106906891,
+    "D": 0.18535389006137848,
+    "E": 0.188745379447937,
+    "F": 0.1808922439813614
+  }
+}

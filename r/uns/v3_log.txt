@@ -1,0 +1,95 @@
+Device: cpu
+Train: torch.Size([5000, 16]), Val: torch.Size([1000, 16]), Test: torch.Size([1000, 16])
+Y_train std: [1.0806201696395874, 1.0182909965515137, 1.0492503643035889, 1.181032419204712], var=1.1782
+
+=== A ===
+Params A: 15124
+  [A] Ep 10/30 train=0.1761 val=0.1739 rc=0.00 T=1.53
+  [A] Ep 20/30 train=0.1696 val=0.1685 rc=0.00 T=1.02
+  [A] Ep 30/30 train=0.1687 val=0.1663 rc=0.00 T=0.50
+A Test MSE=0.1696 R2=0.8516
+
+=== B ===
+Params B: 38644
+  [B] Ep 10/30 train=0.1630 val=0.1624 rc=0.00 T=1.53
+  [B] Ep 20/30 train=0.1605 val=0.1591 rc=0.00 T=1.02
+  [B] Ep 30/30 train=0.1578 val=0.1575 rc=0.00 T=0.50
+B Test MSE=0.1603 R2=0.8598
+
+=== C ===
+Params C: 41976
+  [C] Ep 10/30 train=0.1663 val=0.1671 rc=0.00 T=1.53
+  [C] Ep 20/30 train=0.1672 val=0.1731 rc=0.00 T=1.02
+  [C] Ep 30/30 train=0.1624 val=0.1684 rc=0.00 T=0.50
+C Test MSE=0.1653 R2=0.8554
+
+=== D ===
+Params D: 48232
+  [D] Ep 10/30 train=0.1686 val=0.1703 rc=1.60 T=1.53
+  [D] Ep 20/30 train=0.1663 val=0.1651 rc=1.60 T=1.02
+  [D] Ep 30/30 train=0.1616 val=0.1688 rc=1.60 T=0.50
+D Test MSE=0.1679 R2=0.8531 F1=0.064 traj=0.449
+
+=== E ===
+Params E: 10420
+  [E] Ep 10/30 train=0.1621 val=0.1613 rc=0.00 T=1.53
+  [E] Ep 20/30 train=0.1608 val=0.1576 rc=0.00 T=1.02
+  [E] Ep 30/30 train=0.1584 val=0.1585 rc=0.00 T=0.50
+E Test MSE=0.1614 R2=0.8589
+
+=== F ===
+Params F: 48232
+  [F] Ep 10/30 train=0.1720 val=0.1695 rc=1.60 T=1.53
+  [F] Ep 20/30 train=0.1642 val=0.1704 rc=1.60 T=1.02
+  [F] Ep 30/30 train=0.1627 val=0.1659 rc=1.60 T=0.50
+F Test MSE=0.1693 R2=0.8520 F1=0.095 traj=0.576
+
+Run saved to /home/workdir/artifacts/r/uns/run_20261006_151416
+{
+  "A": {
+    "mse": 0.16961197555065155,
+    "r2": 0.8516499030122089,
+    "route_edge_f1": null,
+    "traj_node_recall": null,
+    "params": 15124
+  },
+  "B": {
+    "mse": 0.1602839231491089,
+    "r2": 0.8598086251734843,
+    "route_edge_f1": null,
+    "traj_node_recall": null,
+    "params": 38644
+  },
+  "C": {
+    "mse": 0.165267676115036,
+    "r2": 0.8554496184966458,
+    "route_edge_f1": null,
+    "traj_node_recall": null,
+    "params": 41976
+  },
+  "D": {
+    "mse": 0.16791102290153503,
+    "r2": 0.8531376226554808,
+    "route_edge_f1": 0.06436531949071501,
+    "traj_node_recall": 0.4491666666666667,
+    "params": 48232
+  },
+  "E": {
+    "mse": 0.16135525703430176,
+    "r2": 0.8588715885469133,
+    "route_edge_f1": null,
+    "traj_node_recall": null,
+    "params": 10420
+  },
+  "F": {
+    "mse": 0.1692579686641693,
+    "r2": 0.8519595304172658,
+    "route_edge_f1": 0.09463829171488221,
+    "traj_node_recall": 0.57625,
+    "params": 48232
+  }
+}
+
+=== OUTCOME: UNRESOLVED ===
+D MSE=0.1679 vs best_base=0.1603 | F1=0.064
+Lineage appended.

@@ -1,0 +1,45 @@
+
+## Run 20261006_144648
+- Date: 2026-10-06T14:46:51.143516
+- Experiment: TNR minimal first experiment (A/B/C/D comparison)
+- Config: HIDDEN=24, N_ITER=3, EPOCHS=80, lambda=0.01
+- Results MSE: A=0.4045, B=0.4032, C=0.3996, D=0.4013
+- Params: A=4108, B=10108, C=11380, D=24548
+- Route fidelity D: 0.04332610676178064
+- Outcome: **UNRESOLVED**
+- Notes: Synthetic task with 3 case families variable dependency paths. Equal param/compute approximately controlled via width and iterations.
+
+## Run 20261006_144921
+- Date: 2026-10-06T14:49:25.113612
+- Experiment: TNR minimal first experiment (A/B/C/D comparison)
+- Config: HIDDEN=32, N_ITER=4, EPOCHS=60, lambda=0.001
+- Results MSE: A=0.3954, B=0.3994, C=0.3985, D=0.3951
+- Params: A=7012, B=17572, C=19524, D=35764
+- Route fidelity D: 0.04584528257873432
+- Outcome: **UNRESOLVED**
+- Notes: Synthetic task with 3 case families variable dependency paths. Equal param/compute approximately controlled via width and iterations.
+
+## Run 20261006_150521
+- Date: 2026-10-06T15:05:25.142702
+- Experiment: TNR v2 – kế hoạch run tiếp theo (capacity↑, param balance, top-K, thêm E/F, route F1)
+- Config: HIDDEN=24, N_ITER=3, TOP_K=3, λ=0.0005, EPOCHS=30
+- Results MSE: A=0.1728, B=0.1744, C=0.1717, D=0.1763, E=0.1752, F=0.1739
+- R²: A=0.384, B=0.378, C=0.388, D=0.371, E=0.375, F=0.380
+- Params: A=4012, B=10012, C=11492, D=14788, E=1612, F=14788
+- Route edge F1 D: 0.0762513808424976, F: 0.05061965698912998
+- Preregistered PASS: MSE_D < min_base*0.95 AND F1>=0.30
+- Outcome: **UNRESOLVED**
+- Notes: True transform low-rank (3-dim diagonal dominant). Hard top-K + STE. Baselines E (recurrent dense), F (gated random graph).
+
+## Run 20261006_151416
+- Date: 2026-10-06T15:14:18.780853
+- Experiment: TNR v3 – kế hoạch run tiếp theo (capacity↑ R² target, compositional transform, soft+temp, traj metric, E balanced)
+- Config: HIDDEN=48, N_ITER=5, TOP_K=3, λ=0.001, EPOCHS=30, T=2.0→0.5
+- Results MSE: A=0.1696, B=0.1603, C=0.1653, D=0.1679, E=0.1614, F=0.1693
+- R²: A=0.852, B=0.860, C=0.855, D=0.853, E=0.859, F=0.852
+- Params: A=15124, B=38644, C=41976, D=48232, E=10420, F=48232
+- Route edge F1 D: 0.06436531949071501, traj_node_recall D: 0.4491666666666667
+- Route edge F1 F: 0.09463829171488221, traj F: 0.57625
+- Preregistered PASS: MSE_D < min_base*0.95 AND F1>=0.30
+- Outcome: **UNRESOLVED**
+- Notes: Compositional residual true transform (unique dims per module). Soft gates + temperature annealing + soft top-K. Trajectory node recall added.

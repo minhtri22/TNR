@@ -1,0 +1,48 @@
+{
+  "run_id": "20261006_144921",
+  "seed": 42,
+  "config": {
+    "N_MODULES": 8,
+    "HIDDEN": 32,
+    "N_ITER": 4,
+    "EPOCHS": 60,
+    "ROUTE_COST_LAMBDA": 0.001,
+    "N_TRAIN": 5000
+  },
+  "results": {
+    "A": {
+      "mse": 0.3953683078289032,
+      "r2": 0.25588825334072174,
+      "route_fidelity": null,
+      "avg_active_edges_per_iter": null,
+      "params": 7012
+    },
+    "B": {
+      "mse": 0.39935362339019775,
+      "r2": 0.24838759110036046,
+      "route_fidelity": null,
+      "avg_active_edges_per_iter": null,
+      "params": 17572
+    },
+    "C": {
+      "mse": 0.39848974347114563,
+      "r2": 0.25001349753112634,
+      "route_fidelity": null,
+      "avg_active_edges_per_iter": null,
+      "params": 19524
+    },
+    "D": {
+      "mse": 0.3950877785682678,
+      "r2": 0.25641626513307836,
+      "route_fidelity": 0.04584528257873432,
+      "avg_active_edges_per_iter": 0.918003261089325,
+      "params": 35764
+    }
+  },
+  "best_val_losses": {
+    "A": 0.405953586101532,
+    "B": 0.4045971632003784,
+    "C": 0.40377718210220337,
+    "D": 0.40853866934776306
+  }
+}
