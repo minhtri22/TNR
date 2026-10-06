@@ -109,7 +109,29 @@ thì phần được sửa hoặc thêm mới phải tuân thủ quy tắc quả
 
 ---
 
-## 7. Ưu tiên khi có xung đột
+## 7. Sổ dòng dõi khoa học (lineage.md)
+
+TNR sử dụng file gốc `lineage.md` làm **sổ dòng dõi khoa học chỉ nối thêm (append-only scientific lineage)**.
+
+Quy tắc chuẩn:
+
+1. `lineage.md` chỉ ghi **kết quả khoa học** và các phán quyết khoa học đã được xác lập.
+2. Phải ghi nhận cả kết quả **PASS** và **FAIL**; khi cần có thể ghi **UNRESOLVED** nếu tiêu chí khoa học đã định nghĩa trạng thái này.
+3. Một mục đã ghi không được sửa, xóa, đổi nghĩa hoặc viết đè để làm đẹp lịch sử. Nếu cần hiệu chỉnh, phải **nối thêm một mục mới** giải thích hiệu chỉnh và tham chiếu mục cũ.
+4. Không ghi vào `lineage.md` các sự kiện thuần kỹ thuật hoặc vận hành, bao gồm:
+   - triển khai hạ tầng (infrastructure implementation);
+   - lỗi và sửa lỗi mã nguồn (code bug/fix);
+   - lỗi công cụ, kết nối, quyền truy cập hoặc thiết bị;
+   - cài đặt môi trường, tải mô hình, build, cache;
+   - thử lại do lỗi hạ tầng;
+   - các bước tiền kiểm tra kỹ thuật (technical preflight) không tạo ra kết quả khoa học.
+5. Việc đăng ký trước (preregistration), khóa thực thi (execution lock) hoặc chuẩn bị triển khai chỉ được ghi vào tài liệu tương ứng; **không tự động trở thành một mục kết quả trong `lineage.md`**.
+6. Chỉ khi một bước tạo ra kết luận khoa học có thể phân loại theo tiêu chí đã khóa thì mới được nối thêm vào `lineage.md`.
+7. `lineage.md` là nguồn chuẩn (canonical source) cho lịch sử PASS / FAIL / UNRESOLVED của chương trình TNR.
+
+---
+
+## 8. Ưu tiên khi có xung đột
 
 Nếu có xung đột giữa:
 
@@ -121,7 +143,7 @@ thì **tài liệu quản trị này có ưu tiên cao hơn** cho mọi công vi
 
 ---
 
-## 8. Áp dụng ngay cho bước khoa học hiện tại
+## 9. Áp dụng ngay cho bước khoa học hiện tại
 
 Bước khoa học tiếp theo hiện tại là:
 

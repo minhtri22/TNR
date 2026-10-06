@@ -226,17 +226,22 @@ $$
 ## Tài liệu
 
 - [Nền tảng nghiên cứu TNR](docs/TNR_RESEARCH_FOUNDATION.md)
+- [Quản trị chuẩn TNR](docs/TNR_CANONICAL_GOVERNANCE.md)
+- [Rà soát công trình có trước P0](docs/TNR_P0_EXTERNAL_PRIOR_ART_AND_HYPOTHESIS_BOUNDARY_AUDIT.md)
+- [Đối chiếu khoa học nhánh from-grok](docs/TNR_FROM_GROK_SCIENTIFIC_RECONCILIATION.md)
+- [Đăng ký trước P1](docs/TNR_P1_VARIABLE_DEPENDENCY_ROUTING_PREREGISTRATION.md)
+- [Dòng dõi khoa học chỉ nối thêm](lineage.md)
 
-## Bước khoa học kế tiếp
+## Trạng thái khoa học hiện tại
 
-Bước tiếp theo **không phải train model lớn**.
+- P0: **PASS — VALID_MECHANISM_GAP / NOVELTY_UNCLAIMED**.
+- Kiểm toán tính hợp lệ của chuỗi `from-grok`: **FAIL — CENTRAL_CLAIM_EXPERIMENTAL_VALIDITY**. Các kết quả cũ được giữ như bằng chứng phát triển/thăm dò (development/exploratory evidence), không dùng làm bằng chứng xác nhận (confirmatory evidence).
+- P1: **đã đăng ký trước (preregistered)**; chưa triển khai và chưa mở TEST.
 
-Trước hết cần thực hiện:
+## Bước khoa học tiếp theo
 
-**TNR_P0_EXTERNAL_PRIOR_ART_AND_HYPOTHESIS_BOUNDARY_AUDIT**
+**`TNR_P1_IMPLEMENTATION_STATIC_PREFLIGHT_AND_EXECUTION_LOCK`**
 
-Sau P0, nếu còn research gap hợp lệ, mới mở:
+Giải thích ngắn bằng Tiếng Việt:
 
-**TNR_P1_VARIABLE_DEPENDENCY_ROUTING_PREREGISTRATION**
-
-P1 phải khóa task family, dependency geometry, baselines, budget matching, router constraints, metrics, seed policy và PASS / FAIL / UNRESOLVED criteria trước implementation/execution.
+Triển khai bộ sinh dữ liệu và các mô hình đúng đặc tả P1, kiểm tra tĩnh (static preflight) bằng fixture/DEV, khóa cân bằng tham số, đường suy luận thưa, hash route, thước đo và can thiệp cơ chế. Sau đó khóa hash mã nguồn/cấu hình. **Chưa được materialize hoặc đánh giá TEST ở bước này.**
