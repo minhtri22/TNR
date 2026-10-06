@@ -1,0 +1,23 @@
+Device: cpu
+
+===== SEED 42 =====
+  Params HR=32728 KV=45115
+  HierRes OOD=0.1839
+  KV_causal OOD=0.1752 traj=0.287 win=True
+
+===== SEED 7 =====
+  Params HR=32728 KV=45115
+  HierRes OOD=0.1859
+  KV_causal OOD=0.1792 traj=0.244 win=True
+
+===== SEED 123 =====
+  Params HR=32728 KV=45115
+  HierRes OOD=0.1886
+  KV_causal OOD=0.1836 traj=0.219 win=True
+
+===== SEED 99 =====
+  Params HR=32728 KV=45115
+  HierRes OOD=0.1774
+  KV_causal OOD=0.1700 traj=0.273 win=True
+
+===== SEED 2024 =====

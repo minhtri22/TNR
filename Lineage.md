@@ -117,3 +117,13 @@
 - Traj mean: Additive=0.306, Causal=0.347
 - Winner OOD: **Causal**
 - Notes: Causal = chỉ attend slots đã write. Additive = attend full KV table.
+
+## Run 20261007_kv_causal_confirm_partial
+- Date: 2026-10-07
+- Experiment: KV_causal củng cố – 4/5 seeds + param attempt
+- Params: HierRes=32728, KV=45115 (ratio=1.38)
+- OOD MSE (4 seeds): HierRes=0.1840±0.004, KV_causal=0.1770±0.005
+- Traj recovery: 0.256±0.026
+- Wins: 4/4 seeds
+- Outcome: **UNRESOLVED**
+- Notes: Tín hiệu nhất quán nhưng gap và traj chưa đạt ngưỡng preregister. Seed 2024 timeout.
