@@ -180,13 +180,27 @@ Transformer attention, DenseNet, GNN, MoE, recurrent computation và conditional
 
 ## Nguyên tắc nghiên cứu
 
-1. Preregister hypothesis và metric trước execution.
-2. Tách implementation result khỏi scientific result.
-3. Baseline phải budget-match.
+1. Đăng ký trước giả thuyết (preregister hypothesis) và thước đo (metric) trước khi thực thi (execution).
+2. Tách kết quả triển khai (implementation result) khỏi kết quả khoa học (scientific result).
+3. Đường cơ sở (baseline) phải được cân bằng ngân sách (budget-match).
 4. Ghi nhận cả PASS và FAIL.
-5. Không retro-edit verdict.
-6. Không mở rộng claim vượt ngoài task/geometry đã kiểm chứng.
-7. Chỉ đưa mechanism sang dự án khác sau khi có evidence đủ mạnh.
+5. Không sửa hồi tố phán quyết (retro-edit verdict).
+6. Không mở rộng tuyên bố (claim) vượt ngoài nhiệm vụ/hình học (task/geometry) đã kiểm chứng.
+7. Chỉ đưa cơ chế (mechanism) sang dự án khác sau khi có bằng chứng (evidence) đủ mạnh.
+
+## Quy tắc quản trị chuẩn (canonical governance)
+
+Quy tắc này có hiệu lực chuẩn (canonical) cho mọi trao đổi và tài liệu TNR được tạo hoặc sửa từ thời điểm ghi nhận.
+
+1. **Trao đổi với người dùng phải hoàn toàn bằng Tiếng Việt.**
+2. Khi cần dùng thuật ngữ chuyên môn Tiếng Anh, phải viết **Tiếng Việt trước, Tiếng Anh trong ngoặc đơn ngay sau đó**. Ví dụ: định tuyến động (dynamic routing), đường cơ sở (baseline), bằng chứng (evidence).
+3. Không dùng một câu hoặc đoạn giải thích thuần Tiếng Anh trong phần trao đổi với người dùng.
+4. Tên bước nghiên cứu, định danh kỹ thuật, tên file, tên nhánh, mã nguồn, lệnh, công thức và tên riêng kỹ thuật có thể giữ nguyên Tiếng Anh để bảo toàn tính chính xác.
+5. Mỗi **bước tiếp theo** có tên Tiếng Anh phải luôn có **một giải thích ngắn bằng Tiếng Việt ngay sau tên bước**, nêu rõ bước đó làm gì và chưa được phép làm gì nếu có giới hạn khoa học.
+6. Trong tài liệu nghiên cứu mới, ưu tiên Tiếng Việt là ngôn ngữ chính; thuật ngữ chuyên môn Tiếng Anh đặt trong ngoặc đơn sau Tiếng Việt khi xuất hiện trong phần diễn giải.
+7. Khi có xung đột giữa cách viết cũ và quy tắc này, **quy tắc quản trị chuẩn này có ưu tiên cao hơn**. Tài liệu cũ không bị sửa hồi tố chỉ để đổi ngôn ngữ, nhưng mọi lần sửa nội dung tiếp theo phải tuân thủ quy tắc mới.
+
+Tài liệu chuẩn chi tiết: [Quản trị chuẩn TNR](docs/TNR_CANONICAL_GOVERNANCE.md).
 
 ## Quan hệ với các dự án khác
 
