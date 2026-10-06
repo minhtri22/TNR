@@ -1,0 +1,76 @@
+Device: cpu
+Train torch.Size([4000, 16])  Y var=1.1761
+
+=== HierResidual baseline ===
+Params: 40204
+  [HierResidual] Ep 10/35 train=0.1622 val=0.1630 ent=0.000
+  [HierResidual] Ep 20/35 train=0.1573 val=0.1615 ent=0.000
+  [HierResidual] Ep 30/35 train=0.1571 val=0.1614 ent=0.000
+MSE=0.1580 R2=0.8581
+
+=== DiffTopo_static ===
+Params: 47972
+  [DiffTopo_static] Ep 10/35 train=0.1707 val=0.1741 ent=0.000
+  [DiffTopo_static] Ep 20/35 train=0.1670 val=0.1681 ent=0.000
+  [DiffTopo_static] Ep 30/35 train=0.1684 val=0.1722 ent=0.000
+MSE=0.1602 R2=0.8560
+
+=== DiffTopo_gated P0_light ===
+Params: 57332
+  [P0_light] Ep 10/35 train=0.1717 val=0.1820 ent=0.611
+  [P0_light] Ep 20/35 train=0.1656 val=0.1724 ent=0.580
+  [P0_light] Ep 30/35 train=0.1666 val=0.1772 ent=0.555
+MSE=0.1629 R2=0.8536 ent=0.544 active=1.20
+
+=== DiffTopo_gated P1_entropy ===
+Params: 57332
+  [P1_entropy] Ep 10/35 train=0.1764 val=0.1655 ent=0.235
+  [P1_entropy] Ep 20/35 train=0.1684 val=0.1709 ent=0.042
+  [P1_entropy] Ep 30/35 train=0.1662 val=0.1749 ent=0.004
+MSE=0.1621 R2=0.8543 ent=0.006 active=0.67
+
+=== DiffTopo_gated P2_curriculum ===
+Params: 57332
+  [P2_curriculum] Ep 10/35 train=0.5364 val=0.1832 ent=0.256
+  [P2_curriculum] Ep 20/35 train=0.3825 val=0.1722 ent=0.061
+  [P2_curriculum] Ep 30/35 train=0.2403 val=0.1784 ent=0.017
+MSE=0.1645 R2=0.8522 ent=0.174 active=0.81
+
+Saved /home/workdir/artifacts/r/uns/run_20261006_155655
+{
+  "HierResidual": {
+    "mse": 0.15795403718948364,
+    "r2": 0.8580727974138205,
+    "entropy": null,
+    "params": 40204
+  },
+  "DiffTopo_static": {
+    "mse": 0.16020804643630981,
+    "r2": 0.856047491709633,
+    "entropy": null,
+    "params": 47972
+  },
+  "P0_light": {
+    "mse": 0.16288107633590698,
+    "r2": 0.8536456942287618,
+    "entropy": 0.5439305901527405,
+    "params": 57332
+  },
+  "P1_entropy": {
+    "mse": 0.16210952401161194,
+    "r2": 0.8543389511870025,
+    "entropy": 0.00567987933754921,
+    "params": 57332
+  },
+  "P2_curriculum": {
+    "mse": 0.16446030139923096,
+    "r2": 0.8522267034406119,
+    "entropy": 0.1736096888780594,
+    "params": 57332
+  }
+}
+
+=== OUTCOME: UNRESOLVED ===
+Best prior (P1_entropy) MSE=0.1621 vs best_base=0.1580
+Entropy P0=0.544 → P1_entropy=0.006
+Lineage appended.

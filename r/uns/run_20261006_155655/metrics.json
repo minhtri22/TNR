@@ -1,0 +1,47 @@
+{
+  "run_id": "20261006_155655",
+  "experiment": "Hierarchical DiffTopo + prior levels P0/P1/P2",
+  "prior_levels": {
+    "P0": "temperature + soft top-K",
+    "P1": "P0 + entropy penalty",
+    "P2": "P1 + soft curriculum path bias (decaying)"
+  },
+  "preregistration": "PASS if P1/P2 MSE < min_baseline*0.95 AND entropy lower than P0",
+  "results": {
+    "HierResidual": {
+      "mse": 0.15795403718948364,
+      "r2": 0.8580727974138205,
+      "entropy": null,
+      "avg_active": null,
+      "params": 40204
+    },
+    "DiffTopo_static": {
+      "mse": 0.16020804643630981,
+      "r2": 0.856047491709633,
+      "entropy": null,
+      "avg_active": null,
+      "params": 47972
+    },
+    "P0_light": {
+      "mse": 0.16288107633590698,
+      "r2": 0.8536456942287618,
+      "entropy": 0.5439305901527405,
+      "avg_active": 1.1951042016347249,
+      "params": 57332
+    },
+    "P1_entropy": {
+      "mse": 0.16210952401161194,
+      "r2": 0.8543389511870025,
+      "entropy": 0.00567987933754921,
+      "avg_active": 0.669166644414266,
+      "params": 57332
+    },
+    "P2_curriculum": {
+      "mse": 0.16446030139923096,
+      "r2": 0.8522267034406119,
+      "entropy": 0.1736096888780594,
+      "avg_active": 0.8063194751739502,
+      "params": 57332
+    }
+  }
+}

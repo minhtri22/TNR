@@ -55,3 +55,12 @@
 - Best gated: DiffTopo_gated = 0.1645 | Best baseline = 0.1585
 - Outcome: **UNRESOLVED**
 - Notes: Message-passing song song trong lớp. Inter-layer residual. So sánh SameTopo vs DiffTopo.
+
+## Run 20261006_155655
+- Date: 2026-10-06T15:56:58.953298
+- Experiment: Hierarchical DiffTopo + prior P0/P1/P2
+- P0: light (temp+topK) | P1: +entropy | P2: +curriculum soft bias
+- Results MSE: HierRes=0.1580, Static=0.1602, P0=0.1629, P1=0.1621, P2=0.1645
+- Entropy: P0=0.5439305901527405, P1=0.00567987933754921, P2=0.1736096888780594
+- Outcome: **UNRESOLVED**
+- Notes: Tăng prior có kiểm soát trên DiffTopo hierarchical. Không full teacher forcing.
