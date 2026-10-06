@@ -83,3 +83,11 @@
 - ID MSE: HierRes=0.0951, Soft=0.0985, Hard=0.0967
 - Outcome: **UNRESOLVED**
 - Notes: Metric chính OOD MSE + LCS-based traj sequence recovery. SeqHard ưu tiên.
+
+## Run 20261006_162524
+- Date: 2026-10-06T16:25:26.365179
+- Experiment: SeqHard + Curriculum path-length + Aux sequence loss
+- Results OOD MSE: HierRes=0.1745, SeqHard_plain=0.1793, SeqHard_CurrAux=0.3093
+- Traj seq recovery OOD: plain=0.2813333333333333, CurrAux=0.30750000000000005
+- Outcome: **FAIL**
+- Notes: Curriculum warmup 10 ep short paths; AUX_LAMBDA=0.02.

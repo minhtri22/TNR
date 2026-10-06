@@ -1,0 +1,62 @@
+Device: cpu
+Train torch.Size([5000, 16])  OOD torch.Size([1000, 16])  Y var=1.0762
+
+=== HierResidual ===
+Params: 57460
+  [HierResidual] Ep 10/35 train=0.0955 val=0.0900
+  [HierResidual] Ep 20/35 train=0.0934 val=0.0909
+  [HierResidual] Ep 30/35 train=0.0927 val=0.0898
+ID=0.0893 OOD=0.1745
+
+=== SeqHard + Curriculum + Aux ===
+Params: 65104
+  [SeqHard_CurrAux] Ep 10/35 train=0.5023 val=0.5377
+  [SeqHard_CurrAux] Ep 20/35 train=0.3233 val=0.2510
+  [SeqHard_CurrAux] Ep 30/35 train=0.2408 val=0.1953
+ID=0.1856 OOD=0.3093 trajOOD=0.308
+
+=== SeqHard (no curr/aux, control) ===
+Params: 65104
+  [SeqHard_plain] Ep 10/35 train=0.0987 val=0.0917
+  [SeqHard_plain] Ep 20/35 train=0.0965 val=0.0912
+  [SeqHard_plain] Ep 30/35 train=0.0946 val=0.0912
+ID=0.0896 OOD=0.1793 trajOOD=0.281
+
+Saved /home/workdir/artifacts/r/uns/run_20261006_162524
+{
+  "HierResidual_ID": {
+    "mse": 0.08926146477460861,
+    "r2": 0.9181061452598434,
+    "traj_seq_recovery": null
+  },
+  "HierResidual_OOD": {
+    "mse": 0.1744503229856491,
+    "r2": 0.8693579180962357,
+    "traj_seq_recovery": null
+  },
+  "SeqHard_CurrAux_ID": {
+    "mse": 0.1856318712234497,
+    "r2": 0.8296901233444196,
+    "traj_seq_recovery": 0.32458333333333333
+  },
+  "SeqHard_CurrAux_OOD": {
+    "mse": 0.309344083070755,
+    "r2": 0.7683388830361705,
+    "traj_seq_recovery": 0.30750000000000005
+  },
+  "SeqHard_plain_ID": {
+    "mse": 0.08961224555969238,
+    "r2": 0.9177843180723818,
+    "traj_seq_recovery": 0.3120833333333333
+  },
+  "SeqHard_plain_OOD": {
+    "mse": 0.17927566170692444,
+    "r2": 0.8657443190780485,
+    "traj_seq_recovery": 0.2813333333333333
+  }
+}
+
+=== OUTCOME: FAIL ===
+OOD  HierRes=0.1745  SeqHard_plain=0.1793  SeqHard_CurrAux=0.3093
+Traj OOD CurrAux=0.308
+Lineage appended.

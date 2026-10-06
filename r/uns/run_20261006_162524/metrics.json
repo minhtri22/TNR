@@ -1,0 +1,49 @@
+{
+  "run_id": "20261006_162524",
+  "experiment": "SeqHard + Curriculum path-length + Aux sequence loss",
+  "preregistration": "PASS if OOD_MSE_SeqHardCA < min_base*0.95 AND traj_rec>=0.35",
+  "results": {
+    "HierResidual_ID": {
+      "mse": 0.08926146477460861,
+      "r2": 0.9181061452598434,
+      "traj_seq_recovery": null,
+      "params": 57460,
+      "split": "ID"
+    },
+    "HierResidual_OOD": {
+      "mse": 0.1744503229856491,
+      "r2": 0.8693579180962357,
+      "traj_seq_recovery": null,
+      "params": 57460,
+      "split": "OOD"
+    },
+    "SeqHard_CurrAux_ID": {
+      "mse": 0.1856318712234497,
+      "r2": 0.8296901233444196,
+      "traj_seq_recovery": 0.32458333333333333,
+      "params": 65104,
+      "split": "ID"
+    },
+    "SeqHard_CurrAux_OOD": {
+      "mse": 0.309344083070755,
+      "r2": 0.7683388830361705,
+      "traj_seq_recovery": 0.30750000000000005,
+      "params": 65104,
+      "split": "OOD"
+    },
+    "SeqHard_plain_ID": {
+      "mse": 0.08961224555969238,
+      "r2": 0.9177843180723818,
+      "traj_seq_recovery": 0.3120833333333333,
+      "params": 65104,
+      "split": "ID"
+    },
+    "SeqHard_plain_OOD": {
+      "mse": 0.17927566170692444,
+      "r2": 0.8657443190780485,
+      "traj_seq_recovery": 0.2813333333333333,
+      "params": 65104,
+      "split": "OOD"
+    }
+  }
+}
