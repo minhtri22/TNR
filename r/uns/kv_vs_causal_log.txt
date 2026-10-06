@@ -1,0 +1,24 @@
+Device: cpu
+
+===== SEED 42 =====
+  HierRes OOD=0.1829
+  Additive OOD=0.1769 traj=0.294
+  Causal   OOD=0.1769 traj=0.309
+
+===== SEED 7 =====
+  HierRes OOD=0.1786
+  Additive OOD=0.1737 traj=0.318
+  Causal   OOD=0.1692 traj=0.386
+
+===== SUMMARY =====
+  HierRes_OOD: 0.1808 ± 0.0021
+  Additive_OOD: 0.1753 ± 0.0016
+  Additive_traj: 0.3059 ± 0.0118
+  Causal_OOD: 0.1731 ± 0.0039
+  Causal_traj: 0.3471 ± 0.0384
+  Additive_ID: 0.0922 ± 0.0016
+  Causal_ID: 0.0918 ± 0.0017
+
+=== So sánh: Causal tốt hơn trên OOD ===
+Additive 0.1753 | Causal 0.1731 | HierRes 0.1808
+Saved /home/workdir/artifacts/r/uns/run_20261006_165820

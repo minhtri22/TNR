@@ -108,3 +108,12 @@
 - Traj OOD mean: KV=0.303, KVAux=0.303
 - Outcome: **UNRESOLVED**
 - Notes: Cân bằng param (HIDDEN=40, KV_DIM=24). Aux λ=0.015 soft path consistency.
+
+## Run 20261006_165820
+- Date: 2026-10-06T16:58:22.482377
+- Experiment: So sánh KV_additive vs KV_causal (sliding KV, additive attention)
+- Seeds: [42, 7]
+- OOD MSE mean: HierRes=0.1808, Additive=0.1753, Causal=0.1731
+- Traj mean: Additive=0.306, Causal=0.347
+- Winner OOD: **Causal**
+- Notes: Causal = chỉ attend slots đã write. Additive = attend full KV table.
