@@ -1,0 +1,65 @@
+Device: cpu
+Train torch.Size([5000, 16])  OOD torch.Size([1000, 16])  Y_train var=1.0435
+
+=== HierResidual ===
+Params: 57460
+  [HierResidual] Ep 10/40 train=0.0965 val=0.0993
+  [HierResidual] Ep 20/40 train=0.0947 val=0.0959
+  [HierResidual] Ep 30/40 train=0.0935 val=0.0964
+  [HierResidual] Ep 40/40 train=0.0921 val=0.0987
+ID MSE=0.0951  OOD MSE=0.1775
+
+=== SeqSoft ===
+Params: 65104
+  [SeqSoft] Ep 10/40 train=0.0970 val=0.1070
+  [SeqSoft] Ep 20/40 train=0.0964 val=0.1047
+  [SeqSoft] Ep 30/40 train=0.0916 val=0.1035
+  [SeqSoft] Ep 40/40 train=0.0916 val=0.1018
+ID MSE=0.0985 OOD=0.1840 trajOOD=0.268
+
+=== SeqHard (Gumbel) ===
+Params: 65104
+  [SeqHard] Ep 10/40 train=0.1022 val=0.1020
+  [SeqHard] Ep 20/40 train=0.0990 val=0.0991
+  [SeqHard] Ep 30/40 train=0.0965 val=0.1007
+  [SeqHard] Ep 40/40 train=0.0952 val=0.0982
+ID MSE=0.0967 OOD=0.1809 trajOOD=0.249
+
+Saved /home/workdir/artifacts/r/uns/run_20261006_161628
+{
+  "HierResidual_ID": {
+    "mse": 0.09513450413942337,
+    "r2": 0.9047641487389001,
+    "traj_seq_recovery": null
+  },
+  "HierResidual_OOD": {
+    "mse": 0.17754437029361725,
+    "r2": 0.8715630522751734,
+    "traj_seq_recovery": null
+  },
+  "SeqSoft_ID": {
+    "mse": 0.09848274290561676,
+    "r2": 0.9014123458407459,
+    "traj_seq_recovery": 0.2775
+  },
+  "SeqSoft_OOD": {
+    "mse": 0.18397332727909088,
+    "r2": 0.8669122973377175,
+    "traj_seq_recovery": 0.26825000000000004
+  },
+  "SeqHard_ID": {
+    "mse": 0.09674923121929169,
+    "r2": 0.903147705398473,
+    "traj_seq_recovery": 0.2910416666666667
+  },
+  "SeqHard_OOD": {
+    "mse": 0.18089181184768677,
+    "r2": 0.8691414868518709,
+    "traj_seq_recovery": 0.24883333333333335
+  }
+}
+
+=== OUTCOME: UNRESOLVED ===
+OOD MSE  HierRes=0.1775  SeqSoft=0.1840  SeqHard=0.1809
+Traj seq recovery OOD SeqHard=0.249
+Lineage appended.

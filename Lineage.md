@@ -73,3 +73,13 @@
 - Traj recovery: Soft=0.41611111111111104, Hard=0.3872222222222222
 - Outcome: **UNRESOLVED**
 - Notes: State truyền tuần tự, controller chọn module mỗi bước. Topology mask DiffTopo. Không parallel message-passing.
+
+## Run 20261006_161628
+- Date: 2026-10-06T16:16:30.921348
+- Experiment: Sequential Trajectory on Variable Long-Dependency + OOD Composition
+- Train paths length 3–4 | OOD paths length 5–6 + new compositions
+- Results OOD MSE: HierRes=0.1775, SeqSoft=0.1840, SeqHard=0.1809
+- Traj seq recovery OOD: Soft=0.26825000000000004, Hard=0.24883333333333335
+- ID MSE: HierRes=0.0951, Soft=0.0985, Hard=0.0967
+- Outcome: **UNRESOLVED**
+- Notes: Metric chính OOD MSE + LCS-based traj sequence recovery. SeqHard ưu tiên.
