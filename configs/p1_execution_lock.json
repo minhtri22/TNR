@@ -1,0 +1,32 @@
+{
+  "lock_id": "TNR_P1_VDR1_EXECUTION_LOCK",
+  "date_locked": "2026-10-07",
+  "status": "EXECUTION_LOCKED",
+  "branch": "research/tnr-p1-vdr1",
+  "canonical_main_parent": "131874de2ff8c81d358df56e923bef17584f0300",
+  "development_evidence_consumed_through": "from-grok@43bec10e76ce20f0f408c96b314d1577cb96e501",
+  "static_preflight": {
+    "status": "PASS",
+    "test_materialized": false,
+    "evidence_file": "evidence/p1_static_preflight.json"
+  },
+  "runtime_environment_file": "evidence/p1_runtime_environment.json",
+  "locked_files_sha256": {
+    "docs/TNR_P1_VARIABLE_DEPENDENCY_ROUTING_PREREGISTRATION.md": "c74a85bf15da6af1771b0c4031d29f82c935d85487245287b0b5d50810721ab1",
+    "docs/TNR_P1_PREREGISTRATION_AMENDMENT_A.md": "44dd8a97d9fad3ec492965e812755cb7071f39d13c598caff79356207aee0411",
+    "docs/TNR_FROM_GROK_RECONCILIATION_ADDENDUM_20261007.md": "78c15f0414a78a1c59d3f2628980a862b5396fb03b389a1f1474c870771ad177",
+    "src/tnr_p1_vdr1.py": "531ff9956dc08fc947824a7159dce8d75be28c9beae1a94adfff09c378529950",
+    "scripts/p1_static_preflight.py": "ac7eb78f719378b34356e680d8c30849dc123643fc9491b5386c06c24ebfb7da",
+    "scripts/run_p1_confirmatory.py": "a3d2675fe674cc82e854c942037f2136399d2f9474180312e465af9f444e4157",
+    "scripts/p1_confirmatory_venv.py": "1267c2b2978a6dc8c2da8b89abc90d217f56adfc130c3b1946ebb84c61d87767",
+    "scripts/p1_execution_lock_qa.py": "6cfef0f9794ce44711c618c62841599412148aec04626d34103f90354bbad6f8",
+    "configs/p1_vdr1.json": "434d3669719de549e28482803bebd4a685b1074f5af1dd6284c5188a242b18d9",
+    "evidence/p1_static_preflight.json": "10453a8dee90d4d301fb0b44ec32ad0e4ebdb0a0bde11979df5c98057ea2a1c0",
+    "evidence/p1_runtime_environment.json": "203d1ad8085bf27b6de6aa756f34c1d3dd6080307ef24c769e9b66af030c2bfd"
+  },
+  "science_firewall": {
+    "test_materialization_authorized_only_after_this_lock": true,
+    "test_has_not_been_materialized_during_preflight": true,
+    "lineage_update_on_implementation_events": false
+  }
+}

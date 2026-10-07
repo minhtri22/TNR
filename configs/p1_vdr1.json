@@ -1,0 +1,46 @@
+{
+  "id": "TNR_P1_VDR1",
+  "date_locked": "2026-10-07",
+  "world_seeds": [314159, 271828, 161803, 141421, 173205],
+  "banned_development_seeds": [42, 7, 123, 99, 2024],
+  "route_split": {
+    "train": 1176,
+    "dev": 168,
+    "test": 336,
+    "payloads_per_route": 4
+  },
+  "route_hashes": {
+    "TRAIN": "54a3e16e19a46354bd77928cd2f02713f80c8166416cf87fbe5c56ec1eba91e3",
+    "DEV": "b6bb4d6be8f4f86d28d6c6cf75961a10b11f66d35d7ae37301848f3719273cf7",
+    "TEST": "75fa374ea83fb8c185f759324d0d3f5727ea6808f68e9f358adae0910ca3bfca"
+  },
+  "training": {
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "batch_size": 128,
+    "max_epochs": 60,
+    "early_stop_patience": 10,
+    "gumbel_temperature": 1.0,
+    "weight_decay": 0.0,
+    "device": "cpu"
+  },
+  "models": {
+    "A": {"name": "FixedMLP", "params": 19588},
+    "B": {"name": "FixedResidual", "params": 19738},
+    "C": {"name": "DenseSoftRouter", "params": 19780},
+    "D": {"name": "SparseHardRouter", "params": 19780}
+  },
+  "mac_estimates": {"A": 19296, "B": 19320, "D": 14464},
+  "pass": {
+    "R_mean_max": 0.95,
+    "min_world_wins": 4,
+    "route_position_accuracy_min": 0.60,
+    "wrong_mse_vs_native_min_ratio": 1.10,
+    "oracle_mse_vs_native_max_ratio": 1.02
+  },
+  "fail": {
+    "R_mean_min": 1.05,
+    "max_world_wins": 1
+  },
+  "test_firewall": "TEST samples must not be materialized before execution lock"
+}

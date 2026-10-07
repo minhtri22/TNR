@@ -109,3 +109,21 @@ Phân loại bằng chứng: **phát triển/thăm dò (development/exploratory)
 - Phát hiện bổ sung: thước đo khôi phục quỹ đạo ở nhánh đường dài so hai không gian chuỗi không hoàn toàn tương thích; một số mặt nạ tôpô chỉ hạn chế nút khả dụng chứ không thực thi chuyển tiếp cạnh.
 - Hệ quả: giữ nguyên toàn bộ UNRESOLVED/FAIL lịch sử, nhưng không nâng bất kỳ kết quả nào thành bằng chứng xác nhận.
 - Tài liệu: `docs/TNR_FROM_GROK_SCIENTIFIC_RECONCILIATION.md`
+
+---
+
+## Run 20261007_004313 — nhập từ from-grok
+- Ngày: 2026-10-07
+- Kết quả gốc: **PASS**
+- Phân loại chuẩn: **PASS — DEVELOPMENT / EXPLORATORY ONLY**
+- Kết luận quan sát: biến thể Causal–Full–Causal đạt OOD MSE trung bình 0.1760 so với HierResidual 0.1818 và vượt ngưỡng 0.97× trên 3 seed phát triển.
+- Giới hạn: bộ sinh dữ liệu vẫn chọn path bằng case ngẫu nhiên độc lập với X; mô hình không nhận case, nên lỗi khả quan sát trung tâm vẫn tồn tại. Tham số Interleave cũng lớn hơn HierResidual đáng kể.
+- Hệ quả: giữ kết quả PASS như bằng chứng phát triển, không nâng thành bằng chứng xác nhận và không thay đổi P1.
+- Nguồn: `from-grok@43bec10e76ce20f0f408c96b314d1577cb96e501`
+
+## TNR_FROM_GROK_SCIENTIFIC_VALIDITY_RECONCILIATION_ADDENDUM_20261007
+- Ngày: 2026-10-07
+- Kết quả: **FAIL**
+- Phán quyết: **CENTRAL_CLAIM_EXPERIMENTAL_VALIDITY_UNCHANGED**
+- Kết luận khoa học: kết quả PASS mới của nhánh from-grok không sửa được lỗi khả quan sát đã xác định; do đó không thay đổi ranh giới giả thuyết hoặc tiêu chí P1.
+- Tài liệu: `docs/TNR_FROM_GROK_RECONCILIATION_ADDENDUM_20261007.md`

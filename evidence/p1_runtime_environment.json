@@ -1,0 +1,8 @@
+{
+  "python": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.14.1",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "device_policy": "CPU"
+}

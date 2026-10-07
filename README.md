@@ -236,12 +236,15 @@ $$
 
 - P0: **PASS — VALID_MECHANISM_GAP / NOVELTY_UNCLAIMED**.
 - Kiểm toán tính hợp lệ của chuỗi `from-grok`: **FAIL — CENTRAL_CLAIM_EXPERIMENTAL_VALIDITY**. Các kết quả cũ được giữ như bằng chứng phát triển/thăm dò (development/exploratory evidence), không dùng làm bằng chứng xác nhận (confirmatory evidence).
-- P1: **đã đăng ký trước (preregistered)**; chưa triển khai và chưa mở TEST.
+- P1: **đã đăng ký trước (preregistered)**.
+- Triển khai P1 + tiền kiểm tra tĩnh (static preflight): **PASS**.
+- Khóa thực thi (execution lock): **đã tạo cục bộ và QA PASS, TEST chưa materialize**.
+- Bước xác nhận P1 chưa được phép chạy cho tới khi đúng khóa này được cam kết (commit) và đẩy lên nhánh chuẩn `research/tnr-p1-vdr1`.
 
-## Bước khoa học tiếp theo
+## Bước khoa học kế tiếp
 
-**`TNR_P1_IMPLEMENTATION_STATIC_PREFLIGHT_AND_EXECUTION_LOCK`**
+**`TNR_P1_CONFIRMATORY_ONE_SHOT_EXECUTION_AND_ADJUDICATION`**
 
 Giải thích ngắn bằng Tiếng Việt:
 
-Triển khai bộ sinh dữ liệu và các mô hình đúng đặc tả P1, kiểm tra tĩnh (static preflight) bằng fixture/DEV, khóa cân bằng tham số, đường suy luận thưa, hash route, thước đo và can thiệp cơ chế. Sau đó khóa hash mã nguồn/cấu hình. **Chưa được materialize hoặc đánh giá TEST ở bước này.**
+Sau khi khóa thực thi được công bố chuẩn trên GitHub, chạy đúng 5 thế giới xác nhận đã khóa một lần duy nhất, khi đó mới được materialize TEST, đóng băng bằng chứng thô (raw evidence), tính các tiêu chí đã đăng ký trước và đưa ra PASS / FAIL / UNRESOLVED. **Chưa được chạy bước này trước khi khóa Git chuẩn được xác nhận.**

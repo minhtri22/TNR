@@ -1,0 +1,65 @@
+{
+  "preflight": "TNR_P1_IMPLEMENTATION_STATIC_PREFLIGHT",
+  "test_materialized": false,
+  "checks": {
+    "route_contract": {
+      "hashes": {
+        "TRAIN": "54a3e16e19a46354bd77928cd2f02713f80c8166416cf87fbe5c56ec1eba91e3",
+        "DEV": "b6bb4d6be8f4f86d28d6c6cf75961a10b11f66d35d7ae37301848f3719273cf7",
+        "TEST": "75fa374ea83fb8c185f759324d0d3f5727ea6808f68e9f358adae0910ca3bfca"
+      },
+      "coverage": {
+        "TRAIN": {
+          "nodes": 8,
+          "edges": 56
+        },
+        "DEV": {
+          "nodes": 8,
+          "edges": 56
+        },
+        "TEST": {
+          "nodes": 8,
+          "edges": 56
+        }
+      }
+    },
+    "model_contract": {
+      "parameters": {
+        "A": 19588,
+        "B": 19738,
+        "C": 19780,
+        "D": 19780
+      },
+      "ratios": {
+        "A_over_D": 0.9902932254802831,
+        "B_over_D": 0.997876643073812,
+        "C_over_D": 1.0
+      },
+      "macs": {
+        "A": 19296,
+        "B": 19320,
+        "D": 14464
+      }
+    },
+    "context_codebook_max_orthogonality_error": 4.440892098500626e-16,
+    "train_shape": [
+      4704,
+      48
+    ],
+    "dev_shape": [
+      672,
+      48
+    ],
+    "test_firewall": "PASS",
+    "train_fixture_forward_backward": "PASS",
+    "sparse_active_module_calls_per_sample": 4.0,
+    "hungarian_mapping_fixture_accuracy": 1.0,
+    "locked_parameter_counts": {
+      "A": 19588,
+      "B": 19738,
+      "C": 19780,
+      "D": 19780
+    }
+  },
+  "status": "PASS"
+}
