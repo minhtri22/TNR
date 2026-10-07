@@ -1,0 +1,28 @@
+Device: cpu
+Params: HR=32728 Pure=45115 Inter=44428
+
+===== SEED 42 =====
+  HierRes OOD=0.1831
+  Pure    OOD=0.1774 traj=0.270
+  Inter   OOD=0.1739 traj=0.265
+
+===== SEED 7 =====
+  HierRes OOD=0.1760
+  Pure    OOD=0.1750 traj=0.233
+  Inter   OOD=0.1763 traj=0.285
+
+===== SEED 123 =====
+  HierRes OOD=0.1861
+  Pure    OOD=0.1848 traj=0.247
+  Inter   OOD=0.1776 traj=0.248
+
+===== SUMMARY =====
+  HierRes_OOD: 0.1818 ± 0.0042
+  Pure_OOD: 0.1791 ± 0.0042
+  Pure_traj: 0.2501 ± 0.0153
+  Inter_OOD: 0.1760 ± 0.0015
+  Inter_traj: 0.2662 ± 0.0148
+
+=== OUTCOME: PASS (best adaptive=Inter) ===
+HierRes=0.1818 Pure=0.1791 Inter=0.1760
+Saved /home/workdir/artifacts/r/uns/run_20261007_004313

@@ -135,3 +135,21 @@
 - OOD: HierRes=0.1844±0.0051, KV=0.1817±0.0033
 - Traj: 0.274±0.035 | Wins: 4/5
 - Outcome: **UNRESOLVED**
+
+## Run 20261007_004156
+- Date: 2026-10-07T00:41:56.797157
+- Experiment: Xen kẽ KV_causal với 1 lớp Full all-to-all (Causal–Full–Causal)
+- Seeds: [42, 7, 123]
+- OOD: HierRes=0.1818, Pure=0.1791, Inter=0.1760
+- Traj: Pure=0.250, Inter=0.266
+- Outcome: **PASS** (best=Inter)
+- Notes: Layer giữa = mọi module nối mọi module (parallel message). Hai lớp ngoài = KV_causal.
+
+## Run 20261007_004313
+- Date: 2026-10-07T00:43:14.607369
+- Experiment: Xen kẽ KV_causal với 1 lớp Full all-to-all (Causal–Full–Causal)
+- Seeds: [42, 7, 123]
+- OOD: HierRes=0.1818, Pure=0.1791, Inter=0.1760
+- Traj: Pure=0.250, Inter=0.266
+- Outcome: **PASS** (best=Inter)
+- Notes: Layer giữa = mọi module nối mọi module (parallel message). Hai lớp ngoài = KV_causal.
