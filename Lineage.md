@@ -202,3 +202,11 @@
 - Traj: PureC=0.404, Spark=0.453
 - Best=PureC, wins=3/3
 - Outcome: **UNRESOLVED**
+
+## Run 20261008_spiral_partial
+- Date: 2026-10-08
+- Experiment: C-C-Spiral-C-C-F on multi-hop v2.5
+- Partial 2/3 seeds: OOD HR≈0.128, PureC≈0.127, Spiral≈0.128
+- Traj: PureC≈0.39, Spiral≈0.53 (higher)
+- Params Spiral≈94k vs HR 40k
+- Outcome: **UNRESOLVED** (OOD no gain; traj up; heavy params)

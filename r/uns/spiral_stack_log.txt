@@ -1,0 +1,14 @@
+Device: cpu
+Params HR 40044 PureC 54759 Spiral 94289
+
+===== SEED 42 =====
+  HR     OOD=0.1274 R2=0.554
+  PureC  OOD=0.1249 traj=0.410
+  Spiral OOD=0.1289 traj=0.564
+
+===== SEED 7 =====
+  HR     OOD=0.1286 R2=0.579
+  PureC  OOD=0.1300 traj=0.370
+  Spiral OOD=0.1264 traj=0.502
+
+===== SEED 123 =====
