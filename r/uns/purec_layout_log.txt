@@ -1,0 +1,14 @@
+Device: cpu
+Params HR=57364 PureC=77227
+
+===== SEED 42 =====
+  HR          OOD=0.5038 R2=-0.836
+  PureC       OOD=0.4015 traj=0.463
+  PureC+layout OOD=0.3363 traj=0.488
+
+===== SEED 7 =====
+  HR          OOD=0.4714 R2=-0.731
+  PureC       OOD=0.3800 traj=0.314
+  PureC+layout OOD=0.4189 traj=0.419
+
+===== SEED 123 =====

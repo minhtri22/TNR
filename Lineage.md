@@ -277,3 +277,14 @@
 - HR OOD R²=-0.800 (target band 0.25–0.55: NO)
 - OOD: HR=0.8023, PureC=0.7990, traj=0.497, wins=2/3
 - Outcome: **UNRESOLVED**
+
+## Run 20261008_layout_partial
+- Date: 2026-10-08
+- Experiment: **A-core PureC ± layout prior** (2/3 seeds completed)
+- Task: Lookup-Chain L2→L3 soft
+- HR OOD≈0.488 R2 negative
+- PureC no-prior OOD≈0.391 traj≈0.39 (ratio ~0.80 vs HR)
+- PureC+layout OOD≈0.378 traj≈0.45 (ratio ~0.77)
+- Both PureC beat HR by ~20%+ OOD — strongest core signal to date
+- Outcome: **PASS-leaning UNRESOLVED** (need seed 123; traj prior helps)
+- Notes: Core-only; no add-ins. Layout prior raises traj toward 0.45.
