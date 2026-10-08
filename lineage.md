@@ -127,3 +127,17 @@ Phân loại bằng chứng: **phát triển/thăm dò (development/exploratory)
 - Phán quyết: **CENTRAL_CLAIM_EXPERIMENTAL_VALIDITY_UNCHANGED**
 - Kết luận khoa học: kết quả PASS mới của nhánh from-grok không sửa được lỗi khả quan sát đã xác định; do đó không thay đổi ranh giới giả thuyết hoặc tiêu chí P1.
 - Tài liệu: `docs/TNR_FROM_GROK_RECONCILIATION_ADDENDUM_20261007.md`
+
+---
+
+## TNR_P1_VARIABLE_DEPENDENCY_ROUTING_CONFIRMATORY
+- Ngày: 2026-10-08
+- Kết quả: **FAIL**
+- Phán quyết: **P1_VDR1_SPARSE_HARD_ROUTING_NOT_SUPPORTED**
+- Tính hợp lệ: **PASS** — đúng 5 seed xác nhận đã khóa, không dùng seed cấm, route/split/parameter contract đã khóa trước TEST, D thực thi đúng 4 module calls/sample và TEST chỉ được materialize sau execution lock.
+- Kết quả chính: `R_mean = 1.6035887437`; D thắng đường cơ sở cố định tốt nhất **0/5** world.
+- Khôi phục route: độ chính xác vị trí trung bình `0.2507440476`, thấp hơn xa ngưỡng PASS `0.60`.
+- Can thiệp cơ chế: `wrong/native = 2.2888673629` cho thấy lựa chọn route có ảnh hưởng mạnh đến đầu ra; nhưng `oracle/native = 1.6428756506` cho thấy ép theo route thật sau ánh xạ DEV làm xấu đáng kể, không hỗ trợ giả thuyết module/router đã học đúng ngữ nghĩa route nguyên tử.
+- Điều kiện FAIL đã đăng ký trước cùng kích hoạt: `R_mean >= 1.05` và `world_wins <= 1/5`.
+- Phạm vi: FAIL này chỉ áp dụng cho giả thuyết giới hạn P1-VDR1 về sparse hard routing dưới thiết kế/ngân sách đã khóa; không phủ định mọi biến thể TNR.
+- Bằng chứng: `results/p1_vdr1/result.json`; QA độc lập: `results/p1_vdr1/independent_qa_and_adjudication.json`.

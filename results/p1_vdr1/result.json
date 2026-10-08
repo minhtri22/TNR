@@ -1,0 +1,377 @@
+{
+  "program": "TNR_P1_VDR1",
+  "execution_lock": {
+    "lock_id": "TNR_P1_VDR1_EXECUTION_LOCK",
+    "date_locked": "2026-10-07",
+    "status": "EXECUTION_LOCKED",
+    "branch": "research/tnr-p1-vdr1",
+    "canonical_main_parent": "131874de2ff8c81d358df56e923bef17584f0300",
+    "development_evidence_consumed_through": "from-grok@43bec10e76ce20f0f408c96b314d1577cb96e501",
+    "static_preflight": {
+      "status": "PASS",
+      "test_materialized": false,
+      "evidence_file": "evidence/p1_static_preflight.json"
+    },
+    "runtime_environment_file": "evidence/p1_runtime_environment.json",
+    "locked_files_sha256": {
+      "docs/TNR_P1_VARIABLE_DEPENDENCY_ROUTING_PREREGISTRATION.md": "c74a85bf15da6af1771b0c4031d29f82c935d85487245287b0b5d50810721ab1",
+      "docs/TNR_P1_PREREGISTRATION_AMENDMENT_A.md": "44dd8a97d9fad3ec492965e812755cb7071f39d13c598caff79356207aee0411",
+      "docs/TNR_FROM_GROK_RECONCILIATION_ADDENDUM_20261007.md": "78c15f0414a78a1c59d3f2628980a862b5396fb03b389a1f1474c870771ad177",
+      "src/tnr_p1_vdr1.py": "531ff9956dc08fc947824a7159dce8d75be28c9beae1a94adfff09c378529950",
+      "scripts/p1_static_preflight.py": "ac7eb78f719378b34356e680d8c30849dc123643fc9491b5386c06c24ebfb7da",
+      "scripts/run_p1_confirmatory.py": "a3d2675fe674cc82e854c942037f2136399d2f9474180312e465af9f444e4157",
+      "scripts/p1_confirmatory_venv.py": "1267c2b2978a6dc8c2da8b89abc90d217f56adfc130c3b1946ebb84c61d87767",
+      "scripts/p1_execution_lock_qa.py": "6cfef0f9794ce44711c618c62841599412148aec04626d34103f90354bbad6f8",
+      "configs/p1_vdr1.json": "434d3669719de549e28482803bebd4a685b1074f5af1dd6284c5188a242b18d9",
+      "evidence/p1_static_preflight.json": "10453a8dee90d4d301fb0b44ec32ad0e4ebdb0a0bde11979df5c98057ea2a1c0",
+      "evidence/p1_runtime_environment.json": "203d1ad8085bf27b6de6aa756f34c1d3dd6080307ef24c769e9b66af030c2bfd"
+    },
+    "science_firewall": {
+      "test_materialization_authorized_only_after_this_lock": true,
+      "test_has_not_been_materialized_during_preflight": true,
+      "lineage_update_on_implementation_events": false
+    }
+  },
+  "worlds": [
+    {
+      "world_seed": 314159,
+      "training": {
+        "A": {
+          "best_dev_mse": 0.04093678295612335,
+          "epochs_completed": 60
+        },
+        "B": {
+          "best_dev_mse": 0.03139369189739227,
+          "epochs_completed": 60
+        },
+        "C": {
+          "best_dev_mse": 0.004539680667221546,
+          "epochs_completed": 60
+        },
+        "D": {
+          "best_dev_mse": 0.04978812485933304,
+          "epochs_completed": 60
+        }
+      },
+      "A": {
+        "mse": 0.03985461965203285,
+        "nmse": 0.039779140552262025
+      },
+      "B": {
+        "mse": 0.030428115278482437,
+        "nmse": 0.030370488665332068
+      },
+      "C": {
+        "mse": 0.004941463936120272,
+        "nmse": 0.0049321054915358094
+      },
+      "D": {
+        "mse": 0.05271368846297264,
+        "nmse": 0.052613856077529664,
+        "route_position_accuracy": 0.3513764880952381,
+        "exact_route_accuracy": 0.013392857142857142,
+        "mse_native": 0.05271368846297264,
+        "mse_oracle": 0.0749133750796318,
+        "mse_wrong": 0.13132818043231964,
+        "wrong_over_native": 2.4913487229141196,
+        "oracle_over_native": 1.4211370379109927,
+        "active_module_calls_per_sample": 4.0,
+        "true_to_pred_mapping": [
+          5,
+          2,
+          6,
+          7,
+          1,
+          0,
+          4,
+          3
+        ],
+        "pred_to_true_mapping": [
+          5,
+          4,
+          1,
+          7,
+          6,
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "world_seed": 271828,
+      "training": {
+        "A": {
+          "best_dev_mse": 0.02890060842037201,
+          "epochs_completed": 60
+        },
+        "B": {
+          "best_dev_mse": 0.027818044647574425,
+          "epochs_completed": 60
+        },
+        "C": {
+          "best_dev_mse": 0.0053410655818879604,
+          "epochs_completed": 60
+        },
+        "D": {
+          "best_dev_mse": 0.044577062129974365,
+          "epochs_completed": 60
+        }
+      },
+      "A": {
+        "mse": 0.029171237722039223,
+        "nmse": 0.03231086293740966
+      },
+      "B": {
+        "mse": 0.02803954854607582,
+        "nmse": 0.031057372968943984
+      },
+      "C": {
+        "mse": 0.005646643228828907,
+        "nmse": 0.006254376902400049
+      },
+      "D": {
+        "mse": 0.045363642275333405,
+        "nmse": 0.050246014305817294,
+        "route_position_accuracy": 0.21242559523809523,
+        "exact_route_accuracy": 0.001488095238095238,
+        "mse_native": 0.045363642275333405,
+        "mse_oracle": 0.0847804918885231,
+        "mse_wrong": 0.11301007866859436,
+        "wrong_over_native": 2.491203814338424,
+        "oracle_over_native": 1.8689083952728087,
+        "active_module_calls_per_sample": 4.0,
+        "true_to_pred_mapping": [
+          7,
+          3,
+          1,
+          2,
+          6,
+          5,
+          0,
+          4
+        ],
+        "pred_to_true_mapping": [
+          6,
+          2,
+          3,
+          1,
+          7,
+          5,
+          4,
+          0
+        ]
+      }
+    },
+    {
+      "world_seed": 161803,
+      "training": {
+        "A": {
+          "best_dev_mse": 0.04317591339349747,
+          "epochs_completed": 60
+        },
+        "B": {
+          "best_dev_mse": 0.10235573351383209,
+          "epochs_completed": 14
+        },
+        "C": {
+          "best_dev_mse": 0.006473592482507229,
+          "epochs_completed": 60
+        },
+        "D": {
+          "best_dev_mse": 0.05551648139953613,
+          "epochs_completed": 60
+        }
+      },
+      "A": {
+        "mse": 0.04181035980582237,
+        "nmse": 0.042679305069704035
+      },
+      "B": {
+        "mse": 0.09863469749689102,
+        "nmse": 0.10068462372671477
+      },
+      "C": {
+        "mse": 0.0064954617992043495,
+        "nmse": 0.006630457068160559
+      },
+      "D": {
+        "mse": 0.05654219910502434,
+        "nmse": 0.057717316380980495,
+        "route_position_accuracy": 0.3165922619047619,
+        "exact_route_accuracy": 0.000744047619047619,
+        "mse_native": 0.05654219910502434,
+        "mse_oracle": 0.0853622704744339,
+        "mse_wrong": 0.1311383694410324,
+        "wrong_over_native": 2.3193008322412325,
+        "oracle_over_native": 1.5097090637716037,
+        "active_module_calls_per_sample": 4.0,
+        "true_to_pred_mapping": [
+          1,
+          7,
+          3,
+          2,
+          0,
+          5,
+          4,
+          6
+        ],
+        "pred_to_true_mapping": [
+          4,
+          0,
+          3,
+          2,
+          6,
+          5,
+          7,
+          1
+        ]
+      }
+    },
+    {
+      "world_seed": 141421,
+      "training": {
+        "A": {
+          "best_dev_mse": 0.0309897493571043,
+          "epochs_completed": 60
+        },
+        "B": {
+          "best_dev_mse": 0.031240511685609818,
+          "epochs_completed": 60
+        },
+        "C": {
+          "best_dev_mse": 0.00636406010016799,
+          "epochs_completed": 60
+        },
+        "D": {
+          "best_dev_mse": 0.05505925789475441,
+          "epochs_completed": 60
+        }
+      },
+      "A": {
+        "mse": 0.03252296894788742,
+        "nmse": 0.03523125746003783
+      },
+      "B": {
+        "mse": 0.03252553567290306,
+        "nmse": 0.03523403792420763
+      },
+      "C": {
+        "mse": 0.006490567699074745,
+        "nmse": 0.007031057405439037
+      },
+      "D": {
+        "mse": 0.056349050253629684,
+        "nmse": 0.06104141046579304,
+        "route_position_accuracy": 0.20572916666666666,
+        "exact_route_accuracy": 0.002976190476190476,
+        "mse_native": 0.056349050253629684,
+        "mse_oracle": 0.08882922679185867,
+        "mse_wrong": 0.12174705415964127,
+        "wrong_over_native": 2.1605875096679026,
+        "oracle_over_native": 1.5764103634761226,
+        "active_module_calls_per_sample": 4.0,
+        "true_to_pred_mapping": [
+          4,
+          6,
+          0,
+          7,
+          2,
+          3,
+          1,
+          5
+        ],
+        "pred_to_true_mapping": [
+          2,
+          6,
+          4,
+          5,
+          0,
+          7,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "world_seed": 173205,
+      "training": {
+        "A": {
+          "best_dev_mse": 0.03367430716753006,
+          "epochs_completed": 60
+        },
+        "B": {
+          "best_dev_mse": 0.03405504673719406,
+          "epochs_completed": 60
+        },
+        "C": {
+          "best_dev_mse": 0.006070658564567566,
+          "epochs_completed": 60
+        },
+        "D": {
+          "best_dev_mse": 0.05370219051837921,
+          "epochs_completed": 60
+        }
+      },
+      "A": {
+        "mse": 0.034147366881370544,
+        "nmse": 0.03421413426135282
+      },
+      "B": {
+        "mse": 0.03499458357691765,
+        "nmse": 0.03506300749572575
+      },
+      "C": {
+        "mse": 0.005584058817476034,
+        "nmse": 0.0055949771696349295
+      },
+      "D": {
+        "mse": 0.05404696986079216,
+        "nmse": 0.054152646371257,
+        "route_position_accuracy": 0.1675967261904762,
+        "exact_route_accuracy": 0.0,
+        "mse_native": 0.05404696986079216,
+        "mse_oracle": 0.09934986382722855,
+        "mse_wrong": 0.10711546987295151,
+        "wrong_over_native": 1.9818959351254466,
+        "oracle_over_native": 1.8382133925939284,
+        "active_module_calls_per_sample": 4.0,
+        "true_to_pred_mapping": [
+          1,
+          5,
+          4,
+          6,
+          0,
+          7,
+          3,
+          2
+        ],
+        "pred_to_true_mapping": [
+          4,
+          0,
+          7,
+          6,
+          2,
+          1,
+          3,
+          5
+        ]
+      }
+    }
+  ],
+  "verdict": {
+    "outcome": "FAIL",
+    "R_mean": 1.6035887436995075,
+    "world_wins": 0,
+    "route_position_accuracy_mean": 0.2507440476190476,
+    "wrong_over_native_mean": 2.2888673628574248,
+    "oracle_over_native_mean": 1.6428756506050912,
+    "per_world_R": [
+      1.7324007083754438,
+      1.6178449592649422,
+      1.352349019898902,
+      1.732592443940759,
+      1.5827565870174911
+    ]
+  }
+}

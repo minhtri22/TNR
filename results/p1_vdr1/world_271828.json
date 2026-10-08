@@ -1,0 +1,65 @@
+{
+  "world_seed": 271828,
+  "training": {
+    "A": {
+      "best_dev_mse": 0.02890060842037201,
+      "epochs_completed": 60
+    },
+    "B": {
+      "best_dev_mse": 0.027818044647574425,
+      "epochs_completed": 60
+    },
+    "C": {
+      "best_dev_mse": 0.0053410655818879604,
+      "epochs_completed": 60
+    },
+    "D": {
+      "best_dev_mse": 0.044577062129974365,
+      "epochs_completed": 60
+    }
+  },
+  "A": {
+    "mse": 0.029171237722039223,
+    "nmse": 0.03231086293740966
+  },
+  "B": {
+    "mse": 0.02803954854607582,
+    "nmse": 0.031057372968943984
+  },
+  "C": {
+    "mse": 0.005646643228828907,
+    "nmse": 0.006254376902400049
+  },
+  "D": {
+    "mse": 0.045363642275333405,
+    "nmse": 0.050246014305817294,
+    "route_position_accuracy": 0.21242559523809523,
+    "exact_route_accuracy": 0.001488095238095238,
+    "mse_native": 0.045363642275333405,
+    "mse_oracle": 0.0847804918885231,
+    "mse_wrong": 0.11301007866859436,
+    "wrong_over_native": 2.491203814338424,
+    "oracle_over_native": 1.8689083952728087,
+    "active_module_calls_per_sample": 4.0,
+    "true_to_pred_mapping": [
+      7,
+      3,
+      1,
+      2,
+      6,
+      5,
+      0,
+      4
+    ],
+    "pred_to_true_mapping": [
+      6,
+      2,
+      3,
+      1,
+      7,
+      5,
+      4,
+      0
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "qa_id": "TNR_P1_VARIABLE_DEPENDENCY_ROUTING_INDEPENDENT_QA_AND_ADJUDICATION",
+  "date": "2026-10-08",
+  "source_branch": "research/tnr-p1-vdr1",
+  "source_lock_commit": "9db4870dc4143fb98209092fa8a9f5d618210bf2",
+  "frozen_result_sha256": "4e4bcbecb760a43ce1d17b8a041c9eff664002bfc5f4d4ece042b9d7778c1362",
+  "frozen_world_sha256": {
+    "141421": "24bb53eac37948a1e469941934657882110a4ad135a955f228efebf70762f5f3",
+    "161803": "b4bf8c4b894d356cf47e2b1144c0a0b48d7ddfd20e014bb6510e4b15ce475577",
+    "173205": "241d8221a0a6236f763376e30c92118e4c04ddc4ecf271ba0ae3e90bbb705dad",
+    "271828": "90693ec66892957a6ec50f246114d982c35997d7975d768c1aed69c1e90e25d5",
+    "314159": "db5265f8709959f5dcefa58497aac1ba793364cea90afe4872d8b8be132851bb"
+  },
+  "validity": {
+    "status": "PASS",
+    "exact_confirmatory_seeds": [
+      314159,
+      271828,
+      161803,
+      141421,
+      173205
+    ],
+    "banned_seed_used": false,
+    "split_hashes_locked_and_preflight_pass": true,
+    "train_dev_test_node_edge_coverage_pass": true,
+    "locked_parameter_contract_pass": true,
+    "sparse_active_module_calls_per_sample_all_worlds": 4,
+    "test_was_materialized_only_after_execution_lock": true,
+    "source_and_config_locked_before_test": true
+  },
+  "independent_recompute": {
+    "per_world_R": [
+      1.7324007083754438,
+      1.6178449592649422,
+      1.352349019898902,
+      1.732592443940759,
+      1.5827565870174911
+    ],
+    "R_mean": 1.6035887436995075,
+    "world_wins": 0,
+    "route_position_accuracy_mean": 0.2507440476190476,
+    "wrong_over_native_mean": 2.288867362857425,
+    "oracle_over_native_mean": 1.6428756506050912
+  },
+  "preregistered_gate_evaluation": {
+    "pass_R_mean_le_0_95": false,
+    "pass_world_wins_ge_4_of_5": false,
+    "pass_route_position_accuracy_ge_0_60": false,
+    "pass_wrong_over_native_ge_1_10": true,
+    "pass_oracle_over_native_le_1_02": false,
+    "fail_R_mean_ge_1_05": true,
+    "fail_world_wins_le_1_of_5": true
+  },
+  "adjudication": {
+    "outcome": "FAIL",
+    "rationale": "Valid confirmatory run; both preregistered FAIL conditions triggered. SparseHardRouter D lost to the best fixed baseline in all 5 worlds, route recovery remained low, and oracle-forced routing degraded rather than preserved native performance.",
+    "scope": "FAIL applies to P1-VDR1 bounded hypothesis only; it does not falsify all TNR architectures."
+  },
+  "scientific_interpretation": {
+    "route_choice_matters": "SUPPORTED by wrong/native > 1.10",
+    "route_semantics_match_ground_truth": "NOT SUPPORTED; oracle/native > 1.02 and route recovery is low",
+    "sparse_hard_router_advantage_over_fixed_baselines": "NOT SUPPORTED",
+    "dense_soft_router_note": "C was substantially stronger than A/B/D across all worlds; this is diagnostic evidence only, not a preregistered PASS path for sparse hard routing."
+  }
+}
