@@ -307,3 +307,12 @@
 - PureC+layout OOD=0.390±0.038 traj=0.442 wins=3/3 ratio=0.79
 - Outcome: **UNRESOLVED** (OOD PASS-level ~21% better; traj 0.44 borderline 0.45)
 - Note: light 10-seed (under-train) flipped — HR stronger when PureC undertrained; full budget needed for routing signal
+
+## Run 20261008_layout_tighten_partial
+- Date: 2026-10-08
+- Experiment: Siết layout prior λ=0.25 / align map (partial seed 42)
+- Seed 42: HR=0.504 | PC0 OOD=0.402 traj=0.463 | L15 OOD=0.336 traj=0.488 | L25 OOD=0.379 traj=0.358 | L25A OOD=0.532 traj=0.367
+- Finding: **λ=0.25 and align map HURT** traj and OOD vs λ=0.15
+- Siết prior quá mạnh = FAIL có kiểm soát (credit assignment over-constraint)
+- Best still L15 (λ=0.15 spread) — traj 0.49 on this seed
+- Outcome partial: **FAIL for tighter prior**; keep λ=0.15

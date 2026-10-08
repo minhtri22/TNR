@@ -1,0 +1,11 @@
+Device: cpu
+Params HR=57364 PureC=77227
+
+===== SEED 42 =====
+  HR   OOD=0.5038 R2=-0.836
+  PC0  OOD=0.4015 traj=0.463
+  L15  OOD=0.3363 traj=0.488
+  L25  OOD=0.3793 traj=0.358
+  L25A OOD=0.5322 traj=0.367
+
+===== SEED 7 =====
