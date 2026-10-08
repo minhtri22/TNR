@@ -1,0 +1,33 @@
+Device: cpu
+Params: 40044 54759 72103
+
+===== SEED 42 =====
+  HR    OOD=0.1263 R2=0.558 | ID R2=0.642
+  PureC OOD=0.1251 traj=0.487 R2=0.562
+  Spark OOD=0.1280 traj=0.505 R2=0.552
+
+===== SEED 7 =====
+  HR    OOD=0.1340 R2=0.562 | ID R2=0.628
+  PureC OOD=0.1269 traj=0.362 R2=0.585
+  Spark OOD=0.1288 traj=0.380 R2=0.579
+
+===== SEED 123 =====
+  HR    OOD=0.1256 R2=0.574 | ID R2=0.624
+  PureC OOD=0.1245 traj=0.363 R2=0.578
+  Spark OOD=0.1288 traj=0.474 R2=0.563
+
+===== SUMMARY =====
+  HR_OOD: 0.1286 ± 0.0038
+  HR_OOD_r2: 0.5645 ± 0.0067
+  HR_ID_r2: 0.6314 ± 0.0076
+  PureC_OOD: 0.1255 ± 0.0011
+  PureC_traj: 0.4043 ± 0.0587
+  PureC_OOD_r2: 0.5750 ± 0.0095
+  Spark_OOD: 0.1285 ± 0.0004
+  Spark_traj: 0.4531 ± 0.0529
+  Spark_OOD_r2: 0.5646 ± 0.0110
+
+HR OOD R2=0.565 (target 0.3-0.5) OUT OF RANGE
+Best=PureC OOD=0.1255 traj=0.404 vs HR=0.1286 wins=3/3
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261008_053654

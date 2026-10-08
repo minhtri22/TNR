@@ -193,3 +193,12 @@
 - Traj: PureC≈0.41, Spark≈0.49
 - Outcome: **UNRESOLVED** + difficulty overshoot
 - Notes: Need v2.5 middle ground between v1 (R²~0.09) and v2 (R²~0.76)
+
+## Run 20261008_053654
+- Date: 2026-10-08T05:36:56.043554
+- Experiment: **Phương án B v2.5** — Multi-hop middle difficulty
+- HR OOD R²=0.565 (target 0.3–0.5)
+- OOD: HR=0.1286, PureC=0.1255, Spark=0.1285
+- Traj: PureC=0.404, Spark=0.453
+- Best=PureC, wins=3/3
+- Outcome: **UNRESOLVED**
