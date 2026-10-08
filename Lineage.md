@@ -353,3 +353,10 @@
 - Preregister: OOD<0.95×HR ✓ | traj≥0.45 ✓ | wins≥4/5 ✓
 - Outcome: **PASS**
 - Note: seed 99 still outlier on OOD for PC1; overall criteria met. Extra seed 11 PC1 wins but traj low.
+
+## Run 20261008_142013
+- Date: 2026-10-08T14:20:14.163972
+- Experiment: **Typed modules** vs PureC homogeneous (λ=0.15) — điểm gãy specialization
+- HOM OOD=0.4092 traj=0.431
+- TYP OOD=0.4158 traj=0.417 wins_vs_hom=1/3
+- Outcome: **UNRESOLVED**
