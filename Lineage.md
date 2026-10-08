@@ -316,3 +316,22 @@
 - Siết prior quá mạnh = FAIL có kiểm soát (credit assignment over-constraint)
 - Best still L15 (λ=0.15 spread) — traj 0.49 on this seed
 - Outcome partial: **FAIL for tighter prior**; keep λ=0.15
+
+## Run 20261008_5seed_repro_partial4
+- Date: 2026-10-08
+- Experiment: 5-seed reproducibility (4/5 complete; seed 2024 pending)
+- HR OOD≈0.515
+- PC0 OOD≈0.413 traj≈0.38 wins=4/4 ratio≈0.80
+- PC1 (λ=0.15) OOD≈0.430 traj≈0.47 wins=3/4 ratio≈0.84
+- PC1: traj **PASS threshold** (0.47≥0.45); OOD <0.95×HR; wins 3/4 (need 4/5 for formal PASS)
+- Seed 99 outlier: PC1 OOD worse than HR
+- Outcome provisional: **UNRESOLVED** (strong; formal PASS blocked by 1/4 OOD miss + missing 5th seed)
+
+## Run 20261008_5seed_repro_partial4
+- Experiment: 5-seed reproducibility (4/5 complete)
+- HR OOD=0.515
+- PC0 OOD=0.413 traj=0.38 wins=4/4 ratio=0.80
+- PC1 λ=0.15 OOD=0.430 traj=0.47 wins=3/4 ratio=0.84
+- traj PC1 exceeds 0.45; formal PASS needs wins 4/5
+- Outcome: UNRESOLVED (strong)
+
