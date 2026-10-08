@@ -288,3 +288,22 @@
 - Both PureC beat HR by ~20%+ OOD — strongest core signal to date
 - Outcome: **PASS-leaning UNRESOLVED** (need seed 123; traj prior helps)
 - Notes: Core-only; no add-ins. Layout prior raises traj toward 0.45.
+
+## Run 20261008_121151
+- Date: 2026-10-08T12:11:52.732492
+- Experiment: **A-core PureC + layout prior** (bỏ hết add-in)
+- Task: Lookup-Chain L2→L3
+- HR OOD=0.5123 R2=-0.834
+- PureC no-prior OOD=0.3869 traj=0.468
+- PureC+layout OOD=0.4154 traj=0.418
+- Best=PC0, wins=1/3
+- Outcome: **UNRESOLVED**
+
+## Run 20261008_layout_3seed_complete
+- Date: 2026-10-08
+- Experiment: A-core PureC ± layout — **3 seeds full train complete**
+- HR OOD=0.496±0.017
+- PureC no-prior OOD=0.389±0.009 traj=0.415 wins=3/3 ratio=0.79
+- PureC+layout OOD=0.390±0.038 traj=0.442 wins=3/3 ratio=0.79
+- Outcome: **UNRESOLVED** (OOD PASS-level ~21% better; traj 0.44 borderline 0.45)
+- Note: light 10-seed (under-train) flipped — HR stronger when PureC undertrained; full budget needed for routing signal

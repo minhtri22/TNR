@@ -1,0 +1,20 @@
+Device: cpu
+Params HR=57364 PureC=77227
+
+===== SEED 123 =====
+  HR          OOD=0.5123 R2=-0.834
+  PureC       OOD=0.3869 traj=0.468
+  PureC+layout OOD=0.4154 traj=0.418
+
+===== SUMMARY =====
+  HR_OOD: 0.5123 ± 0.0000
+  HR_R2: -0.8344 ± 0.0000
+  PC0_OOD: 0.3869 ± 0.0000
+  PC0_traj: 0.4679 ± 0.0000
+  PC1_OOD: 0.4154 ± 0.0000
+  PC1_traj: 0.4179 ± 0.0000
+
+Best=PC0 OOD=0.3869 traj=0.468 vs HR=0.5123 wins=1/3
+Layout helped traj? PC0=0.468 PC1=0.418
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261008_121151
