@@ -210,3 +210,11 @@
 - Traj: PureC≈0.39, Spiral≈0.53 (higher)
 - Params Spiral≈94k vs HR 40k
 - Outcome: **UNRESOLVED** (OOD no gain; traj up; heavy params)
+
+## Run 20261008_061256
+- Date: 2026-10-08T06:12:58.689042
+- Experiment: **2C + Spiral + F (CCSF)** trên multi-hop v2.5
+- OOD: HR=0.1268, PureC=0.1276, CCSF=0.1284
+- Traj: PureC=0.389, CCSF=0.433
+- Best=PureC, wins=1/3
+- Outcome: **UNRESOLVED**
