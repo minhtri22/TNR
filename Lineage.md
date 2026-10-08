@@ -243,3 +243,9 @@
 - Experiment: **Nén khuôn solo** (bottleneck mold) — chưa lắp TNR
 - OOD: Res=0.1273, Best=MoldOnly_narrow=0.1240
 - Outcome: **UNRESOLVED**
+
+## Run 20261008_064714
+- Date: 2026-10-08T06:47:15.109523
+- Experiment: **Mold hẹp + Spiral combo solo** (Mold→S, S→Mold, Parallel)
+- OOD: Res=0.1249, Best=Res=0.1249
+- Outcome: **UNRESOLVED**

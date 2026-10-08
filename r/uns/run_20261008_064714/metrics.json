@@ -1,0 +1,138 @@
+{
+  "run_id": "20261008_064714",
+  "experiment": "Mold + Spiral combo solo",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Res": [
+      0.12491592268149058,
+      0.0030750383345164905
+    ],
+    "MoldOnly": [
+      0.12542477746804556,
+      0.0022295694019865914
+    ],
+    "SpiralOnly": [
+      0.1251842106382052,
+      0.002944297441154603
+    ],
+    "Mold_then_Spiral": [
+      0.1257759928703308,
+      0.001671177412163483
+    ],
+    "Spiral_then_Mold": [
+      0.12548310061295828,
+      0.002212852922622308
+    ],
+    "Parallel": [
+      0.12562377750873566,
+      0.0024752392415701326
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Res_OOD": 0.12388837337493896,
+      "Res_R2": 0.5663765596665972,
+      "Res_code": 0.0,
+      "Res_theta": 0.0,
+      "params_Res": 29044,
+      "MoldOnly_OOD": 0.1232687383890152,
+      "MoldOnly_R2": 0.5685453620102133,
+      "MoldOnly_code": 1.0956164598464966,
+      "MoldOnly_theta": 0.0,
+      "params_MoldOnly": 3244,
+      "SpiralOnly_OOD": 0.1219857782125473,
+      "SpiralOnly_R2": 0.5730358647448883,
+      "SpiralOnly_code": 0.0,
+      "SpiralOnly_theta": 0.14451628923416138,
+      "params_SpiralOnly": 6773,
+      "Mold_then_Spiral_OOD": 0.12386232614517212,
+      "Mold_then_Spiral_R2": 0.5664677339014744,
+      "Mold_then_Spiral_code": 0.9525312185287476,
+      "Mold_then_Spiral_theta": 0.13704682886600494,
+      "params_Mold_then_Spiral": 7985,
+      "Spiral_then_Mold_OOD": 0.1226499080657959,
+      "Spiral_then_Mold_R2": 0.5707113413858876,
+      "Spiral_then_Mold_code": 1.2425220012664795,
+      "Spiral_then_Mold_theta": 0.13061293959617615,
+      "params_Spiral_then_Mold": 7985,
+      "Parallel_OOD": 0.12300588190555573,
+      "Parallel_R2": 0.5694653825217343,
+      "Parallel_code": 1.213240385055542,
+      "Parallel_theta": 0.17508897185325623,
+      "params_Parallel": 8083
+    },
+    {
+      "seed": 7,
+      "Res_OOD": 0.12908919155597687,
+      "Res_R2": 0.5779459067414032,
+      "Res_code": 0.0,
+      "Res_theta": 0.0,
+      "params_Res": 29044,
+      "MoldOnly_OOD": 0.12849530577659607,
+      "MoldOnly_R2": 0.5798875932166536,
+      "MoldOnly_code": 1.0655525922775269,
+      "MoldOnly_theta": 0.0,
+      "params_MoldOnly": 3244,
+      "SpiralOnly_OOD": 0.1290922909975052,
+      "SpiralOnly_R2": 0.5779357509182932,
+      "SpiralOnly_code": 0.0,
+      "SpiralOnly_theta": 0.16224956512451172,
+      "params_SpiralOnly": 6773,
+      "Mold_then_Spiral_OOD": 0.12793393433094025,
+      "Mold_then_Spiral_R2": 0.5817229820766848,
+      "Mold_then_Spiral_code": 0.9682542085647583,
+      "Mold_then_Spiral_theta": 0.1408068835735321,
+      "params_Mold_then_Spiral": 7985,
+      "Spiral_then_Mold_OOD": 0.12805071473121643,
+      "Spiral_then_Mold_R2": 0.5813411943966791,
+      "Spiral_then_Mold_code": 1.1979658603668213,
+      "Spiral_then_Mold_theta": 0.11523492634296417,
+      "params_Spiral_then_Mold": 7985,
+      "Parallel_OOD": 0.1289452314376831,
+      "Parallel_R2": 0.5784165667822392,
+      "Parallel_code": 1.0653815269470215,
+      "Parallel_theta": 0.14170797169208527,
+      "params_Parallel": 8083
+    },
+    {
+      "seed": 123,
+      "Res_OOD": 0.12177020311355591,
+      "Res_R2": 0.5868276048963916,
+      "Res_code": 0.0,
+      "Res_theta": 0.0,
+      "params_Res": 29044,
+      "MoldOnly_OOD": 0.12451028823852539,
+      "MoldOnly_R2": 0.577530355558969,
+      "MoldOnly_code": 1.1936527490615845,
+      "MoldOnly_theta": 0.0,
+      "params_MoldOnly": 3244,
+      "SpiralOnly_OOD": 0.12447456270456314,
+      "SpiralOnly_R2": 0.5776515802941684,
+      "SpiralOnly_code": 0.0,
+      "SpiralOnly_theta": 0.1766383796930313,
+      "params_SpiralOnly": 6773,
+      "Mold_then_Spiral_OOD": 0.12553171813488007,
+      "Mold_then_Spiral_R2": 0.5740645781005544,
+      "Mold_then_Spiral_code": 1.0530351400375366,
+      "Mold_then_Spiral_theta": 0.16712066531181335,
+      "params_Mold_then_Spiral": 7985,
+      "Spiral_then_Mold_OOD": 0.1257486790418625,
+      "Spiral_then_Mold_R2": 0.5733284281375041,
+      "Spiral_then_Mold_code": 1.2832200527191162,
+      "Spiral_then_Mold_theta": 0.13307447731494904,
+      "params_Spiral_then_Mold": 7985,
+      "Parallel_OOD": 0.12492021918296814,
+      "Parallel_R2": 0.5761394514968625,
+      "Parallel_code": 1.195672869682312,
+      "Parallel_theta": 0.16429375112056732,
+      "params_Parallel": 8083
+    }
+  ],
+  "outcome": "UNRESOLVED",
+  "best": "Res"
+}

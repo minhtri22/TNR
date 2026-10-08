@@ -1,0 +1,37 @@
+Device: cpu
+
+===== SEED 42 =====
+  Res: OOD=0.1239 R2=0.566 code=0.00 |θ|=0.000 p=29044
+  MoldOnly: OOD=0.1233 R2=0.569 code=1.10 |θ|=0.000 p=3244
+  SpiralOnly: OOD=0.1220 R2=0.573 code=0.00 |θ|=0.145 p=6773
+  Mold_then_Spiral: OOD=0.1239 R2=0.566 code=0.95 |θ|=0.137 p=7985
+  Spiral_then_Mold: OOD=0.1226 R2=0.571 code=1.24 |θ|=0.131 p=7985
+  Parallel: OOD=0.1230 R2=0.569 code=1.21 |θ|=0.175 p=8083
+
+===== SEED 7 =====
+  Res: OOD=0.1291 R2=0.578 code=0.00 |θ|=0.000 p=29044
+  MoldOnly: OOD=0.1285 R2=0.580 code=1.07 |θ|=0.000 p=3244
+  SpiralOnly: OOD=0.1291 R2=0.578 code=0.00 |θ|=0.162 p=6773
+  Mold_then_Spiral: OOD=0.1279 R2=0.582 code=0.97 |θ|=0.141 p=7985
+  Spiral_then_Mold: OOD=0.1281 R2=0.581 code=1.20 |θ|=0.115 p=7985
+  Parallel: OOD=0.1289 R2=0.578 code=1.07 |θ|=0.142 p=8083
+
+===== SEED 123 =====
+  Res: OOD=0.1218 R2=0.587 code=0.00 |θ|=0.000 p=29044
+  MoldOnly: OOD=0.1245 R2=0.578 code=1.19 |θ|=0.000 p=3244
+  SpiralOnly: OOD=0.1245 R2=0.578 code=0.00 |θ|=0.177 p=6773
+  Mold_then_Spiral: OOD=0.1255 R2=0.574 code=1.05 |θ|=0.167 p=7985
+  Spiral_then_Mold: OOD=0.1257 R2=0.573 code=1.28 |θ|=0.133 p=7985
+  Parallel: OOD=0.1249 R2=0.576 code=1.20 |θ|=0.164 p=8083
+
+===== SUMMARY =====
+  Res                OOD=0.1249±0.0031 |θ|=0.000 code=0.00
+  MoldOnly           OOD=0.1254±0.0022 |θ|=0.000 code=1.12
+  SpiralOnly         OOD=0.1252±0.0029 |θ|=0.161 code=0.00
+  Mold_then_Spiral   OOD=0.1258±0.0017 |θ|=0.148 code=0.99
+  Spiral_then_Mold   OOD=0.1255±0.0022 |θ|=0.126 code=1.24
+  Parallel           OOD=0.1256±0.0025 |θ|=0.160 code=1.16
+
+Best=Res 0.1249 vs Res 0.1249 ratio=1.000
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261008_064714
