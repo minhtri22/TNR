@@ -184,3 +184,12 @@
 - Best=PureC, wins=2/3
 - Outcome: **UNRESOLVED**
 - Notes: Preregister chặt (0.95× + traj≥0.40). Bắt đầu chuỗi PASS/FAIL để rút kiến trúc.
+
+## Run 20261008_multihop_v2_partial
+- Date: 2026-10-08
+- Experiment: Phương án B v2 — tune difficulty (path ngắn, operator êm)
+- Partial 2/3 seeds: HR OOD R²≈0.76 (target was 0.3–0.5) — **too easy**
+- OOD: HR≈0.130, PureC≈0.134, Spark≈0.132
+- Traj: PureC≈0.41, Spark≈0.49
+- Outcome: **UNRESOLVED** + difficulty overshoot
+- Notes: Need v2.5 middle ground between v1 (R²~0.09) and v2 (R²~0.76)

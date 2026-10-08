@@ -1,0 +1,14 @@
+Device: cpu
+Params: 40044 54759 72103
+
+===== SEED 42 =====
+  HR    OOD=0.1298 R2=0.758 | ID R2=0.803
+  PureC OOD=0.1343 traj=0.417 R2=0.750
+  Spark OOD=0.1305 traj=0.490 R2=0.757
+
+===== SEED 7 =====
+  HR    OOD=0.1307 R2=0.769 | ID R2=0.787
+  PureC OOD=0.1334 traj=0.397 R2=0.764
+  Spark OOD=0.1339 traj=0.499 R2=0.763
+
+===== SEED 123 =====
