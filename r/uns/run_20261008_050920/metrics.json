@@ -1,0 +1,88 @@
+{
+  "run_id": "20261008_050920",
+  "experiment": "Phuong an B: Multi-hop routing-critical task v1",
+  "task": "Distinct operators, path length 3 train / 5 OOD, slot-style writes",
+  "preregistration": "PASS if OOD<0.95*HR AND traj>=0.40 AND wins>=2/3",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "HR_OOD": [
+      0.5035188496112823,
+      0.008384875226522447
+    ],
+    "PureC_OOD": [
+      0.5006372431914011,
+      0.004934673173609459
+    ],
+    "PureC_traj": [
+      0.4566666666666666,
+      0.02867441755680874
+    ],
+    "Spark_OOD": [
+      0.5068663358688354,
+      0.0067460529415361405
+    ],
+    "Spark_traj": [
+      0.42733333333333334,
+      0.05284218292516211
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "HR_OOD": 0.505862832069397,
+      "HR_OOD_r2": 0.07008800823458083,
+      "HR_ID": 0.4239637553691864,
+      "params_hr": 40044,
+      "PureC_OOD": 0.5022208094596863,
+      "PureC_traj": 0.49333333333333335,
+      "PureC_OOD_r2": 0.07678299534252153,
+      "PureC_ID": 0.42316940426826477,
+      "params_PureC": 54759,
+      "Spark_OOD": 0.5104438066482544,
+      "Spark_traj": 0.3526666666666667,
+      "Spark_OOD_r2": 0.06166690895186855,
+      "Spark_ID": 0.42229074239730835,
+      "params_Spark": 72103
+    },
+    {
+      "seed": 7,
+      "HR_OOD": 0.49228015542030334,
+      "HR_OOD_r2": 0.10022032867136299,
+      "HR_ID": 0.41694176197052,
+      "params_hr": 40044,
+      "PureC_OOD": 0.4939593970775604,
+      "PureC_traj": 0.45333333333333325,
+      "PureC_OOD_r2": 0.09715106668177087,
+      "PureC_ID": 0.4148437976837158,
+      "params_PureC": 54759,
+      "Spark_OOD": 0.49741828441619873,
+      "Spark_traj": 0.4673333333333333,
+      "Spark_OOD_r2": 0.09082895872215502,
+      "Spark_ID": 0.4143535792827606,
+      "params_Spark": 72103
+    },
+    {
+      "seed": 123,
+      "HR_OOD": 0.5124135613441467,
+      "HR_OOD_r2": 0.10046729097626772,
+      "HR_ID": 0.41889476776123047,
+      "params_hr": 40044,
+      "PureC_OOD": 0.5057315230369568,
+      "PureC_traj": 0.4233333333333334,
+      "PureC_OOD_r2": 0.112197513143662,
+      "PureC_ID": 0.4168326258659363,
+      "params_PureC": 54759,
+      "Spark_OOD": 0.5127369165420532,
+      "Spark_traj": 0.46199999999999997,
+      "Spark_OOD_r2": 0.09989961749332588,
+      "Spark_ID": 0.41925570368766785,
+      "params_Spark": 72103
+    }
+  ],
+  "outcome": "UNRESOLVED",
+  "best": "PureC"
+}

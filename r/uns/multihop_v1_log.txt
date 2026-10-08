@@ -1,0 +1,35 @@
+Device: cpu
+Params preview:
+  HR=40044
+  PureC=54759
+  Spark=72103
+
+===== SEED 42 =====
+  Y_train var=0.6609 Y_ood var=0.5922
+  HR    OOD=0.5059 R2=0.070
+  PureC OOD=0.5022 traj=0.493 R2=0.077
+  Spark OOD=0.5104 traj=0.353 R2=0.062
+
+===== SEED 7 =====
+  Y_train var=0.6447 Y_ood var=0.5951
+  HR    OOD=0.4923 R2=0.100
+  PureC OOD=0.4940 traj=0.453 R2=0.097
+  Spark OOD=0.4974 traj=0.467 R2=0.091
+
+===== SEED 123 =====
+  Y_train var=0.6611 Y_ood var=0.6149
+  HR    OOD=0.5124 R2=0.100
+  PureC OOD=0.5057 traj=0.423 R2=0.112
+  Spark OOD=0.5127 traj=0.462 R2=0.100
+
+===== SUMMARY =====
+  HR_OOD: 0.5035 ± 0.0084
+  PureC_OOD: 0.5006 ± 0.0049
+  PureC_traj: 0.4567 ± 0.0287
+  Spark_OOD: 0.5069 ± 0.0067
+  Spark_traj: 0.4273 ± 0.0528
+
+Best=PureC OOD=0.5006 traj=0.457 vs HR=0.5035 wins=2/3
+Threshold 0.95*HR=0.4783
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261008_050920

@@ -162,3 +162,25 @@
 - Traj: Spark=0.258, R21=0.232, R11=0.215
 - Best=Spark, ratio=1.53, wins=3/3
 - Outcome: **UNRESOLVED**
+
+## Run 20261008_050749
+- Date: 2026-10-08T05:07:50.703782
+- Experiment: **Phương án B** — Multi-hop routing-critical task v1
+- Task: operator rời rạc (không residual mượt), train path len 3, OOD len 5 + composition mới
+- Backbone: PureC (CCC), Spark (CCFC), HierResidual
+- OOD: HR=0.5035, PureC=0.5006, Spark=0.5069
+- Traj: PureC=0.457, Spark=0.427
+- Best=PureC, wins=2/3
+- Outcome: **UNRESOLVED**
+- Notes: Preregister chặt (0.95× + traj≥0.40). Bắt đầu chuỗi PASS/FAIL để rút kiến trúc.
+
+## Run 20261008_050920
+- Date: 2026-10-08T05:09:21.197753
+- Experiment: **Phương án B** — Multi-hop routing-critical task v1
+- Task: operator rời rạc (không residual mượt), train path len 3, OOD len 5 + composition mới
+- Backbone: PureC (CCC), Spark (CCFC), HierResidual
+- OOD: HR=0.5035, PureC=0.5006, Spark=0.5069
+- Traj: PureC=0.457, Spark=0.427
+- Best=PureC, wins=2/3
+- Outcome: **UNRESOLVED**
+- Notes: Preregister chặt (0.95× + traj≥0.40). Bắt đầu chuỗi PASS/FAIL để rút kiến trúc.
