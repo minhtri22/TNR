@@ -1,0 +1,15 @@
+Device: cpu
+
+===== SEED 2024 =====
+  HR=0.4915  PC0=0.5228 t=0.470  PC1=0.3424 t=0.394
+
+===== SEED 11 =====
+  HR=0.5191  PC0=0.5103 t=0.560  PC1=0.4001 t=0.287
+
+===== 5-SEED SUMMARY =====
+HR:  0.5053 ± 0.0138
+PC0: 0.5166 ± 0.0062  traj=0.515  wins=1/5  ratio=1.022
+PC1: 0.3713 ± 0.0289  traj=0.340  wins=2/5  ratio=0.735
+=== OUTCOME (PC1 primary): UNRESOLVED ===
+Thresholds: OOD<0.95*HR=0.4800  traj>=0.45  wins>=4/5
+Saved /home/workdir/artifacts/r/uns/run_20261008_141050

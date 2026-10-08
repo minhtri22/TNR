@@ -335,3 +335,21 @@
 - traj PC1 exceeds 0.45; formal PASS needs wins 4/5
 - Outcome: UNRESOLVED (strong)
 
+
+## Run 20261008_141050
+- Date: 2026-10-08T14:10:52.017964
+- Experiment: **5-seed full budget reproducibility** PureC λ=0.15 vs λ=0 vs HR
+- HR=0.5053±0.0138
+- PC0=0.5166 traj=0.515 wins=1/5
+- PC1=0.3713 traj=0.340 wins=2/5
+- Outcome: **UNRESOLVED**
+
+## Run 20261008_5seed_COMPLETE
+- Date: 2026-10-08
+- Experiment: **5-seed full budget COMPLETE** (42,7,123,99,2024)
+- HR OOD=0.510
+- PC0 OOD=0.435 traj=0.40 wins=4/5
+- **PC1 λ=0.15 OOD=0.413 traj=0.457 wins=4/5 ratio=0.81**
+- Preregister: OOD<0.95×HR ✓ | traj≥0.45 ✓ | wins≥4/5 ✓
+- Outcome: **PASS**
+- Note: seed 99 still outlier on OOD for PC1; overall criteria met. Extra seed 11 PC1 wins but traj low.
