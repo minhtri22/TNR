@@ -1,0 +1,37 @@
+Device: cpu
+
+===== SEED 42 =====
+  Res: OOD=0.1266 R2=0.557 stat=0.000 params=29044
+  MoldOnly_narrow: OOD=0.1207 R2=0.577 stat=1.155 params=3244
+  MoldOnly_wide: OOD=0.1251 R2=0.562 stat=1.515 params=5572
+  Res_Mold_mid: OOD=0.1229 R2=0.570 stat=0.966 params=25552
+  Res_Mold_end: OOD=0.1235 R2=0.568 stat=0.951 params=25552
+  Res_MultiMold: OOD=0.1262 R2=0.558 stat=1.015 params=29287
+
+===== SEED 7 =====
+  Res: OOD=0.1287 R2=0.579 stat=0.000 params=29044
+  MoldOnly_narrow: OOD=0.1279 R2=0.582 stat=1.071 params=3244
+  MoldOnly_wide: OOD=0.1266 R2=0.586 stat=1.638 params=5572
+  Res_Mold_mid: OOD=0.1263 R2=0.587 stat=1.000 params=25552
+  Res_Mold_end: OOD=0.1277 R2=0.583 stat=0.982 params=25552
+  Res_MultiMold: OOD=0.1288 R2=0.579 stat=1.057 params=29287
+
+===== SEED 123 =====
+  Res: OOD=0.1265 R2=0.571 stat=0.000 params=29044
+  MoldOnly_narrow: OOD=0.1233 R2=0.582 stat=1.207 params=3244
+  MoldOnly_wide: OOD=0.1244 R2=0.578 stat=1.562 params=5572
+  Res_Mold_mid: OOD=0.1240 R2=0.579 stat=1.036 params=25552
+  Res_Mold_end: OOD=0.1264 R2=0.571 stat=0.919 params=25552
+  Res_MultiMold: OOD=0.1235 R2=0.581 stat=1.049 params=29287
+
+===== SUMMARY =====
+  Res                OOD=0.1273±0.0010 R2=0.569 stat=0.000
+  MoldOnly_narrow    OOD=0.1240±0.0029 R2=0.580 stat=1.144
+  MoldOnly_wide      OOD=0.1254±0.0009 R2=0.575 stat=1.572
+  Res_Mold_mid       OOD=0.1244±0.0014 R2=0.579 stat=1.000
+  Res_Mold_end       OOD=0.1259±0.0017 R2=0.574 stat=0.951
+  Res_MultiMold      OOD=0.1262±0.0022 R2=0.573 stat=1.040
+
+Res=0.1273 Best=MoldOnly_narrow 0.1240 ratio=0.974
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261008_064207

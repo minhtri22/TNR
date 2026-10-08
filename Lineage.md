@@ -237,3 +237,9 @@
 - Experiment: **Spiral solo** (chưa gắn Causal) — giả thuyết tách ý nghĩa hút lẫn nhau
 - OOD: Res=0.1266, Best=SpiralOnly_1=0.1250, |theta|=0.142
 - Outcome: **UNRESOLVED**
+
+## Run 20261008_064207
+- Date: 2026-10-08T06:42:07.945920
+- Experiment: **Nén khuôn solo** (bottleneck mold) — chưa lắp TNR
+- OOD: Res=0.1273, Best=MoldOnly_narrow=0.1240
+- Outcome: **UNRESOLVED**

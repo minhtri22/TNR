@@ -1,0 +1,156 @@
+{
+  "run_id": "20261008_064207",
+  "experiment": "Mold compression (nen khuon) SOLO",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Res": {
+      "OOD": [
+        0.12727271020412445,
+        0.001034829624685573
+      ],
+      "R2": [
+        0.5689418386227384,
+        0.009174990513930413
+      ]
+    },
+    "MoldOnly_narrow": {
+      "OOD": [
+        0.12398027628660202,
+        0.002944603150637437
+      ],
+      "R2": [
+        0.580286604300342,
+        0.002065707377128481
+      ]
+    },
+    "MoldOnly_wide": {
+      "OOD": [
+        0.12538490941127142,
+        0.0009352458242364344
+      ],
+      "R2": [
+        0.5753148342560986,
+        0.00988345547341263
+      ]
+    },
+    "Res_Mold_mid": {
+      "OOD": [
+        0.1244081233938535,
+        0.0014164518145313386
+      ],
+      "R2": [
+        0.5786929898577807,
+        0.007072691300826229
+      ]
+    },
+    "Res_Mold_end": {
+      "OOD": [
+        0.12586204210917154,
+        0.001723383560608373
+      ],
+      "R2": [
+        0.5737936872712545,
+        0.0063892273384979536
+      ]
+    },
+    "Res_MultiMold": {
+      "OOD": [
+        0.12618822107712427,
+        0.0021511592165130555
+      ],
+      "R2": [
+        0.5726371649732016,
+        0.010274670738341962
+      ]
+    }
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Res_OOD": 0.12660309672355652,
+      "Res_R2": 0.5568747166119838,
+      "Res_stat": 0.0,
+      "params_Res": 29044,
+      "MoldOnly_narrow_OOD": 0.12074647098779678,
+      "MoldOnly_narrow_R2": 0.5773735838767668,
+      "MoldOnly_narrow_stat": 1.155104637145996,
+      "params_MoldOnly_narrow": 3244,
+      "MoldOnly_wide_OOD": 0.1251002997159958,
+      "MoldOnly_wide_R2": 0.5621347070000937,
+      "MoldOnly_wide_stat": 1.5146374702453613,
+      "params_MoldOnly_wide": 5572,
+      "Res_Mold_mid_OOD": 0.12293490022420883,
+      "Res_Mold_mid_R2": 0.5697138418488288,
+      "Res_Mold_mid_stat": 0.9655025601387024,
+      "params_Res_Mold_mid": 25552,
+      "Res_Mold_end_OOD": 0.12354293465614319,
+      "Res_Mold_end_R2": 0.5675856292064299,
+      "Res_Mold_end_stat": 0.9507721662521362,
+      "params_Res_Mold_end": 25552,
+      "Res_MultiMold_OOD": 0.12623853981494904,
+      "Res_MultiMold_R2": 0.5581507362698959,
+      "Res_MultiMold_stat": 1.0151183605194092,
+      "params_Res_MultiMold": 29287
+    },
+    {
+      "seed": 7,
+      "Res_OOD": 0.12873446941375732,
+      "Res_R2": 0.5791056661061098,
+      "Res_stat": 0.0,
+      "params_Res": 29044,
+      "MoldOnly_narrow_OOD": 0.1278693825006485,
+      "MoldOnly_narrow_R2": 0.5819340450250396,
+      "MoldOnly_narrow_stat": 1.070710003376007,
+      "params_MoldOnly_narrow": 3244,
+      "MoldOnly_wide_OOD": 0.12664581835269928,
+      "MoldOnly_wide_R2": 0.5859344415653424,
+      "MoldOnly_wide_stat": 1.6379188299179077,
+      "params_MoldOnly_wide": 5572,
+      "Res_Mold_mid_OOD": 0.12632019817829132,
+      "Res_Mold_mid_R2": 0.5869990569030175,
+      "Res_Mold_mid_stat": 0.9997982382774353,
+      "params_Res_Mold_mid": 25552,
+      "Res_Mold_end_OOD": 0.12767073512077332,
+      "Res_Mold_end_R2": 0.5825835188215475,
+      "Res_Mold_end_stat": 0.9822487235069275,
+      "params_Res_Mold_end": 25552,
+      "Res_MultiMold_OOD": 0.12879732251167297,
+      "Res_MultiMold_R2": 0.5789001621346153,
+      "Res_MultiMold_stat": 1.0574986934661865,
+      "params_Res_MultiMold": 29287
+    },
+    {
+      "seed": 123,
+      "Res_OOD": 0.1264805644750595,
+      "Res_R2": 0.5708451331501214,
+      "Res_stat": 0.0,
+      "params_Res": 29044,
+      "MoldOnly_narrow_OOD": 0.12332497537136078,
+      "MoldOnly_narrow_R2": 0.5815521839992195,
+      "MoldOnly_narrow_stat": 1.2074240446090698,
+      "params_MoldOnly_narrow": 3244,
+      "MoldOnly_wide_OOD": 0.12440861016511917,
+      "MoldOnly_wide_R2": 0.5778753542028602,
+      "MoldOnly_wide_stat": 1.5624336004257202,
+      "params_MoldOnly_wide": 5572,
+      "Res_Mold_mid_OOD": 0.12396927177906036,
+      "Res_Mold_mid_R2": 0.5793660708214959,
+      "Res_Mold_mid_stat": 1.0358353853225708,
+      "params_Res_Mold_mid": 25552,
+      "Res_Mold_end_OOD": 0.12637245655059814,
+      "Res_Mold_end_R2": 0.5712119137857858,
+      "Res_Mold_end_stat": 0.9192365407943726,
+      "params_Res_Mold_end": 25552,
+      "Res_MultiMold_OOD": 0.12352880090475082,
+      "Res_MultiMold_R2": 0.5808605965150937,
+      "Res_MultiMold_stat": 1.0485138893127441,
+      "params_Res_MultiMold": 29287
+    }
+  ],
+  "outcome": "UNRESOLVED",
+  "best": "MoldOnly_narrow"
+}
