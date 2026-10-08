@@ -1,0 +1,21 @@
+Device: cpu
+Params HR=66772 PureC=77227
+
+===== SEED 42 =====
+  HR    OOD=0.7734 R2=-0.768 | ID R2=0.872
+  PureC OOD=0.7635 R2=-0.745 traj=0.539 win=True
+
+===== SEED 7 =====
+  HR    OOD=0.8051 R2=-0.798 | ID R2=0.849
+  PureC OOD=0.8036 R2=-0.795 traj=0.409 win=True
+
+===== SEED 123 =====
+  HR    OOD=0.8284 R2=-0.836 | ID R2=0.854
+  PureC OOD=0.8300 R2=-0.839 traj=0.543 win=False
+
+===== SUMMARY =====
+  HR    OOD=0.8023 R2=-0.800
+  PureC OOD=0.7990 R2=-0.793 traj=0.497
+  wins=2/3  band_ok=False
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261008_084801

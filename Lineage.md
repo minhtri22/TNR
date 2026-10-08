@@ -269,3 +269,11 @@
 - Experiment: **PureC difficulty ladder (B)** — chỉ HR vs PureC, 3 mức EASY/MID/HARD
 - Không add-in. Preregister PASS: HR_R2∈[0.25,0.55] ∧ OOD<0.95×HR ∧ traj≥0.40 ∧ wins≥2/3
 - Results in metrics.json / console summary
+
+## Run 20261008_084801
+- Date: 2026-10-08T08:48:04.020854
+- Experiment: **Task mới Lookup-Chain** (hard transform select, weak endpoint hint)
+- Backbone: chỉ HR vs PureC
+- HR OOD R²=-0.800 (target band 0.25–0.55: NO)
+- OOD: HR=0.8023, PureC=0.7990, traj=0.497, wins=2/3
+- Outcome: **UNRESOLVED**
