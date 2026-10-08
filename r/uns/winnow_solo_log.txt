@@ -1,0 +1,46 @@
+Device: cpu
+
+===== SEED 42 =====
+  MLP: OOD=0.1216 R2=0.574 sp=0.00
+  MLP_WinnowMag: OOD=0.1456 R2=0.490 sp=0.50
+  MLP_WinnowLearn: OOD=0.1248 R2=0.563 sp=0.00
+  Res: OOD=0.1235 R2=0.568 sp=0.00
+  Res_WinnowMag_in: OOD=0.1459 R2=0.489 sp=0.50
+  Res_WinnowLearn_in: OOD=0.1230 R2=0.570 sp=0.00
+  Res_WinnowMag_mid: OOD=0.1296 R2=0.546 sp=0.50
+  Res_WinnowLearn_mid: OOD=0.1217 R2=0.574 sp=0.00
+
+===== SEED 7 =====
+  MLP: OOD=0.1265 R2=0.586 sp=0.00
+  MLP_WinnowMag: OOD=0.1490 R2=0.513 sp=0.50
+  MLP_WinnowLearn: OOD=0.1261 R2=0.588 sp=0.00
+  Res: OOD=0.1285 R2=0.580 sp=0.00
+  Res_WinnowMag_in: OOD=0.1497 R2=0.511 sp=0.50
+  Res_WinnowLearn_in: OOD=0.1308 R2=0.572 sp=0.00
+  Res_WinnowMag_mid: OOD=0.1295 R2=0.577 sp=0.50
+  Res_WinnowLearn_mid: OOD=0.1296 R2=0.576 sp=0.01
+
+===== SEED 123 =====
+  MLP: OOD=0.1244 R2=0.578 sp=0.00
+  MLP_WinnowMag: OOD=0.1473 R2=0.500 sp=0.50
+  MLP_WinnowLearn: OOD=0.1266 R2=0.571 sp=0.00
+  Res: OOD=0.1246 R2=0.577 sp=0.00
+  Res_WinnowMag_in: OOD=0.1506 R2=0.489 sp=0.50
+  Res_WinnowLearn_in: OOD=0.1276 R2=0.567 sp=0.00
+  Res_WinnowMag_mid: OOD=0.1294 R2=0.561 sp=0.50
+  Res_WinnowLearn_mid: OOD=0.1265 R2=0.571 sp=0.01
+
+===== SUMMARY (mean ± std) =====
+  MLP                    OOD=0.1242±0.0020  R2=0.579  sparsity=0.00
+  MLP_WinnowMag          OOD=0.1473±0.0014  R2=0.501  sparsity=0.50
+  MLP_WinnowLearn        OOD=0.1258±0.0008  R2=0.574  sparsity=0.00
+  Res                    OOD=0.1256±0.0021  R2=0.575  sparsity=0.00
+  Res_WinnowMag_in       OOD=0.1487±0.0020  R2=0.496  sparsity=0.50
+  Res_WinnowLearn_in     OOD=0.1271±0.0032  R2=0.570  sparsity=0.00
+  Res_WinnowMag_mid      OOD=0.1295±0.0001  R2=0.561  sparsity=0.50
+  Res_WinnowLearn_mid    OOD=0.1259±0.0032  R2=0.574  sparsity=0.01
+
+Res OOD=0.1256  BestWinnow=Res_WinnowLearn_mid OOD=0.1259 sp=0.01
+Relative: 1.0030
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261008_062448

@@ -218,3 +218,10 @@
 - Traj: PureC=0.389, CCSF=0.433
 - Best=PureC, wins=1/3
 - Outcome: **UNRESOLVED**
+
+## Run 20261008_062448
+- Date: 2026-10-08T06:24:49.353459
+- Experiment: **Winnow solo** (sàng thóc) trên multi-hop v2.5 — chưa lắp Causal/Spiral
+- Res OOD=0.1256; Best winnow=Res_WinnowLearn_mid OOD=0.1259 sparsity=0.01
+- Outcome: **UNRESOLVED**
+- Notes: Mag=topk |h|; Learned=sigmoid gate. input vs mid position.
