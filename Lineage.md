@@ -231,3 +231,9 @@
 - Experiment: **Split heavy/light + gated recombine** (không loại trấu) — solo
 - OOD: Res=0.1251, MagGate=0.1263, LearnGate=0.1228
 - Outcome: **UNRESOLVED**
+
+## Run 20261008_063626
+- Date: 2026-10-08T06:36:27.611948
+- Experiment: **Spiral solo** (chưa gắn Causal) — giả thuyết tách ý nghĩa hút lẫn nhau
+- OOD: Res=0.1266, Best=SpiralOnly_1=0.1250, |theta|=0.142
+- Outcome: **UNRESOLVED**

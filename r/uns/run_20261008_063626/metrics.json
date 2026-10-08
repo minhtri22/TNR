@@ -1,0 +1,170 @@
+{
+  "run_id": "20261008_063626",
+  "experiment": "Spiral SOLO \u2014 understand rotation without Causal",
+  "hypothesis": "Spiral separates meanings that absorb each other",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Res": {
+      "OOD": [
+        0.1266409531235695,
+        0.0039648759788224195
+      ],
+      "theta": [
+        0.0,
+        0.0
+      ],
+      "delta": [
+        0.0,
+        0.0
+      ]
+    },
+    "SpiralOnly_1": {
+      "OOD": [
+        0.125030683974425,
+        0.0011564948437804287
+      ],
+      "theta": [
+        0.14243834714094797,
+        0.00795760756469691
+      ],
+      "delta": [
+        1.3958712418874104,
+        0.07712672992714861
+      ]
+    },
+    "SpiralOnly_2": {
+      "OOD": [
+        0.12643189479907355,
+        0.0029976868091744564
+      ],
+      "theta": [
+        0.14012417321403822,
+        0.005907679330271974
+      ],
+      "delta": [
+        1.5026732881863911,
+        0.07445021419138285
+      ]
+    },
+    "Res_Spiral_mid": {
+      "OOD": [
+        0.1265743374824524,
+        0.0014220121289985625
+      ],
+      "theta": [
+        0.12451909730831782,
+        0.00924745980527023
+      ],
+      "delta": [
+        1.2603259881337483,
+        0.025522484098400494
+      ]
+    },
+    "Res_Spiral_end": {
+      "OOD": [
+        0.12807210783163706,
+        0.0018685370874038504
+      ],
+      "theta": [
+        0.12950023263692856,
+        0.01568357927978194
+      ],
+      "delta": [
+        1.2572203874588013,
+        0.0862638316397434
+      ]
+    }
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Res_OOD": 0.12617413699626923,
+      "Res_R2": 0.5583761540748707,
+      "Res_theta": 0.0,
+      "Res_delta": 0.0,
+      "params_Res": 29044,
+      "SpiralOnly_1_OOD": 0.123444102704525,
+      "SpiralOnly_1_R2": 0.5679315572239475,
+      "SpiralOnly_1_theta": 0.1350969821214676,
+      "SpiralOnly_1_delta": 1.3074663877487183,
+      "params_SpiralOnly_1": 6773,
+      "SpiralOnly_2_OOD": 0.12328263372182846,
+      "SpiralOnly_2_R2": 0.5684967230355402,
+      "SpiralOnly_2_theta": 0.1377589926123619,
+      "SpiralOnly_2_delta": 1.4907596707344055,
+      "params_SpiralOnly_2": 12726,
+      "Res_Spiral_mid_OOD": 0.12621410191059113,
+      "Res_Spiral_mid_R2": 0.5582362645688896,
+      "Res_Spiral_mid_theta": 0.1330256313085556,
+      "Res_Spiral_mid_delta": 1.2246891260147095,
+      "params_Res_Spiral_mid": 30293,
+      "Res_Spiral_end_OOD": 0.12550494074821472,
+      "Res_Spiral_end_R2": 0.5607183782058308,
+      "Res_Spiral_end_theta": 0.11604434251785278,
+      "Res_Spiral_end_delta": 1.3434191942214966,
+      "params_Res_Spiral_end": 30293
+    },
+    {
+      "seed": 7,
+      "Res_OOD": 0.13171346485614777,
+      "Res_R2": 0.5693659110333187,
+      "Res_theta": 0.0,
+      "Res_delta": 0.0,
+      "params_Res": 29044,
+      "SpiralOnly_1_OOD": 0.1261679083108902,
+      "SpiralOnly_1_R2": 0.5874969773111489,
+      "SpiralOnly_1_theta": 0.13872231543064117,
+      "SpiralOnly_1_delta": 1.3847452402114868,
+      "params_SpiralOnly_1": 6773,
+      "SpiralOnly_2_OOD": 0.1304643303155899,
+      "SpiralOnly_2_R2": 0.5734499416677947,
+      "SpiralOnly_2_theta": 0.13436735048890114,
+      "SpiralOnly_2_delta": 1.5992270112037659,
+      "params_SpiralOnly_2": 12726,
+      "Res_Spiral_mid_OOD": 0.1284678876399994,
+      "Res_Spiral_mid_R2": 0.5799772495357589,
+      "Res_Spiral_mid_theta": 0.11166336387395859,
+      "Res_Spiral_mid_delta": 1.2831048965454102,
+      "params_Res_Spiral_mid": 30293,
+      "Res_Spiral_end_OOD": 0.12989826500415802,
+      "Res_Spiral_end_R2": 0.5753006533486587,
+      "Res_Spiral_end_theta": 0.12095839530229568,
+      "Res_Spiral_end_delta": 1.288883924484253,
+      "params_Res_Spiral_end": 30293
+    },
+    {
+      "seed": 123,
+      "Res_OOD": 0.12203525751829147,
+      "Res_R2": 0.5859282564109388,
+      "Res_theta": 0.0,
+      "Res_delta": 0.0,
+      "params_Res": 29044,
+      "SpiralOnly_1_OOD": 0.1254800409078598,
+      "SpiralOnly_1_R2": 0.5742399434740492,
+      "SpiralOnly_1_theta": 0.15349574387073517,
+      "SpiralOnly_1_delta": 1.4954020977020264,
+      "params_SpiralOnly_1": 6773,
+      "SpiralOnly_2_OOD": 0.12554872035980225,
+      "SpiralOnly_2_R2": 0.5740069242377797,
+      "SpiralOnly_2_theta": 0.1482461765408516,
+      "SpiralOnly_2_delta": 1.4180331826210022,
+      "params_SpiralOnly_2": 12726,
+      "Res_Spiral_mid_OOD": 0.12504102289676666,
+      "Res_Spiral_mid_R2": 0.5757295506533756,
+      "Res_Spiral_mid_theta": 0.12886829674243927,
+      "Res_Spiral_mid_delta": 1.2731839418411255,
+      "params_Res_Spiral_mid": 30293,
+      "Res_Spiral_end_OOD": 0.12881311774253845,
+      "Res_Spiral_end_R2": 0.5629306519865369,
+      "Res_Spiral_end_theta": 0.1514979600906372,
+      "Res_Spiral_end_delta": 1.1393580436706543,
+      "params_Res_Spiral_end": 30293
+    }
+  ],
+  "outcome": "UNRESOLVED",
+  "best": "SpiralOnly_1"
+}

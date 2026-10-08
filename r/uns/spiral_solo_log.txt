@@ -1,0 +1,33 @@
+Device: cpu
+
+===== SEED 42 =====
+  Res: OOD=0.1262 R2=0.558 |theta|=0.000 delta_norm=0.000
+  SpiralOnly_1: OOD=0.1234 R2=0.568 |theta|=0.135 delta_norm=1.307
+  SpiralOnly_2: OOD=0.1233 R2=0.568 |theta|=0.138 delta_norm=1.491
+  Res_Spiral_mid: OOD=0.1262 R2=0.558 |theta|=0.133 delta_norm=1.225
+  Res_Spiral_end: OOD=0.1255 R2=0.561 |theta|=0.116 delta_norm=1.343
+
+===== SEED 7 =====
+  Res: OOD=0.1317 R2=0.569 |theta|=0.000 delta_norm=0.000
+  SpiralOnly_1: OOD=0.1262 R2=0.587 |theta|=0.139 delta_norm=1.385
+  SpiralOnly_2: OOD=0.1305 R2=0.573 |theta|=0.134 delta_norm=1.599
+  Res_Spiral_mid: OOD=0.1285 R2=0.580 |theta|=0.112 delta_norm=1.283
+  Res_Spiral_end: OOD=0.1299 R2=0.575 |theta|=0.121 delta_norm=1.289
+
+===== SEED 123 =====
+  Res: OOD=0.1220 R2=0.586 |theta|=0.000 delta_norm=0.000
+  SpiralOnly_1: OOD=0.1255 R2=0.574 |theta|=0.153 delta_norm=1.495
+  SpiralOnly_2: OOD=0.1255 R2=0.574 |theta|=0.148 delta_norm=1.418
+  Res_Spiral_mid: OOD=0.1250 R2=0.576 |theta|=0.129 delta_norm=1.273
+  Res_Spiral_end: OOD=0.1288 R2=0.563 |theta|=0.151 delta_norm=1.139
+
+===== SUMMARY =====
+  Res              OOD=0.1266±0.0040 R2=0.571 |theta|=0.000 delta=0.000
+  SpiralOnly_1     OOD=0.1250±0.0012 R2=0.577 |theta|=0.142 delta=1.396
+  SpiralOnly_2     OOD=0.1264±0.0030 R2=0.572 |theta|=0.140 delta=1.503
+  Res_Spiral_mid   OOD=0.1266±0.0014 R2=0.571 |theta|=0.125 delta=1.260
+  Res_Spiral_end   OOD=0.1281±0.0019 R2=0.566 |theta|=0.130 delta=1.257
+
+Res=0.1266 Best=SpiralOnly_1 0.1250 |theta|=0.142
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261008_063626
