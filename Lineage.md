@@ -153,3 +153,12 @@
 - Traj: Pure=0.250, Inter=0.266
 - Outcome: **PASS** (best=Inter)
 - Notes: Layer giữa = mọi module nối mọi module (parallel message). Hai lớp ngoài = KV_causal.
+
+## Run 20261008_041827
+- Date: 2026-10-08T04:18:29.276534
+- Experiment: Spark-X2.5 inspired Hybrid (CCFC=3C+1F) vs R21(CFC) vs R11(CFCF)
+- Audit prior PASS: razor-thin, param +36%, only 3 seeds → treated as fragile
+- OOD mean: HR=0.1880, Spark=0.1793, R21=0.1804, R11=0.1813
+- Traj: Spark=0.258, R21=0.232, R11=0.215
+- Best=Spark, ratio=1.53, wins=3/3
+- Outcome: **UNRESOLVED**

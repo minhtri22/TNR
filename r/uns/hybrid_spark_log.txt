@@ -1,0 +1,39 @@
+Device: cpu
+Param preview:
+  HR: 38056
+  Spark (CCFC): 58271
+  R21 (CFC): 43800
+  R11 (CFCF): 57898
+
+===== SEED 42 =====
+  HR    OOD=0.1848
+  Spark OOD=0.1795 traj=0.256
+  R21   OOD=0.1800 traj=0.229
+  R11   OOD=0.1812 traj=0.220
+
+===== SEED 7 =====
+  HR    OOD=0.1879
+  Spark OOD=0.1722 traj=0.285
+  R21   OOD=0.1727 traj=0.227
+  R11   OOD=0.1782 traj=0.222
+
+===== SEED 123 =====
+  HR    OOD=0.1913
+  Spark OOD=0.1861 traj=0.233
+  R21   OOD=0.1886 traj=0.242
+  R11   OOD=0.1845 traj=0.203
+
+===== SUMMARY =====
+  HR_OOD: 0.1880 ± 0.0026
+  Spark_OOD: 0.1793 ± 0.0057
+  Spark_traj: 0.2580 ± 0.0213
+  R21_OOD: 0.1804 ± 0.0065
+  R21_traj: 0.2323 ± 0.0067
+  R11_OOD: 0.1813 ± 0.0026
+  R11_traj: 0.2152 ± 0.0084
+
+Best hybrid: Spark OOD=0.1793 vs HR=0.1880
+Param ratio: 1.53  Wins: 3/3
+Threshold 0.97*HR = 0.1824
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261008_041827
