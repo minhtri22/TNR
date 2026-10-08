@@ -1,0 +1,15 @@
+Device: cpu  N_SEEDS=100
+  [20/100] Res=0.1259 Mold=0.1255 MS=0.1261 wins_M=13/20 wins_MS=6/20
+  [40/100] Res=0.1255 Mold=0.1253 MS=0.1257 wins_M=22/40 wins_MS=12/40
+  [60/100] Res=0.1252 Mold=0.1250 MS=0.1255 wins_M=32/60 wins_MS=20/60
+  [80/100] Res=0.1250 Mold=0.1248 MS=0.1253 wins_M=44/80 wins_MS=29/80
+  [100/100] Res=0.1251 Mold=0.1249 MS=0.1253 wins_M=53/100 wins_MS=40/100
+
+===== FINAL 100 SEEDS =====
+Res:        0.1251 ± 0.0045
+MoldOnly:   0.1249 ± 0.0045  wins=53/100
+MoldSpiral: 0.1253 ± 0.0043  wins=40/100
+Mold vs Res delta: -0.10%
+MS vs Res delta:   0.17%
+Mold-Res mean diff=-0.00012 se=0.00014
+Saved /home/workdir/artifacts/r/uns/run_20261008_065124

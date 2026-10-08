@@ -249,3 +249,11 @@
 - Experiment: **Mold hẹp + Spiral combo solo** (Mold→S, S→Mold, Parallel)
 - OOD: Res=0.1249, Best=Res=0.1249
 - Outcome: **UNRESOLVED**
+
+## Run 20261008_065124
+- Date: 2026-10-08T06:51:27.710006
+- Experiment: Multi-seed n=100 Res vs Mold vs Mold→Spiral (light train)
+- Res=0.1251±0.0045
+- Mold=0.1249±0.0045 wins=53/100
+- MoldSpiral=0.1253±0.0043 wins=40/100
+- Note: requested 1000; ran 100 (feasible). Statistical picture stabilizes.
