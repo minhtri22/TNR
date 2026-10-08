@@ -257,3 +257,15 @@
 - Mold=0.1249±0.0045 wins=53/100
 - MoldSpiral=0.1253±0.0043 wins=40/100
 - Note: requested 1000; ran 100 (feasible). Statistical picture stabilizes.
+
+## Run 20261008_071006
+- Date: 2026-10-08T07:10:08.346375
+- Experiment: **PureC difficulty ladder (B)** — chỉ HR vs PureC, 3 mức EASY/MID/HARD
+- Không add-in. Preregister PASS: HR_R2∈[0.25,0.55] ∧ OOD<0.95×HR ∧ traj≥0.40 ∧ wins≥2/3
+- Results in metrics.json / console summary
+
+## Run 20261008_071123
+- Date: 2026-10-08T07:11:24.660862
+- Experiment: **PureC difficulty ladder (B)** — chỉ HR vs PureC, 3 mức EASY/MID/HARD
+- Không add-in. Preregister PASS: HR_R2∈[0.25,0.55] ∧ OOD<0.95×HR ∧ traj≥0.40 ∧ wins≥2/3
+- Results in metrics.json / console summary

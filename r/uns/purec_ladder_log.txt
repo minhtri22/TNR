@@ -1,0 +1,23 @@
+Device: cpu
+Params HR=40044 PureC=54759
+
+########## DIFFICULTY: EASY ##########
+  seed 42: HR OOD=0.1358 R2=0.604 | PureC OOD=0.1348 traj=0.369 win=True
+  seed 7: HR OOD=0.1399 R2=0.630 | PureC OOD=0.1402 traj=0.292 win=False
+  >> EASY: HR_R2=0.617 HR_OOD=0.1379 PureC_OOD=0.1375 traj=0.330 wins=1/3 → **UNRESOLVED**
+
+########## DIFFICULTY: MID ##########
+  seed 42: HR OOD=0.0851 R2=0.726 | PureC OOD=0.0855 traj=0.327 win=False
+  seed 7: HR OOD=0.0872 R2=0.733 | PureC OOD=0.0903 traj=0.280 win=False
+  >> MID: HR_R2=0.730 HR_OOD=0.0862 PureC_OOD=0.0879 traj=0.304 wins=0/3 → **UNRESOLVED**
+
+########## DIFFICULTY: HARD ##########
+  seed 42: HR OOD=0.0548 R2=0.800 | PureC OOD=0.0544 traj=0.331 win=True
+  seed 7: HR OOD=0.0524 R2=0.822 | PureC OOD=0.0526 traj=0.315 win=False
+  >> HARD: HR_R2=0.811 HR_OOD=0.0536 PureC_OOD=0.0535 traj=0.323 wins=1/3 → **UNRESOLVED**
+
+===== LADDER SUMMARY =====
+  EASY   HR_R2=0.617  OOD HR=0.1379 PureC=0.1375  traj=0.330  wins=1/3  → UNRESOLVED
+  MID    HR_R2=0.730  OOD HR=0.0862 PureC=0.0879  traj=0.304  wins=0/3  → UNRESOLVED
+  HARD   HR_R2=0.811  OOD HR=0.0536 PureC=0.0535  traj=0.323  wins=1/3  → UNRESOLVED
+Saved /home/workdir/artifacts/r/uns/run_20261008_071123

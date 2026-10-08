@@ -1,0 +1,75 @@
+{
+  "run_id": "20261008_071123",
+  "experiment": "PureC difficulty ladder (B) \u2014 no add-ins",
+  "preregistration": {
+    "PASS": "HR_R2 in [0.25,0.55] AND PureC_OOD < 0.95*HR AND traj>=0.40 AND wins>=2/3",
+    "FAIL": "PureC_OOD > 1.05*HR",
+    "else": "UNRESOLVED"
+  },
+  "seeds": [
+    42,
+    7
+  ],
+  "per_seed": [
+    {
+      "diff": "EASY",
+      "seed": 42,
+      "HR_OOD": 0.13576024770736694,
+      "HR_R2": 0.6040126471261373,
+      "PureC_OOD": 0.1347968727350235,
+      "PureC_traj": 0.369047619047619,
+      "PureC_R2": 0.6068226312262841,
+      "win": true
+    },
+    {
+      "diff": "EASY",
+      "seed": 7,
+      "HR_OOD": 0.13994987308979034,
+      "HR_R2": 0.6297002316690933,
+      "PureC_OOD": 0.1402379721403122,
+      "PureC_traj": 0.29166666666666663,
+      "PureC_R2": 0.6289379430857281,
+      "win": false
+    },
+    {
+      "diff": "MID",
+      "seed": 42,
+      "HR_OOD": 0.08509080857038498,
+      "HR_R2": 0.726197165556393,
+      "PureC_OOD": 0.08545996248722076,
+      "PureC_traj": 0.3267857142857143,
+      "PureC_R2": 0.725009330624622,
+      "win": false
+    },
+    {
+      "diff": "MID",
+      "seed": 7,
+      "HR_OOD": 0.08722760528326035,
+      "HR_R2": 0.7330641717273502,
+      "PureC_OOD": 0.09029338508844376,
+      "PureC_traj": 0.28035714285714286,
+      "PureC_R2": 0.7236822057920609,
+      "win": false
+    },
+    {
+      "diff": "HARD",
+      "seed": 42,
+      "HR_OOD": 0.05476789176464081,
+      "HR_R2": 0.7995314798942355,
+      "PureC_OOD": 0.0544227659702301,
+      "PureC_traj": 0.3307142857142857,
+      "PureC_R2": 0.8007947567583258,
+      "win": true
+    },
+    {
+      "diff": "HARD",
+      "seed": 7,
+      "HR_OOD": 0.05243910104036331,
+      "HR_R2": 0.8219891530992817,
+      "PureC_OOD": 0.052575159817934036,
+      "PureC_traj": 0.315,
+      "PureC_R2": 0.821527283234299,
+      "win": false
+    }
+  ]
+}
