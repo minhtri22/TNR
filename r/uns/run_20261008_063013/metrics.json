@@ -1,0 +1,89 @@
+{
+  "run_id": "20261008_063013",
+  "experiment": "Winnow Split+Gate (keep both heavy and light, gated recombine)",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Res_OOD": [
+      0.125077615181605,
+      0.0013417268456096326
+    ],
+    "Mag_OOD": [
+      0.12627558410167694,
+      0.001316743873865015
+    ],
+    "Learn_OOD": [
+      0.12279948840538661,
+      0.002925875286350833
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Res_OOD": 0.12480069696903229,
+      "Res_OOD_r2": 0.5631833251458287,
+      "Res_ID": 0.13475915789604187,
+      "Res_heavy_frac": 0.0,
+      "Res_gate": 0.0,
+      "params_Res": 29044,
+      "SplitMag_Gate_OOD": 0.12617285549640656,
+      "SplitMag_Gate_OOD_r2": 0.558380617416076,
+      "SplitMag_Gate_ID": 0.1350073218345642,
+      "SplitMag_Gate_heavy_frac": 0.5,
+      "SplitMag_Gate_gate": 0.49304425716400146,
+      "params_SplitMag_Gate": 38404,
+      "SplitLearn_Gate_OOD": 0.12100978195667267,
+      "SplitLearn_Gate_OOD_r2": 0.5764519611401978,
+      "SplitLearn_Gate_ID": 0.13485708832740784,
+      "SplitLearn_Gate_heavy_frac": 0.5071742534637451,
+      "SplitLearn_Gate_gate": 0.511680006980896,
+      "params_SplitLearn_Gate": 43108
+    },
+    {
+      "seed": 7,
+      "Res_OOD": 0.1235903948545456,
+      "Res_OOD_r2": 0.5959241011555761,
+      "Res_ID": 0.14352409541606903,
+      "Res_heavy_frac": 0.0,
+      "Res_gate": 0.0,
+      "params_Res": 29044,
+      "SplitMag_Gate_OOD": 0.1279371678829193,
+      "SplitMag_Gate_OOD_r2": 0.5817124342744371,
+      "SplitMag_Gate_ID": 0.1438341587781906,
+      "SplitMag_Gate_heavy_frac": 0.5,
+      "SplitMag_Gate_gate": 0.45720866322517395,
+      "params_SplitMag_Gate": 38404,
+      "SplitLearn_Gate_OOD": 0.1269252598285675,
+      "SplitLearn_Gate_OOD_r2": 0.5850208094645708,
+      "SplitLearn_Gate_ID": 0.14347127079963684,
+      "SplitLearn_Gate_heavy_frac": 0.5071160197257996,
+      "SplitLearn_Gate_gate": 0.5040796995162964,
+      "params_SplitLearn_Gate": 43108
+    },
+    {
+      "seed": 123,
+      "Res_OOD": 0.12684175372123718,
+      "Res_OOD_r2": 0.5696196095077257,
+      "Res_ID": 0.14142917096614838,
+      "Res_heavy_frac": 0.0,
+      "Res_gate": 0.0,
+      "params_Res": 29044,
+      "SplitMag_Gate_OOD": 0.12471672892570496,
+      "SplitMag_Gate_OOD_r2": 0.5768298925603687,
+      "SplitMag_Gate_ID": 0.14149512350559235,
+      "SplitMag_Gate_heavy_frac": 0.5,
+      "SplitMag_Gate_gate": 0.5062059164047241,
+      "params_SplitMag_Gate": 38404,
+      "SplitLearn_Gate_OOD": 0.12046342343091965,
+      "SplitLearn_Gate_OOD_r2": 0.591261590040058,
+      "SplitLearn_Gate_ID": 0.14158664643764496,
+      "SplitLearn_Gate_heavy_frac": 0.494032621383667,
+      "SplitLearn_Gate_gate": 0.5003319382667542,
+      "params_SplitLearn_Gate": 43108
+    }
+  ],
+  "outcome": "UNRESOLVED"
+}

@@ -1,0 +1,25 @@
+Device: cpu
+
+===== SEED 42 =====
+  Res: OOD=0.1248 R2=0.563 heavy_frac=0.00 gate=0.00
+  SplitMag_Gate: OOD=0.1262 R2=0.558 heavy_frac=0.50 gate=0.49
+  SplitLearn_Gate: OOD=0.1210 R2=0.576 heavy_frac=0.51 gate=0.51
+
+===== SEED 7 =====
+  Res: OOD=0.1236 R2=0.596 heavy_frac=0.00 gate=0.00
+  SplitMag_Gate: OOD=0.1279 R2=0.582 heavy_frac=0.50 gate=0.46
+  SplitLearn_Gate: OOD=0.1269 R2=0.585 heavy_frac=0.51 gate=0.50
+
+===== SEED 123 =====
+  Res: OOD=0.1268 R2=0.570 heavy_frac=0.00 gate=0.00
+  SplitMag_Gate: OOD=0.1247 R2=0.577 heavy_frac=0.50 gate=0.51
+  SplitLearn_Gate: OOD=0.1205 R2=0.591 heavy_frac=0.49 gate=0.50
+
+===== SUMMARY =====
+  Res: OOD=0.1251±0.0013 R2=0.576 heavy=0.00 gate=0.00
+  SplitMag_Gate: OOD=0.1263±0.0013 R2=0.572 heavy=0.50 gate=0.49
+  SplitLearn_Gate: OOD=0.1228±0.0029 R2=0.584 heavy=0.50 gate=0.51
+
+Res=0.1251 Mag=0.1263 Learn=0.1228
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261008_063013

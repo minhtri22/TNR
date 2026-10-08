@@ -225,3 +225,9 @@
 - Res OOD=0.1256; Best winnow=Res_WinnowLearn_mid OOD=0.1259 sparsity=0.01
 - Outcome: **UNRESOLVED**
 - Notes: Mag=topk |h|; Learned=sigmoid gate. input vs mid position.
+
+## Run 20261008_063013
+- Date: 2026-10-08T06:30:13.863785
+- Experiment: **Split heavy/light + gated recombine** (không loại trấu) — solo
+- OOD: Res=0.1251, MagGate=0.1263, LearnGate=0.1228
+- Outcome: **UNRESOLVED**
