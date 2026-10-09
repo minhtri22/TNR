@@ -493,3 +493,9 @@
 - Preregister: OOD<0.95×HR ✓ | traj≥0.40 ✓ | wins≥2/3 ✓
 - Outcome: **PASS**
 - Claim D: PureC transfers to function-composition (same class as Lookup-Chain)
+
+## Run 20261009_141547
+- Date: 2026-10-09T14:15:49.519066
+- Experiment: **Phase D2 Group-action composition** (xác nhận class)
+- HR=0.1170 PC=0.1209 traj=0.493 wins=1/3 ratio=1.034
+- Outcome: **UNRESOLVED**
