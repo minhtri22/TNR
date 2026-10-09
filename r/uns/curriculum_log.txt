@@ -1,0 +1,19 @@
+Device: cpu
+
+===== SEED 42 =====
+  BASE OOD=0.3906 traj=0.548
+  CURR OOD=0.3538 traj=0.388 win=True
+
+===== SEED 7 =====
+  BASE OOD=0.5323 traj=0.363
+  CURR OOD=0.3723 traj=0.355 win=True
+
+===== SEED 123 =====
+  BASE OOD=0.4814 traj=0.404
+  CURR OOD=0.4298 traj=0.398 win=True
+
+===== SUMMARY =====
+BASE: 0.4681±0.0586 traj=0.438
+CURR: 0.3853±0.0324 traj=0.380 wins=3/3
+ratio CURR/BASE=0.823
+=== OUTCOME: UNRESOLVED ===
