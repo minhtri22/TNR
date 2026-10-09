@@ -513,3 +513,10 @@
   HR≈0.106 MLP≈0.106 STRUCT≈0.120 ratio≈1.14 wins_hr=1/3
 - Outcome: **FAIL** (structured module bias không đủ quick win trên group-action)
 - Next algebraic: cần bias mạnh hơn (equivariant residual / explicit matrix composition) — không lặp Givens-MLP hybrid
+
+## Run 20261009_144327
+- Date: 2026-10-09T14:43:27.971037
+- Experiment: **Phase E2 Matrix composition** explicit affine in state space
+- HR=0.1170 MC=0.1040 ratio=0.889 wins=3/3
+- Outcome: **PASS**
+- Diagnosis path: E FAIL (Givens on H) → E2 compose matrices on STATE
