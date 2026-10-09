@@ -541,3 +541,12 @@
 - Seeds 42,7: S2S ID=1 OOD=0 | **PE ID=1.000 OOD=1.000** wins
 - Outcome: **PASS** (symbolic repeat unlocks thrice productivity)
 - Insight: neural learns base unit; symbolic m from vocabulary → systematic count gen
+
+## LAB FREEZE 2026-10-09
+- Status: **CLOSED** — 3 claims frozen
+- Claim 1 Discrete-bank PureC: PASS
+- Claim 2 Algebraic matrix compose: PASS
+- Claim 3 Symbolic neural base + symbolic m: PASS
+- Report: reports/bao_cao_freeze_3_claim.md
+- NOT opened: relational binding, hierarchical, grounded
+- Next only if new phase: one hypothesis, separate preregister
