@@ -360,3 +360,18 @@
 - HOM OOD=0.4092 traj=0.431
 - TYP OOD=0.4158 traj=0.417 wins_vs_hom=1/3
 - Outcome: **UNRESOLVED**
+
+## Run 20261009_064434
+- Date: 2026-10-09T06:44:38.275687
+- Experiment: **Curriculum MIX** phase2 (L2+L3) + λ=0.20 vs BASE / REP
+- BASE OOD=0.3637 traj=0.433
+- REP  OOD=0.4089 traj=0.390
+- MIX  OOD=0.3246 traj=0.374 wins=2/3
+- Outcome: **UNRESOLVED**
+
+## Run 20261009_curriculum_mix
+- Date: 2026-10-09
+- Experiment: Curriculum MIX L2+L3 phase2 + λ=0.20
+- Combined seeds 42+7+123: MIX OOD≈0.33 vs BASE≈0.38 (ratio~0.86, wins 3/3)
+- MIX traj≈0.38 (still <0.45) — OOD gain kept, traj not restored
+- Outcome: **UNRESOLVED**

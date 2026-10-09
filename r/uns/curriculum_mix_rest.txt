@@ -1,0 +1,23 @@
+Device: cpu
+
+===== SEED 7 =====
+  BASE OOD=0.3358 traj=0.450
+  REP  OOD=0.3851 traj=0.394
+  MIX  OOD=0.3323 traj=0.399 win=True
+
+===== SEED 123 =====
+  BASE OOD=0.3916 traj=0.415
+  REP  OOD=0.4327 traj=0.386
+  MIX  OOD=0.3170 traj=0.349 win=True
+
+===== SUMMARY =====
+  BASE_OOD: 0.3637 ± 0.0279
+  BASE_traj: 0.4327 ± 0.0173
+  REP_OOD: 0.4089 ± 0.0238
+  REP_traj: 0.3899 ± 0.0042
+  MIX_OOD: 0.3246 ± 0.0076
+  MIX_traj: 0.3738 ± 0.0250
+
+MIX/BASE ratio=0.893 wins=2/3
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261009_064434

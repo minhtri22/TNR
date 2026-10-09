@@ -1,0 +1,8 @@
+Device: cpu
+
+===== SEED 42 =====
+  BASE OOD=0.4269 traj=0.269
+  REP  OOD=0.4227 traj=0.400
+  MIX  OOD=0.3490 traj=0.382 win=True
+
+===== SEED 7 =====
