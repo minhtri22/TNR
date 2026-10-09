@@ -526,3 +526,11 @@
 - Experiment: **E2 long-path L=4** MatrixComp vs HR
 - HR=0.1579 MC=0.1320 ratio=0.836 wins=3/3
 - Outcome: **PASS**
+
+## Run 20261009_phase_F_symbolic
+- Date: 2026-10-09
+- Experiment: **Phase F Symbolic** ProgramExecutor (base+multiplicity) vs S2S thrice-holdout
+- Seed 42: S2S ID=1 OOD=0 | PE ID=0.39 OOD=0
+- Seed 7:  S2S ID=1 OOD=0 | PE ID=0.13 OOD=0.08 win
+- Outcome provisional: **UNRESOLVED** — PE OOD signal yếu (0.08 one seed); ID thấp hơn S2S
+- Bias multiplicity đúng hướng nhưng implementation chưa đủ để PASS

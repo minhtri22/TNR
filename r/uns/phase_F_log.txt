@@ -1,0 +1,12 @@
+Device: cpu
+Train=24 OOD thrice=12
+
+===== SEED 42 =====
+  S2S ID=1.000 OOD=0.000
+  PE  ID=0.388 OOD=0.000 win=False
+
+===== SEED 7 =====
+  S2S ID=1.000 OOD=0.000
+  PE  ID=0.125 OOD=0.078 win=True
+
+===== SEED 123 =====
