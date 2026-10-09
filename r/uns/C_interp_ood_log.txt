@@ -1,0 +1,8 @@
+Device: cpu
+Train templates=19 OOD(look-comp)=5
+
+===== SEED 42 =====
+  FFN ID=1.000 OOD=0.000 tok=0.401
+  PC  ID=1.000 OOD=0.000 tok=0.500 win=False
+
+===== SEED 7 =====

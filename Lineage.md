@@ -466,3 +466,10 @@
 - tok=1/3 consistent with emitting "twice" pattern when asked "thrice"
 - Outcome: **UNRESOLVED** — productivity count still fails for both; no PureC advantage
 - C boundary: systematic number generalization not solved by thought-vector routing
+
+## Run 20261009_C_interp_ood
+- Date: 2026-10-09
+- Experiment: **C interp OOD** hold-out look compositions (seed 42+)
+- FFN ID=1.0 OOD exact=0 tok=0.40 | PC ID=1.0 OOD exact=0 tok=0.50
+- Outcome: **UNRESOLVED** — exact still 0; PC token slightly higher, not PASS
+- Boundary confirmed: prim-transfer composition also fails exact match for both
