@@ -1,0 +1,23 @@
+Device: cpu
+Params n4 77227
+Params n6 105937
+
+===== SEED 123 =====
+  N4 OOD=0.3621 traj=0.498
+  N6 OOD=0.3553 traj=0.467
+
+===== SEED 99 =====
+  N4 OOD=0.3197 traj=0.299
+  N6 OOD=0.3200 traj=0.457
+
+===== SEED 2024 =====
+  N4 OOD=0.5669 traj=0.443
+  N6 OOD=0.3338 traj=0.468
+
+===== 5-SEED SUMMARY =====
+N4: OOD=0.4162±0.1079 traj=0.413
+N6: OOD=0.3364±0.0145 traj=0.464
+N6/N4 OOD ratio=0.808  vs REF_PASS=0.815
+traj_ok=True ood_ok_vs_n4=True ood_ok_vs_ref=True
+=== OUTCOME: PASS ===
+Saved /home/workdir/artifacts/r/uns/run_20261009_070548

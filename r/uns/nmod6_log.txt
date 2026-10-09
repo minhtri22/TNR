@@ -1,0 +1,13 @@
+Device: cpu
+Params n4 77227
+Params n6 105937
+
+===== SEED 42 =====
+  N4 OOD=0.5431 traj=0.465
+  N6 OOD=0.3608 traj=0.424
+
+===== SEED 7 =====
+  N4 OOD=0.4174 traj=0.387
+  N6 OOD=0.5131 traj=0.524
+
+===== SEED 123 =====

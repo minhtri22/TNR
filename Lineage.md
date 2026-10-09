@@ -375,3 +375,20 @@
 - Combined seeds 42+7+123: MIX OOD≈0.33 vs BASE≈0.38 (ratio~0.86, wins 3/3)
 - MIX traj≈0.38 (still <0.45) — OOD gain kept, traj not restored
 - Outcome: **UNRESOLVED**
+
+## Run 20261009_070548
+- Date: 2026-10-09T07:05:51.842033
+- Experiment: **n_mod=6 (=N_KEYS)** vs n_mod=4, λ=0.15, 5 seeds
+- N4 OOD=0.4162 traj=0.413
+- N6 OOD=0.3364 traj=0.464
+- traj≥0.45: True; OOD≤1.05×N4: True
+- Outcome: **PASS**
+
+## Run 20261009_nmod6_5seed_COMPLETE
+- Date: 2026-10-09
+- Experiment: **n_mod=6 (=N_KEYS)** vs n_mod=4, λ=0.15, 5 seeds full
+- N4 OOD=0.442 traj=0.418
+- N6 OOD=0.377 traj=0.468
+- traj≥0.45 ✓ | OOD≤1.05×N4 ✓ (ratio 0.85) | vs REF PASS also OK
+- Outcome: **PASS**
+- Collision fix helps traj; OOD không xấu (thậm chí tốt hơn mean)
