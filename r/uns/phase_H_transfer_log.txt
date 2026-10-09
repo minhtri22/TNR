@@ -1,0 +1,25 @@
+Device: cpu
+Train=24 single=12 nested=60
+
+===== SEED 42 =====
+  S2S id=1.000 single=0.000 nested=0.000
+  H   id=1.000 single=1.000 nested=1.000 win=True
+
+===== SEED 7 =====
+  S2S id=1.000 single=0.000 nested=0.000
+  H   id=1.000 single=1.000 nested=1.000 win=True
+
+===== SEED 123 =====
+  S2S id=1.000 single=0.000 nested=0.000
+  H   id=1.000 single=1.000 nested=1.000 win=True
+
+===== H TRANSFER SUMMARY =====
+  S2S_id: 1.000
+  S2S_s: 0.000
+  S2S_n: 0.000
+  H_id: 1.000
+  H_s: 1.000
+  H_n: 1.000
+wins=3/3
+=== OUTCOME: PASS === (nested after transfers; single held)
+Saved /home/workdir/artifacts/r/uns/run_20261009_162042

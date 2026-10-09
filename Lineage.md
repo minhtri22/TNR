@@ -571,3 +571,10 @@
 - S2S ID=1 OOD=0 | H ID=1 OOD=1 wins
 - Outcome: **PASS** — clause stack + after semantics unlocks hierarchical OOD
 - Gate next: H-transfer (nested/double after) before family (3)
+
+## Run 20261009_162042
+- Date: 2026-10-09T16:20:44.968272
+- Experiment: **H-transfer** nested after (2-level) + single held
+- H single=1.000 nested=1.000 | S2S nested=0.000 wins=3/3
+- Outcome: **PASS** (nested after transfers; single held)
+- Gate: PASS → may open family (3) control/grounded/probabilistic
