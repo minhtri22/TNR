@@ -1,0 +1,9 @@
+Device: cpu
+Train=36 OOD=20
+Params FFN=319497 PureC=638526
+
+===== SEED 7 =====
+  FFN ID=1.000 OOD=0.000
+  PC  ID=1.000 OOD=0.000 win=False
+
+===== SEED 123 =====

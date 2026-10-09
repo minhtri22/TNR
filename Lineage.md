@@ -449,3 +449,12 @@
 - Outcome: **UNRESOLVED**
 - Diagnosis: parallel action head from single vector does not reach exact-match on Mini-SCAN within budget for ANY model — still cannot discriminate routing vs FFN
 - Next C (không nhảy): autoregressive / seq2seq decoder shared across baselines
+
+## Run 20261009_C_s2s
+- Date: 2026-10-09
+- Experiment: **C Mini-SCAN seq2seq** (seeds 42,7 complete; 123 pending)
+- FFN ID=1.000 OOD=0.000 | PureC ID=1.000 OOD=0.000 (both seeds)
+- Setup gate: **PASS** (ID exact=1.0 — decoder protocol works)
+- OOD: both models 0 on opposite/around — no discrimination
+- Outcome: **UNRESOLVED** (compositional OOD not solved by either; not PureC-specific failure)
+- Note: Mini-SCAN opposite/around requires systematic rule induction beyond memorizing train templates; pure thought-vector routing insufficient alone
