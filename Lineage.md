@@ -534,3 +534,10 @@
 - Seed 7:  S2S ID=1 OOD=0 | PE ID=0.13 OOD=0.08 win
 - Outcome provisional: **UNRESOLVED** — PE OOD signal yếu (0.08 one seed); ID thấp hơn S2S
 - Bias multiplicity đúng hướng nhưng implementation chưa đủ để PASS
+
+## Run 20261009_phase_F2
+- Date: 2026-10-09
+- Experiment: **F2 neural base + symbolic multiplicity** (twice/thrice tokens)
+- Seeds 42,7: S2S ID=1 OOD=0 | **PE ID=1.000 OOD=1.000** wins
+- Outcome: **PASS** (symbolic repeat unlocks thrice productivity)
+- Insight: neural learns base unit; symbolic m from vocabulary → systematic count gen
