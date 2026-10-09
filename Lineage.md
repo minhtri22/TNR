@@ -564,3 +564,10 @@
 - BD opp=1.000 arn=1.000 | S2S arn=0.000 wins=3/3
 - Outcome: **PASS** (binding transfers to around; opposite held)
 - Gate: only if PASS → open hierarchical family
+
+## Run 20261009_phase_H
+- Date: 2026-10-09
+- Experiment: **Phase H Hierarchical** after-stack executor (seeds 42,7)
+- S2S ID=1 OOD=0 | H ID=1 OOD=1 wins
+- Outcome: **PASS** — clause stack + after semantics unlocks hierarchical OOD
+- Gate next: H-transfer (nested/double after) before family (3)
