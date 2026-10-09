@@ -1,0 +1,21 @@
+Device: cpu
+Train templates=36 OOD templates=20
+Params FFN=130900 TR=106836 PureC=263785
+
+===== SEED 42 =====
+  FFN ID=0.000 OOD=0.000
+  TR  ID=0.000 OOD=0.000
+  PC  ID=0.000 OOD=0.000 win=False
+
+===== SEED 7 =====
+  FFN ID=0.000 OOD=0.000
+  TR  ID=0.000 OOD=0.000
+  PC  ID=0.000 OOD=0.000 win=False
+
+===== C SEQ SUMMARY =====
+  FFN: ID exact=0.000  OOD exact=0.000  OOD tok=0.309
+  TR: ID exact=0.000  OOD exact=0.000  OOD tok=0.000
+  PC: ID exact=0.000  OOD exact=0.000  OOD tok=0.298
+PC=0.000 best_base=0.000 wins=0/3
+=== OUTCOME: UNRESOLVED ===
+Saved /home/workdir/artifacts/r/uns/run_20261009_113716

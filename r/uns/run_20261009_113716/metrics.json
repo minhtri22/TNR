@@ -1,0 +1,73 @@
+{
+  "run_id": "20261009_113716",
+  "experiment": "C Mini-SCAN sequential encoder",
+  "seeds": [
+    42,
+    7
+  ],
+  "summary": {
+    "FFN_id_exact": [
+      0.0,
+      0.0
+    ],
+    "FFN_ood_exact": [
+      0.0,
+      0.0
+    ],
+    "TR_id_exact": [
+      0.0,
+      0.0
+    ],
+    "TR_ood_exact": [
+      0.0,
+      0.0
+    ],
+    "PC_id_exact": [
+      0.0,
+      0.0
+    ],
+    "PC_ood_exact": [
+      0.0,
+      0.0
+    ],
+    "PC_ood_tok": [
+      0.2983471162001696,
+      0.0008471162001696397
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "FFN_id_exact": 0.0,
+      "FFN_id_tok": 0.2970788428814521,
+      "FFN_ood_exact": 0.0,
+      "FFN_ood_tok": 0.2915741621735913,
+      "TR_id_exact": 0.0,
+      "TR_id_tok": 0.0,
+      "TR_ood_exact": 0.0,
+      "TR_ood_tok": 0.0,
+      "PC_id_exact": 0.0,
+      "PC_id_tok": 0.29097222222222224,
+      "PC_ood_exact": 0.0,
+      "PC_ood_tok": 0.2975,
+      "win": false
+    },
+    {
+      "seed": 7,
+      "FFN_id_exact": 0.0,
+      "FFN_id_tok": 0.29114107583007104,
+      "FFN_ood_exact": 0.0,
+      "FFN_ood_tok": 0.32576914684704344,
+      "TR_id_exact": 0.0,
+      "TR_id_tok": 0.0,
+      "TR_ood_exact": 0.0,
+      "TR_ood_tok": 0.0,
+      "PC_id_exact": 0.0,
+      "PC_id_tok": 0.28285674038596986,
+      "PC_ood_exact": 0.0,
+      "PC_ood_tok": 0.29919423240033927,
+      "win": false
+    }
+  ],
+  "outcome": "UNRESOLVED"
+}

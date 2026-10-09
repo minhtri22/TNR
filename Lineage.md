@@ -434,3 +434,18 @@
 - Interpretation: **encoder bottleneck** — mean-pool bag of tokens loses order; not a PureC-vs-HR discrimination
 - Outcome: **UNRESOLVED** (benchmark setup insufficient; all models fail equally)
 - Next C (không bỏ bước): Mini-SCAN với sequential encoder (LSTM/Transformer) cùng decode; so fair PureC vs seq baseline
+
+## Run 20261009_113716
+- Date: 2026-10-09T11:37:19.794105
+- Experiment: **C Mini-SCAN + LSTM/Transformer sequential encoder**
+- FFN OOD exact=0.000 | TR=0.000 | PC=0.000 wins=0/3
+- ID learning: FFN=0.000 TR=0.000 PC=0.000
+- Outcome: **UNRESOLVED**
+
+## Run 20261009_C_seq
+- Date: 2026-10-09
+- Experiment: **C Mini-SCAN + LSTM sequential encoder** (FFN vs PureC; TR skipped for budget)
+- ID exact=0.000 all models; OOD exact=0.000; tok≈0.30
+- Outcome: **UNRESOLVED**
+- Diagnosis: parallel action head from single vector does not reach exact-match on Mini-SCAN within budget for ANY model — still cannot discriminate routing vs FFN
+- Next C (không nhảy): autoregressive / seq2seq decoder shared across baselines
