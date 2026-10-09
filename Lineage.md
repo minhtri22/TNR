@@ -458,3 +458,11 @@
 - OOD: both models 0 on opposite/around — no discrimination
 - Outcome: **UNRESOLVED** (compositional OOD not solved by either; not PureC-specific failure)
 - Note: Mini-SCAN opposite/around requires systematic rule induction beyond memorizing train templates; pure thought-vector routing insufficient alone
+
+## Run 20261009_C_soft_ood
+- Date: 2026-10-09
+- Experiment: **C soft OOD thrice-holdout** seq2seq (seed 42 + pattern)
+- FFN/PC ID=1.000 OOD exact=0.000 tok=0.333
+- tok=1/3 consistent with emitting "twice" pattern when asked "thrice"
+- Outcome: **UNRESOLVED** — productivity count still fails for both; no PureC advantage
+- C boundary: systematic number generalization not solved by thought-vector routing
