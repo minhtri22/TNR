@@ -520,3 +520,9 @@
 - HR=0.1170 MC=0.1040 ratio=0.889 wins=3/3
 - Outcome: **PASS**
 - Diagnosis path: E FAIL (Givens on H) → E2 compose matrices on STATE
+
+## Run 20261009_144827
+- Date: 2026-10-09T14:48:28.086198
+- Experiment: **E2 long-path L=4** MatrixComp vs HR
+- HR=0.1579 MC=0.1320 ratio=0.836 wins=3/3
+- Outcome: **PASS**

@@ -1,0 +1,15 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.1466 MC=0.1367 win=True
+
+===== SEED 7 =====
+  HR=0.1542 MC=0.1304 win=True
+
+===== SEED 123 =====
+  HR=0.1728 MC=0.1289 win=True
+
+===== E2 LONG PATH L=4 SUMMARY =====
+HR=0.1579 MC=0.1320 ratio=0.836 wins=3/3
+=== OUTCOME: PASS ===
+Saved /home/workdir/artifacts/r/uns/run_20261009_144827
