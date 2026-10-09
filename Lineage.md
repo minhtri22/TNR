@@ -473,3 +473,23 @@
 - FFN ID=1.0 OOD exact=0 tok=0.40 | PC ID=1.0 OOD exact=0 tok=0.50
 - Outcome: **UNRESOLVED** — exact still 0; PC token slightly higher, not PASS
 - Boundary confirmed: prim-transfer composition also fails exact match for both
+
+## Run 20261009_140331
+- Date: 2026-10-09T14:03:31.845932
+- Experiment: **Phase D Function Composition** PureC n_mod=6 λ=0 vs HR
+- HR OOD=0.3752 | PC OOD=0.3833 traj=0.474 wins=0/3
+- Outcome: **UNRESOLVED**
+
+## Lab close package 2026-10-09
+- Report: reports/bao_cao_dong_goi_lab_phase_A_C.md
+- Claim A FREEZE: PureC Lookup-Chain PASS
+- Claim C BOUNDARY: Mini-SCAN no transfer
+- Phase D started: Function Composition same class as A
+
+## Run 20261009_phase_D_COMPLETE
+- Date: 2026-10-09
+- Experiment: **Phase D Function Composition** 3 seeds complete
+- HR OOD=0.411 | PC OOD=0.359 traj=0.463 wins=2/3 ratio=0.87
+- Preregister: OOD<0.95×HR ✓ | traj≥0.40 ✓ | wins≥2/3 ✓
+- Outcome: **PASS**
+- Claim D: PureC transfers to function-composition (same class as Lookup-Chain)

@@ -1,0 +1,25 @@
+{
+  "run_id": "20261009_140331",
+  "experiment": "Phase D Function Composition",
+  "seeds": [
+    123
+  ],
+  "summary": {
+    "HR": 0.3752116560935974,
+    "PC": [
+      0.3832606375217438,
+      0.4738095238095238
+    ],
+    "wins": 0
+  },
+  "per_seed": [
+    {
+      "seed": 123,
+      "HR_OOD": 0.3752116560935974,
+      "PC_OOD": 0.3832606375217438,
+      "PC_traj": 0.4738095238095238,
+      "win": false
+    }
+  ],
+  "outcome": "UNRESOLVED"
+}
