@@ -1,0 +1,21 @@
+Device: cpu
+Train=24 OOD opposite=8
+
+===== SEED 42 =====
+  S2S ID=1.000 OOD=0.000
+  BD  ID=1.000 OOD=1.000 win=True
+
+===== SEED 7 =====
+  S2S ID=1.000 OOD=0.000
+  BD  ID=1.000 OOD=1.000 win=True
+
+===== SEED 123 =====
+  S2S ID=1.000 OOD=0.000
+  BD  ID=1.000 OOD=1.000 win=True
+
+===== G BINDING SUMMARY =====
+S2S: ID=1.000 OOD=0.000
+BD:  ID=1.000 OOD=1.000
+setup_ok=True wins=3/3
+=== OUTCOME: PASS === (symbolic opposite binding unlocks OOD)
+Saved /home/workdir/artifacts/r/uns/run_20261009_160004

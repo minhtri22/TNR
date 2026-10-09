@@ -550,3 +550,10 @@
 - Report: reports/bao_cao_freeze_3_claim.md
 - NOT opened: relational binding, hierarchical, grounded
 - Next only if new phase: one hypothesis, separate preregister
+
+## Run 20261009_160004
+- Date: 2026-10-09T16:00:07.500696
+- Experiment: **Phase G Binding** symbolic opposite + neural slots vs S2S
+- S2S ID=1.000 OOD=0.000 | BD ID=1.000 OOD=1.000
+- Outcome: **PASS** (symbolic opposite binding unlocks OOD)
+- Note: opens family (1) after lab freeze of 3 claims — separate phase
