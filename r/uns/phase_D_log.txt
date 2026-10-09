@@ -1,0 +1,9 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.4442  PC=0.3310 traj=0.364 win=True
+
+===== SEED 7 =====
+  HR=0.4138  PC=0.3620 traj=0.551 win=True
+
+===== SEED 123 =====
