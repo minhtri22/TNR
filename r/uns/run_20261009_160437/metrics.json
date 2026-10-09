@@ -1,0 +1,69 @@
+{
+  "run_id": "20261009_160437",
+  "experiment": "G-transfer opposite held + around OOD",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "S2S_id": [
+      1.0,
+      0.0
+    ],
+    "S2S_opp": [
+      0.0,
+      0.0
+    ],
+    "S2S_arn": [
+      0.0,
+      0.0
+    ],
+    "BD_id": [
+      1.0,
+      0.0
+    ],
+    "BD_opp": [
+      1.0,
+      0.0
+    ],
+    "BD_arn": [
+      1.0,
+      0.0
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "S2S_id": 1.0,
+      "S2S_opp": 0.0,
+      "S2S_arn": 0.0,
+      "BD_id": 1.0,
+      "BD_opp": 1.0,
+      "BD_arn": 1.0,
+      "win_arn": true
+    },
+    {
+      "seed": 7,
+      "S2S_id": 1.0,
+      "S2S_opp": 0.0,
+      "S2S_arn": 0.0,
+      "BD_id": 1.0,
+      "BD_opp": 1.0,
+      "BD_arn": 1.0,
+      "win_arn": true
+    },
+    {
+      "seed": 123,
+      "S2S_id": 1.0,
+      "S2S_opp": 0.0,
+      "S2S_arn": 0.0,
+      "BD_id": 1.0,
+      "BD_opp": 1.0,
+      "BD_arn": 1.0,
+      "win_arn": true
+    }
+  ],
+  "outcome": "PASS",
+  "note": "binding transfers to around; opposite held"
+}

@@ -557,3 +557,10 @@
 - S2S ID=1.000 OOD=0.000 | BD ID=1.000 OOD=1.000
 - Outcome: **PASS** (symbolic opposite binding unlocks OOD)
 - Note: opens family (1) after lab freeze of 3 claims — separate phase
+
+## Run 20261009_160437
+- Date: 2026-10-09T16:04:40.205541
+- Experiment: **G-transfer** around OOD + opposite regression check
+- BD opp=1.000 arn=1.000 | S2S arn=0.000 wins=3/3
+- Outcome: **PASS** (binding transfers to around; opposite held)
+- Gate: only if PASS → open hierarchical family

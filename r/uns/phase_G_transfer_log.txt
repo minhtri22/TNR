@@ -1,0 +1,25 @@
+Device: cpu
+Train=24 OOD_opp=8 OOD_arn=12
+
+===== SEED 42 =====
+  S2S id=1.000 opp=0.000 arn=0.000
+  BD  id=1.000 opp=1.000 arn=1.000 win=True
+
+===== SEED 7 =====
+  S2S id=1.000 opp=0.000 arn=0.000
+  BD  id=1.000 opp=1.000 arn=1.000 win=True
+
+===== SEED 123 =====
+  S2S id=1.000 opp=0.000 arn=0.000
+  BD  id=1.000 opp=1.000 arn=1.000 win=True
+
+===== G TRANSFER SUMMARY =====
+  S2S_id: 1.000±0.000
+  S2S_opp: 0.000±0.000
+  S2S_arn: 0.000±0.000
+  BD_id: 1.000±0.000
+  BD_opp: 1.000±0.000
+  BD_arn: 1.000±0.000
+wins_arn=3/3
+=== OUTCOME: PASS === (binding transfers to around; opposite held)
+Saved /home/workdir/artifacts/r/uns/run_20261009_160437
