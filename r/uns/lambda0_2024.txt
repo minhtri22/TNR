@@ -1,0 +1,14 @@
+Device: cpu
+
+===== SEED 2024 =====
+  L15 OOD=0.5353 traj=0.543
+  L0  OOD=0.3412 traj=0.389
+
+===== 5-SEED A2 SUMMARY =====
+L15: OOD=0.5353±0.0000 traj=0.543
+L0:  OOD=0.3412±0.0000 traj=0.389
+L0/L15 OOD ratio=0.637
+traj_ok=False ood_ok=True
+=== OUTCOME: UNRESOLVED ===
+Next: A2 UNRESOLVED → sang B trước khi C
+Saved /home/workdir/artifacts/r/uns/run_20261009_083558

@@ -401,3 +401,20 @@
 - traj≥0.45 ✓ | OOD≤1.05×L15 ✓
 - Outcome provisional: **PASS-leaning** (λ=0 không phá; traj thậm chí cao hơn)
 - Next: hoàn tất seed 2024; nếu giữ → B không bắt buộc; có thể A3 rồi C
+
+## Run 20261009_083558
+- Date: 2026-10-09T08:35:59.641355
+- Experiment: **A2 λ=0 vs λ=0.15**, n_mod=6, 5 seeds
+- L15 OOD=0.5353 traj=0.543
+- L0  OOD=0.3412 traj=0.389
+- Outcome: **UNRESOLVED**
+- Next: A2 UNRESOLVED → sang B trước khi C
+
+## Run 20261009_A2_COMPLETE
+- Date: 2026-10-09
+- Experiment: **A2 λ=0 vs λ=0.15**, n_mod=6, **5 seeds complete**
+- L15 OOD=0.420 traj=0.461
+- L0  OOD=0.377 traj=0.503
+- traj≥0.45 ✓ | OOD≤1.05×L15 ✓ (ratio 0.90)
+- Outcome: **PASS**
+- Next: **A3** (OOD path L=4); B không bắt buộc
