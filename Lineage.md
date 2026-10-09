@@ -418,3 +418,11 @@
 - traj≥0.45 ✓ | OOD≤1.05×L15 ✓ (ratio 0.90)
 - Outcome: **PASS**
 - Next: **A3** (OOD path L=4); B không bắt buộc
+
+## Run 20261009_084020
+- Date: 2026-10-09T08:40:22.977106
+- Experiment: **A3 OOD L=4**, PureC n_mod=6 λ=0 vs HR, train L=2
+- HR OOD=0.4891
+- PC OOD=0.4523 traj=0.488 wins=2/3
+- Outcome: **PASS**
+- Next: A3 PASS → sẵn sàng hướng C (benchmark chuẩn)

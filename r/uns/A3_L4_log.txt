@@ -1,0 +1,18 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.5318  PC=0.5832 traj=0.454 win=False
+
+===== SEED 7 =====
+  HR=0.4042  PC=0.3773 traj=0.543 win=True
+
+===== SEED 123 =====
+  HR=0.5314  PC=0.3964 traj=0.467 win=True
+
+===== A3 SUMMARY =====
+HR:  0.4891±0.0600
+PC:  0.4523±0.0929 traj=0.488 wins=2/3
+ratio=0.925
+=== OUTCOME: PASS ===
+Next: A3 PASS → sẵn sàng hướng C (benchmark chuẩn)
+Saved /home/workdir/artifacts/r/uns/run_20261009_084020

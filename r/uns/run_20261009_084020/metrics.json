@@ -1,0 +1,42 @@
+{
+  "run_id": "20261009_084020",
+  "experiment": "A3 OOD L=4, PureC n_mod=6 \u03bb=0 vs HR",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "HR": 0.4891419808069865,
+    "PC": [
+      0.4522971610228221,
+      0.48779761904761904
+    ],
+    "wins": 2
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "HR_OOD": 0.5317501425743103,
+      "PC_OOD": 0.5832318663597107,
+      "PC_traj": 0.45357142857142857,
+      "win": false
+    },
+    {
+      "seed": 7,
+      "HR_OOD": 0.4042494297027588,
+      "PC_OOD": 0.37728357315063477,
+      "PC_traj": 0.5428571428571428,
+      "win": true
+    },
+    {
+      "seed": 123,
+      "HR_OOD": 0.5314263701438904,
+      "PC_OOD": 0.3963760435581207,
+      "PC_traj": 0.4669642857142857,
+      "win": true
+    }
+  ],
+  "outcome": "PASS",
+  "next_step": "A3 PASS \u2192 s\u1eb5n s\u00e0ng h\u01b0\u1edbng C (benchmark chu\u1ea9n)"
+}
