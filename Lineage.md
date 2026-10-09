@@ -392,3 +392,12 @@
 - traj≥0.45 ✓ | OOD≤1.05×N4 ✓ (ratio 0.85) | vs REF PASS also OK
 - Outcome: **PASS**
 - Collision fix helps traj; OOD không xấu (thậm chí tốt hơn mean)
+
+## Run 20261009_A2_lambda0_partial4
+- Date: 2026-10-09
+- Experiment: **A2 λ=0 vs λ=0.15**, n_mod=6 (4/5 seeds; 2024 pending)
+- L15 OOD≈0.391 traj≈0.441
+- L0  OOD≈0.386 traj≈0.531
+- traj≥0.45 ✓ | OOD≤1.05×L15 ✓
+- Outcome provisional: **PASS-leaning** (λ=0 không phá; traj thậm chí cao hơn)
+- Next: hoàn tất seed 2024; nếu giữ → B không bắt buộc; có thể A3 rồi C

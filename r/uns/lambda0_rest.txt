@@ -1,0 +1,11 @@
+Device: cpu
+
+===== SEED 123 =====
+  L15 OOD=0.3837 traj=0.442
+  L0  OOD=0.4504 traj=0.568
+
+===== SEED 99 =====
+  L15 OOD=0.3206 traj=0.508
+  L0  OOD=0.3588 traj=0.521
+
+===== SEED 2024 =====
