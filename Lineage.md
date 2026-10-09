@@ -499,3 +499,17 @@
 - Experiment: **Phase D2 Group-action composition** (xác nhận class)
 - HR=0.1170 PC=0.1209 traj=0.493 wins=1/3 ratio=1.034
 - Outcome: **UNRESOLVED**
+
+## Run 20261009_143610
+- Date: 2026-10-09T14:36:13.821522
+- Experiment: **Phase E Algebraic** structured Givens modules vs MLP PureC vs HR
+- HR=0.1021 MLP=0.1027 STRUCT=0.1257 wins_hr=0/3
+- Outcome: **FAIL**
+- Discrete claim FREEZE (A+D PASS). Algebraic = họ tiếp theo.
+
+## Run 20261009_phase_E_COMPLETE
+- Discrete FREEZE: A+D PASS (discrete-bank transforms)
+- Phase E Algebraic structured Givens modules (3 seeds):
+  HR≈0.106 MLP≈0.106 STRUCT≈0.120 ratio≈1.14 wins_hr=1/3
+- Outcome: **FAIL** (structured module bias không đủ quick win trên group-action)
+- Next algebraic: cần bias mạnh hơn (equivariant residual / explicit matrix composition) — không lặp Givens-MLP hybrid

@@ -1,0 +1,6 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.1131 MLP=0.1129 STRUCT=0.1098 winHR=True winMLP=True
+
+===== SEED 7 =====

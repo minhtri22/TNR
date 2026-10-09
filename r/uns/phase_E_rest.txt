@@ -1,0 +1,13 @@
+Device: cpu
+
+===== SEED 7 =====
+  HR=0.1017 MLP=0.1136 STRUCT=0.1234 winHR=False winMLP=False
+
+===== SEED 123 =====
+  HR=0.1025 MLP=0.0919 STRUCT=0.1280 winHR=False winMLP=False
+
+===== E ALGEBRAIC SUMMARY =====
+HR=0.1021 MLP=0.1027 STRUCT=0.1257
+STRUCT/HR=1.232 wins_hr=0/3 wins_mlp=0/3
+=== OUTCOME: FAIL ===
+Saved /home/workdir/artifacts/r/uns/run_20261009_143610

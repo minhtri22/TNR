@@ -1,0 +1,33 @@
+{
+  "run_id": "20261009_143610",
+  "experiment": "Phase E Algebraic structured modules",
+  "seeds": [
+    7,
+    123
+  ],
+  "summary": {
+    "HR": 0.10206396877765656,
+    "MLP": 0.10274654254317284,
+    "STRUCT": 0.12570303305983543,
+    "wins_hr": 0
+  },
+  "per_seed": [
+    {
+      "seed": 7,
+      "HR": 0.10165534168481827,
+      "MLP": 0.11361343413591385,
+      "STRUCT": 0.12337162345647812,
+      "win_hr": false,
+      "win_mlp": false
+    },
+    {
+      "seed": 123,
+      "HR": 0.10247259587049484,
+      "MLP": 0.09187965095043182,
+      "STRUCT": 0.12803444266319275,
+      "win_hr": false,
+      "win_mlp": false
+    }
+  ],
+  "outcome": "FAIL"
+}
