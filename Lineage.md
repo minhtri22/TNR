@@ -426,3 +426,11 @@
 - PC OOD=0.4523 traj=0.488 wins=2/3
 - Outcome: **PASS**
 - Next: A3 PASS → sẵn sàng hướng C (benchmark chuẩn)
+
+## Run 20261009_C_miniscan_partial
+- Date: 2026-10-09
+- Experiment: **C Mini-SCAN** (seed 42 complete; 7+ pending timeout)
+- Bag/HR/PC all exact=0.000 tok≈0.25 on OOD (floor)
+- Interpretation: **encoder bottleneck** — mean-pool bag of tokens loses order; not a PureC-vs-HR discrimination
+- Outcome: **UNRESOLVED** (benchmark setup insufficient; all models fail equally)
+- Next C (không bỏ bước): Mini-SCAN với sequential encoder (LSTM/Transformer) cùng decode; so fair PureC vs seq baseline

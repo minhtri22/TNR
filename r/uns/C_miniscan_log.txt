@@ -1,0 +1,10 @@
+Device: cpu
+Train templates: 36  OOD templates: 28
+Params Bag=22740 HR=72724 PureC=188969
+
+===== SEED 42 =====
+  Bag exact=0.000 tok=0.251
+  HR  exact=0.000 tok=0.250
+  PC  exact=0.000 tok=0.253 win=False
+
+===== SEED 7 =====
