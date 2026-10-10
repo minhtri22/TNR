@@ -1,0 +1,16 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.2833 OL=0.3936 CL=0.4220 winHR=False winOL=False
+
+===== SEED 7 =====
+  HR=0.2749 OL=0.4215 CL=0.4967 winHR=False winOL=False
+
+===== SEED 123 =====
+  HR=0.2918 OL=0.4442 CL=0.4904 winHR=False winOL=False
+
+===== J UNIFIED CLOSED-LOOP SUMMARY =====
+HR=0.2834 OL=0.4198 CL=0.4697
+CL/HR=1.658 CL/OL=1.119 wins_hr=0/3 wins_ol=0/3
+=== OUTCOME: FAIL ===
+Saved /home/workdir/artifacts/r/uns/run_20261010_132030

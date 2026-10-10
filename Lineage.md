@@ -619,3 +619,10 @@
 - HR=0.2818 SC=0.3873 ratio=1.374 wins=0/3
 - Outcome: **FAIL**
 - Gate: PASS→P2/P3; FAIL→đóng control
+
+## Run 20261010_132030
+- Date: 2026-10-10T13:20:31.269661
+- Experiment: **Phase J** Unified Program+Execute — closed-loop vs open-loop vs HR
+- HR=0.2834 OL=0.4198 CL=0.4697 wins_hr=0/3
+- Outcome: **FAIL**
+- Framework: mature-style program+execute; control bias = closed-loop state_t
