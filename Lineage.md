@@ -599,3 +599,10 @@
 - HR=0.0534 SC=0.1400 ratio=2.623 wins=0/3
 - Outcome: **FAIL**
 - Diagnosis: separates skill-learning vs routing on dynamics composition
+
+## Run 20261010_075254
+- Date: 2026-10-10T07:52:55.441156
+- Experiment: **Phase I4 Oracle** true skills + true sequence (no learned routing)
+- HR=0.0534 ORACLE=0.0004 ratio=0.008 wins=3/3
+- Outcome: **PASS**
+- Closes control diagnosis: oracle vs residual on same task

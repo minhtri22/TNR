@@ -1,0 +1,16 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.0520 ORACLE=0.0004 (train=0.0004) win=True
+
+===== SEED 7 =====
+  HR=0.0527 ORACLE=0.0004 (train=0.0004) win=True
+
+===== SEED 123 =====
+  HR=0.0554 ORACLE=0.0004 (train=0.0004) win=True
+
+===== I4 ORACLE SUMMARY =====
+HR=0.0534 ORACLE=0.0004 ratio=0.008 wins=3/3
+ORACLE train=0.0004
+=== OUTCOME: PASS ===
+Saved /home/workdir/artifacts/r/uns/run_20261010_075254
