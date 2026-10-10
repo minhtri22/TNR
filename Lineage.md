@@ -578,3 +578,17 @@
 - H single=1.000 nested=1.000 | S2S nested=0.000 wins=3/3
 - Outcome: **PASS** (nested after transfers; single held)
 - Gate: PASS → may open family (3) control/grounded/probabilistic
+
+## Run 20261010_074414
+- Date: 2026-10-10T07:44:15.479334
+- Experiment: **Phase I Control** skill library + sequential dynamics vs HR
+- HR=0.0001 SC=0.0951 ratio=1308.669 wins=0/3
+- Outcome: **FAIL**
+- Family (3) continuous control — one bias: explicit skill compose in state space
+
+## Run 20261010_074526
+- Date: 2026-10-10T07:45:27.476427
+- Experiment: **Phase I2 Control** skill compose (no goal leak) vs HR
+- HR=0.0534 SC=0.0859 ratio=1.610 wins=0/3
+- Outcome: **FAIL**
+- I FAIL was goal-leak artifact; I2 is valid control-family test

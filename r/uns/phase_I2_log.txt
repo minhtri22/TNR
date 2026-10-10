@@ -1,0 +1,16 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.0520 SC=0.0844 win=False
+
+===== SEED 7 =====
+  HR=0.0527 SC=0.0811 win=False
+
+===== SEED 123 =====
+  HR=0.0554 SC=0.0922 win=False
+
+===== I2 CONTROL SUMMARY =====
+HR=0.0534±0.0015
+SC=0.0859±0.0046 ratio=1.610 wins=0/3
+=== OUTCOME: FAIL ===
+Saved /home/workdir/artifacts/r/uns/run_20261010_074526
