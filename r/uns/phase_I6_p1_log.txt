@@ -1,0 +1,17 @@
+Device: cpu
+P1: bag hint (no order) — routing-critical control
+
+===== SEED 42 =====
+  HR=0.2813 SC=0.3761 win=False
+
+===== SEED 7 =====
+  HR=0.2733 SC=0.2985 win=False
+
+===== SEED 123 =====
+  HR=0.2909 SC=0.4872 win=False
+
+===== P1 WEAK-HINT SUMMARY =====
+HR=0.2818±0.0072
+SC=0.3873±0.0775 ratio=1.374 wins=0/3
+=== OUTCOME: FAIL ===
+Saved /home/workdir/artifacts/r/uns/run_20261010_104459

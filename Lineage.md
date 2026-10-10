@@ -612,3 +612,10 @@
 - Experiment: **Phase I5** teacher-forced route train → free OOD
 - HR=0.0534 SC_free=0.4079 SC_tf=0.0004 wins=0/3
 - Outcome: **FAIL**
+
+## Run 20261010_104459
+- Date: 2026-10-10T10:44:59.679802
+- Experiment: **P1/I6** bag hint (no order) routing-critical control
+- HR=0.2818 SC=0.3873 ratio=1.374 wins=0/3
+- Outcome: **FAIL**
+- Gate: PASS→P2/P3; FAIL→đóng control
