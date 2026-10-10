@@ -667,3 +667,10 @@
 - L mixture FAIL (1.42x); L2 NLL FAIL (1.08x)
 - Residual point/NLL still better under bag-hint OOD length
 - Family CLOSED — ranh giới: mixture-over-programs không thắng flat net trên task này
+
+## AUDIT META-CLAIM 2026-10-10
+- Report: reports/bao_cao_audit_meta_claim.md
+- Meta-claim RETAINED with boundaries:
+  Operator/program must match domain family; residual/seq2seq ID≠systematic OOD;
+  Control/Probabilistic learned program-OOD still residual-dominated (FREEZE).
+- Status: lab expansion audit COMPLETE
