@@ -592,3 +592,10 @@
 - HR=0.0534 SC=0.0859 ratio=1.610 wins=0/3
 - Outcome: **FAIL**
 - I FAIL was goal-leak artifact; I2 is valid control-family test
+
+## Run 20261010_074930
+- Date: 2026-10-10T07:49:31.265318
+- Experiment: **Phase I3 Control** frozen TRUE skills + learned controller only
+- HR=0.0534 SC=0.1400 ratio=2.623 wins=0/3
+- Outcome: **FAIL**
+- Diagnosis: separates skill-learning vs routing on dynamics composition

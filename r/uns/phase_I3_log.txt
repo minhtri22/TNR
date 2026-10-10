@@ -1,0 +1,15 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.0520 SC=0.1611 win=False
+
+===== SEED 7 =====
+  HR=0.0527 SC=0.1395 win=False
+
+===== SEED 123 =====
+  HR=0.0554 SC=0.1192 win=False
+
+===== I3 FROZEN-SKILL SUMMARY =====
+HR=0.0534 SC=0.1400 ratio=2.623 wins=0/3
+=== OUTCOME: FAIL ===
+Saved /home/workdir/artifacts/r/uns/run_20261010_074930
