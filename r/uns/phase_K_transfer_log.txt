@@ -1,0 +1,27 @@
+Device: cpu
+Train=8 single=16 nested=60 combo=32
+
+===== SEED 42 =====
+  Res id=1.000 s=0.172 n=0.166 c=0.222
+  Exe id=1.000 s=1.000 n=1.000 c=1.000
+
+===== SEED 7 =====
+  Res id=1.000 s=0.174 n=0.168 c=0.170
+  Exe id=1.000 s=1.000 n=1.000 c=1.000
+
+===== SEED 123 =====
+  Res id=1.000 s=0.194 n=0.140 c=0.206
+  Exe id=1.000 s=1.000 n=1.000 c=1.000
+
+===== K TRANSFER SUMMARY =====
+  Res_id: 1.000
+  Res_s: 0.180
+  Res_n: 0.158
+  Res_c: 0.199
+  Exe_id: 1.000
+  Exe_s: 1.000
+  Exe_n: 1.000
+  Exe_c: 1.000
+wins_nested=3/3
+=== OUTCOME: PASS === (nested+combo transfer; single held)
+Saved /home/workdir/artifacts/r/uns/run_20261010_135257

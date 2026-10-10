@@ -643,3 +643,10 @@
 - Experiment: **Phase K Grounded** grid navigate symbolic execute vs residual
 - Res OOD=0.184 | Exe OOD=1.000 wins=3/3
 - Outcome: **PASS** (grounded symbolic execute unlocks OOD after/opposite)
+
+## Run 20261010_135257
+- Date: 2026-10-10T13:52:58.525123
+- Experiment: **K-transfer** nested after + opposite-after on grid
+- Exe s=1.000 n=1.000 c=1.000 | Res n=0.158 wins=3/3
+- Outcome: **PASS** (nested+combo transfer; single held)
+- Gate: PASS → open (5) probabilistic
