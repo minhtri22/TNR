@@ -656,3 +656,14 @@
 - Experiment: **Phase L Probabilistic** mixture over programs vs residual
 - HR=0.2047 MIX=0.2896 MIX_full=0.2826 wins=0/3 wins_full=0/3
 - Outcome (train-lib): **FAIL**
+
+## Run 20261010_140205
+- Date: 2026-10-10T14:02:06.120065
+- Experiment: **Phase L2** mixture + Gaussian NLL vs residual NLL
+- HR mse=0.2238 MIX mse=0.2426 ratio=1.084 wins=0/3
+- Outcome: **FAIL**
+
+## PROBABILISTIC FREEZE 2026-10-10
+- L mixture FAIL (1.42x); L2 NLL FAIL (1.08x)
+- Residual point/NLL still better under bag-hint OOD length
+- Family CLOSED — ranh giới: mixture-over-programs không thắng flat net trên task này

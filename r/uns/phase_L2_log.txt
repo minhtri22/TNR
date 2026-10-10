@@ -1,0 +1,16 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR mse=0.2353 nll=9.1475 | MIX mse=0.2405 nll=11.5881 win=False
+
+===== SEED 7 =====
+  HR mse=0.2248 nll=11.1461 | MIX mse=0.2484 nll=13.1771 win=False
+
+===== SEED 123 =====
+  HR mse=0.2112 nll=8.7310 | MIX mse=0.2388 nll=12.5304 win=False
+
+===== L2 NLL SUMMARY =====
+HR mse=0.2238 MIX mse=0.2426 ratio=1.084 wins=0/3
+HR nll=9.6749 MIX nll=12.4319
+=== OUTCOME: FAIL ===
+Saved /home/workdir/artifacts/r/uns/run_20261010_140205
