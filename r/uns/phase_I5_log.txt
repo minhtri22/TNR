@@ -1,0 +1,16 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.0520 SC_free=0.4013 SC_tf=0.0004 win=False
+
+===== SEED 7 =====
+  HR=0.0527 SC_free=0.4686 SC_tf=0.0004 win=False
+
+===== SEED 123 =====
+  HR=0.0554 SC_free=0.3539 SC_tf=0.0004 win=False
+
+===== I5 TF-ROUTE SUMMARY =====
+HR=0.0534 SC_free=0.4079 SC_tf=0.0004
+free/HR=7.644 wins=0/3
+=== OUTCOME: FAIL ===
+Saved /home/workdir/artifacts/r/uns/run_20261010_075628

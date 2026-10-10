@@ -606,3 +606,9 @@
 - HR=0.0534 ORACLE=0.0004 ratio=0.008 wins=3/3
 - Outcome: **PASS**
 - Closes control diagnosis: oracle vs residual on same task
+
+## Run 20261010_075628
+- Date: 2026-10-10T07:56:28.863608
+- Experiment: **Phase I5** teacher-forced route train → free OOD
+- HR=0.0534 SC_free=0.4079 SC_tf=0.0004 wins=0/3
+- Outcome: **FAIL**
