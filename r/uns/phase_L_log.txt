@@ -1,0 +1,17 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.2071 MIX=0.2863 MIX_full=0.2720 win=False win_full=False
+
+===== SEED 7 =====
+  HR=0.2055 MIX=0.3011 MIX_full=0.2917 win=False win_full=False
+
+===== SEED 123 =====
+  HR=0.2013 MIX=0.2813 MIX_full=0.2842 win=False win_full=False
+
+===== L PROBABILISTIC SUMMARY =====
+HR=0.2047 MIX(train-lib)=0.2896 MIX_full=0.2826
+ratio_mix=1.415 wins=0/3 wins_full=0/3
+=== OUTCOME (train-lib OOD): FAIL ===
+=== FULL-lib (oracle library) wins_full=0/3 ratio=1.381 ===
+Saved /home/workdir/artifacts/r/uns/run_20261010_135751

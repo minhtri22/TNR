@@ -650,3 +650,9 @@
 - Exe s=1.000 n=1.000 c=1.000 | Res n=0.158 wins=3/3
 - Outcome: **PASS** (nested+combo transfer; single held)
 - Gate: PASS → open (5) probabilistic
+
+## Run 20261010_135751
+- Date: 2026-10-10T13:57:51.933283
+- Experiment: **Phase L Probabilistic** mixture over programs vs residual
+- HR=0.2047 MIX=0.2896 MIX_full=0.2826 wins=0/3 wins_full=0/3
+- Outcome (train-lib): **FAIL**
