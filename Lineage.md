@@ -626,3 +626,10 @@
 - HR=0.2834 OL=0.4198 CL=0.4697 wins_hr=0/3
 - Outcome: **FAIL**
 - Framework: mature-style program+execute; control bias = closed-loop state_t
+
+## Run 20261010_132424
+- Date: 2026-10-10T13:24:24.989443
+- Experiment: **Phase J2** hybrid rollout + residual vs HR
+- HR=0.2834 HYB=0.3397 ratio=1.199 wins=0/3
+- rollout_only=0.4863 res_only=0.4133
+- Outcome: **FAIL**

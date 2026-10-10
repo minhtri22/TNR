@@ -1,0 +1,16 @@
+Device: cpu
+
+===== SEED 42 =====
+  HR=0.2833 HYB=0.3203 roll=0.4438 res=0.4178 α=0.524 win=False
+
+===== SEED 7 =====
+  HR=0.2749 HYB=0.3420 roll=0.4995 res=0.4057 α=0.520 win=False
+
+===== SEED 123 =====
+  HR=0.2918 HYB=0.3568 roll=0.5156 res=0.4163 α=0.513 win=False
+
+===== J2 HYBRID SUMMARY =====
+HR=0.2834 HYB=0.3397 ratio=1.199 wins=0/3
+rollout_only=0.4863 res_only=0.4133 α=0.519
+=== OUTCOME: FAIL ===
+Saved /home/workdir/artifacts/r/uns/run_20261010_132424
