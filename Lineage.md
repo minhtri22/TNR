@@ -633,3 +633,13 @@
 - HR=0.2834 HYB=0.3397 ratio=1.199 wins=0/3
 - rollout_only=0.4863 res_only=0.4133
 - Outcome: **FAIL**
+
+## CONTROL FREEZE 2026-10-10
+- Report: reports/bao_cao_freeze_control.md
+- Oracle PASS; learned routing FAIL (I2–J2). Family CLOSED.
+
+## Run 20261010_134437
+- Date: 2026-10-10T13:44:38.607160
+- Experiment: **Phase K Grounded** grid navigate symbolic execute vs residual
+- Res OOD=0.184 | Exe OOD=1.000 wins=3/3
+- Outcome: **PASS** (grounded symbolic execute unlocks OOD after/opposite)

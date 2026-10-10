@@ -1,0 +1,21 @@
+Device: cpu
+Train templates=8 OOD=16
+
+===== SEED 42 =====
+  Res ID=1.000 OOD=0.188
+  Exe ID=1.000 OOD=1.000 win=True
+
+===== SEED 7 =====
+  Res ID=1.000 OOD=0.170
+  Exe ID=1.000 OOD=1.000 win=True
+
+===== SEED 123 =====
+  Res ID=1.000 OOD=0.193
+  Exe ID=1.000 OOD=1.000 win=True
+
+===== K GROUNDED SUMMARY =====
+Res: ID=1.000 OOD=0.184
+Exe: ID=1.000 OOD=1.000
+setup_ok=True wins=3/3
+=== OUTCOME: PASS === (grounded symbolic execute unlocks OOD after/opposite)
+Saved /home/workdir/artifacts/r/uns/run_20261010_134437
