@@ -1,0 +1,17 @@
+Device: cpu
+R2b aligned fault + retry — preregister exact on retry
+
+===== SEED 42 =====
+  Flat OOD=0.144 Prog_aligned=0.280 Prog_retry=0.278 win=True
+
+===== SEED 7 =====
+  Flat OOD=0.156 Prog_aligned=0.280 Prog_retry=0.211 win=True
+
+===== SEED 123 =====
+  Flat OOD=0.069 Prog_aligned=0.236 Prog_retry=0.156 win=True
+
+===== R2b SUMMARY =====
+Flat OOD=0.123 | Prog aligned=0.265 | Prog+retry=0.215 wins=3/3
+=== OUTCOME (retry primary): UNRESOLVED === (still insufficient)
+=== NOTE aligned no-retry Prog=0.265 ===
+Saved /home/workdir/artifacts/r/uns/run_20261011_142746

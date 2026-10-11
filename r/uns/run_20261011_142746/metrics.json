@@ -1,0 +1,49 @@
+{
+  "run_id": "20261011_142746",
+  "experiment": "Phase R2b aligned fault + retry",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Flat_ex_ood": 0.12296296656131744,
+    "Prog_aligned": 0.2651851872603099,
+    "Prog_retry": 0.214814821879069,
+    "wins": 3
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Flat_ex_id": 0.868571400642395,
+      "Prog_ex_id": 1.0,
+      "Prog_retry_ex_id": 0.9485714435577393,
+      "Flat_ex_ood": 0.14444445073604584,
+      "Prog_ex_ood": 0.2800000011920929,
+      "Prog_retry_ex_ood": 0.2777777910232544,
+      "win": true
+    },
+    {
+      "seed": 7,
+      "Flat_ex_id": 0.8799999952316284,
+      "Prog_ex_id": 1.0,
+      "Prog_retry_ex_id": 0.9485714435577393,
+      "Flat_ex_ood": 0.15555556118488312,
+      "Prog_ex_ood": 0.2800000011920929,
+      "Prog_retry_ex_ood": 0.21111111342906952,
+      "win": true
+    },
+    {
+      "seed": 123,
+      "Flat_ex_id": 0.7685714364051819,
+      "Prog_ex_id": 1.0,
+      "Prog_retry_ex_id": 0.9514285922050476,
+      "Flat_ex_ood": 0.06888888776302338,
+      "Prog_ex_ood": 0.23555555939674377,
+      "Prog_retry_ex_ood": 0.15555556118488312,
+      "win": true
+    }
+  ],
+  "outcome": "UNRESOLVED",
+  "note": "still insufficient"
+}

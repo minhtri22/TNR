@@ -816,3 +816,17 @@
 - Experiment: **Phase R2** mock HTTP with fail/schema/partial observe
 - Flat OOD exact=0.113 | Prog OOD exact=0.173 wins=2/3
 - Outcome: **UNRESOLVED** (gap/threshold under noise)
+
+## Run 20261011_142746
+- Date: 2026-10-11T14:27:48.857361
+- Experiment: **Phase R2b** aligned fault realization + one retry
+- Flat OOD=0.123 | Prog aligned=0.265 | Prog+retry=0.215 wins=3/3
+- Outcome: **UNRESOLVED** (still insufficient)
+
+## Run 20261011_142942
+- Experiment: **R2c** aligned fault, y&exec same retry
+- Flat=0.032 Prog=0.211 wins=2/3 Outcome: **UNRESOLVED**
+
+## Run 20261011_143133
+- **R2d** alias-in-train + aligned fail + retry
+- Flat=0.255 Prog=0.453 wins=2/3 **PASS**
