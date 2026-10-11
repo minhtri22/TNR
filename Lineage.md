@@ -718,3 +718,14 @@
 - Experiment: **Phase O Multi-turn** command + correction → program→execute
 - Flat OOD=0.369 | Prog OOD=0.381 wins=2/3
 - Outcome: **UNRESOLVED** (gap insufficient)
+
+## Run 20261011_014054
+- Date: 2026-10-11T01:40:54.967503
+- Experiment: **Phase O2** multi-turn split turn1/turn2 encoders
+- Flat OOD=0.417 | Prog OOD=0.455 wins=2/3
+- Outcome: **UNRESOLVED** (still insufficient gap)
+
+## MULTI-TURN FREEZE 2026-10-11
+- O UNRESOLVED joint encode; O2 UNRESOLVED split encoders (Prog 0.455 vs Flat 0.417, gap < 0.05)
+- Boundary: multi-turn correction paraphrase OOD not unlocked by slot program under current budget
+- Next ladder: Perception mock OR close real-world bridge for report
