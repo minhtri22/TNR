@@ -784,3 +784,15 @@
 - Experiment: **O4b** state-mid with different OOD (held-out pairs + phrasing)
 - Flat hard=0.205 | Prog hard=0.702 pair Prog=1.000 phr=0.705
 - Outcome: **PASS** (hard OOD (held-out pairs + new phrasing) held)
+
+## MULTI-TURN FREEZE (PASS) 2026-10-11
+- O3 REVISE ops PASS (0.52 vs 0.24)
+- O4 state-mid PASS (0.71 vs 0.16)
+- O4b alternate OOD hard PASS (0.70 vs 0.21)
+- Claim: multi-turn correction + sequential mid-state unlocked with structured program→execute.
+- Track CLOSED as foundation C sufficient.
+
+## REAL TRACK OPEN
+- Prerequisites held: semi-real (M–Q) FREEZE PASS + multi-turn FREEZE PASS.
+- Next one hypothesis: **R1** mock HTTP / JSON tool server (errors, latency optional) + NL→program→execute vs flat.
+- Domain narrow; preregister exact tool success before run.
