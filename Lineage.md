@@ -760,3 +760,15 @@
   - **O3**: explicit REVISE ops from turn2 (REPLACE_DIR / SET_TWICE / SET_OPP)
   - **O4**: execute turn1 → intermediate state → turn2 as fresh command
   - Then only: return to real (HTTP mock) if multi-turn PASS or freeze-with-boundary.
+
+## Run 20261011_105007
+- Date: 2026-10-11T10:50:07.949354
+- Experiment: **Phase O3** multi-turn explicit REVISE ops (KEEP/SET_TWICE/SET_OPP/SET_DIR)
+- Flat OOD=0.241 | Prog OOD=0.524 wins=3/3
+- Outcome: **PASS** (explicit REVISE ops unlock multi-turn)
+
+## Run 20261011_105119
+- Date: 2026-10-11T10:51:20.538776
+- Experiment: **Phase O3** multi-turn explicit REVISE ops (KEEP/SET_TWICE/SET_OPP/SET_DIR)
+- Flat OOD=0.241 | Prog OOD=0.524 wins=3/3
+- Outcome: **PASS** (explicit REVISE ops unlock multi-turn)
