@@ -1,0 +1,20 @@
+Device: cpu
+
+===== SEED 42 =====
+  Flat OOD mse=0.2973 ex=0.083
+  Prog OOD mse=0.6373 ex=0.466 win=False
+
+===== SEED 7 =====
+  Flat OOD mse=0.2282 ex=0.127
+  Prog OOD mse=0.7099 ex=0.249 win=False
+
+===== SEED 123 =====
+  Flat OOD mse=0.1953 ex=0.124
+  Prog OOD mse=0.3762 ex=0.594 win=False
+
+===== N2 TOOLS COMPOSE SUMMARY =====
+Flat OOD mse=0.2403 ex=0.111
+Prog OOD mse=0.5745 ex=0.436
+ratio=2.391 wins=0/3
+=== OUTCOME: FAIL ===
+Saved /home/workdir/artifacts/r/uns/run_20261011_011246

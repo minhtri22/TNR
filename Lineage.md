@@ -694,3 +694,15 @@
 - Experiment: **Phase M3** NL noise/OOV/longer → program→execute
 - Flat noise=0.214 | Prog noise=0.656 para Prog=0.782
 - Outcome: **PASS** (Prog robust to NL noise/OOV vs Flat)
+
+## Run 20261011_011019
+- Date: 2026-10-11T01:10:20.180160
+- Experiment: **Phase N Tools bank** NL→tool seq→execute vs flat
+- Flat OOD mse=0.4313 | Prog OOD mse=0.6895 ex Prog=0.331
+- Outcome: **FAIL**
+
+## Run 20261011_011246
+- Date: 2026-10-11T01:12:48.572804
+- Experiment: **Phase N2** tools bank composition in train; OOD novel pairs
+- Flat OOD mse=0.2403 | Prog OOD mse=0.5745 ex=0.436
+- Outcome: **FAIL**

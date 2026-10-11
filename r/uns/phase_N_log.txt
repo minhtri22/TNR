@@ -1,0 +1,21 @@
+Device: cpu
+
+===== SEED 42 =====
+/home/workdir/artifacts/code/tnr_phase_N_tools_bank.py:112: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:253.)
+  "s0": torch.tensor(S0, dtype=torch.float32),
+  Flat OOD mse=0.3010 ex=0.233
+  Prog OOD mse=0.6843 ex=0.346 win=False
+
+===== SEED 7 =====
+  Flat OOD mse=0.5458 ex=0.200
+  Prog OOD mse=0.6163 ex=0.350 win=False
+
+===== SEED 123 =====
+  Flat OOD mse=0.4471 ex=0.223
+  Prog OOD mse=0.7677 ex=0.297 win=False
+
+===== N TOOLS BANK SUMMARY =====
+Flat OOD mse=0.4313 ex=0.219
+Prog OOD mse=0.6895 ex=0.331
+wins=0/3 ratio=1.599 === OUTCOME: FAIL ===
+Saved /home/workdir/artifacts/r/uns/run_20261011_011019

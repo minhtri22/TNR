@@ -1,0 +1,55 @@
+{
+  "run_id": "20261011_011019",
+  "experiment": "Phase N Tools bank NL\u2192tool program\u2192execute",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Flat_mse_ood": 0.43131399154663086,
+    "Prog_mse_ood": 0.6894610524177551,
+    "wins": 0,
+    "Flat_ex": 0.21857142945130667,
+    "Prog_ex": 0.33095237612724304
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Flat_mse_id": 0.00010298314737156034,
+      "Prog_mse_id": 0.0,
+      "Flat_ex_id": 1.0,
+      "Prog_ex_id": 1.0,
+      "Flat_mse_ood": 0.30098074674606323,
+      "Prog_mse_ood": 0.6843486428260803,
+      "Flat_ex_ood": 0.2328571379184723,
+      "Prog_ex_ood": 0.345714271068573,
+      "win": false
+    },
+    {
+      "seed": 7,
+      "Flat_mse_id": 0.00032157154055312276,
+      "Prog_mse_id": 0.0,
+      "Flat_ex_id": 1.0,
+      "Prog_ex_id": 1.0,
+      "Flat_mse_ood": 0.5458431243896484,
+      "Prog_mse_ood": 0.6162852048873901,
+      "Flat_ex_ood": 0.20000000298023224,
+      "Prog_ex_ood": 0.3499999940395355,
+      "win": false
+    },
+    {
+      "seed": 123,
+      "Flat_mse_id": 0.00022698573593515903,
+      "Prog_mse_id": 0.0,
+      "Flat_ex_id": 1.0,
+      "Prog_ex_id": 1.0,
+      "Flat_mse_ood": 0.4471181035041809,
+      "Prog_mse_ood": 0.7677493095397949,
+      "Flat_ex_ood": 0.22285714745521545,
+      "Prog_ex_ood": 0.2971428632736206,
+      "win": false
+    }
+  ],
+  "outcome": "FAIL"
+}
