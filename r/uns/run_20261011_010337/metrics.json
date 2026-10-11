@@ -1,0 +1,69 @@
+{
+  "run_id": "20261011_010337",
+  "experiment": "Phase M3 NL noise OOV longer",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Flat_id": [
+      1.0,
+      0.0
+    ],
+    "Flat_para": [
+      0.3216666678587596,
+      0.10024969374878678
+    ],
+    "Flat_noise": [
+      0.21444444358348846,
+      0.040399242272296236
+    ],
+    "Prog_id": [
+      1.0,
+      0.0
+    ],
+    "Prog_para": [
+      0.7822222312291464,
+      0.019067787042514026
+    ],
+    "Prog_noise": [
+      0.6561111013094584,
+      0.0344623543295012
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_para": 0.2916666567325592,
+      "Prog_para": 0.7833333611488342,
+      "Flat_noise": 0.2266666740179062,
+      "Prog_noise": 0.6483333110809326,
+      "win": true
+    },
+    {
+      "seed": 7,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_para": 0.4566666781902313,
+      "Prog_para": 0.7583333253860474,
+      "Flat_noise": 0.2566666603088379,
+      "Prog_noise": 0.6183333396911621,
+      "win": true
+    },
+    {
+      "seed": 123,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_para": 0.21666666865348816,
+      "Prog_para": 0.8050000071525574,
+      "Flat_noise": 0.1599999964237213,
+      "Prog_noise": 0.7016666531562805,
+      "win": true
+    }
+  ],
+  "outcome": "PASS",
+  "note": "Prog robust to NL noise/OOV vs Flat"
+}

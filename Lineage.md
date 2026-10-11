@@ -688,3 +688,9 @@
 - Flat OOD=0.372 | Prog OOD=0.757 wins=3/3
 - Outcome: **PASS** (NL paraphrase OOD: program pipeline wins)
 - M was invalid OOD (slots never in train); M2 is correct NL bridge step
+
+## Run 20261011_010337
+- Date: 2026-10-11T01:03:40.747043
+- Experiment: **Phase M3** NL noise/OOV/longer → program→execute
+- Flat noise=0.214 | Prog noise=0.656 para Prog=0.782
+- Outcome: **PASS** (Prog robust to NL noise/OOV vs Flat)

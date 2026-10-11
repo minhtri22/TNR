@@ -1,0 +1,24 @@
+Device: cpu
+Train=76 OOD_B=76
+
+===== SEED 42 =====
+  Flat id=1.000 para=0.292 noise=0.227
+  Prog id=1.000 para=0.783 noise=0.648 win=True
+
+===== SEED 7 =====
+  Flat id=1.000 para=0.457 noise=0.257
+  Prog id=1.000 para=0.758 noise=0.618 win=True
+
+===== SEED 123 =====
+  Flat id=1.000 para=0.217 noise=0.160
+  Prog id=1.000 para=0.805 noise=0.702 win=True
+
+===== M3 NOISE SUMMARY =====
+  Flat_id: 1.000
+  Flat_para: 0.322
+  Flat_noise: 0.214
+  Prog_id: 1.000
+  Prog_para: 0.782
+  Prog_noise: 0.656
+wins=3/3 === OUTCOME: PASS === (Prog robust to NL noise/OOV vs Flat)
+Saved /home/workdir/artifacts/r/uns/run_20261011_010337
