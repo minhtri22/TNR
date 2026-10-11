@@ -735,3 +735,15 @@
 - Experiment: **Phase P Perception** grid pixels → start + NL→program→execute
 - Flat OOD=0.489 | Prog OOD=0.786 wins=3/3
 - Outcome: **PASS** (pixels→start + NL→program→execute beats flat)
+
+## Run 20261011_093137
+- Date: 2026-10-11T09:31:37.953623
+- Experiment: **Phase Q Semi-real** larger vocab + JSON-ish tool NL
+- Flat OOD exact=0.157 | Prog OOD exact=0.683 wins=3/3
+- Outcome: **PASS** (semi-real JSON-ish NL + tools exact)
+
+## Run 20261011_093259
+- Date: 2026-10-11T09:33:00.045244
+- Experiment: **Phase Q Semi-real** larger vocab + JSON-ish tool NL
+- Flat OOD exact=0.157 | Prog OOD exact=0.683 wins=3/3
+- Outcome: **PASS** (semi-real JSON-ish NL + tools exact)

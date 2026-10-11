@@ -1,0 +1,17 @@
+Device: cpu
+Preregister: exact primary, PASS if Prog_ex > Flat+0.05 and >=0.35 wins>=2/3
+
+===== SEED 42 =====
+  Flat OOD ex=0.133 | Prog OOD ex=0.696 win=True
+
+===== SEED 7 =====
+  Flat OOD ex=0.210 | Prog OOD ex=0.660 win=True
+
+===== SEED 123 =====
+  Flat OOD ex=0.129 | Prog OOD ex=0.694 win=True
+
+===== Q SEMI-REAL SUMMARY =====
+Flat OOD exact=0.157 | Prog OOD exact=0.683
+wins=3/3
+=== OUTCOME: PASS === (semi-real JSON-ish NL + tools exact)
+Saved /home/workdir/artifacts/r/uns/run_20261011_093259
