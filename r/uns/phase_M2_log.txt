@@ -1,0 +1,20 @@
+Device: cpu
+Train=76 OOD_paraphrase=76
+
+===== SEED 42 =====
+  Flat ID=1.000 OOD=0.483
+  Prog ID=1.000 OOD=0.801 win=True
+
+===== SEED 7 =====
+  Flat ID=1.000 OOD=0.394
+  Prog ID=1.000 OOD=0.764 win=True
+
+===== SEED 123 =====
+  Flat ID=1.000 OOD=0.240
+  Prog ID=1.000 OOD=0.706 win=True
+
+===== M2 PARAPHRASE OOD SUMMARY =====
+Flat: ID=1.000 OOD=0.372
+Prog: ID=1.000 OOD=0.757
+wins=3/3 === OUTCOME: PASS === (NL paraphrase OOD: program pipeline wins)
+Saved /home/workdir/artifacts/r/uns/run_20261011_005832

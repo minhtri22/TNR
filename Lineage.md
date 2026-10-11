@@ -674,3 +674,17 @@
   Operator/program must match domain family; residual/seq2seq ID≠systematic OOD;
   Control/Probabilistic learned program-OOD still residual-dominated (FREEZE).
 - Status: lab expansion audit COMPLETE
+
+## Run 20261011_005531
+- Date: 2026-10-11T00:55:31.605332
+- Experiment: **Phase M** NL→Program→Execute (paraphrase bridge toy→real)
+- Flat ID=1.000 OOD=0.446 | Prog ID=1.000 OOD=0.141
+- Outcome: **FAIL** (structured pipeline worse than flat)
+- Step 1 of real-world ladder: structured NL slots + grounded execute
+
+## Run 20261011_005832
+- Date: 2026-10-11T00:58:33.255907
+- Experiment: **Phase M2** NL paraphrase OOD (all structures in train)
+- Flat OOD=0.372 | Prog OOD=0.757 wins=3/3
+- Outcome: **PASS** (NL paraphrase OOD: program pipeline wins)
+- M was invalid OOD (slots never in train); M2 is correct NL bridge step

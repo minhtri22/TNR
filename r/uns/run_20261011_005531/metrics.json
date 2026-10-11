@@ -1,0 +1,55 @@
+{
+  "run_id": "20261011_005531",
+  "experiment": "Phase M NL\u2192Program\u2192Execute bridge",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Flat_id": [
+      1.0,
+      0.0
+    ],
+    "Flat_ood": [
+      0.4457142949104309,
+      0.08867122815375349
+    ],
+    "Prog_id": [
+      1.0,
+      0.0
+    ],
+    "Prog_ood": [
+      0.1409523809949557,
+      0.014110030693906112
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_ood": 0.5557143092155457,
+      "Prog_ood": 0.12142857164144516,
+      "win": false
+    },
+    {
+      "seed": 7,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_ood": 0.44285714626312256,
+      "Prog_ood": 0.14714285731315613,
+      "win": false
+    },
+    {
+      "seed": 123,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_ood": 0.3385714292526245,
+      "Prog_ood": 0.1542857140302658,
+      "win": false
+    }
+  ],
+  "outcome": "FAIL",
+  "note": "structured pipeline worse than flat"
+}
