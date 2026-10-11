@@ -1,0 +1,21 @@
+Device: cpu
+Train ex=48 OOD=48
+
+===== SEED 42 =====
+  Flat ID=1.000 OOD=0.321
+  Prog ID=1.000 OOD=0.231 win=False
+
+===== SEED 7 =====
+  Flat ID=1.000 OOD=0.393
+  Prog ID=1.000 OOD=0.481 win=True
+
+===== SEED 123 =====
+  Flat ID=1.000 OOD=0.393
+  Prog ID=1.000 OOD=0.430 win=True
+
+===== O MULTI-TURN SUMMARY =====
+Flat: ID=1.000 OOD=0.369
+Prog: ID=1.000 OOD=0.381
+wins=2/3
+=== OUTCOME: UNRESOLVED === (gap insufficient)
+Saved /home/workdir/artifacts/r/uns/run_20261011_013610

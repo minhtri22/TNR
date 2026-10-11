@@ -712,3 +712,9 @@
 - Experiment: **Phase N3** tools bank preregister EXACT (not MSE)
 - Flat OOD exact=0.111 | Prog OOD exact=0.436 wins=3/3
 - Outcome: **PASS** (exact tool success program>flat)
+
+## Run 20261011_013610
+- Date: 2026-10-11T01:36:10.883603
+- Experiment: **Phase O Multi-turn** command + correction → program→execute
+- Flat OOD=0.369 | Prog OOD=0.381 wins=2/3
+- Outcome: **UNRESOLVED** (gap insufficient)

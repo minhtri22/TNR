@@ -1,0 +1,55 @@
+{
+  "run_id": "20261011_013610",
+  "experiment": "Phase O multi-turn correction",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Flat_id": [
+      1.0,
+      0.0
+    ],
+    "Flat_ood": [
+      0.369047611951828,
+      0.0336717494780809
+    ],
+    "Prog_id": [
+      1.0,
+      0.0
+    ],
+    "Prog_ood": [
+      0.3809523830811183,
+      0.10779378524956751
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_ood": 0.3214285671710968,
+      "Prog_ood": 0.2314285784959793,
+      "win": false
+    },
+    {
+      "seed": 7,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_ood": 0.3928571343421936,
+      "Prog_ood": 0.4814285635948181,
+      "win": true
+    },
+    {
+      "seed": 123,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_ood": 0.3928571343421936,
+      "Prog_ood": 0.4300000071525574,
+      "win": true
+    }
+  ],
+  "outcome": "UNRESOLVED",
+  "note": "gap insufficient"
+}
