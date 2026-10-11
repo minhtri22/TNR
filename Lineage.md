@@ -747,3 +747,16 @@
 - Experiment: **Phase Q Semi-real** larger vocab + JSON-ish tool NL
 - Flat OOD exact=0.157 | Prog OOD exact=0.683 wins=3/3
 - Outcome: **PASS** (semi-real JSON-ish NL + tools exact)
+
+## SEMI-REAL BRIDGE FREEZE 2026-10-11
+- Freeze ladder M2/M3/N3/P/Q as **semi-real foundation** (PASS).
+- Do **not** open R1 HTTP/real domain until multi-turn has a clear PASS or explicit boundary claim.
+- Reason: real agents need session/correction (C); foundation without C is insufficient for real.
+
+## MULTI-TURN TRACK OPEN
+- Goal: unlock command correction / dialogue revise before real-world tools.
+- Prior O/O2 = UNRESOLVED (joint + split encode).
+- Next hypotheses (one at a time):
+  - **O3**: explicit REVISE ops from turn2 (REPLACE_DIR / SET_TWICE / SET_OPP)
+  - **O4**: execute turn1 → intermediate state → turn2 as fresh command
+  - Then only: return to real (HTTP mock) if multi-turn PASS or freeze-with-boundary.
