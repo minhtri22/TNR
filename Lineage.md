@@ -778,3 +778,9 @@
 - Experiment: **Phase O4** state-after-turn1 sequential program execute
 - Flat OOD=0.157 | Prog OOD=0.712 wins=3/3
 - Outcome: **PASS** (sequential execute via mid-state beats flat)
+
+## Run 20261011_113003
+- Date: 2026-10-11T11:30:05.945419
+- Experiment: **O4b** state-mid with different OOD (held-out pairs + phrasing)
+- Flat hard=0.205 | Prog hard=0.702 pair Prog=1.000 phr=0.705
+- Outcome: **PASS** (hard OOD (held-out pairs + new phrasing) held)

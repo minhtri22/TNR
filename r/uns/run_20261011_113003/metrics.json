@@ -1,0 +1,83 @@
+{
+  "run_id": "20261011_113003",
+  "experiment": "O4b different OOD pair+phrasing transfer",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Flat_id": [
+      1.0,
+      0.0
+    ],
+    "Flat_pair": [
+      1.0,
+      0.0
+    ],
+    "Flat_phr": [
+      0.14133333414793015,
+      0.03138293858555226
+    ],
+    "Flat_hard": [
+      0.20533333718776703,
+      0.026948510384504354
+    ],
+    "Prog_id": [
+      1.0,
+      0.0
+    ],
+    "Prog_pair": [
+      1.0,
+      0.0
+    ],
+    "Prog_phr": [
+      0.7046666542689005,
+      0.08504639328975293
+    ],
+    "Prog_hard": [
+      0.7019999821980795,
+      0.07559542086624607
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_pair": 1.0,
+      "Prog_pair": 1.0,
+      "Flat_phr": 0.17599999904632568,
+      "Prog_phr": 0.8119999766349792,
+      "Flat_hard": 0.23800000548362732,
+      "Prog_hard": 0.7879999876022339,
+      "win": true
+    },
+    {
+      "seed": 7,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_pair": 1.0,
+      "Prog_pair": 1.0,
+      "Flat_phr": 0.10000000149011612,
+      "Prog_phr": 0.6980000138282776,
+      "Flat_hard": 0.1720000058412552,
+      "Prog_hard": 0.7139999866485596,
+      "win": true
+    },
+    {
+      "seed": 123,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_pair": 1.0,
+      "Prog_pair": 1.0,
+      "Flat_phr": 0.14800000190734863,
+      "Prog_phr": 0.6039999723434448,
+      "Flat_hard": 0.20600000023841858,
+      "Prog_hard": 0.6039999723434448,
+      "win": true
+    }
+  ],
+  "outcome": "PASS",
+  "note": "hard OOD (held-out pairs + new phrasing) held"
+}

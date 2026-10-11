@@ -1,0 +1,25 @@
+Device: cpu
+
+===== SEED 42 =====
+  Flat id=1.000 pair=1.000 phr=0.176 hard=0.238
+  Prog id=1.000 pair=1.000 phr=0.812 hard=0.788 win=True
+
+===== SEED 7 =====
+  Flat id=1.000 pair=1.000 phr=0.100 hard=0.172
+  Prog id=1.000 pair=1.000 phr=0.698 hard=0.714 win=True
+
+===== SEED 123 =====
+  Flat id=1.000 pair=1.000 phr=0.148 hard=0.206
+  Prog id=1.000 pair=1.000 phr=0.604 hard=0.604 win=True
+
+===== O4b OOD TRANSFER SUMMARY =====
+  Flat_id: 1.000
+  Flat_pair: 1.000
+  Flat_phr: 0.141
+  Flat_hard: 0.205
+  Prog_id: 1.000
+  Prog_pair: 1.000
+  Prog_phr: 0.705
+  Prog_hard: 0.702
+wins=3/3 === OUTCOME: PASS === (hard OOD (held-out pairs + new phrasing) held)
+Saved /home/workdir/artifacts/r/uns/run_20261011_113003
