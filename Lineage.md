@@ -855,3 +855,14 @@
 - Experiment: **ProdNL** free-form production-like NL (distractors, typos, novel cores)
 - Flat OOD=0.291 | Prog OOD=0.532 wins=3/3
 - Outcome: **PASS** (free-form NL still favors program→execute)
+
+## Run 20261011_224139
+- Date: 2026-10-11T22:41:41.631152
+- Experiment: **HumanNL** open corpus (human/LLM-like free NL, held-out 30% surfaces)
+- Corpus size=428 | Flat OOD=0.963 | Prog OOD=0.975 wins=1/3
+- Outcome: **UNRESOLVED** (insufficient gap)
+- Limitation: curated labeled open-style, NOT raw production user logs
+
+## Run 20261011_224314
+- **HumanNL-b** lexical OOD (train N/S/E/W, OOD up/down/left/right+messy)
+- Flat=0.167 Prog=0.196 wins=2/3 **UNRESOLVED**

@@ -1,0 +1,24 @@
+{
+  "outcome": "UNRESOLVED",
+  "Flat": 0.1666666716337204,
+  "Prog": 0.1959999998410543,
+  "wins": 2,
+  "per_seed": [
+    {
+      "Flat": 0.15000000596046448,
+      "Prog": 0.2639999985694885,
+      "win": true
+    },
+    {
+      "Flat": 0.15000000596046448,
+      "Prog": 0.09399999678134918,
+      "win": false
+    },
+    {
+      "Flat": 0.20000000298023224,
+      "Prog": 0.23000000417232513,
+      "win": true
+    }
+  ],
+  "exp": "HumanNL-b lexical holdout colloquial"
+}

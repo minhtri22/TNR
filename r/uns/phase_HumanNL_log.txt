@@ -1,0 +1,24 @@
+Device: cpu
+Open corpus size=428
+Vocab=86
+
+===== SEED 42 =====
+  bank train=300 ood=128
+  Flat ID=1.000 OOD=0.940
+  Prog ID=1.000 OOD=0.982 win=True
+
+===== SEED 7 =====
+  bank train=300 ood=128
+  Flat ID=1.000 OOD=0.968
+  Prog ID=1.000 OOD=0.967 win=False
+
+===== SEED 123 =====
+  bank train=300 ood=128
+  Flat ID=1.000 OOD=0.982
+  Prog ID=1.000 OOD=0.977 win=False
+
+===== HumanNL OPEN CORPUS SUMMARY =====
+Flat OOD=0.963 | Prog OOD=0.975 wins=1/3
+=== OUTCOME: UNRESOLVED === (insufficient gap)
+NOTE: corpus is curated open-style (human/LLM-like), not raw user logs.
+Saved /home/workdir/artifacts/r/uns/run_20261011_224139
