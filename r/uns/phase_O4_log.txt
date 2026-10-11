@@ -1,0 +1,19 @@
+Device: cpu
+Train=64 OOD=64
+
+===== SEED 42 =====
+  Flat ID=1.000 OOD=0.157
+  Prog ID=1.000 OOD=0.815 win=True
+
+===== SEED 7 =====
+  Flat ID=1.000 OOD=0.137
+  Prog ID=1.000 OOD=0.570 win=True
+
+===== SEED 123 =====
+  Flat ID=1.000 OOD=0.178
+  Prog ID=1.000 OOD=0.750 win=True
+
+===== O4 STATE-MID SUMMARY =====
+Flat OOD=0.157 | Prog OOD=0.712 wins=3/3
+=== OUTCOME: PASS === (sequential execute via mid-state beats flat)
+Saved /home/workdir/artifacts/r/uns/run_20261011_112545

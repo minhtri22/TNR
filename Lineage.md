@@ -772,3 +772,9 @@
 - Experiment: **Phase O3** multi-turn explicit REVISE ops (KEEP/SET_TWICE/SET_OPP/SET_DIR)
 - Flat OOD=0.241 | Prog OOD=0.524 wins=3/3
 - Outcome: **PASS** (explicit REVISE ops unlock multi-turn)
+
+## Run 20261011_112545
+- Date: 2026-10-11T11:25:46.391470
+- Experiment: **Phase O4** state-after-turn1 sequential program execute
+- Flat OOD=0.157 | Prog OOD=0.712 wins=3/3
+- Outcome: **PASS** (sequential execute via mid-state beats flat)
