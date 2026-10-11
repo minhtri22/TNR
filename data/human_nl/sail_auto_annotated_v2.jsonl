@@ -1,0 +1,167 @@
+{"text": "turn so the wall is on your back", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 2]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right into this hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "I believe you turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn left and move onto the blue carpet", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left into this hallway", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "at seven face, from looking at the long alley turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left at the hat rack", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "with you back to the wall turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward three times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "turn right to face the black hallway", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left into this hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "at the corner here, turn right onto the green path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "with your back to the wall turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left at the stool", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "go forward", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward three times and stop", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "go towards the lamp and two intersections after the lamp, turn right and when you can only go right or left, you are at 3", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right in the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left at the stool in the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left into the bare concrete floored hall whose intersection with the blue-tiled hall contains the hatrack", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk to the corner and turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward twice or until you reach the blue hallway", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn right you should see an easel in front of you", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn onto the pink hallway and walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "Turn left into the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right at the hatrack, Go forward two segments, passing the bench, to the empty intersection", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right and move one alley", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "with your back to the wall turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "move to the hat rack and turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn right and move one block", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "I 90% sure that you will turn left, although I am certain that you will turn in the direction in which more hallways are visible", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward three times or until you are at the intersection of green and yellow", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "Turn left at the hatrack into the bare concrete hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "with your back to the wall at 6 turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right at the hatrack contained in this intersection", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "with your back to the wall, turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right at the bench into the yellow tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left into the bare concrete hallway", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "when you get to the alley with the roack floor stop and turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right you should see gray floor with the red brick on the next alley", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "move one alley past the chair and turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right at the rose hallway", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right and you see grass carpet in front of you and green octagon carpet down the next alley", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "with your back to the wall at 2 turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "at the end of the grass alley turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward three times or until you reach the corner of yellow and green", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "move forward to the hat rack and turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left in the blue-tiled hall, away from the intersection with the grassy hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left at this intersection", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right into the hall with pink-flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right into the wooden hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "move to the wall and turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left or right to locate the easel", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left toward the yellow hexagonal tiled hallway", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left down the stone floored hallway", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left in this hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn right and walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "Turn right in to this hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward three times or until you reach the pink walkway", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "move to the hat rack and turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left at the hatrack into the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right in this hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "facing the long aisle turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk to the blue carpet and turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "go right onto the pink path all the way to the black easel", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "take a right on the plain path two intersections after the lamp", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "at the end where you can only go right or left onto a blue path, you are at 3", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "go right onto the red brick path towards the lamp", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "take a left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "Go forward two segments, or to the first empty intersection", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward two segments to the wooden hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward one segment to the 'T' intersection with the bare concrete hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "with your back to the wall at three move forward one alley", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "at this intersection, however, you can either only go straight or right onto a plain cement path", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "here, take a right onto the wood path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "move forward along the rock floor to the end", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "take a right at the black road intersection and follow it until you come to a black easel", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "at the red brick intersection, go right towards the lamp", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "at the first intersection after the lamp, take a right onto the plain cement path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "from four face the octagon carpet and move forward one alley", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "once here, take a right onto the red brick and follow it until the intersection with red brick and plain cement", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "go left towards the lamp to the very end of the hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "at the chair, take a right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "at the blue path intersection, take a left onto the blue path", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "turn so that the wall is on your back", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 2]], "status": "auto_v2"}
+{"text": "go forward one movement in the direction of the red floor", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "go straight", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "go left onto the red brick path", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "move forward to the octagon flooring", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward four segments, passing the stool and chair, to the grassy hallway", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward three segments to the intersection of the grassy and yellow-tiled hallways, passing the hatrack", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward until you reach a hall with pink flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward one segment to the corner", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "move forward one alley to the wooden flooring", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "with your back to the wall, move forward one alley", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward in the brown brick-floored hall until you reach  the intersection with the hall with the pink-flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "face and move forward to the hatrack", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward one segment to the grassy hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward two segments to the intersection of the yellow-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "walk forward maybe four times and you should be at the intersection of blue and brown", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "here, at the end of the hall, take a right to the blue path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "at the blue path, take a left towards the coat rack", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "at the coat rack, take a right onto the plain cement path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "walk forward five times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "walk forward four times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "but one movement forward and it will", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Follow the yellow-tiled hall forward three segments, passing the bench", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "at the coat rack, take a right onto the blue path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "follow the blue path to the black path intersection and go right onto the black path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "Go forward one segment, to the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "with your back to the wall move forward along the octagon carpet one alley", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward one segment to  the hatrack", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Follow this hall one segment forward to the intersection with the brick hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "with your back to the wall move forward until the brick alley is to your left and right", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward three segements to the 'T' intersection with the stone floor", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "take a right onto the green path all the way to the end of the hall where the green and yellow paths meet in a corner", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "Go straight towards the coat rack and take a right at this junction", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "At the third, take a right onto the white cement path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "go right onto the green path to the end of the hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "Go one segment forward to the corner", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "at the red brick intersection, take a left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "at the second intersection down, take a right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "at the end of this hall, you can either only go right or left", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "go straight a few movements", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "go left until you come to the four way intersection of the red and rose floors, with an easel", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "at the black road intersection, take a left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "walk forward three tiems", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "at the intersection with the green path, take a right and again, go to the end of the hall where the corner meets with the yellow path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "Go forward one segment to the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward two segments, passing the bench", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward one segment", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "you should be two alleys away from a lamp and then an easel beyond that", "source": "SAIL_SingleSentence.grid", "slots": ["O", "U", "T", "_", "O", "F", "_", "S", "C", "O", "P", "E", "_", "L", "A", "N", "D", "M", "A", "R", "K", "O", "U", "T", "_", "O", "F", "_", "S", "C", "O", "P", "E", "_", "L", "A", "N", "D", "M", "A", "R", "K"], "status": "auto_v2"}
+{"text": "Go forward four segments down the brick hallway, passing a lamp and an easel to the grassy hallway", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward two segments to the intersection of the grassy hall and the yellow-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "go straight down the yellow hall until you hit a corner that intersects with the grass hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward three segments down the  yellow-tiled hall, passing the bench", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward two segments, past the bench, to the intersection containing the hatrack", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "at the rack, go right onto the blue path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "go right onto the pink path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "Go forward three segments, past the stool, to the intersection of the bare concrete hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "at three put your back to the sofa and move forward towards the stool", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "move forward to the easel", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "go left onto the red brick", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "at the chair at the end of the hall, go right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "at the black bench, take a left onto the blue path", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "at the end of the hall at the chair, take a right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "go straight to the black bench", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "here, take a left onto the blue path and another left at the coat rack", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "here, go left onto the wood path", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "go right onto the red brick towards the lamp", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "with your back to the wall move forward to the wall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward along the bare concrete hal one segment ti the intersection of the hall of pink-flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward one segment to the intersection of the pink-flowered carpet hall and the brick hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "move forward one alley", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward two segments along the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "Go forward two segments to the intersection of the bare concrete hallway", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "next, take a right and follow the path until you reach a black easel, this is position 2", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "take a right onto the black path all the way down until you reach the black easel", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "at the coat rack take a left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto_v2"}
+{"text": "Take the yellow path all the way to the end of the hall until you can only either go right or left", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto_v2"}
+{"text": "walk three times forward", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "walk forward six times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}
+{"text": "move forward one block", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto_v2"}

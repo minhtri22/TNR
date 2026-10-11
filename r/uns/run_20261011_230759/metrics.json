@@ -1,0 +1,15 @@
+{
+  "annotation_v2": {
+    "newly": 111,
+    "still_human": 167,
+    "out_of_scope": 222,
+    "total_auto_unique": 167
+  },
+  "humannl_pass_path": {
+    "Flat": 0.16533333559830984,
+    "Prog": 0.4973333378632863,
+    "wins": 3,
+    "outcome": "PASS",
+    "hypothesis": "synonym-in-train + OOD novel syntax (not pure lexical cold-start)"
+  }
+}

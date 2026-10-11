@@ -875,3 +875,9 @@
 - Flat OOD=0.867 Prog OOD=0.962 wins=3/3
 - Outcome: **PASS**
 - Artifacts: data/human_nl/sail_auto_annotated.jsonl, sail_needs_review.jsonl, ANNOTATION_SCHEMA.json
+
+## Run 20261011_230759
+- Date: 2026-10-11T23:08:00.147194
+- **Annotate needs_review v2**: newly=111 still=167 OOS_landmark=222 total_auto=167
+- **HumanNL pass-path**: synonym-in-train, OOD novel syntax → Flat=0.165 Prog=0.497 wins=3/3 **PASS**
+- Root cause curated UNRESOLVED: (A) surface OOD too easy both~0.96; (B) pure lexical cold-start both low without synonym supervision
