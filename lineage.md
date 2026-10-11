@@ -141,3 +141,27 @@ Phân loại bằng chứng: **phát triển/thăm dò (development/exploratory)
 - Điều kiện FAIL đã đăng ký trước cùng kích hoạt: `R_mean >= 1.05` và `world_wins <= 1/5`.
 - Phạm vi: FAIL này chỉ áp dụng cho giả thuyết giới hạn P1-VDR1 về sparse hard routing dưới thiết kế/ngân sách đã khóa; không phủ định mọi biến thể TNR.
 - Bằng chứng: `results/p1_vdr1/result.json`; QA độc lập: `results/p1_vdr1/independent_qa_and_adjudication.json`.
+
+---
+
+## Run 20261009_nmod6_5seed_COMPLETE — nhập từ from-grok
+- Ngày: 2026-10-09
+- Kết quả gốc: **PASS**
+- Phân loại chuẩn: **PASS — DEVELOPMENT / EXPLORATORY ONLY**
+- Nguồn: `from-grok@7e989131395eb019a896694cd1833043ab149bc2`
+- Kết luận quan sát: với PureC + `λ=0.15`, tăng `n_mod` từ 4 lên 6 (=N_KEYS) làm trajectory trung bình tăng từ `0.4184` lên `0.4680`, đồng thời mean OOD giảm từ `0.44184` xuống `0.3766`.
+- Giới hạn: N6 có khoảng `1.372×` tham số N4, dùng giám sát route/layout, eval mềm (soft routing), task khác P1 và dùng seed phát triển.
+- Hệ quả cho P1: collision `op % n_mod` là cơ chế có thật trong nhánh Grok nhưng **không áp dụng trực tiếp cho P1**, vì P1 đã có 8 module cho 8 atomic operation. Kết quả này chỉ hỗ trợ hướng successor về semantic alignment/hardness.
+
+---
+
+## TNR_P1_POST_FAIL_MECHANISM_ATTRIBUTION_AUDIT
+- Ngày: 2026-10-09
+- Kết quả: **PASS**
+- Phán quyết: **FAILURE_LOCALIZED_TO_HARD_DISCRETE_ROUTING_AND_SEMANTIC_SPECIALIZATION_REGION**
+- Bằng chứng chính: DenseSoftRouter C và SparseHardRouter D có cùng 19.780 tham số; D xấu hơn C khoảng `9.08×` trên DEV và `9.15×` trên TEST, nên thất bại đã xuất hiện trước OOD TEST.
+- Route semantics: route-position accuracy `0.250744`; wrong/native `2.288867×` bác bỏ giả thuyết route không quan trọng, nhưng oracle/native `1.642876×` bác bỏ giải thích đơn thuần bằng hoán vị nhãn.
+- Quy kết: hard discrete routing/optimization = **STRONG PRIMARY**; module specialization/semantic alignment = **STRONG SECONDARY**; pure label permutation = **REJECTED AS SOLE CAUSE**; hard-training vs hard-inference = **UNRESOLVED**.
+- Quyết định chương trình: không rerun/tune P1; đóng thiết kế SparseHardRouter hiện tại như FAIL; cho phép mở successor P1R mới chỉ để causal-decompose hard training, hard inference và semantic supervision trên fresh confirmation namespace.
+- Tài liệu: `docs/TNR_P1_POST_FAIL_MECHANISM_ATTRIBUTION_AUDIT.md`
+- Bằng chứng: `results/p1_vdr1/post_fail_mechanism_attribution_audit.json`.

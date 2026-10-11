@@ -1,0 +1,81 @@
+{
+  "audit_id": "TNR_P1_POST_FAIL_MECHANISM_ATTRIBUTION_AUDIT",
+  "date": "2026-10-09",
+  "mode": "POST_FAIL_FROZEN_EVIDENCE_DIAGNOSTIC",
+  "scientific_inputs": {
+    "p1_result": "results/p1_vdr1/result.json",
+    "p1_result_sha256": "4e4bcbecb760a43ce1d17b8a041c9eff664002bfc5f4d4ece042b9d7778c1362",
+    "p1_independent_qa": "results/p1_vdr1/independent_qa_and_adjudication.json",
+    "p1_canonical_result_commit": "0fde3ab05a3a355b14af4e7b5b058a5223859918",
+    "grok_development_commit": "7e989131395eb019a896694cd1833043ab149bc2"
+  },
+  "frozen_p1_diagnostics": {
+    "C_mean_dev_mse": 0.005757811479270458,
+    "D_mean_dev_mse": 0.05172862336039543,
+    "D_over_C_dev_mse_ratio_mean": 9.077407499715429,
+    "C_mean_test_nmse": 0.006088594807434076,
+    "D_mean_test_nmse": 0.0551542487202755,
+    "D_over_C_test_nmse_ratio_mean": 9.15334381452446,
+    "C_over_best_fixed_test_ratio_mean": 0.17644632883482486,
+    "D_route_position_accuracy_mean": 0.2507440476190476,
+    "D_exact_route_accuracy_mean": 0.003720238095238095,
+    "D_wrong_over_native_mean": 2.2888673628574248,
+    "D_oracle_over_native_mean": 1.6428756506050912,
+    "D_active_module_calls_per_sample": 4
+  },
+  "grok_7e98913_diagnostic": {
+    "status": "DEVELOPMENT_EXPLORATORY_PASS",
+    "experiment": "PureC + lambda_layout=0.15, n_mod=6 vs n_mod=4",
+    "full_5seed_N4_OOD": 0.44184,
+    "full_5seed_N6_OOD": 0.3766,
+    "N6_over_N4_OOD_ratio": 0.8523447401774398,
+    "full_5seed_N4_traj": 0.4184,
+    "full_5seed_N6_traj": 0.468,
+    "traj_delta": 0.04960000000000003,
+    "N4_parameters": 77227,
+    "N6_parameters": 105937,
+    "parameter_ratio_N6_over_N4": 1.371761171610965,
+    "p1_direct_collision_applicability": false,
+    "reason_not_directly_confirmatory": [
+      "different development seeds (42,7,123,99,2024), banned for P1 confirmation",
+      "uses explicit route/layout auxiliary supervision lambda=0.15",
+      "changes module count and parameter budget",
+      "evaluation uses soft routing rather than P1 hard argmax sparse execution",
+      "different architecture/task surface from P1-VDR1",
+      "P1 already has 8 modules for 8 atomic operations, so op%n_mod collision is absent"
+    ]
+  },
+  "attribution": {
+    "hard_discrete_routing_regime": {
+      "support": "STRONG_PRIMARY",
+      "evidence": "C and D share the same parameter count/module bank/controller family, yet D is ~9.08x worse on DEV and ~9.15x worse on TEST. Failure therefore appears before held-out composition evaluation."
+    },
+    "module_specialization_semantic_alignment": {
+      "support": "STRONG_SECONDARY",
+      "evidence": "Route recovery is low; forcing the DEV-Hungarian mapped true route worsens MSE by 1.64x on average, inconsistent with clean atomic-module specialization."
+    },
+    "pure_route_label_permutation_identifiability": {
+      "support": "REJECTED_AS_SOLE_CAUSE",
+      "evidence": "Hungarian mapping already corrects arbitrary label permutation. Oracle-forced mapped routes still degrade strongly, so permutation ambiguity alone cannot explain the failure."
+    },
+    "routing_irrelevance": {
+      "support": "REJECTED",
+      "evidence": "Wrong-route intervention raises MSE by 2.29x, proving routing choices causally affect computation."
+    },
+    "sparse_execution_architecture_vs_hard_training_optimization": {
+      "support": "UNRESOLVED_WITHIN_PRIMARY_REGION",
+      "evidence": "Frozen P1 did not save a matched soft-trained/hard-eval or hard-trained/soft-eval counterfactual, so training discreteness and inference sparsity cannot be separated without a successor study."
+    },
+    "op_modulo_collision": {
+      "support": "NOT_APPLICABLE_TO_P1",
+      "evidence": "P1 uses N_ATOMIC=8 and exactly 8 learned modules with direct labels; the 6-to-4 collision repaired by Grok does not exist in P1."
+    }
+  },
+  "adjudication": {
+    "outcome": "PASS",
+    "verdict": "FAILURE_LOCALIZED_TO_HARD_DISCRETE_ROUTING_AND_SEMANTIC_SPECIALIZATION_REGION",
+    "p1r_authorized": true,
+    "sparse_hard_branch_stopped_as_current_form": true,
+    "interpretation": "Do not rerun or tune P1. Open a fresh successor only to causally decompose hard-training vs hard-inference and supervised semantic alignment, with fresh confirmation namespace."
+  }
+}

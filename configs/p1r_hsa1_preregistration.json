@@ -1,0 +1,124 @@
+{
+  "study_id": "TNR_P1R_HSA1",
+  "preregistration_id": "TNR_P1R_HARD_ROUTING_SEMANTIC_ALIGNMENT_DECOMPOSITION_PREREGISTRATION",
+  "date": "2026-10-09",
+  "status": "PREREGISTERED_EXECUTION_FORBIDDEN",
+  "source_science": {
+    "p1_result_commit": "0fde3ab05a3a355b14af4e7b5b058a5223859918",
+    "grok_consumed_through": "7e989131395eb019a896694cd1833043ab149bc2"
+  },
+  "route_namespace": {
+    "tag": "TNR_P1R_HSA1",
+    "route_len": 4,
+    "n_atomic": 8,
+    "split_counts": {
+      "TRAIN": 1176,
+      "DEV": 168,
+      "TEST": 336
+    },
+    "split_hashes": {
+      "TRAIN": "3730d7e60ee0a34f12b13e461b7cd4ca8cb7b55e89be73bce3c53c72434934c2",
+      "DEV": "dcacc18cacd68fededa2bc61b75106eb31139d3405a60732621212470c771adb",
+      "TEST": "0583c121e213e87942cafbe2874125de570fbaedcf13c0be862355c7a9d361ef"
+    }
+  },
+  "samples_per_route": 4,
+  "confirmatory_world_seeds": [
+    505696,
+    446531,
+    474580,
+    615716,
+    186202
+  ],
+  "banned_seeds": [
+    314159,
+    271828,
+    161803,
+    141421,
+    173205,
+    42,
+    7,
+    123,
+    99,
+    2024
+  ],
+  "treatments": [
+    {
+      "id": "S0",
+      "train_gate": "softmax",
+      "semantic_lambda": 0
+    },
+    {
+      "id": "S15",
+      "train_gate": "softmax",
+      "semantic_lambda": 0.15
+    },
+    {
+      "id": "H0",
+      "train_gate": "gumbel_st_hard",
+      "semantic_lambda": 0
+    },
+    {
+      "id": "H15",
+      "train_gate": "gumbel_st_hard",
+      "semantic_lambda": 0.15
+    }
+  ],
+  "eval_modes": [
+    "soft",
+    "hard"
+  ],
+  "architecture": {
+    "n_modules": 8,
+    "expected_router_params": 19780,
+    "topology_mask": false,
+    "no_self_loop_mask": false,
+    "teacher_forcing": false,
+    "curriculum": false,
+    "addons": false
+  },
+  "training": {
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-8,
+    "weight_decay": 0,
+    "batch_size": 128,
+    "max_epochs": 60,
+    "patience": 10,
+    "improvement_epsilon": 1e-12,
+    "gumbel_temperature": 1,
+    "annealing": false,
+    "epoch_selection_metric": "DEV task MSE"
+  },
+  "gates": {
+    "G1_hard_training_penalty": {
+      "mean_ratio_gte": 1.25,
+      "directional_seeds_gte": 4
+    },
+    "G2_hard_inference_penalty": {
+      "mean_ratio_gte": 1.25,
+      "directional_seeds_gte": 4
+    },
+    "G3_semantic_alignment_repair": {
+      "route_accuracy_absolute_gain_gte": 0.15,
+      "mapping_stability_gain_gte": 0.25,
+      "mapping_stability_alternative_gte": 0.75,
+      "oracle_over_native_lte": 1.1,
+      "wrong_over_native_gte": 1.1,
+      "task_nmse_relative_lte": 1.1,
+      "directional_route_gain_seeds_gte": 4
+    },
+    "G4_hard_sparse_viability": {
+      "relative_to_best_fixed_lte": 1.1,
+      "active_calls_per_sample": 4,
+      "route_position_accuracy_gte": 0.6,
+      "oracle_over_native_lte": 1.1,
+      "wrong_over_native_gte": 1.1,
+      "seed_wins_or_ties_gte": 4
+    }
+  }
+}
