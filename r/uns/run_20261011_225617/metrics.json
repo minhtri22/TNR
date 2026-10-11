@@ -1,0 +1,13 @@
+{
+  "run_id": "20261011_225617",
+  "experiment": "HumanNL-SAIL import+annotate+eval",
+  "source": "lil-lab/navigation-corpus SAIL SingleSentence.grid (human-written)",
+  "auto_annotated": 235,
+  "needs_review": 639,
+  "unique_train": 47,
+  "unique_ood": 21,
+  "Flat_ood": 0.8666666547457377,
+  "Prog_ood": 0.961904764175415,
+  "wins": 3,
+  "outcome": "PASS"
+}

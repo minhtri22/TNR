@@ -1,0 +1,31 @@
+{
+  "description": "Annotate human NL navigation to relative program slots for TNR agent grid",
+  "slots": {
+    "ops": [
+      "FORWARD",
+      "LEFT",
+      "RIGHT"
+    ],
+    "n": [
+      1,
+      2,
+      3
+    ],
+    "sequence": "list of {op, n} executed in order with facing"
+  },
+  "facing": "0=north,90=east,180=south,270=west; LEFT/RIGHT change facing; FORWARD moves",
+  "example": {
+    "text": "walk forward twice",
+    "slots": [
+      [
+        "FORWARD",
+        2
+      ]
+    ]
+  },
+  "files": {
+    "auto": "data/human_nl/sail_auto_annotated.jsonl",
+    "review": "data/human_nl/sail_needs_review.jsonl",
+    "import_format": "JSONL with text, slots [[OP,n],...], status"
+  }
+}

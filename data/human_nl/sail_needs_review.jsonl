@@ -1,0 +1,500 @@
+{"text": "take the yellow path to the pink path intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go right onto the pink path all the way to the black easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at this intersection of pink path and red brick, you are at position 1", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "taek the brick path towards the lamp", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take a right on the plain path two intersections after the lamp", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the end where you can only go right or left onto a blue path, you are at 3", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the green hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should be facing the red hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the black path towards the intersection with the red brick path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go right onto the red brick path towards the lamp", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "the second intersection after the lamp will be position 7", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go down the blue-tiled floor until you reach a hall with pink-flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow this hall until you reach a hall with yellow stone flooring", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Regardless you will turn toward the easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "The space containing the easel is position 2", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "find the pink flowered floored area", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "pos 1 is on the aesal", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the long red hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go to the end", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go to the end", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should end up at the intersection of yellow and green", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "from four face the grass carpet and move to the hat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk past two chairs and to the lamp", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move into the corner such that the lamp is behind you and to your right you see a gray carpeted alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Stand with your back to the wall of the 'T' intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Turn to the left into the wooden-floored hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "One segment down this hall, a brick -floored hallway intersects it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow this hallway until you reach the bare concrete hall one segment away from the last intersection, which contains a chair", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "The walls to you left should have pictures of the Eiffel tower", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Those to your right will have butterflies", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "The intersection to your right will be vacant, though blue tile will be visible to each side", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "pos 4 is at the corner of the grass floor and yellow floor, with fish on the walls", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the blue carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see a chair and then a hat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the hat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the corner", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see gray floor to your right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "from one turn until you can see a corner of blue carpet on the side alleys", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to this", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see a chair and a hatrack in front of you", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go to the corner", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go all the way down the grassy hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take a left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go all the way down the blue hall until you see a coat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take another immediate left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk down the blue carpet, past a stool and a chair to the end", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "to your right should be grass", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk down the grass", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the end of the grass there should be green octagon carpet to your right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so that the wall is on your right and back", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "if you are in the right place you should be at the intersection of black and yellow", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the pink path towards the wood path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the wood path intersection, take the wood path towards the eiffel towers on the walls", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the intersection with the plain cement, you'll be at 6", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Face toward the hatrack in the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go to it one segment", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward two segments, or to the first empty intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "The floor should be bare concrete", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "The walls have butterflies", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Pass through this segment to the intersection with the hall of brown brick", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "This intersection should be empty and is Position 7", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Face toward the longer portion of the brick hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "The intersection with the blue-tiled hall should be to your left; the section containing the chair behind you", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward two segments to the wooden hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment to the 'T' intersection with the bare concrete hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go all the way down the hall until you get to the end, with an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the hall with the yellow-tiled floor to the hall with pink-flowered carpet on the floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow this hall until you reach the hall with a brown stone floor,one previous to the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the hall until you reach a concrete hall with butterflies to the side the blue tile is on, the right side, and nothing in the intersection at that end of the hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "The intersection you are standing in should also be empty", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the blue path all the way to the end of the hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "once again, go to the very end of the hall and at the corner of the green path and the yellow path, you are at 4", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "it's at a spot between the yellow floor and the grey floor, with an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "with your back to the wall at three move forward one alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see red brick to your right and left and a lamp two alleys over to your left and an easel beyond that", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "head toward the butterfly areas", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "find the long butterfly hallway, with perpendicular streets ending at its intersection with this ahllway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go to the intersection within which, whne you look down this street you see no furniture", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go towards the coat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the blue path intersection, hang a left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "the second intersection down will be position 2", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at this intersection, however, you can either only go straight or right onto a plain cement path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "yellow hall down to the wooden floor intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then one movement forward", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the yellow path all the way down to the wood path intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "here, take a right onto the wood path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go to the intersection of plain cement and wood path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Face the hatrack in the blue-tiled hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Walk the one segment toward it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the blue-tiled hallway to the grass floored hallway at the far end", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Where this hall intersects the yellow-tiled hall, there should be an empty intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move forward along the rock floor to the end", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move along the blue carpet past the sofa to the hat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move into the corner", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go towards the easel on the red brick road", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take a right at the black road intersection and follow it until you come to a black easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then straight down the bvlue hall until you get to a place in between a bench and a chair", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the black path towards the red brick intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the red brick intersection, go right towards the lamp", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the first intersection after the lamp, take a right onto the plain cement path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "the next intersection will be three where the plain cement meets the blue path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "from four face the octagon carpet and move forward one alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should be facing flowered carpet and an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "blue hall to grassy hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "grassy hall to yellow hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "yellow hall to wooden hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then one space forward", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the yellow hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so that the wall is on your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the long red hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should be able to see a painting easel in the far distance", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the wood path towards the red brick intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "once here, take a right onto the red brick and follow it until the intersection with red brick and plain cement", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so the wall is on your right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the green path to the red brick intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go left towards the lamp to the very end of the hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the chair, take a right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the blue path intersection, take a left onto the blue path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the coat rack, take another left onto the plain cement", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the end of this hall at the corner, you are at position 5", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "foward one space", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then a left down the red hall until it intersects with the rose hall and has an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so that the wall is on your back", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "if you are at the intersection of red and pink and there is a painting thing, you are there", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "You will follow the regular concrete path toward the blue tiled flooring one segment", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "This 'T' intersection is position 3", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go forward one movement in the direction of the red floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go straight", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then turn when you see the red hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then go down the red hall until you can look to the right and see a blue corridor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the blue hall until you get to the grassy hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then follow the grassy hall to the end where it intersects with the yellow hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "it's at the corner of the yellow floor and the grassy floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the green path to the red brick intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go left onto the red brick path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at seven put your back to the chair", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move along the red brick past the lamp to the easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move forward to the octagon flooring", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the wall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "to your left should be grass", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Place your back to the wall of the 'T' intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Turn to the left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward four segments, passing the stool and chair, to the grassy hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward three segments to the intersection of the grassy and yellow-tiled hallways, passing the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Face toward the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Walk the one segment to it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward until you reach a hall with pink flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow this hall until it 'T's with the yellow-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Postion 2 is the intersection at the end of the hall containing the easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Place your back against the wall of the 'T' intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the stone hall to your left three segments to the blue-tiled hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow this hall past the bench to the hatrack, about four segments", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment to the corner", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at 4 face the grass carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see blue carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk along the blue carpet and you pass two objects", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the alley where there is only gray floor to your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "in front of you is a chair", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "down the long butterfly hallway, with blue walls", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "make a left at the hat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "pos 5 is in this corner", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "face the octagon carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move forward one alley to the wooden flooring", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk along the wooden floor until you see red brick floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at this intersection look for flowered carpet and an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "with your back to the wall, move forward one alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see wood flooring", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move one block", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "p 6 should have two alleys of wood floor and one of gray", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so the wall is on your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go all the way down the blue hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then take a right at the grassy hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then go all the way down the grassy hall until it intersects with the yellow hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Orient yourself to face the hall with brown brick", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Blue-tiled hall should be to your left, the intersection with the chair behind you", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward in the brown brick-floored hall until you reach  the intersection with the hall with the pink-flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "This will contain an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "face and move forward to the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move far down the blue carpet to the flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move there", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "three is at the intersection of the long blue floored buterfly walled and the hallway with no furniture", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "head all the way toward the butterfly hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "keep going down it until you reach a dead end square area", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "pos 5 is in the corner  to the left as you enter the square block", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "face the hat rack and move to it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk one alley past the chair", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see gray floor to your right and a stool in front of you", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Face the shorter portion of the brick hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "There should be a hatrack in the intersection you are facing and a lamp in the intersection behind you", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment to the grassy hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward two segments to the intersection of the yellow-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so that the wall is on your right and back", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk forward maybe four times and you should be at the intersection of blue and brown", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "if there is a wall on your right side then you are there", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at one face the long brick alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk until you see an almost black carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the red brick path towards the chair", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "here, at the end of the hall, take a right to the blue path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the blue path, take a left towards the coat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the coat rack, take a right onto the plain cement path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the end of the hall in the corner, you are at position 5", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the walls with the immediate tower pictures", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so the walls are on your right and back", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk forward five times", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the green hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk forward four times", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go three segments down the grassy hall to the blue-tiled hall, passing the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow it four segments to the intersection with the bare concrete hall, passing the chair and stool", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go all the way down the blue hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then find where the wooden floor and the yellow floor doesn't quite intersect", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "but one movement forward and it will", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the yellow-tiled hall forward three segments, passing the bench", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "This corner, where the yellow-tiled hall intersects the grassy hall, is Position 4", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "look for a spot where the red and rose floors intersect four ways, with an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "position one is at the red floors and rose floors intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "where an easel is", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go towards the coat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the coat rack, take a right onto the blue path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "follow the blue path to the black path intersection and go right onto the black path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go all the way down until you get to a black easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Face the intersection containing the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment, to the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "with your back to the wall move forward along the octagon carpet one alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should be facing wood flooring", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move one alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "to your left is gray floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "face the chair at 6", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see blue carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk along the blue past a stool and a sofa", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "stop at the hat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move straight into the corner", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Face toward the blue-tiled hall containing the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment to  the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the blue-tiled hall five segments to the pink-flowered carpet hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow this hall one segment forward to the intersection with the brick hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "THis intersection should contain an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "with your back to the wall move forward until the brick alley is to your left and right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go down the grassy hallway one segment to the bare concrete hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward three segements to the 'T' intersection with the stone floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "position two is at the aesal in the area between two black floors and one green floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so the wall is on your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the short red hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "look for the blue hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go all the way down until you hit a spot with a coat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then one movement left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the red brick road away from the lamp to the green path intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take a right onto the green path all the way to the end of the hall where the green and yellow paths meet in a corner", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go straight towards the coat rack and take a right at this junction", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "stay on the blue patch for about two sections", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "At the third, take a right onto the white cement path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "the very next intersection will be position 7", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the path straight with the fish on the walls", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go all the way to the end of the hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should meet here with the green path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go right onto the green path to the end of the hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go to the aesal in the pink floored area", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go down the red hall until you see the blue hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at that intersection stop", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you see a sofa and then a hat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the corner you see in front of you", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "it's at the intersection of the yellow and grey halls, with an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "face the long alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move down it until you get to the wood flooring", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the grassy hall to the blue hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then the blue hall almost all the way down", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then left to the red hall oine movement", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so that you are facing the butterflys, and the towers are on the walls behind you", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to the left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should be looking at the blue hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go down the butterfly walled/blue floored hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "make a left at the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so the wall is on your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the grassy hall three segments to the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the blue-tiled hall six segments, passing the chair, stool and bench, to the intersection containing the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go one segment forward to the corner", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "look at the pictures on all of the immediate walls", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so that the pics of towers are to your back", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the yellow-tiled hall to the hall with pink-flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "This hall will end in the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Position three will be an empty segment on this hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "The flooring of the hall intersecting it will be bare concrete", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Position 3 is previous to the hatrack, but after any other objects in the hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the wood path towards the chair", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the red brick intersection, take a left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the second intersection down, take a right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the end of this hall, you can either only go right or left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go down 1 block", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "keep going, looking  down each of the streets on the right, until you see the street with no furniture do not go down it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "stay on the butterfly street", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "the T intersection is the position 3", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see blue on the floors perpendicular to the street w/ no furniture", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so the wall is on your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk forward four times", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the long red hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go straight a few movements", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then go to the red floor until you can look to the left and see a blue corridor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the yellow hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go left until you come to the four way intersection of the red and rose floors, with an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the red brick path towards the lamp", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the black road intersection, take a left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "follow the black until you meet up with a black easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the long red hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk forward three tiems", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the yellow hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn onto the blue hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk forward four times", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Take the red brick path straight towards the lamp and all the way until the end of the hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the intersection with the green path, take a right and again, go to the end of the hall where the corner meets with the yellow path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Orient yourself along the bare concrete hall,facing the blue-tiled hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "You should see butterflies on the walls ahead of you", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "There should be a chair in the interection to your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment to the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward two segments, passing the bench", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk to the second alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see an easel on dark gray carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk to it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the long red hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the yellow hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn onto the pink hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "face the octagon carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move until you see red brick floor to your right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn and walk down the red brick until you get to an alley with grey floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should be two alleys away from a lamp and then an easel beyond that", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "position three is located in the butterfly area", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at seven face the chair", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the blue carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see a sofa to your left and a stool two alleys to your right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Face toward the longer end of the brick hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "The chair should be behind", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "There should be butterfly pcitures on the walls to your left and Eiffel tower pictures on the walls to your right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward four segments down the brick hallway, passing a lamp and an easel to the grassy hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward two segments to the intersection of the grassy hall and the yellow-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "This intersection should be empty", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the blue carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move past the stool until you get to the intersection where gray floor is to your right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "there should be a sofa in front of you and a hat rack beyond that", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go straight down the yellow hall until you hit a corner that intersects with the grass hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward three segments down the  yellow-tiled hall, passing the bench", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "There is an easel in this intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go toward the bench at the end of the hall with pink-flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go two segments to the intesection with the stone-floored hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "This intersection contains an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Place your back against the wall of the 'T' intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Turn to the right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward two segments, past the bench, to the intersection containing the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go towards the coat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the rack, go right onto the blue path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the blue path all the way down to the pink path intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go right onto the pink path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "when you reach the black easel, you are at position 1", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "position one is in the pink floored area, on the aesal", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Face the shorter portion of the pink-flowered carpet hall, where it interesects the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Your back should be away from the bench at the opposite end, where the pink-flowered carpet hall meets the yellow-tiled hall two segments away", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment to the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward three segments, past the stool, to the intersection of the bare concrete hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "There should be a bench and a hatrack ahead of you in the blue-tiled hall and no objects in either of the intersections to your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at three put your back to the sofa and move forward towards the stool", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move forward to the easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the wood path towards the red brick intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go left onto the red brick", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go towards the lamp to the end of the hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the chair at the end of the hall, go right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the black bench, take a left onto the blue path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "and then another left at the coat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the end of this hall at the corner, you are at position 5", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "two is on an aesal, not in the pink floored area, the other one", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "three is in the long butterfly hallway, with blue floors", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the intersection where the street with no furniture is at", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the red brick path towards the lamp", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the end of the hall at the chair, take a right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go straight to the black bench", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "here, take a left onto the blue path and another left at the coat rack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "the end of this hall will be 5", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go foward", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go down this ahllway until you see the fish ahllways", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "find the aesal in this area", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "with your back to the wall move to the end of the rock floor alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "to your left and right should be blue carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move past the stool to the alley before the sofa", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to where the red brick alley is on your right and left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "face the hat rack and move to it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move one alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "to the left and right you should see flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the yellow path to the wood path intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "here, go left onto the wood path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "when you reach an intersection with plain cement and their are eiffel towers on the walls of the wood path and fish on the walls of the plain path, you are at 6", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "from 1 face the flowered carpet with the grass carpet in the next side alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the grass carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk to the end of this aisle", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should then see olive green octagon carpet to your right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so that the wall is on your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should be at the intersection of blue and brown", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "if there is a solid wall on your right then you are at position 6", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the yellow path all the way to the end of the hall where the corner brings the yellow and green path together", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the green path to the red brick intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go right onto the red brick towards the lamp", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "one intersection past the lamp is 7", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go straight", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "keep going until it intersects with the red hallway and has an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take a left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the blue hall to the grassy hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then the grassy hall to the yellow hall until they intersect", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "with your back to the wall move forward to the wall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to this spot", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at seven face the long alley with a lamp and an easel in front of you", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk to the easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see flowered carpet to the sides", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the red brick patch towards the lamp", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "once at the black easel, you are at 1", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the end of the aisle you should see grass carpet to your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk down this", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see blue carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk to the fourth alley where there is gray carpet on the  left alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so the wall is on your right and back", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "from one turn until you see a corner of blue carpet in a side alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move there", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the second alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see gray floor to your right and a chair in front of you", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Place your back to the 'T' intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward along the bare concrete hal one segment ti the intersection of the hall of pink-flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment to the intersection of the pink-flowered carpet hall and the brick hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "There is an easel in this intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so that the wall is on your back", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "down blue hall till you hit the grassy hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "down the grassy hall till you hit the yellow hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "down the yellow hall until it intersects with the grey hall and has an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then left all the way down the blue hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then a right at teh red hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then pos 1 is at the four way intersection of the red hall and the rose hall, with an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move along the blue carpet past the sofa stool and chair til the alley with the flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move forward one alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should be in the same square as an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "5 is at the end of the long butterlfy hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "make a left one street before the end", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should be able to face the hat rack, behind which should be a wall, not a hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go straight", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "then all the way down until you get to where the yellow and grey halls intersect, with an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go down the hall with yellow stone floors until you come to a hall to your left with pink-flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Position one is the intersection containing an easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Face the pink-flowered carpet hall with your back to the bench at the intersection of it and the yellow-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "The longer side of the wooden hall should be to your left, the shorter to the right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment to the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the blue-tiled hall five segments, past the stool and bench, to the intersection conataining the hatrack", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward one segment", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "follow the plain cement towards the blue path intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Follow the blue-tiled hallway away form the bench and hatrack toward the pictures of not-butterflies", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "I believe they are those lovely yellow fish", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Position 1 is the intersection containing the easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Place your back against the wall of the 'T' intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Turn to the left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward two segments along the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go forward two segments to the intersection of the bare concrete hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Stand with your back to the wall of the 'T' intersection", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go to the right, toward the hall with the yellow hexagonal tile floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Position 2 is the intersection containing the easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "I believe it is to your right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the pink hallway so that the painting easel is on your back left side", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should be facing the blue hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk forward five times", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "it's at the corner of the yellow floor and the grass floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the yellow hallway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Go towards the chair at the end of the hall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "next, take a right and follow the path until you reach a black easel, this is position 2", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the blue path away from the black bench", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you will come to an intersection with a black path", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take a right onto the black path all the way down until you reach the black easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "face the green carpeting", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move along the blue carpeting until you get to wooden flooring", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move forward one alley", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "you should see gray floor to your right", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at six place your back to the wall", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "the next side alley should be flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "the side alleys are red brick", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "take the blue path towards the black bench", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "at the coat rack take a left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "the end of this hall is 5", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "Take the yellow path all the way to the end of the hall until you can only either go right or left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "There will be black easel here", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn to face the green halllway", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk three times forward", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "walk forward six times", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "turn so the wall is on your left", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "face the lamp and move to it", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move to the alley with the brown wooden floor", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "move forward one block", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "go to the pink flowered floored area", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "it is at the aesal", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}
+{"text": "You will walk on the brick flooring away from the shorter expanse of hallway containing  the single chair toward longer expanse of hallway containing the lamp and the easel", "source": "SAIL_SingleSentence.grid", "slots": null, "status": "needs_human_review"}

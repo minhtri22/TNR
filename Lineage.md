@@ -866,3 +866,12 @@
 ## Run 20261011_224314
 - **HumanNL-b** lexical OOD (train N/S/E/W, OOD up/down/left/right+messy)
 - Flat=0.167 Prog=0.196 wins=2/3 **UNRESOLVED**
+
+## Run 20261011_225617
+- Date: 2026-10-11T22:56:17.762120
+- Experiment: **HumanNL-SAIL** import human corpus + annotate slots + eval
+- Source: SAIL SingleSentence.grid (MacMahon/Chen-Mooney human)
+- Auto-annotated=235 needs_review=639
+- Flat OOD=0.867 Prog OOD=0.962 wins=3/3
+- Outcome: **PASS**
+- Artifacts: data/human_nl/sail_auto_annotated.jsonl, sail_needs_review.jsonl, ANNOTATION_SCHEMA.json

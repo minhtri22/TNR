@@ -1,0 +1,235 @@
+{"text": "turn so the wall is on your back", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 2]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "Turn right into this hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "I believe you turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn left and move onto the blue carpet", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left into this hallway", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "at seven face, from looking at the long alley turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left at the hat rack", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "with you back to the wall turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward three times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "turn right to face the black hallway", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward three times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left into this hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "at the corner here, turn right onto the green path", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "with your back to the wall turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left at the stool", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "go forward", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward three times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "walk forward three times and stop", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "turn so the wall is on your back", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 2]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "go towards the lamp and two intersections after the lamp, turn right and when you can only go right or left, you are at 3", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right in the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left at the stool in the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left into the bare concrete floored hall whose intersection with the blue-tiled hall contains the hatrack", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk to the corner and turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward twice or until you reach the blue hallway", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward three times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right you should see an easel in front of you", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn onto the pink hallway and walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left into the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right at the hatrack, Go forward two segments, passing the bench, to the empty intersection", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right and move one alley", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "with your back to the wall turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "move to the hat rack and turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn right and move one block", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "I 90% sure that you will turn left, although I am certain that you will turn in the direction in which more hallways are visible", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward three times or until you are at the intersection of green and yellow", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward three times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left at the hatrack into the bare concrete hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "with your back to the wall at 6 turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward three times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right at the hatrack contained in this intersection", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "with your back to the wall, turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right at the bench into the yellow tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left into the bare concrete hallway", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left into the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "when you get to the alley with the roack floor stop and turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn right you should see gray floor with the red brick on the next alley", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "move one alley past the chair and turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn right at the rose hallway", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right and you see grass carpet in front of you and green octagon carpet down the next alley", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "with your back to the wall at 2 turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "at the end of the grass alley turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward three times or until you reach the corner of yellow and green", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "go forward", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "move forward to the hat rack and turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left into this hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left in the blue-tiled hall, away from the intersection with the grassy hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left at this intersection", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right into the hall with pink-flowered carpet", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn right into the wooden hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn so the wall is on your back", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 2]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "move to the wall and turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left or right to locate the easel", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward three times", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left toward the yellow hexagonal tiled hallway", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left down the stone floored hallway", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left in this hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right into the wooden hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right and walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "Turn right in to this hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward three times or until you reach the pink walkway", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 3]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "move to the hat rack and turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn left at the hatrack into the blue-tiled hall", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "Turn right in this hall", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "walk forward once", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 1]], "status": "auto"}
+{"text": "facing the long aisle turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk to the blue carpet and turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "turn right", "source": "SAIL_SingleSentence.grid", "slots": [["RIGHT", 1]], "status": "auto"}
+{"text": "Turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
+{"text": "turn left", "source": "SAIL_SingleSentence.grid", "slots": [["LEFT", 1]], "status": "auto"}
+{"text": "walk forward twice", "source": "SAIL_SingleSentence.grid", "slots": [["FORWARD", 2]], "status": "auto"}
