@@ -1,0 +1,16 @@
+Device: cpu
+R1 Mock HTTP — preregister exact
+
+===== SEED 42 =====
+  Flat OOD ex=0.062 | Prog OOD ex=0.548 win=True
+
+===== SEED 7 =====
+  Flat OOD ex=0.400 | Prog OOD ex=0.403 win=False
+
+===== SEED 123 =====
+  Flat OOD ex=0.213 | Prog OOD ex=0.533 win=True
+
+===== R1 HTTP MOCK SUMMARY =====
+Flat OOD exact=0.225 | Prog OOD exact=0.494 wins=2/3
+=== OUTCOME: PASS === (mock HTTP program→execute exact)
+Saved /home/workdir/artifacts/r/uns/run_20261011_140842

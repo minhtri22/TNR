@@ -796,3 +796,17 @@
 - Prerequisites held: semi-real (M–Q) FREEZE PASS + multi-turn FREEZE PASS.
 - Next one hypothesis: **R1** mock HTTP / JSON tool server (errors, latency optional) + NL→program→execute vs flat.
 - Domain narrow; preregister exact tool success before run.
+
+## Run 20261011_140746
+- Date: 2026-10-11T14:07:47.081852
+- Experiment: **Phase R1** mock HTTP/JSON tools NL→program→execute
+- Flat OOD exact=0.225 | Prog OOD exact=0.494 wins=2/3
+- Outcome: **PASS** (mock HTTP program→execute exact)
+- Control-flow deferred by plan (after R1)
+
+## Run 20261011_140842
+- Date: 2026-10-11T14:08:43.662080
+- Experiment: **Phase R1** mock HTTP/JSON tools NL→program→execute
+- Flat OOD exact=0.225 | Prog OOD exact=0.494 wins=2/3
+- Outcome: **PASS** (mock HTTP program→execute exact)
+- Control-flow deferred by plan (after R1)
