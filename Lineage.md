@@ -706,3 +706,9 @@
 - Experiment: **Phase N2** tools bank composition in train; OOD novel pairs
 - Flat OOD mse=0.2403 | Prog OOD mse=0.5745 ex=0.436
 - Outcome: **FAIL**
+
+## Run 20261011_011705
+- Date: 2026-10-11T01:17:09.716726
+- Experiment: **Phase N3** tools bank preregister EXACT (not MSE)
+- Flat OOD exact=0.111 | Prog OOD exact=0.436 wins=3/3
+- Outcome: **PASS** (exact tool success program>flat)

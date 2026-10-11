@@ -1,0 +1,21 @@
+Device: cpu
+Preregister: PASS if Prog exact OOD > Flat+0.05 and >=0.40 and wins>=2/3
+
+===== SEED 42 =====
+  Flat OOD ex=0.083 mse=0.2973
+  Prog OOD ex=0.466 mse=0.6373 win=True
+
+===== SEED 7 =====
+  Flat OOD ex=0.127 mse=0.2282
+  Prog OOD ex=0.249 mse=0.7099 win=True
+
+===== SEED 123 =====
+  Flat OOD ex=0.124 mse=0.1953
+  Prog OOD ex=0.594 mse=0.3762 win=True
+
+===== N3 EXACT PREREGISTER SUMMARY =====
+Flat OOD exact=0.111 | Prog OOD exact=0.436
+(note MSE Flat=0.2403 Prog=0.5745)
+wins=3/3
+=== OUTCOME: PASS === (exact tool success program>flat)
+Saved /home/workdir/artifacts/r/uns/run_20261011_011705

@@ -1,0 +1,55 @@
+{
+  "run_id": "20261011_011705",
+  "experiment": "Phase N3 tools exact preregister",
+  "preregister": "exact_acc primary, MSE note only",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Flat_ex_ood": 0.11142857124408086,
+    "Prog_ex_ood": 0.4361904760201772,
+    "wins": 3
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Flat_ex_id": 0.9950000047683716,
+      "Prog_ex_id": 1.0,
+      "Flat_mse_id": 0.0008153181988745928,
+      "Prog_mse_id": 0.0,
+      "Flat_ex_ood": 0.08285713940858841,
+      "Prog_ex_ood": 0.4657142758369446,
+      "Flat_mse_ood": 0.2973288893699646,
+      "Prog_mse_ood": 0.6373394131660461,
+      "win": true
+    },
+    {
+      "seed": 7,
+      "Flat_ex_id": 0.9925000071525574,
+      "Prog_ex_id": 1.0,
+      "Flat_mse_id": 0.0016722744330763817,
+      "Prog_mse_id": 0.0,
+      "Flat_ex_ood": 0.12714286148548126,
+      "Prog_ex_ood": 0.24857142567634583,
+      "Flat_mse_ood": 0.2281683385372162,
+      "Prog_mse_ood": 0.7098838686943054,
+      "win": true
+    },
+    {
+      "seed": 123,
+      "Flat_ex_id": 1.0,
+      "Prog_ex_id": 1.0,
+      "Flat_mse_id": 0.00035036879125982523,
+      "Prog_mse_id": 0.0,
+      "Flat_ex_ood": 0.12428571283817291,
+      "Prog_ex_ood": 0.5942857265472412,
+      "Flat_mse_ood": 0.19526106119155884,
+      "Prog_mse_ood": 0.3762122094631195,
+      "win": true
+    }
+  ],
+  "outcome": "PASS",
+  "note": "exact tool success program>flat"
+}
