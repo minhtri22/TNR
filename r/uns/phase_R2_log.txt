@@ -1,0 +1,16 @@
+Device: cpu
+R2 HTTP errors/schema/partial — preregister exact
+
+===== SEED 42 =====
+  Flat OOD ex=0.144 | Prog OOD ex=0.249 win=True
+
+===== SEED 7 =====
+  Flat OOD ex=0.120 | Prog OOD ex=0.178 win=True
+
+===== SEED 123 =====
+  Flat OOD ex=0.076 | Prog OOD ex=0.093 win=False
+
+===== R2 SUMMARY =====
+Flat OOD exact=0.113 | Prog OOD exact=0.173 wins=2/3
+=== OUTCOME: UNRESOLVED === (gap/threshold under noise)
+Saved /home/workdir/artifacts/r/uns/run_20261011_141637

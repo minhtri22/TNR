@@ -1,0 +1,42 @@
+{
+  "run_id": "20261011_141637",
+  "experiment": "Phase R2 HTTP errors schema partial observe",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Flat_ex_ood": 0.11333333452542622,
+    "Prog_ex_ood": 0.17333333690961203,
+    "wins": 2
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Flat_ex_id": 0.800000011920929,
+      "Prog_ex_id": 0.9714285731315613,
+      "Flat_ex_ood": 0.14444445073604584,
+      "Prog_ex_ood": 0.24888889491558075,
+      "win": true
+    },
+    {
+      "seed": 7,
+      "Flat_ex_id": 0.7771428823471069,
+      "Prog_ex_id": 0.9685714244842529,
+      "Flat_ex_ood": 0.11999999731779099,
+      "Prog_ex_ood": 0.17777778208255768,
+      "win": true
+    },
+    {
+      "seed": 123,
+      "Flat_ex_id": 0.8485714197158813,
+      "Prog_ex_id": 0.9571428298950195,
+      "Flat_ex_ood": 0.07555555552244186,
+      "Prog_ex_ood": 0.09333333373069763,
+      "win": false
+    }
+  ],
+  "outcome": "UNRESOLVED",
+  "note": "gap/threshold under noise"
+}

@@ -810,3 +810,9 @@
 - Flat OOD exact=0.225 | Prog OOD exact=0.494 wins=2/3
 - Outcome: **PASS** (mock HTTP program→execute exact)
 - Control-flow deferred by plan (after R1)
+
+## Run 20261011_141637
+- Date: 2026-10-11T14:16:40.237115
+- Experiment: **Phase R2** mock HTTP with fail/schema/partial observe
+- Flat OOD exact=0.113 | Prog OOD exact=0.173 wins=2/3
+- Outcome: **UNRESOLVED** (gap/threshold under noise)
