@@ -830,3 +830,16 @@
 ## Run 20261011_143133
 - **R2d** alias-in-train + aligned fail + retry
 - Flat=0.255 Prog=0.453 wins=2/3 **PASS**
+
+## Run 20261011_144008
+- Date: 2026-10-11T14:40:11.608632
+- Experiment: **Phase CF** control-flow if/blocked branch on grid
+- Flat OOD=0.348 | Prog OOD=0.697 wins=3/3
+- Outcome: **PASS** (if/branch program→execute beats flat)
+
+## AGENT LADDER 4-CLASS CLAIM 2026-10-11
+- (1) NL program execute PASS (M2/M3/P/Q)
+- (2) Tools/HTTP PASS (N3/R1/R2d)
+- (3) Multi-turn PASS (O3/O4/O4b)
+- (4) Control-flow PASS (CF if/branch 0.70 vs 0.35)
+- Report: reports/bao_cao_agent_ladder_4_lop.md

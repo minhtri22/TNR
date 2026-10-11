@@ -1,0 +1,19 @@
+Device: cpu
+Train=35 OOD=17
+
+===== SEED 42 =====
+  Flat ID=1.000 OOD=0.322
+  Prog ID=1.000 OOD=0.728 win=True
+
+===== SEED 7 =====
+  Flat ID=1.000 OOD=0.372
+  Prog ID=1.000 OOD=0.703 win=True
+
+===== SEED 123 =====
+  Flat ID=1.000 OOD=0.352
+  Prog ID=1.000 OOD=0.658 win=True
+
+===== CF CONTROL-FLOW SUMMARY =====
+Flat OOD=0.348 | Prog OOD=0.697 wins=3/3
+=== OUTCOME: PASS === (if/branch program→execute beats flat)
+Saved /home/workdir/artifacts/r/uns/run_20261011_144008

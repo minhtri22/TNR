@@ -1,0 +1,42 @@
+{
+  "run_id": "20261011_144008",
+  "experiment": "Phase CF control-flow if/branch",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Flat_ood": 0.34833332896232605,
+    "Prog_ood": 0.6966666777928671,
+    "wins": 3
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_ood": 0.3216666579246521,
+      "Prog_ood": 0.7283333539962769,
+      "win": true
+    },
+    {
+      "seed": 7,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_ood": 0.37166666984558105,
+      "Prog_ood": 0.70333331823349,
+      "win": true
+    },
+    {
+      "seed": 123,
+      "Flat_id": 1.0,
+      "Prog_id": 1.0,
+      "Flat_ood": 0.351666659116745,
+      "Prog_ood": 0.6583333611488342,
+      "win": true
+    }
+  ],
+  "outcome": "PASS",
+  "note": "if/branch program\u2192execute beats flat"
+}
