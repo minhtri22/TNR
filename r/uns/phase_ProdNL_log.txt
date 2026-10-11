@@ -1,0 +1,18 @@
+Device: cpu
+
+===== SEED 42 =====
+  Flat ID=1.000 OOD=0.330
+  Prog ID=1.000 OOD=0.512 win=True
+
+===== SEED 7 =====
+  Flat ID=1.000 OOD=0.277
+  Prog ID=1.000 OOD=0.573 win=True
+
+===== SEED 123 =====
+  Flat ID=1.000 OOD=0.265
+  Prog ID=1.000 OOD=0.512 win=True
+
+===== ProdNL FREEFORM SUMMARY =====
+Flat OOD=0.291 | Prog OOD=0.532 wins=3/3
+=== OUTCOME: PASS === (free-form NL still favors program→execute)
+Saved /home/workdir/artifacts/r/uns/run_20261011_155502

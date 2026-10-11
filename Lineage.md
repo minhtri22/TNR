@@ -843,3 +843,15 @@
 - (3) Multi-turn PASS (O3/O4/O4b)
 - (4) Control-flow PASS (CF if/branch 0.70 vs 0.35)
 - Report: reports/bao_cao_agent_ladder_4_lop.md
+
+## Run 20261011_155357
+- Date: 2026-10-11T15:53:58.217825
+- Experiment: **ProdNL** free-form production-like NL (distractors, typos, novel cores)
+- Flat OOD=0.291 | Prog OOD=0.532 wins=3/3
+- Outcome: **PASS** (free-form NL still favors program→execute)
+
+## Run 20261011_155502
+- Date: 2026-10-11T15:55:03.797949
+- Experiment: **ProdNL** free-form production-like NL (distractors, typos, novel cores)
+- Flat OOD=0.291 | Prog OOD=0.532 wins=3/3
+- Outcome: **PASS** (free-form NL still favors program→execute)
