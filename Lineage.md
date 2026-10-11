@@ -729,3 +729,9 @@
 - O UNRESOLVED joint encode; O2 UNRESOLVED split encoders (Prog 0.455 vs Flat 0.417, gap < 0.05)
 - Boundary: multi-turn correction paraphrase OOD not unlocked by slot program under current budget
 - Next ladder: Perception mock OR close real-world bridge for report
+
+## Run 20261011_092338
+- Date: 2026-10-11T09:23:41.091021
+- Experiment: **Phase P Perception** grid pixels → start + NL→program→execute
+- Flat OOD=0.489 | Prog OOD=0.786 wins=3/3
+- Outcome: **PASS** (pixels→start + NL→program→execute beats flat)
