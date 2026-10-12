@@ -904,3 +904,6 @@
 ## Run 20261012_020744
 - **R3 production hẹp** Ticket/CRM mock API
 - Flat exact=0.000 Prog exact=0.517 wins=3/3 **PASS**
+
+## Run 20261012_021838
+- **3-bền** A2/A1/A4: {'A2': {'Flat': 0.48333332935969037, 'Prog': 0.9449999928474426, 'wins': 3, 'outcome': 'PASS'}, 'A1': {'Flat': 0.5066666603088379, 'Prog': 0.9699999888737997, 'wins': 3, 'outcome': 'PASS'}, 'A4': {'Flat': 0.12399999797344208, 'Prog': 1.0, 'wins': 3, 'outcome': 'PASS'}}
