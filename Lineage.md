@@ -886,3 +886,13 @@
 - Date: 2026-10-12T01:01:26.994884
 - Annotate v3 landmark rules: newly=8 left=159
 - **Landmark-Exec** GOTO/FACE mock landmarks: Flat=0.307 Prog=0.708 wins=3/3 **PASS**
+
+## Run 20261012_010929
+- **SAIL map+trace gold** unique=512 covered_of_159=98/159
+- Flat=0.142 Prog=0.017 wins=0/3 **FAIL**
+- Gold from oracle %% traces on map-grid; 159 partially resolved via traces
+
+## Run 20261012_011138
+- **SAIL trace-gold length-aware** bank=479 covered_159=88
+- Flat=0.198 Prog=0.527 wins=3/3 **PASS**
+- Fix: length head + execute only L steps (avoid over-step FAIL)

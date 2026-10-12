@@ -1,0 +1,512 @@
+{"text": "turn so the wall is on your back", "slots": [["LEFT", 4]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward twice", "slots": [["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn right", "slots": [["RIGHT", 1]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward once", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the yellow path to the pink path intersection", "slots": [["LEFT", 2], ["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go right onto the pink path all the way to the black easel", "slots": [["RIGHT", 1], ["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "taek the brick path towards the lamp", "slots": [["LEFT", 2]], "start": {"y": 1, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a right on the plain path two intersections after the lamp", "slots": [["FORWARD", 3], ["RIGHT", 1]], "start": {"y": 1, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the end where you can only go right or left onto a blue path, you are at 3", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn to face the green hallway", "slots": [["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn left", "slots": [["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the black path towards the intersection with the red brick path", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go right onto the red brick path towards the lamp", "slots": [["FORWARD", 2], ["RIGHT", 1]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "the second intersection after the lamp will be position 7", "slots": [["FORWARD", 1], ["LEFT", 2], ["FORWARD", 2]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go down the blue-tiled floor until you reach a hall with pink-flowered carpet", "slots": [["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn right into this hall", "slots": [["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow this hall until you reach a hall with yellow stone flooring", "slots": [["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "I believe you turn right", "slots": [["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Regardless you will turn toward the easel", "slots": [["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "The space containing the easel is position 2", "slots": [["FORWARD", 2]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "find the pink flowered floored area", "slots": [["FORWARD", 3], ["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "pos 1 is on the aesal", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn to face the long red hallway", "slots": [["LEFT", 4]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go to the end", "slots": [["FORWARD", 4]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "from four face the grass carpet and move to the hat rack", "slots": [["LEFT", 1], ["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn left and move onto the blue carpet", "slots": [["LEFT", 1], ["FORWARD", 2], ["RIGHT", 1], ["FORWARD", 1], ["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk past two chairs and to the lamp", "slots": [["FORWARD", 4]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move into the corner such that the lamp is behind you and to your right you see a gray carpeted alley", "slots": [["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Stand with your back to the wall of the 'T' intersection", "slots": [["LEFT", 4]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn to the left into the wooden-floored hallway", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "One segment down this hall, a brick -floored hallway intersects it", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left into this hallway", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow this hallway until you reach the bare concrete hall one segment away from the last intersection, which contains a chair", "slots": [["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "pos 4 is at the corner of the grass floor and yellow floor, with fish on the walls", "slots": [["FORWARD", 4], ["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at seven face, from looking at the long alley turn left", "slots": [["LEFT", 5]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the blue carpet", "slots": [["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the hat rack", "slots": [["FORWARD", 2]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn left at the hat rack", "slots": [["LEFT", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the corner", "slots": [["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "from one turn until you can see a corner of blue carpet on the side alleys", "slots": [["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to this", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the hatrack", "slots": [["FORWARD", 5]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go to the corner", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go all the way down the grassy hall", "slots": [["LEFT", 1], ["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a left", "slots": [["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go all the way down the blue hall until you see a coat rack", "slots": [["FORWARD", 6]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take another immediate left", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with you back to the wall turn left", "slots": [["RIGHT", 1], ["LEFT", 1]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk down the blue carpet, past a stool and a chair to the end", "slots": [["FORWARD", 4]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk down the grass", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the end of the grass there should be green octagon carpet to your right", "slots": [["FORWARD", 2]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn so that the wall is on your right and back", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward three times", "slots": [["FORWARD", 3]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn right to face the black hallway", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the pink path towards the wood path", "slots": [["LEFT", 2]], "start": {"y": 1, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the wood path intersection, take the wood path towards the eiffel towers on the walls", "slots": [["FORWARD", 1], ["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the intersection with the plain cement, you'll be at 6", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face toward the hatrack in the blue-tiled hall", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go to it one segment", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward two segments, or to the first empty intersection", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Pass through this segment to the intersection with the hall of brown brick", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face toward the longer portion of the brick hall", "slots": [["LEFT", 4]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward two segments to the wooden hall", "slots": [["FORWARD", 2]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward one segment to the 'T' intersection with the bare concrete hall", "slots": [["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go all the way down the hall until you get to the end, with an easel", "slots": [["LEFT", 2], ["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the hall with the yellow-tiled floor to the hall with pink-flowered carpet on the floor", "slots": [["FORWARD", 2]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left into this hall", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow this hall until you reach the hall with a brown stone floor,one previous to the blue-tiled hall", "slots": [["FORWARD", 2]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the hall until you reach a concrete hall with butterflies to the side the blue tile is on, the right side, and nothing in the intersection at that end of the hall", "slots": [["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the blue path all the way to the end of the hall", "slots": [["FORWARD", 4]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the corner here, turn right onto the green path", "slots": [["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "once again, go to the very end of the hall and at the corner of the green path and the yellow path, you are at 4", "slots": [["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "it's at a spot between the yellow floor and the grey floor, with an easel", "slots": [["FORWARD", 2], ["LEFT", 3], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall at three move forward one alley", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "find the long butterfly hallway, with perpendicular streets ending at its intersection with this ahllway", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go towards the coat rack", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the blue path intersection, hang a left", "slots": [["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "the second intersection down will be position 2", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "yellow hall down to the wooden floor intersection", "slots": [["LEFT", 2], ["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then one movement forward", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the yellow path all the way down to the wood path intersection", "slots": [["LEFT", 2], ["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "here, take a right onto the wood path", "slots": [["RIGHT", 1]], "start": {"y": 4, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face the hatrack in the blue-tiled hallway", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Walk the one segment toward it", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the blue-tiled hallway to the grass floored hallway at the far end", "slots": [["FORWARD", 6]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Where this hall intersects the yellow-tiled hall, there should be an empty intersection", "slots": [["FORWARD", 3]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall turn left", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move forward along the rock floor to the end", "slots": [["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn left at the stool", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move along the blue carpet past the sofa to the hat rack", "slots": [["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move into the corner", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a right at the black road intersection and follow it until you come to a black easel", "slots": [["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 2]], "start": {"y": 7, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go forward", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then left", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then straight down the bvlue hall until you get to a place in between a bench and a chair", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the black path towards the red brick intersection", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the red brick intersection, go right towards the lamp", "slots": [["FORWARD", 2], ["RIGHT", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the first intersection after the lamp, take a right onto the plain cement path", "slots": [["FORWARD", 2], ["RIGHT", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "the next intersection will be three where the plain cement meets the blue path", "slots": [["FORWARD", 2], ["LEFT", 2], ["FORWARD", 3], ["LEFT", 1], ["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "from four face the octagon carpet and move forward one alley", "slots": [["LEFT", 2], ["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to it", "slots": [["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "blue hall to grassy hall", "slots": [["LEFT", 1], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 4]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "grassy hall to yellow hall", "slots": [["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "yellow hall to wooden hall", "slots": [["RIGHT", 1], ["FORWARD", 2]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then one space forward", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn to face the yellow hallway", "slots": [["LEFT", 2]], "start": {"y": 4, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn so that the wall is on your left", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward three times and stop", "slots": [["FORWARD", 3]], "start": {"y": 7, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the wood path towards the red brick intersection", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "once here, take a right onto the red brick and follow it until the intersection with red brick and plain cement", "slots": [["FORWARD", 1], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn so the wall is on your right", "slots": [["RIGHT", 1]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the green path to the red brick intersection", "slots": [["LEFT", 1], ["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go left towards the lamp to the very end of the hall", "slots": [["LEFT", 1], ["FORWARD", 5]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the chair, take a right", "slots": [["RIGHT", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the blue path intersection, take a left onto the blue path", "slots": [["FORWARD", 1], ["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the coat rack, take another left onto the plain cement", "slots": [["FORWARD", 1], ["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the end of this hall at the corner, you are at position 5", "slots": [["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "foward one space", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then a left down the red hall until it intersects with the rose hall and has an easel", "slots": [["LEFT", 1], ["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn so that the wall is on your back", "slots": [["LEFT", 4]], "start": {"y": 6, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "You will follow the regular concrete path toward the blue tiled flooring one segment", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go forward one movement in the direction of the red floor", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go straight", "slots": [["FORWARD", 2]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then turn when you see the red hall", "slots": [["LEFT", 2], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 2], ["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then go down the red hall until you can look to the right and see a blue corridor", "slots": [["FORWARD", 2]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the blue hall until you get to the grassy hall", "slots": [["LEFT", 1], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then follow the grassy hall to the end where it intersects with the yellow hall", "slots": [["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "it's at the corner of the yellow floor and the grassy floor", "slots": [["RIGHT", 1], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go left onto the red brick path", "slots": [["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go towards the lamp and two intersections after the lamp, turn right and when you can only go right or left, you are at 3", "slots": [["FORWARD", 4], ["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at seven put your back to the chair", "slots": [["LEFT", 4]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move along the red brick past the lamp to the easel", "slots": [["FORWARD", 3]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move forward to the octagon flooring", "slots": [["FORWARD", 2]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the wall", "slots": [["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Place your back to the wall of the 'T' intersection", "slots": [["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn to the left", "slots": [["LEFT", 1]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward four segments, passing the stool and chair, to the grassy hallway", "slots": [["FORWARD", 4]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward three segments to the intersection of the grassy and yellow-tiled hallways, passing the hatrack", "slots": [["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face toward the hatrack", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Walk the one segment to it", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn right in the blue-tiled hall", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward until you reach a hall with pink flowered carpet", "slots": [["FORWARD", 5]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow this hall until it 'T's with the yellow-tiled hall", "slots": [["FORWARD", 3]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Postion 2 is the intersection at the end of the hall containing the easel", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Place your back against the wall of the 'T' intersection", "slots": [["LEFT", 4]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the stone hall to your left three segments to the blue-tiled hallway", "slots": [["LEFT", 1], ["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left at the stool in the blue-tiled hall", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow this hall past the bench to the hatrack, about four segments", "slots": [["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left into the bare concrete floored hall whose intersection with the blue-tiled hall contains the hatrack", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward one segment to the corner", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at 4 face the grass carpet", "slots": [["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk to the corner and turn left", "slots": [["FORWARD", 3], ["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk along the blue carpet and you pass two objects", "slots": [["FORWARD", 4]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "down the long butterfly hallway, with blue walls", "slots": [["FORWARD", 3], ["LEFT", 1], ["FORWARD", 3], ["LEFT", 1], ["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "make a left at the hat rack", "slots": [["FORWARD", 3], ["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "pos 5 is in this corner", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "face the octagon carpet", "slots": [["LEFT", 4]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move forward one alley to the wooden flooring", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk along the wooden floor until you see red brick floor", "slots": [["FORWARD", 2]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at this intersection look for flowered carpet and an easel", "slots": [["RIGHT", 1]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the easel", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall, move forward one alley", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "you should see wood flooring", "slots": [["FORWARD", 2], ["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move one block", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn so the wall is on your left", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward twice or until you reach the blue hallway", "slots": [["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go all the way down the blue hall", "slots": [["LEFT", 1], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 6]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then take a right at the grassy hall", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then go all the way down the grassy hall until it intersects with the yellow hall", "slots": [["FORWARD", 3]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Orient yourself to face the hall with brown brick", "slots": [["LEFT", 4]], "start": {"y": 7, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward in the brown brick-floored hall until you reach  the intersection with the hall with the pink-flowered carpet", "slots": [["FORWARD", 3]], "start": {"y": 7, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "face and move forward to the hatrack", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move far down the blue carpet to the flowered carpet", "slots": [["FORWARD", 5]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn right you should see an easel in front of you", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move there", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "head all the way toward the butterfly hallway", "slots": [["LEFT", 1], ["FORWARD", 3], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "keep going down it until you reach a dead end square area", "slots": [["FORWARD", 5]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "pos 5 is in the corner  to the left as you enter the square block", "slots": [["LEFT", 1], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "face the hat rack and move to it", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk one alley past the chair", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face the shorter portion of the brick hall", "slots": [["LEFT", 4]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward one segment to the grassy hall", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward two segments to the intersection of the yellow-tiled hall", "slots": [["FORWARD", 2]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward maybe four times and you should be at the intersection of blue and brown", "slots": [["FORWARD", 4]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at one face the long brick alley", "slots": [["LEFT", 2]], "start": {"y": 1, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk until you see an almost black carpet", "slots": [["FORWARD", 2]], "start": {"y": 1, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the red brick path towards the chair", "slots": [["LEFT", 2]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "here, at the end of the hall, take a right to the blue path", "slots": [["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the blue path, take a left towards the coat rack", "slots": [["LEFT", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the coat rack, take a right onto the plain cement path", "slots": [["FORWARD", 1], ["LEFT", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the end of the hall in the corner, you are at position 5", "slots": [["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn to face the walls with the immediate tower pictures", "slots": [["RIGHT", 1]], "start": {"y": 7, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn so the walls are on your right and back", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward five times", "slots": [["FORWARD", 5]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn onto the pink hallway and walk forward once", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward four times", "slots": [["FORWARD", 4]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go three segments down the grassy hall to the blue-tiled hall, passing the hatrack", "slots": [["LEFT", 1], ["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left into the blue-tiled hall", "slots": [["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow it four segments to the intersection with the bare concrete hall, passing the chair and stool", "slots": [["FORWARD", 4]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then find where the wooden floor and the yellow floor doesn't quite intersect", "slots": [["RIGHT", 2], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the yellow-tiled hall forward three segments, passing the bench", "slots": [["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "look for a spot where the red and rose floors intersect four ways, with an easel", "slots": [["FORWARD", 1], ["LEFT", 1], ["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "position one is at the red floors and rose floors intersection", "slots": [["FORWARD", 2], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the coat rack, take a right onto the blue path", "slots": [["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "follow the blue path to the black path intersection and go right onto the black path", "slots": [["FORWARD", 3], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go all the way down until you get to a black easel", "slots": [["FORWARD", 3]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face the intersection containing the hatrack", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward one segment, to the blue-tiled hall", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn right at the hatrack, Go forward two segments, passing the bench, to the empty intersection", "slots": [["RIGHT", 1], ["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall move forward along the octagon carpet one alley", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move one alley", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "face the chair at 6", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk along the blue past a stool and a sofa", "slots": [["FORWARD", 4]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move straight into the corner", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face toward the blue-tiled hall containing the hatrack", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward one segment to  the hatrack", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the blue-tiled hall five segments to the pink-flowered carpet hall", "slots": [["FORWARD", 5]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow this hall one segment forward to the intersection with the brick hall", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall move forward until the brick alley is to your left and right", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn right and move one alley", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go down the grassy hallway one segment to the bare concrete hall", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward three segements to the 'T' intersection with the stone floor", "slots": [["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "position two is at the aesal in the area between two black floors and one green floor", "slots": [["LEFT", 1], ["FORWARD", 3], ["LEFT", 2], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 3], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn to face the short red hallway", "slots": [["LEFT", 4]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "look for the blue hall", "slots": [["FORWARD", 2], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go all the way down until you hit a spot with a coat rack", "slots": [["LEFT", 1], ["FORWARD", 6]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then one movement left", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the red brick road away from the lamp to the green path intersection", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a right onto the green path all the way to the end of the hall where the green and yellow paths meet in a corner", "slots": [["RIGHT", 1], ["FORWARD", 2]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go straight towards the coat rack and take a right at this junction", "slots": [["LEFT", 1], ["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "stay on the blue patch for about two sections", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "At the third, take a right onto the white cement path", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "the very next intersection will be position 7", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go all the way to the end of the hall", "slots": [["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go right onto the green path to the end of the hall", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go to the aesal in the pink floored area", "slots": [["LEFT", 2], ["FORWARD", 3], ["LEFT", 2], ["FORWARD", 2], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go down the red hall until you see the blue hall", "slots": [["LEFT", 2], ["FORWARD", 3], ["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall turn right", "slots": [["RIGHT", 2]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the hat rack and turn left", "slots": [["FORWARD", 2], ["LEFT", 1]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the corner you see in front of you", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "it's at the intersection of the yellow and grey halls, with an easel", "slots": [["FORWARD", 4], ["LEFT", 2], ["FORWARD", 3], ["RIGHT", 1], ["FORWARD", 1], ["LEFT", 2], ["FORWARD", 3]], "start": {"y": 7, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "face the long alley", "slots": [["LEFT", 4]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move down it until you get to the wood flooring", "slots": [["FORWARD", 2]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn right and move one block", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the grassy hall to the blue hall", "slots": [["LEFT", 1], ["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then the blue hall almost all the way down", "slots": [["LEFT", 1], ["FORWARD", 4]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then left to the red hall oine movement", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn so that you are facing the butterflys, and the towers are on the walls behind you", "slots": [["LEFT", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go down the butterfly walled/blue floored hallway", "slots": [["LEFT", 1], ["FORWARD", 1], ["LEFT", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "make a left at the hatrack", "slots": [["FORWARD", 2], ["LEFT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the grassy hall three segments to the blue-tiled hall", "slots": [["LEFT", 1], ["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the blue-tiled hall six segments, passing the chair, stool and bench, to the intersection containing the hatrack", "slots": [["FORWARD", 6]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go one segment forward to the corner", "slots": [["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn so that the pics of towers are to your back", "slots": [["LEFT", 1]], "start": {"y": 7, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the yellow-tiled hall to the hall with pink-flowered carpet", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "I 90% sure that you will turn left, although I am certain that you will turn in the direction in which more hallways are visible", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "This hall will end in the blue-tiled hall", "slots": [["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Position three will be an empty segment on this hallway", "slots": [["FORWARD", 3]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the wood path towards the chair", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the red brick intersection, take a left", "slots": [["FORWARD", 1], ["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the second intersection down, take a right", "slots": [["FORWARD", 2], ["RIGHT", 1]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the end of this hall, you can either only go right or left", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go down 1 block", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "keep going, looking  down each of the streets on the right, until you see the street with no furniture do not go down it", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward three times or until you are at the intersection of green and yellow", "slots": [["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go straight a few movements", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then go to the red floor until you can look to the left and see a blue corridor", "slots": [["LEFT", 1], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 3]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go left until you come to the four way intersection of the red and rose floors, with an easel", "slots": [["LEFT", 2], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 2], ["LEFT", 3], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 2], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 7, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the red brick path towards the lamp", "slots": [["LEFT", 2]], "start": {"y": 1, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the black road intersection, take a left", "slots": [["FORWARD", 2], ["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "follow the black until you meet up with a black easel", "slots": [["FORWARD", 2]], "start": {"y": 1, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward three tiems", "slots": [["FORWARD", 3]], "start": {"y": 1, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn onto the blue hallway", "slots": [["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Take the red brick path straight towards the lamp and all the way until the end of the hall", "slots": [["FORWARD", 4]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the intersection with the green path, take a right and again, go to the end of the hall where the corner meets with the yellow path", "slots": [["RIGHT", 1], ["FORWARD", 2]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Orient yourself along the bare concrete hall,facing the blue-tiled hallway", "slots": [["LEFT", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward one segment to the blue-tiled hall", "slots": [["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward two segments, passing the bench", "slots": [["FORWARD", 2]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left at the hatrack into the bare concrete hall", "slots": [["LEFT", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward one segment", "slots": [["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall at 6 turn left", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk to the second alley", "slots": [["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "you should see an easel on dark gray carpet", "slots": [["RIGHT", 2], ["FORWARD", 1], ["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk to it", "slots": [["FORWARD", 3]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn onto the pink hallway", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move until you see red brick floor to your right", "slots": [["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn and walk down the red brick until you get to an alley with grey floor", "slots": [["RIGHT", 1], ["FORWARD", 2], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "position three is located in the butterfly area", "slots": [["LEFT", 1], ["FORWARD", 2], ["LEFT", 1], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at seven face the chair", "slots": [["LEFT", 2]], "start": {"y": 7, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face toward the longer end of the brick hall", "slots": [["LEFT", 4]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward four segments down the brick hallway, passing a lamp and an easel to the grassy hallway", "slots": [["FORWARD", 4]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn right at the hatrack contained in this intersection", "slots": [["RIGHT", 1]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward two segments to the intersection of the grassy hall and the yellow-tiled hall", "slots": [["FORWARD", 2]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall, turn right", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move past the stool until you get to the intersection where gray floor is to your right", "slots": [["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go straight down the yellow hall until you hit a corner that intersects with the grass hall", "slots": [["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward three segments down the  yellow-tiled hall, passing the bench", "slots": [["LEFT", 2], ["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go toward the bench at the end of the hall with pink-flowered carpet", "slots": [["RIGHT", 1]], "start": {"y": 1, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn right at the bench into the yellow tiled hall", "slots": [["FORWARD", 2], ["RIGHT", 1]], "start": {"y": 1, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go two segments to the intesection with the stone-floored hallway", "slots": [["FORWARD", 2]], "start": {"y": 1, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn to the right", "slots": [["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward two segments, past the bench, to the intersection containing the hatrack", "slots": [["FORWARD", 2]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left into the bare concrete hallway", "slots": [["LEFT", 1]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the rack, go right onto the blue path", "slots": [["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the blue path all the way down to the pink path intersection", "slots": [["FORWARD", 5]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go right onto the pink path", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "when you reach the black easel, you are at position 1", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "position one is in the pink floored area, on the aesal", "slots": [["LEFT", 1], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 3], ["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face the shorter portion of the pink-flowered carpet hall, where it interesects the blue-tiled hall", "slots": [["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward three segments, past the stool, to the intersection of the bare concrete hall", "slots": [["FORWARD", 3]], "start": {"y": 1, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at three put your back to the sofa and move forward towards the stool", "slots": [["LEFT", 4]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "when you get to the alley with the roack floor stop and turn right", "slots": [["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move forward to the easel", "slots": [["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go left onto the red brick", "slots": [["FORWARD", 1], ["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go towards the lamp to the end of the hall", "slots": [["FORWARD", 3]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the chair at the end of the hall, go right", "slots": [["RIGHT", 1]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the black bench, take a left onto the blue path", "slots": [["FORWARD", 1], ["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "and then another left at the coat rack", "slots": [["FORWARD", 1], ["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "three is in the long butterfly hallway, with blue floors", "slots": [["LEFT", 1], ["FORWARD", 3], ["LEFT", 2], ["FORWARD", 2], ["RIGHT", 1], ["FORWARD", 2], ["RIGHT", 1], ["FORWARD", 2], ["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the intersection where the street with no furniture is at", "slots": [["FORWARD", 5], ["LEFT", 2], ["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the end of the hall at the chair, take a right", "slots": [["FORWARD", 4], ["RIGHT", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go straight to the black bench", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "here, take a left onto the blue path and another left at the coat rack", "slots": [["LEFT", 1], ["FORWARD", 1], ["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "the end of this hall will be 5", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go foward", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go down this ahllway until you see the fish ahllways", "slots": [["FORWARD", 2], ["RIGHT", 1], ["FORWARD", 2], ["RIGHT", 2], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "find the aesal in this area", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall move to the end of the rock floor alley", "slots": [["LEFT", 1], ["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move past the stool to the alley before the sofa", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn right you should see gray floor with the red brick on the next alley", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to where the red brick alley is on your right and left", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move one alley past the chair and turn right", "slots": [["FORWARD", 2], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the yellow path to the wood path intersection", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "here, go left onto the wood path", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "when you reach an intersection with plain cement and their are eiffel towers on the walls of the wood path and fish on the walls of the plain path, you are at 6", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "from 1 face the flowered carpet with the grass carpet in the next side alley", "slots": [["LEFT", 4]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the grass carpet", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk to the end of this aisle", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "you should then see olive green octagon carpet to your right", "slots": [["LEFT", 1], ["FORWARD", 7], ["LEFT", 1], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 2], ["LEFT", 1], ["FORWARD", 2], ["RIGHT", 1], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 3]], "start": {"y": 1, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the yellow path all the way to the end of the hall where the corner brings the yellow and green path together", "slots": [["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go right onto the red brick towards the lamp", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "one intersection past the lamp is 7", "slots": [["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn right at the rose hallway", "slots": [["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "keep going until it intersects with the red hallway and has an easel", "slots": [["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the blue hall to the grassy hall", "slots": [["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 4]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then the grassy hall to the yellow hall until they intersect", "slots": [["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 7, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall move forward to the wall", "slots": [["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn right and you see grass carpet in front of you and green octagon carpet down the next alley", "slots": [["RIGHT", 1]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to this spot", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at seven face the long alley with a lamp and an easel in front of you", "slots": [["LEFT", 4]], "start": {"y": 7, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk to the easel", "slots": [["FORWARD", 3]], "start": {"y": 7, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "once at the black easel, you are at 1", "slots": [["FORWARD", 3]], "start": {"y": 7, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "with your back to the wall at 2 turn right", "slots": [["LEFT", 1], ["RIGHT", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk down this", "slots": [["FORWARD", 3], ["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the end of the grass alley turn right", "slots": [["FORWARD", 3], ["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk to the fourth alley where there is gray carpet on the  left alley", "slots": [["FORWARD", 4]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn so the wall is on your right and back", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "from one turn until you see a corner of blue carpet in a side alley", "slots": [["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the second alley", "slots": [["FORWARD", 2]], "start": {"y": 1, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "you should see gray floor to your right and a chair in front of you", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Place your back to the 'T' intersection", "slots": [["LEFT", 4]], "start": {"y": 6, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward along the bare concrete hal one segment ti the intersection of the hall of pink-flowered carpet", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward one segment to the intersection of the pink-flowered carpet hall and the brick hall", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward three times or until you reach the corner of yellow and green", "slots": [["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "down blue hall till you hit the grassy hall", "slots": [["FORWARD", 4]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "down the grassy hall till you hit the yellow hall", "slots": [["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "down the yellow hall until it intersects with the grey hall and has an easel", "slots": [["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then left all the way down the blue hall", "slots": [["RIGHT", 1], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 6]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then a right at teh red hall", "slots": [["FORWARD", 6], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then pos 1 is at the four way intersection of the red hall and the rose hall, with an easel", "slots": [["RIGHT", 1], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move forward to the hat rack and turn right", "slots": [["LEFT", 1], ["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move along the blue carpet past the sofa stool and chair til the alley with the flowered carpet", "slots": [["FORWARD", 5]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move forward one alley", "slots": [["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "5 is at the end of the long butterlfy hallway", "slots": [["FORWARD", 2], ["RIGHT", 3], ["FORWARD", 2], ["LEFT", 1], ["FORWARD", 6]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "make a left one street before the end", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "you should be able to face the hat rack, behind which should be a wall, not a hallway", "slots": [["LEFT", 2]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then right", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then all the way down until you get to where the yellow and grey halls intersect, with an easel", "slots": [["FORWARD", 3], ["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 5, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go down the hall with yellow stone floors until you come to a hall to your left with pink-flowered carpet", "slots": [["FORWARD", 2]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Position one is the intersection containing an easel", "slots": [["FORWARD", 2]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face the pink-flowered carpet hall with your back to the bench at the intersection of it and the yellow-tiled hall", "slots": [["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left in the blue-tiled hall, away from the intersection with the grassy hall", "slots": [["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the blue-tiled hall five segments, past the stool and bench, to the intersection conataining the hatrack", "slots": [["FORWARD", 5]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left at this intersection", "slots": [["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "follow the plain cement towards the blue path intersection", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn right into the hall with pink-flowered carpet", "slots": [["FORWARD", 3], ["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Position 1 is the intersection containing the easel", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward two segments along the blue-tiled hall", "slots": [["FORWARD", 2]], "start": {"y": 3, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn right into the wooden hall", "slots": [["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward two segments to the intersection of the bare concrete hallway", "slots": [["FORWARD", 2]], "start": {"y": 3, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go to the right, toward the hall with the yellow hexagonal tile floor", "slots": [["RIGHT", 1]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Position 2 is the intersection containing the easel", "slots": [["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "I believe it is to your right", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn to face the pink hallway so that the painting easel is on your back left side", "slots": [["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "it's at the corner of the yellow floor and the grass floor", "slots": [["LEFT", 2], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go towards the chair at the end of the hall", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "next, take a right and follow the path until you reach a black easel, this is position 2", "slots": [["FORWARD", 2], ["RIGHT", 1], ["FORWARD", 2], ["RIGHT", 1], ["FORWARD", 3], ["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 6, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "you will come to an intersection with a black path", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a right onto the black path all the way down until you reach the black easel", "slots": [["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "face the green carpeting", "slots": [["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the wall and turn left", "slots": [["FORWARD", 3], ["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move along the blue carpeting until you get to wooden flooring", "slots": [["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "you should see gray floor to your right", "slots": [["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at six place your back to the wall", "slots": [["LEFT", 4]], "start": {"y": 6, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn left or right to locate the easel", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the blue path towards the black bench", "slots": [["LEFT", 2]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the coat rack take a left", "slots": [["FORWARD", 2], ["LEFT", 1]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "the end of this hall is 5", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Take the yellow path all the way to the end of the hall until you can only either go right or left", "slots": [["LEFT", 2], ["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn to face the green halllway", "slots": [["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk three times forward", "slots": [["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward six times", "slots": [["FORWARD", 6]], "start": {"y": 4, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "face the lamp and move to it", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the alley with the brown wooden floor", "slots": [["FORWARD", 4]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move forward one block", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go to the pink flowered floored area", "slots": [["LEFT", 1], ["FORWARD", 1], ["LEFT", 1], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "The square containing the easel is position 2", "slots": [["FORWARD", 3]], "start": {"y": 7, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face away from the shorter end of the hall", "slots": [["LEFT", 2]], "start": {"y": 1, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "the blue-tiled hallway should be visible to your right", "slots": [["LEFT", 2]], "start": {"y": 1, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the brown brick floored hallway to the wooden floored hallway", "slots": [["LEFT", 2], ["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left toward the yellow hexagonal tiled hallway", "slots": [["LEFT", 1]], "start": {"y": 1, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the wooden floored hallway to the 'T' intersection where the top of the 'T' is two sections of wooden floor and the stem of the 'T' is a yellow hexagonally tiled section", "slots": [["FORWARD", 2]], "start": {"y": 1, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left down the stone floored hallway", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow this hallway three segments to  the blue-tiled hallway", "slots": [["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left in this hall", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "You will be turning toward many pictures of butterflies", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the hallway until you reach the about second intersection with a bare concrete floor", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go left", "slots": [["LEFT", 2]], "start": {"y": 1, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then stop when you look to the right and see a blue corridor", "slots": [["FORWARD", 3]], "start": {"y": 1, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "head down toward the futon/bench", "slots": [["LEFT", 2]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "keep going", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "till you are at the hat rack", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "make a left", "slots": [["LEFT", 1]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "pos 5 is in that corner", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "follow the wood path towards red brick path intersection", "slots": [["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a left onto the red brick towards the lamp", "slots": [["FORWARD", 1], ["LEFT", 1]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "on intersection past the lamp will be 7", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a right onto the pink path and at the black easel, the brick path intersection, you are at 1", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward one segment to the yellow-tiled hall", "slots": [["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward two segments, past the bench, to the intersection of the yellow-tiled and grassy halls", "slots": [["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn so that the walls are on your right and back", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "turn right and walk forward twice", "slots": [["RIGHT", 1], ["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a right down the blue corridor", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then go left", "slots": [["LEFT", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "and then take another left once you see a coatrack in the middle of the hall", "slots": [["FORWARD", 2], ["LEFT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at one face the lamp", "slots": [["LEFT", 2]], "start": {"y": 1, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move one square", "slots": [["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take one movement towards the blue corridor", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Orient yourself to face the longer portion of the brick hall", "slots": [["LEFT", 2]], "start": {"y": 1, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward three segments", "slots": [["FORWARD", 3]], "start": {"y": 1, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Face the yellow-tiled hall", "slots": [["LEFT", 2]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow it to the pink-flowered carpet hall", "slots": [["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn right in to this hall", "slots": [["RIGHT", 1]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "When you get to the intersection containing the easel, the perpendicular hall will have brown brick flooring, turn to the left", "slots": [["FORWARD", 2], ["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the brown brick floored hall to the second to last intersection", "slots": [["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "face the long red-bricked alley and move along it to the wooden flooring", "slots": [["LEFT", 2], ["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "pos one is in the area with the pink floors, on the aesal", "slots": [["FORWARD", 1], ["LEFT", 1], ["FORWARD", 1]], "start": {"y": 6, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at two place your back to the wall", "slots": [["LEFT", 4]], "start": {"y": 2, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk to the corner", "slots": [["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at your left you should see grass", "slots": [["LEFT", 2], ["FORWARD", 1], ["RIGHT", 1], ["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward three times or until you reach the pink walkway", "slots": [["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk forward until you rech the red walkway", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go straight towards the coat rack", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a right onto the blue path", "slots": [["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "once here, take a right on the green path", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "follow the green path all the way to the end of the hall as well", "slots": [["FORWARD", 3]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go all the way down the blue floor until you see a coat rack", "slots": [["FORWARD", 3], ["LEFT", 1], ["FORWARD", 3], ["LEFT", 1], ["FORWARD", 6]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then take an immediate left", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the red brick towards the butterflies on the wall", "slots": [["LEFT", 2]], "start": {"y": 1, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the intersection of plain cement and red brick path, this is position 7", "slots": [["FORWARD", 3]], "start": {"y": 1, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go straight on the plain cement path", "slots": [["RIGHT", 1]], "start": {"y": 3, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "the very first intersection will be position 7", "slots": [["FORWARD", 1]], "start": {"y": 3, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the black path towards the pink flowered path intersection", "slots": [["LEFT", 1]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "once here, go right onto the pink path until you reach a black easel", "slots": [["FORWARD", 2], ["RIGHT", 1], ["FORWARD", 2]], "start": {"y": 2, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the hat rack and turn right", "slots": [["LEFT", 1], ["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk down to the end of the blue carpet", "slots": [["FORWARD", 6]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk along the grass carpet to the wall", "slots": [["FORWARD", 3]], "start": {"y": 5, "map": "grid", "x": 4}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward two segments down the wooden hall to the chair in the blue-tiled hall, passing the lamp", "slots": [["FORWARD", 2]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward four segments, passing the bench to the intersection containing the hatrack", "slots": [["FORWARD", 4]], "start": {"y": 6, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go toward the hatrack", "slots": [["LEFT", 1]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn left at the hatrack into the blue-tiled hall", "slots": [["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go forward until you reach an intersection with wooden flooring to your right", "slots": [["FORWARD", 4]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Turn right in this hall", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Postion 6 will be either one segment before or one segment after the segment with the lamp and will be empty", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "one space forward", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "a left at the blue hall", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then two spaces forward", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "and a right when you see the red hall", "slots": [["RIGHT", 1], ["FORWARD", 1]], "start": {"y": 5, "map": "grid", "x": 7}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go towards the lamp on the red brick road, take a right onto the wood path", "slots": [["FORWARD", 2], ["RIGHT", 1]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "when you come to the intersection with the plain cement path, you are at position 6", "slots": [["FORWARD", 1]], "start": {"y": 7, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "grassy hall to blue hall", "slots": [["LEFT", 1], ["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "left", "slots": [["LEFT", 1]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then all the way down until you get between the bench and coat rack", "slots": [["FORWARD", 4]], "start": {"y": 4, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "facing the long aisle turn left", "slots": [["LEFT", 5]], "start": {"y": 7, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk to the blue carpet and turn right", "slots": [["FORWARD", 1], ["RIGHT", 1]], "start": {"y": 7, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "walk down this aisle to the flowered carpet", "slots": [["FORWARD", 3]], "start": {"y": 7, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "go past the black bench and all of the way down until you reach the wood path intersection", "slots": [["FORWARD", 4]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a right onto the wood path", "slots": [["RIGHT", 1]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at the intersection with plain cement, you are at 6", "slots": [["FORWARD", 2]], "start": {"y": 5, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "yellow hall to blue hall", "slots": [["LEFT", 1], ["FORWARD", 3]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "all the way down until one space before you see a bench", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 2, "map": "grid", "x": 3}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "find the blue hall", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "then tke one movement to the left", "slots": [["LEFT", 1], ["FORWARD", 1]], "start": {"y": 1, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move past the stool and chair to the flowered carpet", "slots": [["FORWARD", 3]], "start": {"y": 3, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go two segments down the grassy hall to the hat rack", "slots": [["LEFT", 1], ["FORWARD", 2]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Go one segment forward to the intersection with the hall with pink-flowered carpet", "slots": [["FORWARD", 1]], "start": {"y": 4, "map": "grid", "x": 1}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take a right down the blue hall until you see a coat rack", "slots": [["LEFT", 2], ["FORWARD", 2]], "start": {"y": 3, "map": "grid", "x": 5}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "position 2 is located where the yellow floors and the grey floors intersect", "slots": [["LEFT", 2], ["FORWARD", 2], ["LEFT", 1], ["FORWARD", 2]], "start": {"y": 1, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "Follow the blue path until you come to an intersection with a wood path", "slots": [["FORWARD", 2]], "start": {"y": 3, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "take the wood path to the right and follow it until you see pictures of the eiffel tower on the wall", "slots": [["RIGHT", 1], ["FORWARD", 2]], "start": {"y": 3, "map": "grid", "x": 6}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "at four face the octagon carpet", "slots": [["LEFT", 2]], "start": {"y": 4, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
+{"text": "move to the end", "slots": [["FORWARD", 3]], "start": {"y": 4, "map": "grid", "x": 2}, "status": "trace_gold", "source": "SAIL_grid_trace"}
