@@ -1,0 +1,8 @@
+{"text": "turn to face the green hallway", "source": "SAIL_SingleSentence.grid", "slots": {"kind": "FACE", "landmark": "intersection"}, "status": "auto_v3_landmark"}
+{"text": "Regardless you will turn toward the easel", "source": "SAIL_SingleSentence.grid", "slots": {"kind": "FACE", "landmark": "easel"}, "status": "auto_v3_landmark"}
+{"text": "go to the end", "source": "SAIL_SingleSentence.grid", "slots": {"kind": "GOTO", "landmark": "intersection"}, "status": "auto_v3_landmark"}
+{"text": "go to the end", "source": "SAIL_SingleSentence.grid", "slots": {"kind": "GOTO", "landmark": "intersection"}, "status": "auto_v3_landmark"}
+{"text": "turn to face the green hallway", "source": "SAIL_SingleSentence.grid", "slots": {"kind": "FACE", "landmark": "intersection"}, "status": "auto_v3_landmark"}
+{"text": "go all the way to the end of the hall", "source": "SAIL_SingleSentence.grid", "slots": {"kind": "GOTO", "landmark": "intersection"}, "status": "auto_v3_landmark"}
+{"text": "with your back to the wall move to the end of the rock floor alley", "source": "SAIL_SingleSentence.grid", "slots": {"kind": "GOTO", "landmark": "intersection"}, "status": "auto_v3_landmark"}
+{"text": "walk to the end of this aisle", "source": "SAIL_SingleSentence.grid", "slots": {"kind": "GOTO", "landmark": "intersection"}, "status": "auto_v3_landmark"}

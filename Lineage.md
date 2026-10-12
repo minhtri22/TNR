@@ -881,3 +881,8 @@
 - **Annotate needs_review v2**: newly=111 still=167 OOS_landmark=222 total_auto=167
 - **HumanNL pass-path**: synonym-in-train, OOD novel syntax → Flat=0.165 Prog=0.497 wins=3/3 **PASS**
 - Root cause curated UNRESOLVED: (A) surface OOD too easy both~0.96; (B) pure lexical cold-start both low without synonym supervision
+
+## Run 20261012_010126
+- Date: 2026-10-12T01:01:26.994884
+- Annotate v3 landmark rules: newly=8 left=159
+- **Landmark-Exec** GOTO/FACE mock landmarks: Flat=0.307 Prog=0.708 wins=3/3 **PASS**
