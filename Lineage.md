@@ -896,3 +896,11 @@
 - **SAIL trace-gold length-aware** bank=479 covered_159=88
 - Flat=0.198 Prog=0.527 wins=3/3 **PASS**
 - Fix: length head + execute only L steps (avoid over-step FAIL)
+
+## Run 20261012_020525
+- **SAIL full-graph** (move only on map edges)
+- Flat=0.351 Prog=0.550 wins=3/3 **PASS**
+
+## Run 20261012_020744
+- **R3 production hẹp** Ticket/CRM mock API
+- Flat exact=0.000 Prog exact=0.517 wins=3/3 **PASS**
