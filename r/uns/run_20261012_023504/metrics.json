@@ -1,0 +1,34 @@
+{
+  "results": {
+    "B5": {
+      "Flat": 0.686,
+      "Prog": 1.0,
+      "wins": 3,
+      "outcome": "PASS"
+    },
+    "B1": {
+      "Flat": 0.0,
+      "Prog": 1.0,
+      "wins": 3,
+      "outcome": "PASS"
+    },
+    "B6_struct": {
+      "Flat": 0.523,
+      "Prog": 0.96,
+      "wins": 3,
+      "outcome": "PASS"
+    },
+    "B4": {
+      "Flat": 0.6785714228947958,
+      "Prog": 1.0,
+      "wins": 3,
+      "outcome": "PASS"
+    },
+    "B6_fault": {
+      "Flat": 0.48928571740786236,
+      "Prog": 0.9440476099650065,
+      "wins": 3,
+      "outcome": "PASS"
+    }
+  }
+}

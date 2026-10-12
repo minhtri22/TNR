@@ -907,3 +907,6 @@
 
 ## Run 20261012_021838
 - **3-bền** A2/A1/A4: {'A2': {'Flat': 0.48333332935969037, 'Prog': 0.9449999928474426, 'wins': 3, 'outcome': 'PASS'}, 'A1': {'Flat': 0.5066666603088379, 'Prog': 0.9699999888737997, 'wins': 3, 'outcome': 'PASS'}, 'A4': {'Flat': 0.12399999797344208, 'Prog': 1.0, 'wins': 3, 'outcome': 'PASS'}}
+
+## Run 20261012_023504
+- **2-bền** {'B5': {'Flat': 0.686, 'Prog': 1.0, 'wins': 3, 'outcome': 'PASS'}, 'B1': {'Flat': 0.0, 'Prog': 1.0, 'wins': 3, 'outcome': 'PASS'}, 'B6_struct': {'Flat': 0.523, 'Prog': 0.96, 'wins': 3, 'outcome': 'PASS'}, 'B4': {'Flat': 0.6785714228947958, 'Prog': 1.0, 'wins': 3, 'outcome': 'PASS'}, 'B6_fault': {'Flat': 0.48928571740786236, 'Prog': 0.9440476099650065, 'wins': 3, 'outcome': 'PASS'}}
