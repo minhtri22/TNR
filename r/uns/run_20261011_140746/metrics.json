@@ -1,0 +1,42 @@
+{
+  "run_id": "20261011_140746",
+  "experiment": "Phase R1 mock HTTP JSON tools",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "summary": {
+    "Flat_ex_ood": 0.22500000397364298,
+    "Prog_ex_ood": 0.4941666821638743,
+    "wins": 2
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "Flat_ex_id": 1.0,
+      "Prog_ex_id": 1.0,
+      "Flat_ex_ood": 0.0625,
+      "Prog_ex_ood": 0.5475000143051147,
+      "win": true
+    },
+    {
+      "seed": 7,
+      "Flat_ex_id": 0.9975000023841858,
+      "Prog_ex_id": 1.0,
+      "Flat_ex_ood": 0.4000000059604645,
+      "Prog_ex_ood": 0.4025000035762787,
+      "win": false
+    },
+    {
+      "seed": 123,
+      "Flat_ex_id": 1.0,
+      "Prog_ex_id": 1.0,
+      "Flat_ex_ood": 0.21250000596046448,
+      "Prog_ex_ood": 0.5325000286102295,
+      "win": true
+    }
+  ],
+  "outcome": "PASS",
+  "note": "mock HTTP program\u2192execute exact"
+}
