@@ -917,3 +917,11 @@
 - map-jelly.xml, map-l.xml
 - reports/figures/arch_*.png (kiến trúc chatbot + lab)
 
+
+## Source pack late phases (complete)
+- tnr_phase_R2d_fault_alias.py
+- tnr_phase_R3_ticket_crm.py
+- tnr_phase_SAIL_fullgraph.py
+- tnr_phase_2ben_tools.py (B5/B1/B6/B4)
+- tnr_phase_3ben_sail.py (A2/A1/A4)
+
