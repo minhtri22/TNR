@@ -925,3 +925,10 @@
 - tnr_phase_2ben_tools.py (B5/B1/B6/B4)
 - tnr_phase_3ben_sail.py (A2/A1/A4)
 
+
+## Missing phase sources completed
+- code/tnr_phase_Landmark_exec.py
+- code/tnr_phase_SAIL_trace_length.py
+- code/tnr_phase_HumanNL_SAIL.py
+- code/tnr_phase_HumanNL_passpath.py
+

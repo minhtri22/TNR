@@ -23,6 +23,10 @@
 | tnr_phase_HumanNL_open_corpus.py | Human curated |
 | tnr_phase_R3_ticket_crm.py | Domain CRM hẹp |
 | tnr_phase_SAIL_*.py | SAIL human + full-graph + 3-bền |
+| tnr_phase_Landmark_exec.py | Landmark GOTO/FACE mock |
+| tnr_phase_SAIL_trace_length.py | SAIL trace-gold length-aware |
+| tnr_phase_HumanNL_SAIL.py | HumanNL SAIL import+annotate eval |
+| tnr_phase_HumanNL_passpath.py | HumanNL synonym-in-train pass-path |
 | tnr_phase_2ben_tools.py | 2-bền tools (B5/B1/B6/B4) |
 | tnr_phase_3ben_sail.py | 3-bền SAIL (A2/A1/A4) |
 
