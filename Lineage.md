@@ -910,3 +910,10 @@
 
 ## Run 20261012_023504
 - **2-bền** {'B5': {'Flat': 0.686, 'Prog': 1.0, 'wins': 3, 'outcome': 'PASS'}, 'B1': {'Flat': 0.0, 'Prog': 1.0, 'wins': 3, 'outcome': 'PASS'}, 'B6_struct': {'Flat': 0.523, 'Prog': 0.96, 'wins': 3, 'outcome': 'PASS'}, 'B4': {'Flat': 0.6785714228947958, 'Prog': 1.0, 'wins': 3, 'outcome': 'PASS'}, 'B6_fault': {'Flat': 0.48928571740786236, 'Prog': 0.9440476099650065, 'wins': 3, 'outcome': 'PASS'}}
+
+## Source pack 20261012
+- Bổ sung mã nguồn phase muộn (trước đây chỉ chạy REPL): R2d, R3, SAIL full-graph, 2-ben tools
+- code/README.md index
+- map-jelly.xml, map-l.xml
+- reports/figures/arch_*.png (kiến trúc chatbot + lab)
+
