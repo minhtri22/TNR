@@ -1,0 +1,56 @@
+{
+  "suite": "order_conn_v2_csv_sheet",
+  "pack": "order",
+  "outcome": "PASS",
+  "preregister": {
+    "PASS": "CSV policy+CRUD AND v0b PASS",
+    "FAIL": "CSV policy or CRUD fail",
+    "UNRESOLVED": "connector ok but v0b not PASS"
+  },
+  "policy": {
+    "blocked_without_confirm": true,
+    "cancel_with_confirm_ok": true,
+    "disk_cancelled": 1,
+    "pass": true
+  },
+  "crud": {
+    "pass": true,
+    "disk": {
+      "exists": 1,
+      "order_id": "C200",
+      "address": "HN",
+      "status": 2,
+      "cod": 0,
+      "cancelled": 0,
+      "confirmed": 0
+    },
+    "csv_header_ok": true
+  },
+  "v0b": {
+    "mode": "prior_metrics",
+    "outcome": "PASS",
+    "metrics": {
+      "Flat_exact_mean": 0.5883333333333334,
+      "Prog_exact_mean": 1.0,
+      "wins": 3,
+      "per_seed": [
+        {
+          "Flat": 0.505,
+          "Prog": 1.0,
+          "win": true
+        },
+        {
+          "Flat": 0.61,
+          "Prog": 1.0,
+          "win": true
+        },
+        {
+          "Flat": 0.65,
+          "Prog": 1.0,
+          "win": true
+        }
+      ]
+    },
+    "pass": true
+  }
+}

@@ -992,3 +992,10 @@
 - Result: **PASS**
 - Artifacts: connectors/file_store.py, eval/suite_order_conn_v1.py, r/uns/order_conn_v1/metrics.json
 - Next: HTTP mock connector OR Sheet-shaped CSV — still one hypothesis; keep v0b gate
+
+## Run 20261014_order_conn_v2
+- Hypothesis: **CSV/Sheet-shaped store** same slot semantics + CONFIRM; gate + v0b freeze
+- policy/CRUD: PASS (header CSV, cancelled on disk)
+- v0b prior metrics: PASS
+- Result: **PASS**
+- Artifacts: connectors/csv_store.py, eval/suite_order_conn_v2.py, r/uns/order_conn_v2/metrics.json

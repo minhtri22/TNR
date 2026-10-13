@@ -57,3 +57,11 @@ python code/packages/order/eval/suite_order_conn_v1.py
 # optional full v0b retrain gate:
 ORDER_CONN_RERUN_V0B=1 python code/packages/order/eval/suite_order_conn_v1.py
 ```
+
+| CSV / Sheet connector | `connectors/csv_store.py` |
+| Gate suite | `eval/suite_order_conn_v2.py` |
+| Status | **PASS** (CSV policy+CRUD + v0b PASS) |
+
+```bash
+python code/packages/order/eval/suite_order_conn_v2.py
+```
