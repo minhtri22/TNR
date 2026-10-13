@@ -968,3 +968,11 @@
 - Ladder: v0b PASS (full synonym) → v0d FAIL (partial) → v0c UNRESOLVED (cold-start)
 - Kernel policy smoke still PASS
 - Interpretation: partial stem not enough for Prog to beat Flat on structure OOD; full synonym-in-train remains the working mock regime for L=2 order pack
+
+## Run 20261013_order_v0e
+- Hypothesis: **char/subword encoder** on same hybrid phrases as v0d (architecture only; metric unchanged)
+- Config note: H=64, MAX_CHAR=64, EPOCHS=12, N_TRAIN=2400 (reduced for runtime vs word-level)
+- Result: Flat=0.120 Prog=0.232 wins=2/3 → **UNRESOLVED** (Prog < 0.35)
+- vs v0d FAIL (Flat 0.376 > Prog 0.245): char encoder **flips ranking** Prog>Flat but absolute still below PASS bar
+- Kernel policy smoke PASS
+- Ladder lexical+encoder: v0b PASS full-synonym word → v0d FAIL partial word → v0e UNRESOLVED partial+char → v0c UNRESOLVED cold word
