@@ -952,3 +952,11 @@
 - Kernel policy smoke still PASS
 - Note: Flat also rose (shared lexicon); Prog still clear gap via execute. Not metric change.
 - Next: freeze order_v0b mock; optional order_v0c harder OOD (true lexical cold-start) OR 1 thin connector — one hypothesis only
+
+## Run 20261013_order_v0c
+- Hypothesis: **true lexical cold-start** — OOD phrase tokens ∉ train vocab (map to `<unk>`), structure pairs held-out, same preregister
+- Train/OOD word overlap: empty
+- Result: Flat=0.079 Prog=0.082 wins=1/3 → **UNRESOLVED**
+- Interpretation: pure lexical cold-start on short L=2 order NL collapses both Flat and Prog; v0b PASS relied on shared surface forms
+- Kernel policy smoke still PASS
+- Next (one hypothesis): hybrid — structure OOD + **partial** synonym (subset roots) OR char/subword encoder — do not loosen PASS threshold
