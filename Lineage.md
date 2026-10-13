@@ -976,3 +976,10 @@
 - vs v0d FAIL (Flat 0.376 > Prog 0.245): char encoder **flips ranking** Prog>Flat but absolute still below PASS bar
 - Kernel policy smoke PASS
 - Ladder lexical+encoder: v0b PASS full-synonym word → v0d FAIL partial word → v0e UNRESOLVED partial+char → v0c UNRESOLVED cold word
+
+## Freeze 20261013_order_baseline_v0b
+- **FROZEN** Order mock baseline = suite_order_v0b (synonym-in-train, L=2 structure OOD)
+- Evidence: Flat=0.588 Prog=1.000 wins=3/3 PASS; kernel policy smoke PASS
+- Harder lexical kept as open: v0c UNRESOLVED, v0d FAIL, v0e UNRESOLVED — not baseline
+- Artifact: code/packages/order/BASELINE.md
+- Next allowed: thin connector with v0b regression gate, or new domain pack — one hypothesis
