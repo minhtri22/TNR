@@ -960,3 +960,11 @@
 - Interpretation: pure lexical cold-start on short L=2 order NL collapses both Flat and Prog; v0b PASS relied on shared surface forms
 - Kernel policy smoke still PASS
 - Next (one hypothesis): hybrid — structure OOD + **partial** synonym (subset roots) OR char/subword encoder — do not loosen PASS threshold
+
+## Run 20261013_order_v0d
+- Hypothesis: **hybrid** structure OOD + partial synonym (1 shared content stem/tool; rest OOD-only tokens). Vocab includes OOD tokens; train NL never samples full OOD phrases.
+- Shared stems: address, cancel, confirm, nothing, order, status
+- Result: Flat=0.376 Prog=0.245 wins=1/3 → **FAIL** (Prog+0.05 < Flat)
+- Ladder: v0b PASS (full synonym) → v0d FAIL (partial) → v0c UNRESOLVED (cold-start)
+- Kernel policy smoke still PASS
+- Interpretation: partial stem not enough for Prog to beat Flat on structure OOD; full synonym-in-train remains the working mock regime for L=2 order pack

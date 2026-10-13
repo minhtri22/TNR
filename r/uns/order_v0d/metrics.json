@@ -1,0 +1,40 @@
+{
+  "suite": "order_v0d_hybrid_partial_synonym",
+  "pack": "order",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "metrics": {
+    "Flat_exact_mean": 0.3758333333333333,
+    "Prog_exact_mean": 0.24500000000000002,
+    "wins": 1,
+    "per_seed": [
+      {
+        "Flat": 0.13,
+        "Prog": 0.2475,
+        "win": true
+      },
+      {
+        "Flat": 0.61,
+        "Prog": 0.23,
+        "win": false
+      },
+      {
+        "Flat": 0.3875,
+        "Prog": 0.2575,
+        "win": false
+      }
+    ]
+  },
+  "outcome": "FAIL",
+  "preregister": {
+    "PASS": "mean Prog > Flat+0.05 AND Prog>=0.35 AND wins>=2/3",
+    "FAIL": "mean Prog+0.05 < Flat",
+    "else": "UNRESOLVED",
+    "metric": "exact state keys exists/status/cod/cancelled/confirmed (+address for Prog)",
+    "ood": "structure held-out sequences + novel NL frames"
+  },
+  "ts": 1791857371.1260118
+}
