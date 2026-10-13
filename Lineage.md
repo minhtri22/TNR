@@ -944,3 +944,11 @@
 - Kernel policy smoke: CANCEL without CONFIRM blocked; with CONFIRM ok
 - Note: seed variance (seed7 Prog=0); signal present but below min_prog 0.35
 - Next (one hypothesis): stabilize seed7 / more epochs OR order_v0b L=2 with synonym-in-train — not metric change first
+
+## Run 20261013_order_v0b
+- Hypothesis: **synonym-in-train** + EPOCHS=20 + N_TRAIN=3600 (same L=2 schema, same preregister)
+- OOD structure held-out sequences; OOD surface forms also seen in train as alternate phrases
+- Result: Flat=0.588 Prog=1.000 wins=3/3 → **PASS**
+- Kernel policy smoke still PASS
+- Note: Flat also rose (shared lexicon); Prog still clear gap via execute. Not metric change.
+- Next: freeze order_v0b mock; optional order_v0c harder OOD (true lexical cold-start) OR 1 thin connector — one hypothesis only
