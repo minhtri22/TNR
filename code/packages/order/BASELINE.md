@@ -43,3 +43,17 @@ python code/packages/order/eval/suite_order_v0b.py
 2. Harder lexical (v0c–v0e) stays documented as FAIL/UNRESOLVED — open problems.
 3. Next product step = thin real connector **or** new pack; regression must still pass v0b.
 4. Ticket / other domains = new packs under `code/packages/`, same kernel.
+
+## Connector (thin, post-freeze)
+
+| Item | Value |
+|------|--------|
+| File connector | `connectors/file_store.py` |
+| Gate suite | `eval/suite_order_conn_v1.py` |
+| Status | **PASS** (policy+CRUD on disk + v0b metrics still PASS) |
+
+```bash
+python code/packages/order/eval/suite_order_conn_v1.py
+# optional full v0b retrain gate:
+ORDER_CONN_RERUN_V0B=1 python code/packages/order/eval/suite_order_conn_v1.py
+```

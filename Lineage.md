@@ -983,3 +983,12 @@
 - Harder lexical kept as open: v0c UNRESOLVED, v0d FAIL, v0e UNRESOLVED — not baseline
 - Artifact: code/packages/order/BASELINE.md
 - Next allowed: thin connector with v0b regression gate, or new domain pack — one hypothesis
+
+## Run 20261014_order_conn_v1
+- Hypothesis: thin **file JSON connector** keeps same slot semantics + CONFIRM policy; v0b freeze still PASS
+- policy smoke: CANCEL without CONFIRM blocked; with CONFIRM disk cancelled=1
+- CRUD: CREATE→LOOKUP→UPDATE_ADDRESS→SET_STATUS persist exact
+- v0b regression: prior metrics PASS (Flat=0.588 Prog=1.0 wins=3/3)
+- Result: **PASS**
+- Artifacts: connectors/file_store.py, eval/suite_order_conn_v1.py, r/uns/order_conn_v1/metrics.json
+- Next: HTTP mock connector OR Sheet-shaped CSV — still one hypothesis; keep v0b gate
