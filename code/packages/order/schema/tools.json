@@ -1,0 +1,28 @@
+{
+  "pack": "order",
+  "version": "v0",
+  "tools": [
+    "LOOKUP_ORDER",
+    "UPDATE_ADDRESS",
+    "CONFIRM",
+    "CANCEL_ORDER",
+    "SET_STATUS",
+    "CREATE_ORDER",
+    "NOP"
+  ],
+  "policies": {
+    "max_slots": 4,
+    "require_confirm_before": {
+      "CANCEL_ORDER": "CONFIRM"
+    }
+  },
+  "state_keys": [
+    "exists",
+    "order_id",
+    "address",
+    "status",
+    "cod",
+    "cancelled",
+    "confirmed"
+  ]
+}

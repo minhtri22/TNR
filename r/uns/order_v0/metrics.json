@@ -1,0 +1,40 @@
+{
+  "suite": "order_v0_structure_ood",
+  "pack": "order",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "metrics": {
+    "Flat_exact_mean": 0.16,
+    "Prog_exact_mean": 0.3016666666666667,
+    "wins": 2,
+    "per_seed": [
+      {
+        "Flat": 0.2375,
+        "Prog": 0.53,
+        "win": true
+      },
+      {
+        "Flat": 0.1225,
+        "Prog": 0.0,
+        "win": false
+      },
+      {
+        "Flat": 0.12,
+        "Prog": 0.375,
+        "win": true
+      }
+    ]
+  },
+  "outcome": "UNRESOLVED",
+  "preregister": {
+    "PASS": "mean Prog > Flat+0.05 AND Prog>=0.35 AND wins>=2/3",
+    "FAIL": "mean Prog+0.05 < Flat",
+    "else": "UNRESOLVED",
+    "metric": "exact state keys exists/status/cod/cancelled/confirmed (+address for Prog)",
+    "ood": "structure held-out sequences + novel NL frames"
+  },
+  "ts": 1791849603.9817457
+}

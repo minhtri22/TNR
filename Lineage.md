@@ -932,3 +932,15 @@
 - code/tnr_phase_HumanNL_SAIL.py
 - code/tnr_phase_HumanNL_passpath.py
 
+
+## Run 20261013_order_v0
+- Architecture: **1 kernel + domain packs**; first pack **order v0**
+- Kernel: program → validate → execute → audit → scorecard
+- Order schema: LOOKUP_ORDER, UPDATE_ADDRESS, CONFIRM, CANCEL_ORDER, SET_STATUS, CREATE_ORDER, NOP
+- Policy: CANCEL_ORDER requires CONFIRM (validate + runtime)
+- Suite: L=2 structure OOD, valid programs only, 3 seeds
+- Preregister: PASS if mean Prog > Flat+0.05 AND Prog>=0.35 AND wins>=2/3
+- Result: Flat=0.160 Prog=0.302 wins=2/3 → **UNRESOLVED**
+- Kernel policy smoke: CANCEL without CONFIRM blocked; with CONFIRM ok
+- Note: seed variance (seed7 Prog=0); signal present but below min_prog 0.35
+- Next (one hypothesis): stabilize seed7 / more epochs OR order_v0b L=2 with synonym-in-train — not metric change first
