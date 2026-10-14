@@ -81,3 +81,6 @@ python code/packages/order/eval/suite_order_conn_v3.py
 ```bash
 python code/packages/order/eval/suite_order_conn_v4.py
 ```
+
+| E2E NL→HTTP Shopee | `eval/suite_order_e2e_v1.py` |
+| Status | **FAIL** (Prog HTTP exact < Flat; gold CANCEL shaped ok) |

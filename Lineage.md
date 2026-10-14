@@ -1015,3 +1015,10 @@
 - v0b freeze: PASS
 - Result: **PASS**
 - Note: field names mock-subset (order_sn, recipient_address / code, shipping_address) — not live API
+
+## Run 20261014_order_e2e_v1
+- Hypothesis: NL→Prog (v0b-like synonym-in-train) → MarketplaceHttpClient Shopee shape end-to-end
+- Gold HTTP CANCEL path: **ok** (cancelled=1, order_status=CANCELLED) every seed
+- Prog HTTP exact mean=0.297 vs Flat proxy=0.707 wins=0/3 → **FAIL** (preregister)
+- v0b freeze still PASS
+- Interpretation: marketplace HTTP transport + shaped CANCEL works; NL→program under HTTP exact not yet above Flat/bar — open problem, do not loosen metric
