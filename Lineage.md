@@ -1022,3 +1022,9 @@
 - Prog HTTP exact mean=0.297 vs Flat proxy=0.707 wins=0/3 → **FAIL** (preregister)
 - v0b freeze still PASS
 - Interpretation: marketplace HTTP transport + shaped CANCEL works; NL→program under HTTP exact not yet above Flat/bar — open problem, do not loosen metric
+
+## Run 20261014_order_e2e_v1b
+- Hypothesis: more train budget (EPOCHS=20, N_TRAIN=3200) lifts Prog HTTP exact; schema/metric unchanged
+- Result: Flat=0.604 Prog=0.273 wins=0/3 cancel_ok=True v0b=PASS → **FAIL**
+- vs e2e_v1: Prog 0.297→0.273 (no lift); gold CANCEL shaped still ok
+- Interpretation: budget alone does not close NL→HTTP gap under current Prog+exact_core; do not loosen metric

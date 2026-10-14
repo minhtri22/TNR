@@ -1,0 +1,57 @@
+{
+  "suite": "order_e2e_v1b_more_budget",
+  "pack": "order",
+  "outcome": "FAIL",
+  "preregister": {
+    "PASS": "Prog HTTP exact>Flat+0.05 & >=0.35 & wins>=2/3 & CANCELLED shaped & v0b PASS",
+    "FAIL": "Prog+0.05<Flat OR cancel HTTP path fail",
+    "UNRESOLVED": "else"
+  },
+  "metrics": {
+    "Flat_mean": 0.6041666666666666,
+    "Prog_mean": 0.2729166666666667,
+    "wins": 0,
+    "cancel_shaped_ok": true,
+    "per_seed": [
+      {
+        "Flat": 0.625,
+        "Prog": 0.25625,
+        "win": false,
+        "cancel_shaped": "CANCELLED",
+        "cancel_path_tools": [
+          "CONFIRM",
+          "CANCEL_ORDER"
+        ],
+        "gold_cancel_http": 1
+      },
+      {
+        "Flat": 0.56875,
+        "Prog": 0.2625,
+        "win": false,
+        "cancel_shaped": "CANCELLED",
+        "cancel_path_tools": [
+          "CONFIRM",
+          "CANCEL_ORDER"
+        ],
+        "gold_cancel_http": 1
+      },
+      {
+        "Flat": 0.61875,
+        "Prog": 0.3,
+        "win": false,
+        "cancel_shaped": "CANCELLED",
+        "cancel_path_tools": [
+          "CONFIRM",
+          "CANCEL_ORDER"
+        ],
+        "gold_cancel_http": 1
+      }
+    ]
+  },
+  "v0b": {
+    "pass": true,
+    "outcome": "PASS"
+  },
+  "base_url_ephemeral": true,
+  "shape": "shopee"
+}
