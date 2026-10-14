@@ -1070,3 +1070,8 @@
 - Hypothesis: new tool **UPDATE_PHONE** (schema+connector+lexicon EN/VI+HTTP)
 - kernel phone update ok; cancel still needs CONFIRM; no phone update after cancel
 - EN match/http=1.0 VI≈0.967 → **PASS**; en_v1/vi_v1 regression still PASS
+
+## Run 20261014_order_nl_args_v1
+- Hypothesis: regex extract **order_id** + **phone** from EN/VI NL; 8 tools unchanged
+- order_id_acc=1.0 phone_acc=1.0 http_args=1.0; v0b+en_lex+vi_lex prior PASS → **PASS**
+- Fixed stop-token so bare "order" is not captured as id

@@ -1,0 +1,78 @@
+{
+  "suite": "order_nl_args_v1",
+  "pack": "order",
+  "outcome": "PASS",
+  "preregister": {
+    "PASS": "order_id>=0.90 phone>=0.90 http_args>=0.90 AND v0b+en_lex+vi_lex prior PASS",
+    "FAIL": "order_id or phone <0.70",
+    "UNRESOLVED": "else"
+  },
+  "metrics": {
+    "order_id_acc": 1.0,
+    "phone_acc": 1.0,
+    "http_args_exact": 1.0,
+    "extract_detail": {
+      "order_id_acc": 1.0,
+      "phone_acc": 1.0,
+      "n": 24,
+      "oid_ok": 24,
+      "ph_ok": 24
+    },
+    "http_detail": [
+      {
+        "name": "create and set phone",
+        "ok": true,
+        "got": {
+          "order_id": "ORD-H1",
+          "phone": "0911000222"
+        },
+        "args": {
+          "order_id": "ORD-H1",
+          "phone": "0911000222"
+        }
+      },
+      {
+        "name": "vi phone order",
+        "ok": true,
+        "got": {
+          "order_id": "ORD-H2",
+          "phone": "0922000333"
+        },
+        "args": {
+          "order_id": "ORD-H2",
+          "phone": "0922000333"
+        }
+      },
+      {
+        "name": "update phone only",
+        "ok": true,
+        "got": {
+          "order_id": "ORD-H3",
+          "phone": "0933000444"
+        },
+        "args": {
+          "order_id": "ORD-H3",
+          "phone": "0933000444"
+        }
+      },
+      {
+        "name": "vi update",
+        "ok": true,
+        "got": {
+          "order_id": "ORD-H4",
+          "phone": "0944000555"
+        },
+        "args": {
+          "order_id": "ORD-H4",
+          "phone": "0944000555"
+        }
+      }
+    ]
+  },
+  "regression": {
+    "v0b": true,
+    "en_lexicon": true,
+    "vi_lexicon": true
+  },
+  "note": "8 tools unchanged; extract is additive"
+}
