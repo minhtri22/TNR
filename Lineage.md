@@ -1059,3 +1059,9 @@
 - Hypothesis: **vi_v1.json** same tool ids as EN; controlled VI phrases
 - tool_match=0.980 http_exact=0.980 (3 seeds), v0b PASS → **PASS**
 - EN was prerequisite PASS; bilingual controlled lexicon path open
+
+## Run 20261014_lexicon_phrase_expand_A
+- Hypothesis: expand EN/VI phrases same 7 tools (ops language: delivered, chốt đơn, không lấy hàng…)
+- EN patterns 69→98 tool_match=1.000 http=1.000 → **PASS**
+- VI patterns 65→101 tool_match=0.980 http=0.980 → **PASS**
+- No schema change; regression gates unchanged thresholds

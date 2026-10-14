@@ -13,19 +13,19 @@
     "http_exact_mean": 0.98,
     "per_seed": [
       {
-        "tool_match": 0.96,
-        "http_exact": 0.96
+        "tool_match": 0.98,
+        "http_exact": 0.98
       },
       {
         "tool_match": 0.99,
         "http_exact": 0.99
       },
       {
-        "tool_match": 0.99,
-        "http_exact": 0.99
+        "tool_match": 0.97,
+        "http_exact": 0.97
       }
     ],
-    "n_patterns": 65,
+    "n_patterns": 101,
     "cancel_shaped_ok": true
   },
   "v0b": {

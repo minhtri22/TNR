@@ -2,7 +2,7 @@
   "pack": "order",
   "lang": "vi",
   "version": "v1",
-  "note": "Câu kiểm soát map 1-1 tool id với en_v1 — không phải NL mở / cold-start",
+  "note": "Câu kiểm soát map 1-1 tool id với en_v1 — không phải NL mở / cold-start | phrase expand A 2026-10-14",
   "tools": {
     "LOOKUP_ORDER": {
       "patterns": [
@@ -17,7 +17,12 @@
         "trạng thái đơn",
         "chi tiết đơn",
         "lookup order",
-        "check order"
+        "check order",
+        "cho em hỏi đơn",
+        "đơn hàng của em",
+        "kiểm tra giúp đơn",
+        "xem giúp đơn",
+        "order mã"
       ]
     },
     "UPDATE_ADDRESS": {
@@ -31,7 +36,12 @@
         "thay địa chỉ giao",
         "chỉnh địa chỉ",
         "update address",
-        "change address"
+        "change address",
+        "đổi giúp địa chỉ",
+        "giao chỗ khác",
+        "sửa giúp địa chỉ",
+        "ship địa chỉ mới",
+        "địa chỉ mới là"
       ]
     },
     "CONFIRM": {
@@ -45,7 +55,12 @@
         "đồng ý xác nhận",
         "xác nhận thao tác",
         "please confirm",
-        "i confirm"
+        "i confirm",
+        "ok xác nhận",
+        "ừ xác nhận",
+        "được xác nhận",
+        "ok confirm",
+        "đồng ý hủy nhé"
       ]
     },
     "CANCEL_ORDER": {
@@ -59,7 +74,13 @@
         "cho hủy đơn",
         "hủy giúp em",
         "hủy đơn giúp",
-        "bỏ đơn"
+        "bỏ đơn",
+        "không lấy hàng nữa",
+        "không nhận hàng",
+        "hủy vì đặt nhầm",
+        "shop hủy giúp",
+        "hủy giúp với",
+        "em muốn hủy"
       ]
     },
     "SET_STATUS": {
@@ -71,7 +92,14 @@
         "đánh dấu đã giao",
         "chuyển trạng thái",
         "cập nhật status",
-        "sửa trạng thái đơn"
+        "sửa trạng thái đơn",
+        "đã giao",
+        "giao thành công",
+        "đang giao",
+        "đang ship",
+        "chờ lấy hàng",
+        "sẵn sàng giao",
+        "hoàn thành đơn"
       ]
     },
     "CREATE_ORDER": {
@@ -84,7 +112,12 @@
         "lập đơn",
         "mở đơn mới",
         "đặt đơn",
-        "tạo order"
+        "tạo order",
+        "chốt đơn",
+        "chốt giúp đơn",
+        "lấy đơn này",
+        "order giúp",
+        "em đặt"
       ]
     },
     "NOP": {
@@ -94,7 +127,10 @@
         "skip",
         "thôi",
         "không cần",
-        "do nothing"
+        "do nothing",
+        "thôi bỏ",
+        "không sao",
+        "để sau"
       ]
     }
   }

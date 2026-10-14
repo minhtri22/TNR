@@ -2,7 +2,7 @@
   "pack": "order",
   "lang": "en",
   "version": "v1",
-  "note": "Controlled phrases only — not open-domain cold-start",
+  "note": "Controlled phrases only — not open-domain cold-start | phrase expand A 2026-10-14",
   "tools": {
     "LOOKUP_ORDER": {
       "patterns": [
@@ -17,7 +17,11 @@
         "where is my order",
         "order details",
         "look up the order",
-        "check my order"
+        "check my order",
+        "status of my order",
+        "find my order",
+        "order info",
+        "check order please"
       ]
     },
     "UPDATE_ADDRESS": {
@@ -32,7 +36,11 @@
         "correct the address",
         "new delivery address",
         "modify address",
-        "edit shipping address"
+        "edit shipping address",
+        "ship to a different address",
+        "change the shipping address",
+        "update the delivery address",
+        "fix my address"
       ]
     },
     "CONFIRM": {
@@ -46,7 +54,11 @@
         "confirm the action",
         "authorize confirm",
         "confirmed",
-        "I agree confirm"
+        "I agree confirm",
+        "yes please confirm",
+        "ok confirm",
+        "confirm yes",
+        "i confirm cancel"
       ]
     },
     "CANCEL_ORDER": {
@@ -60,7 +72,12 @@
         "please cancel the order",
         "abort the order",
         "cancel the purchase",
-        "stop this order"
+        "stop this order",
+        "i do not want this order",
+        "please cancel",
+        "cancel it",
+        "do not ship this order",
+        "never mind cancel the order"
       ]
     },
     "SET_STATUS": {
@@ -74,7 +91,13 @@
         "set order status",
         "update order status",
         "change order status",
-        "progress status"
+        "progress status",
+        "mark as delivered",
+        "mark delivered",
+        "out for delivery",
+        "mark as completed",
+        "set to shipped",
+        "mark ready to ship"
       ]
     },
     "CREATE_ORDER": {
@@ -88,7 +111,11 @@
         "create a new order",
         "submit order",
         "open order",
-        "add order"
+        "add order",
+        "checkout order",
+        "submit a new order",
+        "book an order",
+        "start a new order"
       ]
     },
     "NOP": {
@@ -98,7 +125,9 @@
         "no operation required",
         "skip",
         "never mind",
-        "ignore"
+        "ignore",
+        "forget it",
+        "cancel that thought"
       ]
     }
   }
