@@ -17,6 +17,7 @@ def empty_state() -> Dict[str, Any]:
         "exists": 0,
         "order_id": "",
         "address": "",
+        "phone": "",
         "status": 0,
         "cod": 0,
         "cancelled": 0,
@@ -39,6 +40,7 @@ def apply_slot(tool: str, args: Dict[str, Any], state: Dict[str, Any]) -> Dict[s
                 "exists": 1,
                 "order_id": oid,
                 "address": addr,
+                "phone": str(args.get("phone", "")),
                 "status": 0,
                 "cod": int(args.get("cod", 0)),
                 "cancelled": 0,
@@ -53,11 +55,17 @@ def apply_slot(tool: str, args: Dict[str, Any], state: Dict[str, Any]) -> Dict[s
             if not st.get("exists"):
                 st["exists"] = 1
                 st["address"] = st.get("address") or "addr-lookup"
+                st["phone"] = st.get("phone") or ""
         return st
 
     if tool == "UPDATE_ADDRESS":
         if st.get("exists") and not st.get("cancelled"):
             st["address"] = str(args.get("address", st.get("address", "")))
+        return st
+
+    if tool == "UPDATE_PHONE":
+        if st.get("exists") and not st.get("cancelled"):
+            st["phone"] = str(args.get("phone", st.get("phone", "")))
         return st
 
     if tool == "CONFIRM":

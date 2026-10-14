@@ -1,9 +1,10 @@
 {
   "pack": "order",
-  "version": "v0",
+  "version": "v0.1",
   "tools": [
     "LOOKUP_ORDER",
     "UPDATE_ADDRESS",
+    "UPDATE_PHONE",
     "CONFIRM",
     "CANCEL_ORDER",
     "SET_STATUS",
@@ -20,6 +21,7 @@
     "exists",
     "order_id",
     "address",
+    "phone",
     "status",
     "cod",
     "cancelled",

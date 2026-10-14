@@ -129,6 +129,20 @@
         "forget it",
         "cancel that thought"
       ]
+    },
+    "UPDATE_PHONE": {
+      "patterns": [
+        "update phone",
+        "change phone",
+        "update phone number",
+        "change phone number",
+        "new phone number",
+        "update contact number",
+        "change mobile",
+        "edit phone number",
+        "update the phone",
+        "change recipient phone"
+      ]
     }
   }
 }

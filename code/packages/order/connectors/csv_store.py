@@ -16,6 +16,7 @@ FIELDNAMES = [
     "order_id",
     "exists",
     "address",
+    "phone",
     "status",
     "cod",
     "cancelled",
@@ -28,6 +29,7 @@ def _row_to_state(row: Dict[str, str]) -> Dict[str, Any]:
     st["order_id"] = str(row.get("order_id", ""))
     st["exists"] = int(row.get("exists", 0) or 0)
     st["address"] = str(row.get("address", ""))
+    st["phone"] = str(row.get("phone", ""))
     st["status"] = int(row.get("status", 0) or 0)
     st["cod"] = int(row.get("cod", 0) or 0)
     st["cancelled"] = int(row.get("cancelled", 0) or 0)
@@ -40,6 +42,7 @@ def _state_to_row(st: Dict[str, Any]) -> Dict[str, Any]:
         "order_id": str(st.get("order_id", "")),
         "exists": int(st.get("exists", 0)),
         "address": str(st.get("address", "")),
+        "phone": str(st.get("phone", "")),
         "status": int(st.get("status", 0)),
         "cod": int(st.get("cod", 0)),
         "cancelled": int(st.get("cancelled", 0)),

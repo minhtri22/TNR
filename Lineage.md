@@ -1065,3 +1065,8 @@
 - EN patterns 69→98 tool_match=1.000 http=1.000 → **PASS**
 - VI patterns 65→101 tool_match=0.980 http=0.980 → **PASS**
 - No schema change; regression gates unchanged thresholds
+
+## Run 20261014_order_tool_update_phone_v1
+- Hypothesis: new tool **UPDATE_PHONE** (schema+connector+lexicon EN/VI+HTTP)
+- kernel phone update ok; cancel still needs CONFIRM; no phone update after cancel
+- EN match/http=1.0 VI≈0.967 → **PASS**; en_v1/vi_v1 regression still PASS

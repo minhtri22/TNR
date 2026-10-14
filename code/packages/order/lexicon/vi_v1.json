@@ -132,6 +132,20 @@
         "không sao",
         "để sau"
       ]
+    },
+    "UPDATE_PHONE": {
+      "patterns": [
+        "đổi số điện thoại",
+        "sửa số điện thoại",
+        "đổi sđt",
+        "sửa sđt",
+        "cập nhật số điện thoại",
+        "đổi số đt",
+        "số mới",
+        "đổi số nhận hàng",
+        "sửa số nhận",
+        "update phone"
+      ]
     }
   }
 }
