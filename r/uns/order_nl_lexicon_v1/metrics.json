@@ -1,0 +1,34 @@
+{
+  "suite": "order_nl_lexicon_v1",
+  "pack": "order",
+  "outcome": "PASS",
+  "preregister": {
+    "PASS": "lexicon tool-match>=0.90 AND lexicon→HTTP exact>=0.90 AND v0b PASS",
+    "FAIL": "tool-match mean<0.70",
+    "UNRESOLVED": "else"
+  },
+  "metrics": {
+    "tool_match_mean": 1.0,
+    "http_exact_mean": 1.0,
+    "per_seed": [
+      {
+        "tool_match": 1.0,
+        "http_exact": 1.0
+      },
+      {
+        "tool_match": 1.0,
+        "http_exact": 1.0
+      },
+      {
+        "tool_match": 1.0,
+        "http_exact": 1.0
+      }
+    ],
+    "cancel_shaped_ok": true
+  },
+  "v0b": {
+    "pass": true,
+    "outcome": "PASS"
+  },
+  "method": "deterministic lexicon keyword/phrase slot-fill"
+}

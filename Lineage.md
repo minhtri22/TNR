@@ -1034,3 +1034,9 @@
 - oracle HTTP exact mean=**1.000** (3 seeds), CANCELLED shaped ok, v0b PASS → **PASS**
 - Report-only: NL tool-match OOD seed42=**0.000** — confirms NL→program gap
 - Does not change e2e_v1/v1b FAIL preregister; separates failure modes cleanly
+
+## Run 20261014_order_nl_lexicon_v1
+- Hypothesis: **deterministic lexicon** NL→program on synonym-overlap OOD; HTTP execute
+- tool_match=1.000 http_exact=1.000 (3 seeds), v0b PASS → **PASS**
+- Contrast: neural e2e FAIL (tool-match~0); lexicon recovers full chain when surface forms are listed
+- Implication: for controlled phrase sets, slot-fill lexicon is sufficient product path; OS-LLM fine-tune is optional upgrade for open NL
