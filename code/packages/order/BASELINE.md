@@ -1,86 +1,50 @@
-# Order pack — FROZEN baseline mock
+# Order pack — FROZEN production baseline (lab)
 
 **Status:** FROZEN  
-**Baseline suite:** `eval/suite_order_v0b.py`  
-**Commit reference:** order_v0b PASS (Prog=1.000, Flat=0.588, wins=3/3)
+**Date:** 2026-10-14
 
-## What is frozen
+## What is in the freeze
 
-| Item | Value |
-|------|--------|
-| Pack id | `order` |
-| Schema | `schema/tools.json` (LOOKUP / UPDATE_ADDRESS / CONFIRM / CANCEL / SET_STATUS / CREATE / NOP) |
-| Policy | `CANCEL_ORDER` requires `CONFIRM` before execute |
-| Connector | `connectors/mock_store.py` (in-memory) |
-| Eval regime | L=2 structure OOD + **synonym-in-train** |
-| Preregister | PASS if mean Prog > Flat+0.05 AND Prog≥0.35 AND wins≥2/3 |
+| Layer | Artifact | Gate |
+|-------|----------|------|
+| Train / structure OOD (neural) | `eval/suite_order_v0b.py` | **PASS** Prog=1.0 Flat=0.59 |
+| Kernel policy CONFIRM | `schema/tools.json` + kernel validate | **PASS** |
+| File / CSV / HTTP connectors | `conn_v1`–`v3` | **PASS** |
+| Shopee/Sapo-shaped HTTP | `conn_v4` + adapters | **PASS** |
+| Oracle tools → HTTP | `suite_order_oracle_http_v1.py` | **PASS** exact=1.0 |
+| **NL path (controlled phrases)** | **`suite_order_nl_lexicon_v1.py`** | **PASS** match=1.0 HTTP=1.0 |
 
-## Suite ladder (do not treat as baseline)
+## Stack to ship against
 
-| Suite | Hypothesis | Outcome |
-|-------|------------|---------|
-| v0 | word, limited synonym | UNRESOLVED |
-| **v0b** | **full synonym-in-train** | **PASS — BASELINE** |
-| v0c | true lexical cold-start | UNRESOLVED |
-| v0d | hybrid partial synonym | FAIL |
-| v0e | hybrid + char encoder | UNRESOLVED |
-
-## Kernel (shared, not order-only)
-
-```
-code/kernel/  program, validate, executor, audit, scorecard
+```text
+NL (listed / synonym phrases)
+  → lexicon slot-fill     (nl_lexicon_v1)
+  → validate + CONFIRM
+  → HTTP marketplace mock  (conn_v4 Shopee/Sapo shape)
+  → audit
 ```
 
-## Run baseline
+Regression commands:
 
 ```bash
 python code/packages/order/eval/suite_order_v0b.py
+python code/packages/order/eval/suite_order_conn_v4.py
+python code/packages/order/eval/suite_order_nl_lexicon_v1.py
+python code/packages/order/eval/suite_order_oracle_http_v1.py
 ```
+
+## Documented open breaks (not baseline)
+
+| Suite | Outcome | Meaning |
+|-------|---------|---------|
+| v0c / lexicon_v1_cold | UNRESOLVED / **FAIL** | true lexical cold-start |
+| v0d hybrid word | FAIL | partial synonym insufficient |
+| v0e hybrid char | UNRESOLVED | char encoder below bar |
+| e2e_v1 / v1b neural→HTTP | **FAIL** | NL neural gap (oracle/lexicon separate it) |
 
 ## Rules after freeze
 
-1. Do not change v0b schema/metric to “force PASS” on harder lexical regimes.
-2. Harder lexical (v0c–v0e) stays documented as FAIL/UNRESOLVED — open problems.
-3. Next product step = thin real connector **or** new pack; regression must still pass v0b.
-4. Ticket / other domains = new packs under `code/packages/`, same kernel.
-
-## Connector (thin, post-freeze)
-
-| Item | Value |
-|------|--------|
-| File connector | `connectors/file_store.py` |
-| Gate suite | `eval/suite_order_conn_v1.py` |
-| Status | **PASS** (policy+CRUD on disk + v0b metrics still PASS) |
-
-```bash
-python code/packages/order/eval/suite_order_conn_v1.py
-# optional full v0b retrain gate:
-ORDER_CONN_RERUN_V0B=1 python code/packages/order/eval/suite_order_conn_v1.py
-```
-
-| CSV / Sheet connector | `connectors/csv_store.py` |
-| Gate suite | `eval/suite_order_conn_v2.py` |
-| Status | **PASS** (CSV policy+CRUD + v0b PASS) |
-
-```bash
-python code/packages/order/eval/suite_order_conn_v2.py
-```
-
-| HTTP mock connector | `connectors/http_mock.py` |
-| Gate suite | `eval/suite_order_conn_v3.py` |
-| Status | **PASS** (HTTP policy+CRUD + v0b PASS) |
-
-```bash
-python code/packages/order/eval/suite_order_conn_v3.py
-```
-
-| Marketplace adapter | `connectors/adapters_marketplace.py` + `http_marketplace_mock.py` |
-| Gate suite | `eval/suite_order_conn_v4.py` |
-| Status | **PASS** (Shopee/Sapo shape roundtrip + HTTP + v0b) |
-
-```bash
-python code/packages/order/eval/suite_order_conn_v4.py
-```
-
-| E2E NL→HTTP Shopee | `eval/suite_order_e2e_v1.py` |
-| Status | **FAIL** (Prog HTTP exact < Flat; gold CANCEL shaped ok) |
+1. Do not loosen PASS thresholds to absorb cold-start or neural e2e.
+2. Cold-start NL and OS-LLM fine-tune are **future packs**, not required for this baseline.
+3. New connectors must pass conn_v4-style gate + v0b metrics still PASS.
+4. Ticket / other domains = new `packages/<name>/`, same kernel.

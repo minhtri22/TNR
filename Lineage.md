@@ -1040,3 +1040,12 @@
 - tool_match=1.000 http_exact=1.000 (3 seeds), v0b PASS → **PASS**
 - Contrast: neural e2e FAIL (tool-match~0); lexicon recovers full chain when surface forms are listed
 - Implication: for controlled phrase sets, slot-fill lexicon is sufficient product path; OS-LLM fine-tune is optional upgrade for open NL
+
+## Run 20261014_order_nl_lexicon_v1_cold
+- Hypothesis: lexicon on **true cold-start** phrases (no listed patterns)
+- tool_match=0.000 http_exact≈0.16 → **FAIL** (controlled negative, as expected)
+
+## Freeze 20261014_order_baseline_full
+- **FROZEN** Order baseline = v0b + conn_v4 + oracle_http + **nl_lexicon_v1**
+- Cold-start lexicon FAIL documented; neural e2e FAIL documented — not in freeze
+- See code/packages/order/BASELINE.md
