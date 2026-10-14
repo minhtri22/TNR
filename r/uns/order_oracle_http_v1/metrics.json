@@ -1,0 +1,26 @@
+{
+  "suite": "order_oracle_http_v1",
+  "pack": "order",
+  "outcome": "PASS",
+  "preregister": {
+    "PASS": "oracle HTTP exact>=0.90 AND CANCELLED shaped AND v0b PASS",
+    "FAIL": "oracle HTTP exact<0.80",
+    "UNRESOLVED": "else",
+    "report_only": "NL tool-match OOD (not a gate)"
+  },
+  "metrics": {
+    "oracle_HTTP_exact_mean": 1.0,
+    "oracle_per_seed": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "cancel_shaped_ok": true,
+    "NL_tool_match_ood_seed42": 0.0
+  },
+  "v0b": {
+    "pass": true,
+    "outcome": "PASS"
+  },
+  "interpretation": "Separates execute (oracle) from NL decode (report-only)"
+}
