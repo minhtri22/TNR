@@ -999,3 +999,11 @@
 - v0b prior metrics: PASS
 - Result: **PASS**
 - Artifacts: connectors/csv_store.py, eval/suite_order_conn_v2.py, r/uns/order_conn_v2/metrics.json
+
+## Run 20261014_order_conn_v3
+- Hypothesis: **HTTP mock** (REST-ish /orders/apply + GET /orders/{id}) same semantics + CONFIRM; v0b gate
+- policy/CRUD over localhost HTTP: PASS
+- v0b prior metrics: PASS
+- Result: **PASS**
+- Artifacts: connectors/http_mock.py, eval/suite_order_conn_v3.py, r/uns/order_conn_v3/metrics.json
+- Connector ladder: mock → file JSON → CSV → HTTP mock — all PASS under same kernel policy

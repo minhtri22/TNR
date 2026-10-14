@@ -65,3 +65,11 @@ ORDER_CONN_RERUN_V0B=1 python code/packages/order/eval/suite_order_conn_v1.py
 ```bash
 python code/packages/order/eval/suite_order_conn_v2.py
 ```
+
+| HTTP mock connector | `connectors/http_mock.py` |
+| Gate suite | `eval/suite_order_conn_v3.py` |
+| Status | **PASS** (HTTP policy+CRUD + v0b PASS) |
+
+```bash
+python code/packages/order/eval/suite_order_conn_v3.py
+```
