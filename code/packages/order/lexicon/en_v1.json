@@ -1,0 +1,105 @@
+{
+  "pack": "order",
+  "lang": "en",
+  "version": "v1",
+  "note": "Controlled phrases only — not open-domain cold-start",
+  "tools": {
+    "LOOKUP_ORDER": {
+      "patterns": [
+        "lookup order",
+        "check order",
+        "find the order",
+        "please retrieve the order record",
+        "retrieve the order record",
+        "get order status",
+        "show order",
+        "track order",
+        "where is my order",
+        "order details",
+        "look up the order",
+        "check my order"
+      ]
+    },
+    "UPDATE_ADDRESS": {
+      "patterns": [
+        "update address",
+        "change address",
+        "revise address",
+        "kindly revise the delivery address",
+        "revise the delivery address",
+        "change delivery address",
+        "update shipping address",
+        "correct the address",
+        "new delivery address",
+        "modify address",
+        "edit shipping address"
+      ]
+    },
+    "CONFIRM": {
+      "patterns": [
+        "confirm action",
+        "please confirm",
+        "confirm please",
+        "I confirm this operation",
+        "I confirm",
+        "yes confirm",
+        "confirm the action",
+        "authorize confirm",
+        "confirmed",
+        "I agree confirm"
+      ]
+    },
+    "CANCEL_ORDER": {
+      "patterns": [
+        "cancel order",
+        "void order",
+        "please void this order now",
+        "cancel this order",
+        "void this order",
+        "cancel my order",
+        "please cancel the order",
+        "abort the order",
+        "cancel the purchase",
+        "stop this order"
+      ]
+    },
+    "SET_STATUS": {
+      "patterns": [
+        "set status",
+        "update status",
+        "change status",
+        "advance the order status",
+        "advance order status",
+        "mark as shipped",
+        "set order status",
+        "update order status",
+        "change order status",
+        "progress status"
+      ]
+    },
+    "CREATE_ORDER": {
+      "patterns": [
+        "create order",
+        "place order",
+        "open a new order entry",
+        "make a new order",
+        "new order",
+        "place a new order",
+        "create a new order",
+        "submit order",
+        "open order",
+        "add order"
+      ]
+    },
+    "NOP": {
+      "patterns": [
+        "do nothing",
+        "skip step",
+        "no operation required",
+        "skip",
+        "never mind",
+        "ignore"
+      ]
+    }
+  }
+}

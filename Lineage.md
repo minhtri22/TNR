@@ -1049,3 +1049,8 @@
 - **FROZEN** Order baseline = v0b + conn_v4 + oracle_http + **nl_lexicon_v1**
 - Cold-start lexicon FAIL documented; neural e2e FAIL documented — not in freeze
 - See code/packages/order/BASELINE.md
+
+## Run 20261014_order_nl_lexicon_en_v1
+- Hypothesis: **en_v1.json** full controlled EN patterns (69) over Order schema tools
+- tool_match=1.000 http_exact=1.000 (3 seeds), v0b PASS → **PASS**
+- Next allowed: Vietnamese lexicon vi_v1 mapped to same tools + suite gate
