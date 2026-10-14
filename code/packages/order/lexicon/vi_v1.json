@@ -1,0 +1,101 @@
+{
+  "pack": "order",
+  "lang": "vi",
+  "version": "v1",
+  "note": "Câu kiểm soát map 1-1 tool id với en_v1 — không phải NL mở / cold-start",
+  "tools": {
+    "LOOKUP_ORDER": {
+      "patterns": [
+        "tra đơn",
+        "kiểm tra đơn",
+        "xem đơn",
+        "xem đơn hàng",
+        "tra cứu đơn",
+        "kiểm tra đơn hàng",
+        "đơn đâu rồi",
+        "cho xem đơn",
+        "trạng thái đơn",
+        "chi tiết đơn",
+        "lookup order",
+        "check order"
+      ]
+    },
+    "UPDATE_ADDRESS": {
+      "patterns": [
+        "đổi địa chỉ",
+        "sửa địa chỉ",
+        "đổi địa chỉ giao",
+        "sửa địa chỉ giao hàng",
+        "cập nhật địa chỉ",
+        "đổi địa chỉ nhận",
+        "thay địa chỉ giao",
+        "chỉnh địa chỉ",
+        "update address",
+        "change address"
+      ]
+    },
+    "CONFIRM": {
+      "patterns": [
+        "xác nhận",
+        "đồng ý",
+        "xác nhận hủy",
+        "tôi xác nhận",
+        "confirm",
+        "yes xác nhận",
+        "đồng ý xác nhận",
+        "xác nhận thao tác",
+        "please confirm",
+        "i confirm"
+      ]
+    },
+    "CANCEL_ORDER": {
+      "patterns": [
+        "hủy đơn",
+        "hủy đơn hàng",
+        "hủy giúp đơn",
+        "cancel order",
+        "void order",
+        "hủy đơn này",
+        "cho hủy đơn",
+        "hủy giúp em",
+        "hủy đơn giúp",
+        "bỏ đơn"
+      ]
+    },
+    "SET_STATUS": {
+      "patterns": [
+        "cập nhật trạng thái",
+        "đổi trạng thái",
+        "set status",
+        "update status",
+        "đánh dấu đã giao",
+        "chuyển trạng thái",
+        "cập nhật status",
+        "sửa trạng thái đơn"
+      ]
+    },
+    "CREATE_ORDER": {
+      "patterns": [
+        "tạo đơn",
+        "đặt hàng",
+        "tạo đơn hàng",
+        "place order",
+        "create order",
+        "lập đơn",
+        "mở đơn mới",
+        "đặt đơn",
+        "tạo order"
+      ]
+    },
+    "NOP": {
+      "patterns": [
+        "bỏ qua",
+        "không làm gì",
+        "skip",
+        "thôi",
+        "không cần",
+        "do nothing"
+      ]
+    }
+  }
+}

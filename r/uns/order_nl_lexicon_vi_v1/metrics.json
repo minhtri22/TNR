@@ -1,0 +1,36 @@
+{
+  "suite": "order_nl_lexicon_vi_v1",
+  "pack": "order",
+  "lang": "vi",
+  "outcome": "PASS",
+  "preregister": {
+    "PASS": "tool_match>=0.90 AND http_exact>=0.90 AND v0b PASS",
+    "FAIL": "tool_match<0.70",
+    "UNRESOLVED": "else"
+  },
+  "metrics": {
+    "tool_match_mean": 0.98,
+    "http_exact_mean": 0.98,
+    "per_seed": [
+      {
+        "tool_match": 0.96,
+        "http_exact": 0.96
+      },
+      {
+        "tool_match": 0.99,
+        "http_exact": 0.99
+      },
+      {
+        "tool_match": 0.99,
+        "http_exact": 0.99
+      }
+    ],
+    "n_patterns": 65,
+    "cancel_shaped_ok": true
+  },
+  "v0b": {
+    "pass": true,
+    "outcome": "PASS"
+  },
+  "lexicon_file": "packages/order/lexicon/vi_v1.json"
+}

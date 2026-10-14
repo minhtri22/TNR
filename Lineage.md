@@ -1054,3 +1054,8 @@
 - Hypothesis: **en_v1.json** full controlled EN patterns (69) over Order schema tools
 - tool_match=1.000 http_exact=1.000 (3 seeds), v0b PASS → **PASS**
 - Next allowed: Vietnamese lexicon vi_v1 mapped to same tools + suite gate
+
+## Run 20261014_order_nl_lexicon_vi_v1
+- Hypothesis: **vi_v1.json** same tool ids as EN; controlled VI phrases
+- tool_match=0.980 http_exact=0.980 (3 seeds), v0b PASS → **PASS**
+- EN was prerequisite PASS; bilingual controlled lexicon path open
