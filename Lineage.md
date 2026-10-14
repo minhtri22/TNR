@@ -1007,3 +1007,11 @@
 - Result: **PASS**
 - Artifacts: connectors/http_mock.py, eval/suite_order_conn_v3.py, r/uns/order_conn_v3/metrics.json
 - Connector ladder: mock → file JSON → CSV → HTTP mock — all PASS under same kernel policy
+
+## Run 20261014_order_conn_v4
+- Hypothesis: **Shopee/Sapo-shaped** HTTP adapters; pure map to internal state; kernel policy unchanged
+- adapter roundtrip exact: PASS (both shapes)
+- HTTP CANCELLED/cancelled + CRUD: PASS
+- v0b freeze: PASS
+- Result: **PASS**
+- Note: field names mock-subset (order_sn, recipient_address / code, shipping_address) — not live API

@@ -1,0 +1,51 @@
+{
+  "suite": "order_conn_v4_marketplace_adapter",
+  "pack": "order",
+  "outcome": "PASS",
+  "preregister": {
+    "PASS": "adapter roundtrip + HTTP both shapes + CRUD + v0b PASS",
+    "FAIL": "adapter or HTTP smoke fail",
+    "UNRESOLVED": "connector ok but v0b not PASS"
+  },
+  "adapter": {
+    "shopee_roundtrip": true,
+    "sapo_roundtrip": true,
+    "shape_fields": true,
+    "pass": true
+  },
+  "http_shopee": {
+    "shape": "shopee",
+    "blocked_without_confirm": true,
+    "remote_cancelled": 1,
+    "shaped_status": "CANCELLED",
+    "pass": true
+  },
+  "http_sapo": {
+    "shape": "sapo",
+    "blocked_without_confirm": true,
+    "remote_cancelled": 1,
+    "shaped_status": "cancelled",
+    "pass": true
+  },
+  "crud": {
+    "pass": true,
+    "detail": {
+      "shopee": {
+        "address": "HN",
+        "status": 2,
+        "cod": 0,
+        "ok": true
+      },
+      "sapo": {
+        "address": "HN",
+        "status": 2,
+        "cod": 0,
+        "ok": true
+      }
+    }
+  },
+  "v0b": {
+    "pass": true,
+    "outcome": "PASS"
+  }
+}

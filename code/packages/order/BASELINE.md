@@ -73,3 +73,11 @@ python code/packages/order/eval/suite_order_conn_v2.py
 ```bash
 python code/packages/order/eval/suite_order_conn_v3.py
 ```
+
+| Marketplace adapter | `connectors/adapters_marketplace.py` + `http_marketplace_mock.py` |
+| Gate suite | `eval/suite_order_conn_v4.py` |
+| Status | **PASS** (Shopee/Sapo shape roundtrip + HTTP + v0b) |
+
+```bash
+python code/packages/order/eval/suite_order_conn_v4.py
+```
