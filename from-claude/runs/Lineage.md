@@ -496,3 +496,11 @@ Khóa: thế giới 90–95, 3 khởi tạo mỗi nhánh, 14 nhánh; H1a–c (h�
 Lượt chính thức sẽ chạy trên Colab bởi người dùng; kết quả được đưa vào runs/run_006_main/ cùng MANIFEST.sha256 rồi phân tích bằng src/analyze_v6.py. Tại thời điểm khóa chưa có kết quả thế giới 90–95 nào.
 <!-- prev:52b345b80d9b657c0ffc5d52be110a0925662504a52d0b4d1be845084dc4278c hash:ae0836c629c86178ebe8b01b15830de6e4699b3b8c4d614add070a70d3c89d40 -->
 
+## [L064] Cam kết Git độc lập cho tiền đăng ký v6
+- Thời điểm: 2026-10-15 11:44 UTC
+- Trạng thái: **THĂM DÒ**
+
+Đã đẩy lên https://github.com/minhtri22/tnr nhánh `from-claude` (từ `main`, tại 131874d): commit 2c3664d (gói v1–v5, Lineage L001–L061) rồi commit a2b61e2 (PREREG_v6.md SHA-256 ca2a78c9adb4533e96bfe88948c446607c49b821c6bf61c6425d090aa5736a2c, mã v6, notebook Colab, Lineage L062–L063). Commit a2b61e2 có trước mọi lần chạy v6, nên v6 là lượt đầu tiên có cam kết Git độc lập chứng minh tiền đăng ký được khóa trước khi chạy.
+Không sửa `lineage.md` gốc và các tài liệu có sẵn của repo; gói nằm trong thư mục `from-claude/`. v1–v5 không có checkpoint (không lưu trọng số); v6 sẽ có.
+<!-- prev:ae0836c629c86178ebe8b01b15830de6e4699b3b8c4d614add070a70d3c89d40 hash:3076d9ab9b647e4e034e6e3a84d892a0807c8ac1d2f2ff12597093cfb9446e65 -->
+
