@@ -1,6 +1,6 @@
 # Topological Neural Routing (TNR) — gói nghiên cứu
 
-Xem `VERSIONS.md` (bản đồ v1–v5), `REPORT.md` (báo cáo), `runs/Lineage.md` (sổ dòng dõi chỉ-ghi-thêm, có chuỗi băm).
+Xem `VERSIONS.md` (bản đồ v1–v6), `REPORT.md` (báo cáo), `runs/Lineage.md` (sổ dòng dõi chỉ-ghi-thêm, có chuỗi băm), `colab/TNR_v6_colab.ipynb` (chạy v6 trên Colab).
 
 # Gói nghiên cứu TNR (v1)
 - `REPORT.md` — báo cáo khoa học (tiếng Việt)

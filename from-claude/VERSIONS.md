@@ -1,4 +1,4 @@
-# Bản đồ các phiên bản (v1–v5)
+# Bản đồ các phiên bản (v1–v6)
 
 | Phiên bản | Tiền đăng ký | Thư mục kết quả | Script chạy / phân tích | Kết quả tổng hợp | Hình | Phần báo cáo | Mục Lineage |
 |---|---|---|---|---|---|---|---|
@@ -7,6 +7,7 @@
 | v3 | `prereg/PREREG_v3.md` | `runs/run_003_main/` | `src/run_v3.py`, `src/analyze_v3.py` | `results/results_v3.json` | `figures/v3_ket_qua.png` | REPORT Phần III | L023–L036 |
 | v4 | `prereg/PREREG_v4.md` | `runs/run_004_main/` | `src/run_v4.py`, `src/analyze_v4.py` | `results/results_v4.json` | `figures/v4_ket_qua.png` | REPORT Phần IV | L037–L049 |
 | v5 | `prereg/PREREG_v5.md` | `runs/run_005_main/` | `src/run_v5.py`, `src/analyze_v5.py` | `results/results_v5.json` | `figures/v5_ket_qua.png` | REPORT Phần V | L050–L061 |
+| v6 | `prereg/PREREG_v6.md` (đã khóa, chưa chạy) | `runs/run_006_main/` (sẽ có sau khi chạy trên Colab) | `src/run_v6.py`, `src/analyze_v6.py`, `colab/TNR_v6_colab.ipynb` | `results/results_v6.json` (sau khi chạy) | `figures/v6_ket_qua.png` | (chưa có) | L062–L063 (khóa) |
 
 Dùng chung: `src/tasks.py` (nhiệm vụ), `src/models.py`, `src/models_v3.py`, `src/models_v4.py` (mô hình), `src/train.py` (huấn luyện/đánh giá), `src/lineage.py` (sổ chỉ-ghi-thêm, kiểm tra chuỗi băm: `python src/lineage.py verify`). Mã thăm dò/hiệu chỉnh: `src/pilot*.py`, `calib_oracle.py`, `diag.py`, `patch*.py`.
 

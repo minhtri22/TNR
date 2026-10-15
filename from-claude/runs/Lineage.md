@@ -477,3 +477,22 @@ Quan sát chính: (1) Vùng bằng phẳng là hiện tượng chung của thi�
 Mục H6 (L058) có câu diễn đạt rối. Nói đúng: quy tắc δ THỎA (trung bình r = −25,3%, cận trên KTC −5,6% < 0, trung bình ≤ −10%) nhưng C0 KHÔNG thỏa (MSE OOD 0,256 > ngưỡng 0,105), nên theo PREREG_v5 nhãn là KHÔNG ĐẠT. Nhãn không đổi; chỉ sửa diễn đạt.
 <!-- prev:1c6213dfeeeb10daeb85c86900e387be1f3fd634aa0e2f879c919835a4933bf8 hash:120ede374d759fa6f88308668db14cd8d1861283a348796effb47c32ad510aa0 -->
 
+## [L062] Thiết kế v6 và kiểm tra mã (chưa có kết quả nghiên cứu)
+- Thời điểm: 2026-10-15 11:43 UTC
+- Trạng thái: **THĂM DÒ**
+
+Yêu cầu: học đầu đọc từ khởi tạo ngẫu nhiên bằng cách khác (khởi tạo cân bằng, nhiệt độ giảm dần, ReinMax), ghép cổng giám sát có dừng gradient MSE với đầu đọc học (đầu-cuối), và giảm giám sát cổng; chạy trên Google Colab thay vì trong phiên trợ lý để tránh gián đoạn.
+Mã thêm: các cấu hình D_trueG_bal/tau/rm, D_e2e_id/bal/tau/rm, D_e2e_id_g50/g25/g10 (train.py, models_v3.py); src/run_v6.py (tự tiếp tục, lưu kết quả và checkpoint .npz, tạo MANIFEST.sha256; tham số --worlds để chia phiên Colab); src/analyze_v6.py (gộp nhiều thư mục); colab/TNR_v6_colab.ipynb.
+Kiểm tra mã: mỗi nhánh mới chạy được 1 epoch; run_v6 lưu checkpoint đúng; analyze_v6 chạy được trên dữ liệu GIẢ LẬP mượn từ tệp v5 (chỉ để thử đường ống, đã xóa, không có ý nghĩa khoa học). KHÔNG có pilot huấn luyện đủ nào cho các nhánh v6, nên không có kết quả hay kỳ vọng định lượng nào từ dữ liệu v6.
+Lưu ý: từ v6 có checkpoint; v1–v5 không lưu trọng số (chỉ số liệu đánh giá và đường cong), nên repo không có checkpoint của v1–v5.
+<!-- prev:120ede374d759fa6f88308668db14cd8d1861283a348796effb47c32ad510aa0 hash:52b345b80d9b657c0ffc5d52be110a0925662504a52d0b4d1be845084dc4278c -->
+
+## [L063] Khóa tiền đăng ký PREREG_v6
+- Thời điểm: 2026-10-15 11:43 UTC
+- Trạng thái: **THĂM DÒ**
+
+Tệp prereg/PREREG_v6.md, SHA-256 = ca2a78c9adb4533e96bfe88948c446607c49b821c6bf61c6425d090aa5736a2c.
+Khóa: thế giới 90–95, 3 khởi tạo mỗi nhánh, 14 nhánh; H1a–c (học đầu đọc từ khởi tạo không chứa đáp án), H2a–d (ghép đầu-cuối so với A, cần V4'), H3 (bố cục đầu-cuối), H4a–c (giảm giám sát; không thua kém); V0 (≥ 4 thế giới), V4' (D_oracle hội tụ ở ≥ 2/3 thế giới); kỳ vọng ghi trước ở §5; mọi quy tắc C0/C0-ID/chọn lần theo loss huấn luyện như v5.
+Lượt chính thức sẽ chạy trên Colab bởi người dùng; kết quả được đưa vào runs/run_006_main/ cùng MANIFEST.sha256 rồi phân tích bằng src/analyze_v6.py. Tại thời điểm khóa chưa có kết quả thế giới 90–95 nào.
+<!-- prev:52b345b80d9b657c0ffc5d52be110a0925662504a52d0b4d1be845084dc4278c hash:ae0836c629c86178ebe8b01b15830de6e4699b3b8c4d614add070a70d3c89d40 -->
+
